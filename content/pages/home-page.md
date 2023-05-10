@@ -13,11 +13,7 @@ blocks:
       rich_editor: We help fleets convert to EVs by making it as simple, easy and
         transparent as paying for any other utility with our patent-pending
         pay-per-mile financial technology.
-      buttons:
-        - button:
-            variant: arrow
-            Main: Register Interest
-            url: "#"
+      buttons: []
     image: /img/tezos-wpn1xnccgpw-unsplash.jpg
 seo:
   ogimage: /img/henlo-cover.png
