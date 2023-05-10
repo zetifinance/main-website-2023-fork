@@ -24,7 +24,7 @@ export default function Hero({ data }) {
 						{data?.intro?.content}
 					</Text>
 
-					{data?.intr?.buttons && (
+					{data?.intro?.buttons && (
 						<Buttons buttons={data?.intro?.buttons} className={clsx('mt-6')} />
 					)}
 				</div>

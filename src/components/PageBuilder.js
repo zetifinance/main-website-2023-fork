@@ -87,6 +87,17 @@ export const query = graphql`
       }
       title
       content
+      intro {
+        heading
+        content
+        buttons {
+          button {
+            content
+            url
+            variant
+          }
+        }
+      }
     }
   }
 `;
