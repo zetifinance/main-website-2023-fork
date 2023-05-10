@@ -21,6 +21,13 @@ blocks:
     image: /img/tezos-wpn1xnccgpw-unsplash.jpg
   - type: video
     video: https://player.vimeo.com/progressive_redirect/playback/817643304/rendition/720p/file.mp4?loc=external&signature=48b73b5fb78d9082be47f009d252171fb9b13cfce8c20459546b0167bc2f207a
+  - type: logo_grid
+    intro:
+      heading: Manufacturers we've financed
+    images:
+      - image: /img/tesla.png
+      - image: /img/jaguar.png
+      - image: /img/levc.png
 seo:
   ogimage: /img/henlo-cover.png
 ---
