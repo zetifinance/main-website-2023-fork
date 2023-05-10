@@ -15,12 +15,22 @@ blocks:
       Built with performance in mind, styled with TailwindCSS.
 
       **Think lightweight WordPress.**
-    variant: centered
+    variant: large
     buttons:
       - button:
           variant: default
           content: Documentation
           url: https://github.com/clean-commit/gatsby-starter-henlo
+    main:
+      heading: Revolutionizing transport finance for good.
+      content: We help fleets convert to EVs by making it as simple, easy and
+        transparent as paying for any other utility with our patent-pending
+        pay-per-mile financial technology.
+      buttons:
+        - button:
+            variant: arrow
+            content: Register Interest
+            url: /#
   - type: perks
     title: Features
     columns:
@@ -40,37 +50,6 @@ blocks:
         content: Navigation can be modified with ease, without a need for changing the
           code base
     content: ""
-  - type: content_image
-    variant: reversed
-    title: Block-based page creator with Previews
-    content: Create blocks and reuse them across different pages that can be created
-      using Netlify CMS UI. Previews will be generated automatically for all
-      blocks!
-    buttons:
-      - button:
-          variant: default
-          content: Get it now
-          url: https://github.com/clean-commit/gatsby-starter-henlo
-    photo:
-      image: /img/frame-69.png
-      alt: Block based page creator
-  - type: content_image
-    variant: default
-    photo:
-      alt: Premade components schema
-      image: /img/frame-77.png
-    title: Premade components & Netlify CMS settings
-    content: >-
-      We've created a collection of basic UI elements, so you can quickly create
-      new blocks and style them from a single component.
-
-
-      We did the same for Netlify CMS configuration. You can use basic fields to create new blocks quicker then ever!
-    buttons:
-      - button:
-          variant: default
-          content: Get it now
-          url: https://github.com/clean-commit/gatsby-starter-henlo
   - type: content_image
     variant: reversed
     title: Configuration exposed through Netlify CMS
