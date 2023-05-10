@@ -16,6 +16,7 @@ export const Button = {
   collapsed: true,
   required: false,
   fields: [
+    VariantField('default', ['default', 'white', 'arrow', 'arrow-white', 'simple']),
     {
       label: 'Content',
       name: 'content',
@@ -28,7 +29,6 @@ export const Button = {
       widget: 'string',
       required: false,
     },
-    VariantField('default', ['default', 'white', 'arrow', 'arrow-white', 'simple']),
   ],
 };
 

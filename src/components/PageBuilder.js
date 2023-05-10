@@ -86,9 +86,9 @@ export const query = graphql`
         rich_editor
         buttons {
           button {
+            variant
             content
             url
-            variant
           }
         }
       }
