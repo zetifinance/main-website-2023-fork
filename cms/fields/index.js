@@ -130,6 +130,28 @@ export const Content = {
   required: false,
 };
 
+export const Intro = {
+  label: 'Intro',
+  name: 'intro',
+  widget: 'object',
+  required: false,
+  fields: [
+    {
+      label: 'Heading',
+      name: 'heading',
+      widget: 'string',
+      required: false,
+    },
+    {
+      label: 'Content',
+      name: 'content',
+      widget: 'markdown',
+      required: false,
+    },
+    Buttons,
+  ],
+}
+
 export const List = {
   label: 'List',
   name: 'list',

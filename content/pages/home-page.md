@@ -7,30 +7,19 @@ permalink: /
 thumbnail: ""
 blocks:
   - type: hero
-    main:
+    intro:
       heading: Revolutionizing transport finance for good.
       content: We help fleets convert to EVs by making it as simple, easy and
         transparent as paying for any other utility with our patent-pending
         pay-per-mile financial technology.
-      buttons:
-        - button:
-            variant: arrow
-            content: Register Interest
-            url: /#
-      image: /img/tezos-wpn1xnccgpw-unsplash.jpg
-    variant: large
-    photo:
-      image: /img/tezos-wpn1xnccgpw-unsplash.jpg
-    intro:
       buttons:
         - button:
             variant: arrow
             content: Register Interest
             url: "#"
-      content: We help fleets convert to EVs by making it as simple, easy and
-        transparent as paying for any other utility with our patent-pending
-        pay-per-mile financial technology.
-      heading: Revolutionizing transport finance for good.
+    photo:
+      image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+    variant: large
   - type: content_image
     variant: reversed
     title: Configuration exposed through Netlify CMS

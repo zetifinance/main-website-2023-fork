@@ -1,4 +1,4 @@
-import { VariantField, ImageField, Buttons, List, GroupedContent, MegaContent, Photos, Title, Content, Video, Tabs, Slider, Testimonials, Team, Accordions, Vacancies} from '../fields';
+import { VariantField, ImageField, Buttons, List, GroupedContent, Intro, MegaContent, Photos, Title, Content, Video, Tabs, Slider, Testimonials, Team, Accordions, Vacancies} from '../fields';
 
 const Config = {
   label: 'Blocks',
@@ -15,7 +15,8 @@ const Config = {
       name: 'hero',
       widget: 'object',
       fields: [
-        MegaContent('Main', 'main'),
+        Intro,
+        ImageField(),
         VariantField('default', ['default', 'large']),
       ],
     },
