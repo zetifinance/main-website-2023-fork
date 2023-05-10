@@ -9,17 +9,6 @@ export const VariantField = (initial, options = []) => ({
   required: false,
 });
 
-export const ImageField = (name = 'image', fieldName = 'photo') => ({
-  label: 'Image',
-  name: fieldName,
-  widget: 'object',
-  required: false,
-  fields: [
-    { label: 'Image', name, widget: 'image', required: false },
-    { label: 'Alt', name: 'alt', widget: 'string', required: false },
-  ],
-});
-
 export const Button = {
   label: 'Button',
   name: 'button',
@@ -51,82 +40,41 @@ export const Buttons = {
   fields: [Button],
 };
 
-export const GroupedContent = (label = 'Grouped Content', name = 'grouped_content') => ({
-  label: label,
-  name: name,
-  widget: 'object',
-  required: false,
-  fields: [
-    {
-      label: 'Heading',
-      name: 'heading',
-      widget: 'string',
-      required: false,
-    },
-    {
-      label: 'Content',
-      name: 'content',
-      widget: 'markdown',
-      required: false,
-    },
-    Buttons,
-  ],
-});
-
-export const MegaContent = (label = 'Mega Content', name = 'mega_content') => ({
-  label: label,
-  name: name,
-  widget: 'object',
-  required: false,
-  fields: [
-    { 
-      label: 'Image', 
-      name: 'image', 
-      widget: 'image', 
-      required: false 
-    },
-    {
-      label: 'Heading',
-      name: 'heading',
-      widget: 'string',
-      required: false,
-    },
-    {
-      label: 'Content',
-      name: 'content',
-      widget: 'markdown',
-      required: false,
-    },
-    Buttons,
-  ],
-});
-
-export const Photos = {
-  label: 'Photos',
-  name: 'photos',
-  widget: 'list',
-  required: false,
-  fields: [
-    {
-      label: 'Image', 
-      name: 'image', 
-      widget: 'image', 
-      required: false 
-    },
-  ],
-};
-
-export const Title = {
-  label: 'Title',
-  name: 'title',
+export const Heading = {
+  label: 'Heading',
+  name: 'heading',
   widget: 'string',
   required: false,
 };
 
-export const Content = {
-  label: 'Content',
-  name: 'content',
+export const RichEditor = {
+  label: 'Rich Editor',
+  name: 'rich_editor',
   widget: 'markdown',
+  required: false,
+};
+
+export const Image = {
+  label: 'Image',
+  name: 'image',
+  widget: 'image',
+  required: false,
+};
+
+export const Images = {
+  label: 'Images',
+  name: 'images',
+  widget: 'list',
+  required: false,
+  fields: [
+    Image
+  ],
+};
+
+export const Video = {
+  label: 'Video',
+  name: 'video',
+  widget: 'string',
   required: false,
 };
 
@@ -136,18 +84,20 @@ export const Intro = {
   widget: 'object',
   required: false,
   fields: [
-    {
-      label: 'Heading',
-      name: 'heading',
-      widget: 'string',
-      required: false,
-    },
-    {
-      label: 'Content',
-      name: 'content',
-      widget: 'markdown',
-      required: false,
-    },
+    Heading,
+    RichEditor,
+    Buttons,
+  ],
+}
+
+export const Content = {
+  label: 'Content',
+  name: 'content',
+  widget: 'object',
+  required: false,
+  fields: [
+    Heading,
+    RichEditor,
     Buttons,
   ],
 }
@@ -158,25 +108,18 @@ export const List = {
   widget: 'list',
   required: false,
   fields: [
+    VariantField('default', ['default', 'with-counter']),
     {
       label: 'List Item',
       name: 'list_item',
       widget: 'object',
       fields: [
-        Title,
+        Heading,
         Content,
-        ImageField(),
+        Image,
       ],
     },
-    VariantField('default', ['default', 'with-counter']),
   ],
-};
-
-export const Video = {
-  label: 'Video',
-  name: 'video',
-  widget: 'string',
-  required: false,
 };
 
 export const Tabs = {
@@ -190,13 +133,9 @@ export const Tabs = {
       name: 'tab',
       widget: 'object',
       fields: [
-        {
-          label: 'Heading',
-          name: 'heading',
-          widget: 'string',
-          required: false,
-        },
-        MegaContent('Content', 'content'),
+        Heading,
+        Content,
+        Image,
       ],
     },
   ],
@@ -214,7 +153,8 @@ export const Slider = {
         widget: 'object',
         required: false,
         fields: [
-          MegaContent('Slide Content', 'slide_content'),
+          Content,
+          Image,
           {
             label: 'Slide List',
             name: 'slide_list',
@@ -241,15 +181,10 @@ export const Testimonials = {
       widget: 'object',
       required: false,
       fields: [
-        { 
-          label: 'Image', 
-          name: 'image', 
-          widget: 'image', 
-          required: false 
-        },
+        Image,
         {
-          label: 'Content',
-          name: 'content',
+          label: 'Testimonial',
+          name: 'testimonial',
           widget: 'markdown',
           required: false,
         },
@@ -287,7 +222,7 @@ export const Team = {
       name: 'team_member',
       widget: 'object',
       fields: [
-        ImageField(),
+        Image,
         {
           label: 'Name',
           name: 'name',
@@ -328,9 +263,7 @@ export const Accordions = {
       name: 'Accordion',
       widget: 'object',
       fields: [
-        Title,
         Content,
-        Buttons,
       ],
     },
   ],
@@ -348,8 +281,8 @@ export const Vacancies = {
       widget: 'object',
       required: false,
       fields: [
-        Title,
-        Content,
+        Heading,
+        RichEditor,
         {
           label: 'Apply Link',
           name: 'apply_link',
@@ -362,8 +295,8 @@ export const Vacancies = {
           widget: 'list',
           required: false,
           fields: [
-            ImageField(),
-            Title,
+            Image,
+            Heading,
           ]
         },
       ],      

@@ -7,10 +7,15 @@ import ContentImage from '../blocks/ContentImage';
 import ContentVideo from '../blocks/ContentVideo';
 import Image from '../blocks/Image';
 import Video from '../blocks/Video';
+import Grid from '../blocks/Grid';
 import LogoGrid from '../blocks/LogoGrid';
 import Tabs from '../blocks/Tabs';
 import Slider from '../blocks/Slider';
 import Testimonials from '../blocks/Testimonials';
+import Team from '../blocks/Team';
+import Accordions from '../blocks/Accordions';
+import Vacancies from '../blocks/Vacancies';
+import Locations from '../blocks/Locations';
 import RecentArticles from '../blocks/RecentArticles';
 import Form from '../blocks/Form';
 
@@ -33,6 +38,8 @@ export default function PageBuilder({ blocks, preview = false }) {
               return <Image key={i} data={block} preview={preview} />;
             case 'video':
               return <Video key={i} data={block} preview={preview} />;
+            case 'grid':
+              return <Grid key={i} data={block} preview={preview} />;
             case 'logo_grid':
               return <LogoGrid key={i} data={block} preview={preview} />;
             case 'tabs':
@@ -41,6 +48,14 @@ export default function PageBuilder({ blocks, preview = false }) {
               return <Slider key={i} data={block} preview={preview} />;
             case 'testimonials':
               return <Testimonials key={i} data={block} preview={preview} />;
+            case 'team':
+              return <Team key={i} data={block} preview={preview} />;
+            case 'accordions':
+              return <Accordions key={i} data={block} preview={preview} />;
+            case 'vacancies':
+              return <Vacancies key={i} data={block} preview={preview} />;
+            case 'locations':
+              return <Locations key={i} data={block} preview={preview} />;
             case 'recentArticles':
               return <RecentArticles key={i} data={block} preview={preview} />;
             case 'form':
@@ -65,19 +80,6 @@ export const query = graphql`
     blocks {
       type
       variant
-      photo {
-        image {
-          childImageSharp {
-            gatsbyImageData(
-              width: 800
-              quality: 72
-              placeholder: DOMINANT_COLOR
-              formats: [AUTO, WEBP, AVIF]
-            )
-          }
-        }
-        alt
-      }
       buttons {
         button {
           content
@@ -85,8 +87,6 @@ export const query = graphql`
           variant
         }
       }
-      title
-      content
       intro {
         heading
         content

@@ -1,4 +1,4 @@
-import { VariantField, ImageField, Buttons, List, GroupedContent, Intro, MegaContent, Photos, Title, Content, Video, Tabs, Slider, Testimonials, Team, Accordions, Vacancies} from '../fields';
+import { VariantField, Buttons, Heading, RichEditor, Image, Images, Video, Intro, Content, List, Tabs, Slider, Testimonials, Team, Accordions, Vacancies } from '../fields';
 
 const Config = {
   label: 'Blocks',
@@ -15,9 +15,9 @@ const Config = {
       name: 'hero',
       widget: 'object',
       fields: [
-        Intro,
-        ImageField(),
         VariantField('default', ['default', 'large']),
+        Content,
+        Image,
       ],
     },
     {
@@ -44,11 +44,9 @@ const Config = {
       widget: 'object',
       summary: '{{fields.title}}',
       fields: [
-        Title,
-        Content,
-        Buttons,
-        ImageField(),
         VariantField('default', ['default', 'staggered']),
+        // Content,
+        Image,
       ],
     },
     {
@@ -62,9 +60,7 @@ const Config = {
       widget: 'object',
       summary: '{{fields.title}}',
       fields: [
-        Title,
         Content,
-        Buttons,
         Video,
       ],
     },
@@ -79,8 +75,8 @@ const Config = {
       widget: 'object',
       summary: '{{fields.title}}',
       fields: [
-        GroupedContent('Intro', 'intro'),
-        ImageField(),
+        Intro,
+        Image,
       ],
     },
     {
@@ -94,23 +90,8 @@ const Config = {
       widget: 'object',
       summary: '{{fields.title}}',
       fields: [
-        GroupedContent('Intro', 'intro'),
+        Intro,
         Video,
-      ],
-    },
-    {
-      /*
-      *
-      * Logo Grid
-      * 
-      */
-      label: 'Logo Grid',
-      name: 'logo_grid',
-      widget: 'object',
-      summary: '{{fields.title}}',
-      fields: [
-        GroupedContent('Intro', 'intro'),
-        Photos,
       ],
     },
     {
@@ -124,9 +105,24 @@ const Config = {
       widget: 'object',
       summary: '{{fields.title}}',
       fields: [
-        GroupedContent('Intro', 'intro'),
-        List,
         VariantField('default', ['default', 'without-background']),
+        Intro,
+        List,
+      ],
+    },
+    {
+      /*
+      *
+      * Logo Grid
+      * 
+      */
+      label: 'Logo Grid',
+      name: 'logo_grid',
+      widget: 'object',
+      summary: '{{fields.title}}',
+      fields: [
+        Intro,
+        Images,
       ],
     },
     {
@@ -140,9 +136,9 @@ const Config = {
       widget: 'object',
       summary: '{{fields.title}}',
       fields: [
-        GroupedContent('Intro', 'intro'),
-        Tabs,
         VariantField('default', ['default', 'vertical']),
+        Intro,
+        Tabs,
       ],
     },
     {
@@ -156,9 +152,9 @@ const Config = {
       widget: 'object',
       summary: '{{fields.title}}',
       fields: [
-        GroupedContent('Intro', 'intro'),
-        Slider,
         VariantField('default', ['default', 'vertical']),
+        Intro,
+        Slider,
       ],
     },
     {
@@ -172,7 +168,7 @@ const Config = {
       widget: 'object',
       summary: '{{fields.title}}',
       fields: [
-        GroupedContent('Intro', 'intro'),
+        Intro,
         Testimonials,
       ],
     },
@@ -187,7 +183,7 @@ const Config = {
       widget: 'object',
       summary: '{{fields.title}}',
       fields: [
-        GroupedContent('Intro', 'intro'),
+        Intro,
         Team,
       ],
     },
@@ -202,7 +198,7 @@ const Config = {
       widget: 'object',
       summary: '{{fields.title}}',
       fields: [
-        GroupedContent('Intro', 'intro'),
+        Intro,
         Accordions,
       ],
     },
@@ -217,7 +213,7 @@ const Config = {
       widget: 'object',
       summary: '{{fields.title}}',
       fields: [
-        GroupedContent('Intro', 'intro'),
+        Intro,
         Vacancies,
       ],
     },
@@ -232,7 +228,7 @@ const Config = {
       widget: 'object',
       summary: '{{fields.title}}',
       fields: [
-        GroupedContent('Intro', 'intro'),
+        Intro,
         List,
       ],
     },
@@ -246,7 +242,7 @@ const Config = {
       name: 'recentArticles',
       widget: 'object',
       fields: [
-        GroupedContent('Intro', 'intro'),
+        Intro,
       ],
     },
     {
