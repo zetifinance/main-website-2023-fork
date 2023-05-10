@@ -1,7 +1,7 @@
 header[role="banner"] {
     width: 100%;
     padding: 4rem 5rem;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     display: flex;
@@ -35,9 +35,73 @@ header[role="banner"] {
         align-items: center;
 
         .header__buttons {
+            display: flex;
+            align-items: center;
 
             button {
+                width: 50px;
+                height: 50px;
                 margin-right: 2.5rem;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $light-blue;
+                border: none;
+                border-radius: 12px;
+                box-shadow: none;
+
+                &::before {
+                    content: "Mode";
+                    position: absolute;
+                    top: 50%;
+                    left: -2rem;
+                    transform: translate(-100%, -50%);
+                    font-size: 2rem;
+                    font-weight: 500;
+                    line-height: 2.4rem;
+                    color: $lightest;
+                }
+
+                .dark & {
+                    svg {
+
+                        &:first-of-type {
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+                }
+
+                .light & {
+                    svg {
+
+                        &:last-of-type {
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+                }
+
+                svg {
+                    width: 30px;
+                    height: auto;
+                    margin: 0;
+                    padding: 0;
+                    display: block;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: 400ms $cubic;
+                    transform-origin: center;
+                }
+
+                .sr-only {
+                    display: none;
+                }
             }
         }
     }

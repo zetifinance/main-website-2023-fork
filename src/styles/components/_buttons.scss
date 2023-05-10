@@ -12,6 +12,7 @@
 
 .button {
     display: inline-block;
+    text-decoration: none;
     cursor: pointer;
 
     &.button--standard {
@@ -22,6 +23,7 @@
         font-size: 2rem;
         line-height: 2.5rem;
         letter-spacing: 1px;
+        color: $primary;
 
         &.button--yellow {
             background-color: $yellow;

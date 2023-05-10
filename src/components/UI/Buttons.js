@@ -8,7 +8,7 @@ export default function Buttons({ buttons, className }) {
       {buttons.length > 0 &&
         buttons.map((item, i) => (
           <Button key={i} button={item?.button}>
-            {item?.button?.content}
+            {item?.button?.label}
           </Button>
         ))}
     </div>

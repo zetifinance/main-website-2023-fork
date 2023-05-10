@@ -86,7 +86,7 @@ export const query = graphql`
         buttons {
           button {
             variant
-            content
+            label
             url
           }
         }
