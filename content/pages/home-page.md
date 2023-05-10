@@ -7,20 +7,6 @@ permalink: /
 thumbnail: ""
 blocks:
   - type: hero
-    title: Henlo.
-    content: |-
-      ## The most advanced starter for Gatsby & Netlify CMS.
-
-      Extensible, block based starter for Netlify CMS.\
-      Built with performance in mind, styled with TailwindCSS.
-
-      **Think lightweight WordPress.**
-    variant: large
-    buttons:
-      - button:
-          variant: default
-          content: Documentation
-          url: https://github.com/clean-commit/gatsby-starter-henlo
     main:
       heading: Revolutionizing transport finance for good.
       content: We help fleets convert to EVs by making it as simple, easy and
@@ -31,6 +17,7 @@ blocks:
             variant: arrow
             content: Register Interest
             url: /#
+    variant: large
   - type: perks
     title: Features
     columns:

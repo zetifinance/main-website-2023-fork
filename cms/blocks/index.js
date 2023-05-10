@@ -35,6 +35,19 @@ const Config = {
     {
       /*
       *
+      * Perks
+      * 
+      */
+      label: 'Perks',
+      name: 'perks',
+      widget: 'object',
+      fields: [
+        Content,
+      ],
+    },
+    {
+      /*
+      *
       * Content with Image
       * 
       */

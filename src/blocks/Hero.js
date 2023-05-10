@@ -16,16 +16,16 @@ export default function Hero({ data }) {
 		  )}>
 			<div className='container'>
 				<div className='hero__content'>
-					{data?.title && (
-						<h1 className={clsx('')}>{ data?.title }</h1>
+					{data?.main?.heading && (
+						<h1 className={clsx('')}>{ data?.main?.heading }</h1>
 					)}
 
 					<Text className={clsx('text-lg')}>
-						{data?.content}
+						{data?.main?.content}
 					</Text>
 
-					{data?.buttons && (
-						<Buttons buttons={data?.buttons} className={clsx('mt-6')} />
+					{data?.main?.sbuttons && (
+						<Buttons buttons={data?.main?.buttons} className={clsx('mt-6')} />
 					)}
 				</div>
 
