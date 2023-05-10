@@ -1,6 +1,6 @@
 @import "_settings.scss";
 
-@import "common/_reset.scss";
+/* @import "common/_reset.scss";
 @import "common/_grid.scss";
 @import "common/_global.scss";
 @import "common/_typography.scss";
@@ -18,7 +18,7 @@
 @import "layouts/_footer.scss";
 @import "layouts/_wordpress.scss";
 @import "layouts/_pages.scss";
-@import "layouts/_posts.scss";
+@import "layouts/_posts.scss"; */
 
 @import "blocks/_blocks.scss";
 @import "blocks/_hero.scss";
