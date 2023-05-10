@@ -18,8 +18,8 @@ export const Button = {
   fields: [
     VariantField('default', ['default', 'white', 'arrow', 'arrow-white', 'simple']),
     {
-      label: 'Content',
-      name: 'content',
+      label: 'Main',
+      name: 'Main',
       widget: 'string',
       required: false,
     },
@@ -90,9 +90,9 @@ export const Intro = {
   ],
 }
 
-export const Content = {
-  label: 'Content',
-  name: 'content',
+export const Main = {
+  label: 'Main',
+  name: 'main',
   widget: 'object',
   required: false,
   fields: [
@@ -115,7 +115,7 @@ export const List = {
       widget: 'object',
       fields: [
         Heading,
-        Content,
+        Main,
         Image,
       ],
     },
@@ -134,7 +134,7 @@ export const Tabs = {
       widget: 'object',
       fields: [
         Heading,
-        Content,
+        Main,
         Image,
       ],
     },
@@ -153,7 +153,7 @@ export const Slider = {
         widget: 'object',
         required: false,
         fields: [
-          Content,
+          Main,
           Image,
           {
             label: 'Slide List',
@@ -263,7 +263,7 @@ export const Accordions = {
       name: 'Accordion',
       widget: 'object',
       fields: [
-        Content,
+        Main,
       ],
     },
   ],

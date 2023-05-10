@@ -80,18 +80,6 @@ export const query = graphql`
     blocks {
       type
       variant
-      image
-      content {
-        heading
-        rich_editor
-        buttons {
-          button {
-            variant
-            content
-            url
-          }
-        }
-      }
     }
   }
 `;
