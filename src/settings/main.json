@@ -1,8 +1,28 @@
 {
   "nav": [
     {
-      "name": "Documentation",
-      "permalink": "https://github.com/clean-commit/gatsby-starter-henlo"
+      "name": "Fleets",
+      "permalink": "#"
+    },
+    {
+      "name": "Financiers",
+      "permalink": "#"
+    },
+    {
+      "name": "Manufacturers",
+      "permalink": "#"
+    },
+    {
+      "name": "Team",
+      "permalink": "#"
+    },
+    {
+      "name": "Careers",
+      "permalink": "#"
+    },
+    {
+      "name": "News",
+      "permalink": "#"
     }
   ]
 }
