@@ -23,11 +23,11 @@ const Config = {
     {
       /*
       *
-      * Content
+      * Text
       * 
       */
-      label: 'Content',
-      name: 'content',
+      label: 'Text',
+      name: 'Text',
       widget: 'object',
       fields: [
         Content,
@@ -39,13 +39,13 @@ const Config = {
       * Content with Image
       * 
       */
-      label: 'Content with Image',
-      name: 'content_image',
+      label: 'Text with Image',
+      name: 'text_image',
       widget: 'object',
       summary: '{{fields.title}}',
       fields: [
         VariantField('default', ['default', 'staggered']),
-        // Content,
+        Content,
         Image,
       ],
     },
@@ -55,8 +55,8 @@ const Config = {
       * Content with Video
       * 
       */
-      label: 'Content with Video',
-      name: 'content_video',
+      label: 'Text with Video',
+      name: 'text_video',
       widget: 'object',
       summary: '{{fields.title}}',
       fields: [

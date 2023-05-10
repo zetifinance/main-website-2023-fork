@@ -2,9 +2,9 @@ import React from 'react';
 import { graphql } from 'gatsby';
 
 import Hero from '@/blocks/Hero';
-import Content from '../blocks/Content';
-import ContentImage from '../blocks/ContentImage';
-import ContentVideo from '../blocks/ContentVideo';
+import Text from '../blocks/Text';
+import TextImage from '../blocks/TextImage';
+import TextVideo from '../blocks/TextVideo';
 import Image from '../blocks/Image';
 import Video from '../blocks/Video';
 import Grid from '../blocks/Grid';
@@ -28,12 +28,12 @@ export default function PageBuilder({ blocks, preview = false }) {
           switch (block.type) {
             case 'hero':
               return <Hero key={i} data={block} />;
-            case 'content':
-              return <Content key={i} data={block} preview={preview} />;
-            case 'content_image':
-              return <ContentImage key={i} data={block} preview={preview} />;
-            case 'content_video':
-              return <ContentVideo key={i} data={block} preview={preview} />;
+            case 'text':
+              return <Text key={i} data={block} preview={preview} />;
+            case 'text_image':
+              return <TextImage key={i} data={block} preview={preview} />;
+            case 'text_video':
+              return <TextVideo key={i} data={block} preview={preview} />;
             case 'image':
               return <Image key={i} data={block} preview={preview} />;
             case 'video':
@@ -80,16 +80,10 @@ export const query = graphql`
     blocks {
       type
       variant
-      buttons {
-        button {
-          content
-          url
-          variant
-        }
-      }
-      intro {
+      image
+      content {
         heading
-        content
+        rich_editor
         buttons {
           button {
             content
