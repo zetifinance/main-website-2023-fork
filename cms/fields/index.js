@@ -56,7 +56,7 @@ export const RichEditor = {
 
 export const Image = {
   label: 'Image',
-  name: 'image_single',
+  name: 'image',
   widget: 'image',
   required: false,
 };

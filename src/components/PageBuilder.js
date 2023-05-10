@@ -91,6 +91,17 @@ export const query = graphql`
           }
         }
       }
+      video
+      image {
+        childImageSharp {
+          gatsbyImageData(
+            width: 800
+            quality: 72
+            placeholder: DOMINANT_COLOR
+            formats: [AUTO, WEBP, AVIF]
+          )
+        }
+      }
     }
   }
 `;
