@@ -24,6 +24,12 @@ blocks:
   - type: logo_grid
     intro:
       heading: Manufacturers we've financed
+      rich_editor: T﻿est text
+      buttons:
+        - button:
+            variant: default
+            label: Test Button
+            url: "#"
     images:
       - image: /img/tesla.png
       - image: /img/jaguar.png
