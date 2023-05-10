@@ -20,22 +20,6 @@ blocks:
     photo:
       image: /img/tezos-wpn1xnccgpw-unsplash.jpg
     variant: large
-  - type: content_image
-    variant: reversed
-    title: Configuration exposed through Netlify CMS
-    content: >-
-      No need to change configuration using `gatsby-node.js` or `.env` files!
-
-
-      Admins of the site can setup options using Netlify CMS's UI instead. This allows for reusable themes & templates
-    photo:
-      image: /img/frame-72.png
-      alt: Netlify CMS configuration with Henlo
-    buttons:
-      - button:
-          variant: default
-          content: Test
-          url: "#"
 seo:
   ogimage: /img/henlo-cover.png
 ---
