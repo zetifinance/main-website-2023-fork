@@ -18,8 +18,8 @@ export const Button = {
   fields: [
     VariantField('default', ['default', 'white', 'arrow', 'arrow-white', 'simple']),
     {
-      label: 'Main',
-      name: 'Main',
+      label: 'Label',
+      name: 'label',
       widget: 'string',
       required: false,
     },
