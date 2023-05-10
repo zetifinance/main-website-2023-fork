@@ -42,6 +42,11 @@ blocks:
     photo:
       image: /img/frame-72.png
       alt: Netlify CMS configuration with Henlo
+    buttons:
+      - button:
+          variant: default
+          content: Test
+          url: "#"
 seo:
   ogimage: /img/henlo-cover.png
 ---
