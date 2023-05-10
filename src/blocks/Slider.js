@@ -25,30 +25,38 @@ export default function Slider({ data }) {
 
 					{ data?.intro?.buttons && (
 						<Buttons buttons={ data?.intro?.buttons } className={ clsx('') } />
-					)}
+                    )}
+                    
                 </div>
+            </div>
 
-                <div className="slider__slider">
-                    <Splide aria-label="My Favorite Images">
-                        <SplideSlide>
-                            <Image src={ data?.slider?.slide?.image } alt={""} className=""/>
-                            <div>
-                                { data?.slider?.slide?.main?.heading && (
-                                    <h3>{ data?.slider?.slide?.main?.heading }</h3>
-                                )}
+            <div className="slider__slider">
+                <Splide options={ { width: '100%', rewind: false, gap: '40px' } }>
+                    { data?.slider.length > 0 && 
+                        data?.slider.map((item, i) => (
+                            <SplideSlide>
+                                <div className="container">
+                                    <Image src={ item?.slide?.image } alt={""} className=""/>
+                                    <div className="splide__slide-content">
+                                        { item?.slide?.main?.heading && (
+                                            <h3>{ item?.slide?.main?.heading }</h3>
+                                        )}
 
-                                { data?.slider?.slide?.main?.rich_editor && (
-                                    <Text className={clsx('')}>
-                                        { data?.slider?.slide?.main?.rich_editor }
-                                    </Text>
-                                )}
-                            </div>
-                        </SplideSlide>
-                        <SplideSlide>
-                            
-                        </SplideSlide>
-                    </Splide>
-                </div>
+                                        { item?.slide?.main?.rich_editor && (
+                                            <Text className={clsx('')}>
+                                                { item?.slide?.main?.rich_editor }
+                                            </Text>
+                                        )}
+
+                                        { item?.slide?.main?.buttons && (
+                                            <Buttons buttons={ item?.slide?.main?.buttons } className={ clsx('') } />
+                                        )}
+                                    </div>
+                                </div>
+                            </SplideSlide>
+                        ))
+                    }
+                </Splide>
             </div>
         </section>
     )
