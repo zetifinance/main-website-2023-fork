@@ -1,4 +1,4 @@
-import { VariantField, Buttons, Heading, RichEditor, Image, Images, Video, Intro, Main, List, Tabs, Slider, Testimonials, Team, Accordions, Vacancies } from '../fields';
+import { VariantField, Image, Images, Video, Intro, Main, List, Tabs, Slider, Testimonials, Team, Accordions, Vacancies } from '../fields';
 
 const Config = {
   label: 'Blocks',

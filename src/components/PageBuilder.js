@@ -80,6 +80,17 @@ export const query = graphql`
     blocks {
       type
       variant
+      intro {
+        heading
+        rich_editor
+        buttons {
+          button {
+            variant
+            label
+            url
+          }
+        }
+      }
       main {
         heading
         rich_editor
@@ -101,18 +112,6 @@ export const query = graphql`
           )
         }
       }
-      video
-      intro {
-        heading
-        rich_editor
-        buttons {
-          button {
-            variant
-            label
-            url
-          }
-        }
-      }
       images {
         image {
           childImageSharp {
@@ -122,6 +121,32 @@ export const query = graphql`
               placeholder: DOMINANT_COLOR
               formats: [AUTO, WEBP, AVIF]
             )
+          }
+        }
+      }
+      video
+      slider {
+        slide {
+          main {
+            heading
+            rich_editor
+            buttons {
+              button {
+                variant
+                label
+                url
+              }
+            }
+          }
+          image {
+            childImageSharp {
+              gatsbyImageData(
+                width: 800
+                quality: 72
+                placeholder: DOMINANT_COLOR
+                formats: [AUTO, WEBP, AVIF]
+              )
+            }
           }
         }
       }

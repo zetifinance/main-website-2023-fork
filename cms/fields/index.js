@@ -37,6 +37,7 @@ export const Buttons = {
   name: 'buttons',
   widget: 'list',
   required: false,
+  collapsed: true,
   fields: [Button],
 };
 
@@ -65,6 +66,7 @@ export const Images = {
   label: 'Images',
   name: 'images',
   widget: 'list',
+  collapsed: true,
   required: false,
   fields: [
     Image
@@ -82,6 +84,7 @@ export const Intro = {
   label: 'Intro',
   name: 'intro',
   widget: 'object',
+  collapsed: true,
   required: false,
   fields: [
     Heading,
@@ -94,6 +97,7 @@ export const Main = {
   label: 'Main',
   name: 'main',
   widget: 'object',
+  collapsed: true,
   required: false,
   fields: [
     Heading,
@@ -106,6 +110,7 @@ export const List = {
   label: 'List',
   name: 'list',
   widget: 'list',
+  collapsed: true,
   required: false,
   fields: [
     VariantField('default', ['default', 'with-counter']),
@@ -126,12 +131,14 @@ export const Tabs = {
   label: 'Tabs',
   name: 'tabs',
   widget: 'list',
+  collapsed: true,
   required: false,
   fields: [
     {
       label: 'Tab',
       name: 'tab',
       widget: 'object',
+      collapsed: true,
       fields: [
         Heading,
         Main,
@@ -145,27 +152,20 @@ export const Slider = {
   label: 'Slider',
   name: 'slider',
   widget: 'list',
+  collapsed: true,
   required: false,
   fields: [
-      {
-        label: 'Slide',
-        name: 'slide',
-        widget: 'object',
-        required: false,
-        fields: [
-          Main,
-          Image,
-          {
-            label: 'Slide List',
-            name: 'slide_list',
-            widget: 'object',
-            required: false,
-            fields: [
-              List,
-            ],
-          },
-        ],
-      },
+    {
+      label: 'Slide',
+      name: 'slide',
+      widget: 'object',
+      collapsed: true,
+      fields: [
+        Main,
+        Image,
+        List,
+      ],
+    },
   ],
 };
 
@@ -173,12 +173,14 @@ export const Testimonials = {
   label: 'Testimonials',
   name: 'testimonials',
   widget: 'list',
+  collapsed: true,
   required: false,
   fields: [
     {
       label: 'Testimonial',
       name: 'testimonial',
       widget: 'object',
+      collapsed: true,
       required: false,
       fields: [
         Image,
@@ -215,12 +217,14 @@ export const Team = {
   label: 'Team',
   name: 'team',
   widget: 'list',
+  collapsed: true,
   required: false,
   fields: [
     {
       label: 'Team Member',
       name: 'team_member',
       widget: 'object',
+      collapsed: true,
       fields: [
         Image,
         {
@@ -256,12 +260,14 @@ export const Accordions = {
   label: 'Accordions',
   name: 'accordions',
   widget: 'list',
+  collapsed: true,
   required: false,
   fields: [
     {
       label: 'Accordion',
       name: 'Accordion',
       widget: 'object',
+      collapsed: true,
       fields: [
         Main,
       ],
@@ -274,12 +280,14 @@ export const Vacancies = {
   name: 'vacancies',
   widget: 'list',
   required: false,
+  collapsed: true,
   fields: [
     {
       label: 'Vacancy',
       name: 'vacancy',
       widget: 'object',
       required: false,
+      collapsed: true,
       fields: [
         Heading,
         RichEditor,
