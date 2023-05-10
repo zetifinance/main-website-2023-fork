@@ -17,6 +17,7 @@ blocks:
             variant: arrow
             content: Register Interest
             url: /#
+      image: /img/tezos-wpn1xnccgpw-unsplash.jpg
     variant: large
   - type: content_image
     variant: reversed
