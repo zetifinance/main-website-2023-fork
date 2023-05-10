@@ -9,24 +9,24 @@ export default function LogoGrid({ data }) {
         <section className="block block__logo-grid">
             <div className="container">
                 <div className="logo-grid__intro">
-                    {data?.title && (
-                        <h2 className="section-heading">{ data?.title }</h2>
+                    {data?.intro?.heading && (
+                        <h2 className="section-heading">{ data?.intro?.heading }</h2>
                     )}
 
-                    {data?.content && (
+                    {data?.intro?.rich_editor && (
                         <Text className={clsx('')}>
-                            {data?.content}
+                            {data?.intro?.rich_editor}
                         </Text>
                     )}
 
-					{data?.buttons && (
-						<Buttons buttons={data?.buttons} className={clsx('')} />
+					{data?.intro?.buttons && (
+						<Buttons buttons={data?.intro?.buttons} className={clsx('')} />
 					)}
                 </div>
 
-                {data?.photos && (
+                {data?.images && (
                     <div className="logo-grid__logos">
-                        <Photos photos={data?.photos} className={clsx('')} />
+                        <Photos photos={data?.images} className={clsx('')} />
                     </div>
                 )}
 

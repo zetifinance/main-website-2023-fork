@@ -30,7 +30,7 @@ export default function Hero({ data }) {
 				</div>
 
 				<div className='hero__image'>
-					<Image src={data?.image_single} alt={""} className=""/>
+					<Image src={data?.image} alt={""} className=""/>
 				</div>
 			</div>
 		</section>

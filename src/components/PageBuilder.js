@@ -91,7 +91,6 @@ export const query = graphql`
           }
         }
       }
-      video
       image {
         childImageSharp {
           gatsbyImageData(
@@ -100,6 +99,30 @@ export const query = graphql`
             placeholder: DOMINANT_COLOR
             formats: [AUTO, WEBP, AVIF]
           )
+        }
+      }
+      video
+      intro {
+        heading
+        rich_editor
+        buttons {
+          button {
+            variant
+            label
+            url
+          }
+        }
+      }
+      images {
+        image {
+          childImageSharp {
+            gatsbyImageData(
+              width: 800
+              quality: 72
+              placeholder: DOMINANT_COLOR
+              formats: [AUTO, WEBP, AVIF]
+            )
+          }
         }
       }
     }
