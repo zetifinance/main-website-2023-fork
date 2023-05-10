@@ -19,6 +19,18 @@ blocks:
             url: /#
       image: /img/tezos-wpn1xnccgpw-unsplash.jpg
     variant: large
+    photo:
+      image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+    intro:
+      buttons:
+        - button:
+            variant: arrow
+            content: Register Interest
+            url: "#"
+      content: We help fleets convert to EVs by making it as simple, easy and
+        transparent as paying for any other utility with our patent-pending
+        pay-per-mile financial technology.
+      heading: Revolutionizing transport finance for good.
   - type: content_image
     variant: reversed
     title: Configuration exposed through Netlify CMS
