@@ -33,6 +33,11 @@ blocks:
               bibendum congue libero, sed laoreet metus imperdiet at. Cras et
               suscipit libero, eu imperdiet sapien. Nullam bibendum diam in
               libero luctus, at dapibus elit pulvinar.
+            buttons:
+              - button:
+                  variant: default
+                  label: Example Button
+                  url: "#"
           image: /img/tezos-wpn1xnccgpw-unsplash.jpg
       - slide:
           main:
