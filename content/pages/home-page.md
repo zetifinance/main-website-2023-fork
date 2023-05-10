@@ -18,7 +18,7 @@ blocks:
             variant: arrow
             label: Register Interest
             url: "#"
-    image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+    image: ""
 seo:
   ogimage: /img/henlo-cover.png
 ---
