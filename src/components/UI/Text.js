@@ -12,7 +12,7 @@ export default function Text({ children, className, ...props }) {
           </a>
         ),
       }}
-      className={clsx('prose dark:prose-invert ', className)}
+      className={clsx('', className)}
       {...props}
     >
       {children}

@@ -1,0 +1,51 @@
+.block__logo-grid {
+
+    .container {
+        max-width: 1110px;
+    }
+
+    .logo-grid__intro {
+        margin-bottom: 9rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            margin-bottom: 2rem;
+            text-align: center;
+            color: $lightest;
+        }
+
+        p {
+            font-size: 2rem;
+            line-height: 3rem;
+            text-align: center;
+            color: $lightest;
+        }
+
+        .button-box {
+            margin-top: 4rem;
+        }
+    }
+
+    .logo-grid__logos {
+        margin: 0 -10rem;
+        display: flex;
+        align-items: center;
+
+        .gatsby-image-wrapper {
+            width: calc(33.33 - 20rem);
+            margin: 0 10rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 100%;
+                max-width: 220px;
+                height: auto;
+                display: block;
+            }
+        }
+    }
+}

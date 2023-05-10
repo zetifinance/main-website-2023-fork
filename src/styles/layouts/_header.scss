@@ -1,0 +1,44 @@
+header[role="banner"] {
+    width: 100%;
+    padding: 4rem 5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    z-index: 9999;
+
+    .brand {
+        margin-right: 8rem;
+
+        &:hover {
+            svg polygon {
+                fill: $yellow;
+            }
+        }
+
+        svg {
+            width: 120px;
+            height: auto;
+            display: block;
+
+            polygon {
+                transition: 400ms $cubic;
+            }
+        }
+    }
+
+    .header__nav {
+        flex: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .header__buttons {
+
+            button {
+                margin-right: 2.5rem;
+            }
+        }
+    }
+}

@@ -1,12 +1,10 @@
 import React from 'react';
 import Layout from '@/components/Layout';
-import Container from '../components/UI/Container';
 import Link from '../resolvers/Link';
 
 const NotFoundPage = () => (
   <Layout nav>
     <section>
-      <Container className='h-screen flex justify-center items-center text-center'>
         <div>
           <h1 className='text-9xl font-bold dark:text-white'>404.</h1>
           <h2 className='text-4xl font-bold dark:text-white'>Page Not Found</h2>
@@ -20,7 +18,6 @@ const NotFoundPage = () => (
             Back to Home
           </Link>
         </div>
-      </Container>
     </section>
   </Layout>
 );

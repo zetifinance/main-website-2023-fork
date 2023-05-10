@@ -1,3 +1,25 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "_settings.scss";
+
+@import "common/_reset.scss";
+@import "common/_grid.scss";
+@import "common/_global.scss";
+@import "common/_typography.scss";
+@import "common/_animations.scss";
+@import "common/_vendor.scss";
+
+@import "components/_buttons.scss";
+@import "components/_forms.scss";
+@import "components/_lists.scss";
+@import "components/_tables.scss";
+
+@import "layouts/_header.scss";
+@import "layouts/_navigation.scss";
+@import "layouts/_sidebar.scss";
+@import "layouts/_footer.scss";
+@import "layouts/_wordpress.scss";
+@import "layouts/_pages.scss";
+@import "layouts/_posts.scss";
+
+@import "blocks/_blocks.scss";
+@import "blocks/_hero.scss";
+@import "blocks/_logo-grid.scss";

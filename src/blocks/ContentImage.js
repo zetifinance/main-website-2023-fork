@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from '../resolvers/Image'
-import Container from '../components/UI/Container'
 import Text from '../components/UI/Text'
 import Title from '../components/UI/Title'
 import Buttons from '../components/UI/Buttons'
@@ -9,8 +8,7 @@ import clsx from 'clsx'
 export default function ContentImage({ data }) {
   const isReversed = data?.variant === 'reversed'
   return (
-    <section className="py-20 lg:py-32">
-      <Container className="max-w-7xl">
+    <section className="block block__image-text py-20 lg:py-32">
         <div
           className={clsx(
             'flex flex-col items-center justify-center gap-4 md:gap-6 lg:gap-10',
@@ -45,7 +43,6 @@ export default function ContentImage({ data }) {
             </div>
           </div>
         </div>
-      </Container>
     </section>
   )
 }

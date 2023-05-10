@@ -1,0 +1,32 @@
+// Custom Button Styles
+.button-box {
+    margin: 0 -1rem -2rem -1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    .button {
+        margin: 0 1rem 2rem 1rem;
+        display: block;
+    }
+}
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+
+    &.button--standard {
+        padding: 1rem 3rem;
+        background-color: $yellow;
+        border-radius: 30px;
+        box-shadow: none;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        letter-spacing: 1px;
+
+        &.button--yellow {
+            background-color: $yellow;
+            color: $primary;
+        }
+    }
+}
