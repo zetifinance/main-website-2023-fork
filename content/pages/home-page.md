@@ -19,6 +19,7 @@ blocks:
             label: Register Interest
             url: "#"
     image: ""
+    photo: /img/tezos-wpn1xnccgpw-unsplash.jpg
 seo:
   ogimage: /img/henlo-cover.png
 ---
