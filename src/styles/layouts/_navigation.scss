@@ -38,7 +38,6 @@ nav.nav-mobile {
 		display: block;
 	}
 
-	// Top Level
 	ul {
 		padding: 0;
 		margin: 0;
@@ -81,20 +80,6 @@ nav.nav-mobile {
 			}
 
 			@media(min-width: 768px) {
-				.mobile-menu-active & {
-
-					@for $i from 1 to 8 {
-						&:nth-child(#{$i}) {
-							a {
-								animation-delay: (0.2s * $i);
-								opacity: 1;
-							}
-						}
-					}
-				}
-			}
-
-			@media(min-width: 768px) {
 				text-align: left;
 			}
 
@@ -133,8 +118,6 @@ nav.nav-mobile {
 			}
 		}
 	}
-
-	// Second Level
 
 	ul ul {
 		display: none;

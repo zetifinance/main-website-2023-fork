@@ -3,27 +3,33 @@ img {
     height: auto;
 }
 
-.alignleft, img.alignleft { 
-    margin-right: 1.5em; 
-    display: inline; 
-    float: left; 
+.alignleft,
+img.alignleft {
+    margin-right: 1.5em;
+    display: inline;
+    float: left;
 }
-.alignright, img.alignright { 
-    margin-left: 1.5em; 
-    display: inline; 
-    float: right; 
+
+.alignright,
+img.alignright {
+    margin-left: 1.5em;
+    display: inline;
+    float: right;
 }
-.aligncenter, img.aligncenter { 
-    margin-right: auto; 
-    margin-left: auto; 
-    display: block; 
-    clear: both; 
+
+.aligncenter,
+img.aligncenter {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    clear: both;
 }
-        
-video, object {
+
+video,
+object {
     max-width: 100%;
     height: auto;
-    }
+}
 
 pre {
     background: $light-grey;
@@ -35,21 +41,20 @@ pre {
     max-width: 100%;
     background: $light-grey;
     padding: 5px;
-    display:inline-block;
+    display: inline-block;
 
-    @media (max-width: 768px){
+    @media (max-width: 768px) {
         width: 100% !important;
-        height:auto;
+        height: auto;
     }
 
-    // Images inside wp-caption  
     img {
         max-width: 100%;
         margin-bottom: 0;
         width: 100%;
 
-        @media (max-width: 768px){
-            height:auto;
+        @media (max-width: 768px) {
+            height: auto;
         }
     }
 

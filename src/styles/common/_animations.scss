@@ -1,4 +1,3 @@
-// Animations 
 .animated {
 	animation-duration: 1s;
 	animation-fill-mode: both;
@@ -9,8 +8,6 @@
 .delay {
 	animation-delay: .5s;
 }
-
-// Menu 
 
 @keyframes ham-top {
 	50% {
@@ -41,8 +38,6 @@
 		opacity: 0;
 	}
 }
-
-// Fades
 
 @keyframes fadeIn {
 	from {
@@ -136,9 +131,6 @@
 .fadeOut {
 	animation-name: fadeOut;
 }
-
-
-// Slides
 
 @keyframes slideInDown {
 	from {

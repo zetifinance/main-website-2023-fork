@@ -1,4 +1,3 @@
-// Vendor specific styles
 @keyframes splide-loading {
     0% {
         transform: rotate(0)
@@ -149,7 +148,6 @@
     z-index: 0
 }
 
-// Slick Core
 .slick-slider {
     position: relative;
 
@@ -265,8 +263,6 @@
     display: none;
 }
 
-
-// Slick Theme
 
 .slick-prev,
 .slick-next {

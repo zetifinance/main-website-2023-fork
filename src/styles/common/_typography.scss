@@ -82,7 +82,6 @@ a {
     }
 }
 
-// Blockquotes
 blockquote {
     position: relative;
     margin: 0 0 4rem;
@@ -112,7 +111,6 @@ blockquote {
     }
 }
 
-// Citations
 cite {
     display: block;
     font-size: $cite-font-size;
@@ -123,7 +121,6 @@ cite {
     }
 }
 
-// Abbreviations
 abbr {
     border-bottom: $abbr-underline;
     color: $darkest;
@@ -134,12 +131,10 @@ strong {
     font-weight: 700;
 }
 
-// Figures
 figure {
     margin: 0;
 }
 
-// Horizontal rule
 hr {
     max-width: 100%;
     height: 0;
