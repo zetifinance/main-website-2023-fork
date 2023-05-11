@@ -150,6 +150,24 @@ export const query = graphql`
           }
         }
       }
+      testimonials {
+        testimonial {
+          image {
+            childImageSharp {
+              gatsbyImageData(
+                width: 800
+                quality: 72
+                placeholder: DOMINANT_COLOR
+                formats: [AUTO, WEBP, AVIF]
+              )
+            }
+          }
+          testimonial
+          name
+          job_title
+          company_name
+        }
+      }
     }
   }
 `;
