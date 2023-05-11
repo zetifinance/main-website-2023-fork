@@ -168,6 +168,32 @@ export const query = graphql`
           company_name
         }
       }
+      tabs {
+        tab {
+          heading
+          image {
+            childImageSharp {
+              gatsbyImageData(
+                width: 800
+                quality: 72
+                placeholder: DOMINANT_COLOR
+                formats: [AUTO, WEBP, AVIF]
+              )
+            }
+          }
+          main {
+            heading
+            rich_editor
+            buttons {
+              button {
+                variant
+                label
+                url
+              }
+            }
+          }
+        }
+      }
     }
   }
 `;
