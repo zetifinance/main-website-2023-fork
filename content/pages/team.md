@@ -39,7 +39,7 @@ blocks:
                 image: /img/handshake-blue.svg
             - variant: default
               list_item:
-                image: /img/handshake-blue.svg
+                image: /img/tesla.png
                 heading: Ethos Heading Goes here
       - slide:
           main:
