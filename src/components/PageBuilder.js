@@ -228,6 +228,22 @@ export const query = graphql`
           bio
         }
       }
+      list {
+        variant
+        list_item {
+          heading
+          image {
+            childImageSharp {
+              gatsbyImageData(
+                width: 800
+                quality: 72
+                placeholder: DOMINANT_COLOR
+                formats: [AUTO, WEBP, AVIF]
+              )
+            }
+          }
+        }
+      }
     }
   }
 `;

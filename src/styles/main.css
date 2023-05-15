@@ -9,6 +9,7 @@
 
 @import "components/_buttons.scss";
 @import "components/_forms.scss";
+@import "components/_grid.scss";
 @import "components/_lists.scss";
 @import "components/_tables.scss";
 
@@ -28,3 +29,4 @@
 @import "blocks/_tabs.scss";
 @import "blocks/_image-text.scss";
 @import "blocks/_team.scss";
+@import "blocks/_grid.scss";

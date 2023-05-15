@@ -105,7 +105,7 @@ const Config = {
       widget: 'object',
       summary: '{{fields.title}}',
       fields: [
-        VariantField('default', ['default', 'without-background']),
+        VariantField('card', ['card', 'large-card', 'no-card']),
         Intro,
         List,
       ],

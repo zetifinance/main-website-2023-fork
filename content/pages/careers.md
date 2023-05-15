@@ -32,7 +32,7 @@ blocks:
 
         Aenean vel urna vitae mauris aliquet auctor. Sed sit amet dolor diam. Nunc vel nulla sem. Donec non fringilla orci. Curabitur sed orci feugiat, fermentum quam non, condimentum elit.
   - type: grid
-    variant: default
+    variant: card
     intro:
       heading: Benefits
     list:
