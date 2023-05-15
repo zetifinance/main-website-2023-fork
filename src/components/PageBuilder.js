@@ -245,6 +245,12 @@ export const query = graphql`
           }
         }
       }
+      locations {
+        phone_number
+        email_address
+        location_name
+        address
+      }
     }
   }
 `;

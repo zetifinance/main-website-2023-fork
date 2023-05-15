@@ -2,7 +2,6 @@ import clsx from 'clsx'
 import React from 'react';
 import Text from '../components/UI/Text'
 import Buttons from '../components/UI/Buttons'
-import Image from '../resolvers/Image'
 
 export default function Locations({ data }) {
     // Intro
@@ -11,7 +10,7 @@ export default function Locations({ data }) {
     const intro_buttons = data?.intro?.buttons;
 
     // Slide List
-    const grid = data?.list;
+    const grid = data?.locations;
 
     return (
         <section className={clsx('block block__locations')}>
@@ -35,34 +34,32 @@ export default function Locations({ data }) {
                 <div className={clsx('locations__grid grid', 'grid--large-card')}>
                     { grid?.length > 0 &&
                         grid?.map((item, i) => {
-                            const list_item_image = item?.list_item?.image;
-                            const list_item_heading = item?.list_item?.heading;
-                            const list_item_content = item?.list_item?.rich_editor;
-                            const list_item_buttons = item?.list_item?.buttons;
+                            const location_name = item?.location_name;
+                            const location_address = item?.address;
+                            const location_email = item?.email_address;
+                            const location_phone = item?.phone_number;
 
                             return (
                                 <div className="grid__item">
-                                    <span>{(i+1) < 10 ? "0" + (i + 1) : (i + 1)}.</span>
+                                    <span>{(i+1) < 10 ? "0" + (i + 1) : (i + 1)}</span>
 
-                                    { list_item_image && (
-                                        <div className="grid__item-image">
-                                            <Image src={ list_item_image } alt={""} className=""/>
-                                        </div>
-                                    )}
                                     <div className="grid__item-content">
 
-                                        { list_item_heading && (
-                                            <h3>{ list_item_heading }</h3>
+                                        {location_name && (
+                                            <h3>{location_name}</h3>
                                         )}
 
-                                        { list_item_content && (
+                                        {location_address && (
                                             <Text className={clsx('')}>
-                                                { list_item_content }
+                                                {location_address}
                                             </Text>
                                         )}
 
-                                        { list_item_buttons && (
-                                            <Buttons buttons={ list_item_buttons } className={ clsx('') } />
+                                        {location_email && (
+                                            <a href={"mailto:" + location_email}>{location_email}</a>
+                                        )}
+                                        {location_phone && (
+                                            <a href={"tel:" + location_phone}>{location_phone}</a>
                                         )}
                                     </div>
                                 </div>

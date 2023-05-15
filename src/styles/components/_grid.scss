@@ -62,34 +62,51 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;
+            align-items: flex-start;
             background-color: $tertiary;
             border-radius: 20px;
 
-            img {
-                width: 65px;
-                height: auto;
-                margin-bottom: 2rem;
+            span {
+                margin-bottom: 7.5rem;
                 display: block;
+                font-size: 16rem;
+                font-weight: 700;
+                line-height: 17rem;
+                color: $tertiary;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: $light-blue;
             }
 
             h3 {
                 margin-bottom: 1rem;
-                font-size: 2.4rem;
-                line-height: 3.2rem;
-                letter-spacing: 0.48px;
-                text-align: center;
+                font-size: 3rem;
+                line-height: 4rem;
+                letter-spacing: 0.6px;
                 color: $lightest;
             }
 
             p {
                 margin-top: 0;
-                font-size: 1.8rem;
-                line-height: 2.6rem;
-                text-align: center;
+                font-size: 2rem;
+                line-height: 2.7rem;
+                letter-spacing: .4px;
+                color: $pastel-blue-light;
 
                 &:last-of-type {
                     margin-bottom: 0;
+                }
+            }
+
+            a {
+                margin-top: 1rem;
+                display: block;
+                font-size: 2rem;
+                line-height: 2.7rem;
+                letter-spacing: .4px;
+                color: $lightest;
+
+                &:first-of-type {
+                    margin-top: 2.5rem;
                 }
             }
         }
