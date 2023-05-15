@@ -18,6 +18,16 @@ blocks:
             variant: arrow
             label: Register Interest
             url: "#"
+  - type: team
+    intro:
+      heading: Meet the team
+    team:
+      - team_member:
+          image: /img/wojciech-kaluzny-20-312x312.jpg
+          name: Jessie Bloggs
+          job_role: Creative Director
+          linkedin: https://linkedin.co.uk/
+          bio: T﻿his is a demo bio
   - type: text_image
     variant: staggered
     main:
