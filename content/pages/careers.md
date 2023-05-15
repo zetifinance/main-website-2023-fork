@@ -89,6 +89,60 @@ blocks:
         Aenean vel urna vitae mauris aliquet auctor. Sed sit amet dolor diam. Nunc vel nulla sem. Donec non fringilla orci. Curabitur sed orci feugiat, fermentum quam non, condimentum elit.
       heading: What to expect
     image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+  - type: accordions
+    accordions:
+      - heading: Question goes in here lorem ipsum dolor sit amet
+        rich_editor: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae
+          tellus lacus. Suspendisse a dolor feugiat, laoreet mi id, ultricies
+          nisi. Nulla quis rutrum dolor, quis iaculis ipsum. Praesent vel luctus
+          magna.
+
+
+          Aenean vel urna vitae mauris aliquet auctor. Sed sit amet dolor diam. Nunc vel nulla sem. Donec non fringilla orci. Curabitur sed orci feugiat, fermentum quam non, condimentum elit.
+        buttons:
+          - button:
+              variant: default
+              label: Demo Button
+              url: /#/
+      - heading: Question goes in here lorem ipsum dolor sit amet
+        rich_editor: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae
+          tellus lacus. Suspendisse a dolor feugiat, laoreet mi id, ultricies
+          nisi. Nulla quis rutrum dolor, quis iaculis ipsum. Praesent vel luctus
+          magna.
+
+
+          Aenean vel urna vitae mauris aliquet auctor. Sed sit amet dolor diam. Nunc vel nulla sem. Donec non fringilla orci. Curabitur sed orci feugiat, fermentum quam non, condimentum elit.
+      - heading: Question goes in here lorem ipsum dolor sit amet
+        rich_editor: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae
+          tellus lacus. Suspendisse a dolor feugiat, laoreet mi id, ultricies
+          nisi. Nulla quis rutrum dolor, quis iaculis ipsum. Praesent vel luctus
+          magna.
+
+
+          Aenean vel urna vitae mauris aliquet auctor. Sed sit amet dolor diam. Nunc vel nulla sem. Donec non fringilla orci. Curabitur sed orci feugiat, fermentum quam non, condimentum elit.
+      - heading: Question goes in here lorem ipsum dolor sit amet
+        rich_editor: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae
+          tellus lacus. Suspendisse a dolor feugiat, laoreet mi id, ultricies
+          nisi. Nulla quis rutrum dolor, quis iaculis ipsum. Praesent vel luctus
+          magna.
+
+
+          Aenean vel urna vitae mauris aliquet auctor. Sed sit amet dolor diam. Nunc vel nulla sem. Donec non fringilla orci. Curabitur sed orci feugiat, fermentum quam non, condimentum elit.
+      - heading: Question goes in here lorem ipsum dolor sit amet
+        rich_editor: >-
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae
+          tellus lacus. Suspendisse a dolor feugiat, laoreet mi id, ultricies
+          nisi. Nulla quis rutrum dolor, quis iaculis ipsum. Praesent vel luctus
+          magna.
+
+
+          Aenean vel urna vitae mauris aliquet auctor. Sed sit amet dolor diam. Nunc vel nulla sem. Donec non fringilla orci. Curabitur sed orci feugiat, fermentum quam non, condimentum elit.
+    intro:
+      heading: FAQs
   - type: locations
     intro:
       heading: Our Locations
