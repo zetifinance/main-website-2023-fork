@@ -262,6 +262,24 @@ export const query = graphql`
           }
         }
       }
+      vacancies {
+        heading
+        rich_editor
+        apply_link
+        tags {
+          image {
+            childImageSharp {
+              gatsbyImageData(
+                width: 800
+                quality: 72
+                placeholder: DOMINANT_COLOR
+                formats: [AUTO, WEBP, AVIF]
+              )
+            }
+          }
+          heading
+        }
+      }
     }
   }
 `;
