@@ -120,7 +120,8 @@ export const List = {
       widget: 'object',
       fields: [
         Heading,
-        Main,
+        RichEditor,
+        Buttons,
         Image,
       ],
     },

@@ -6,13 +6,13 @@ import Image from '../resolvers/Image'
 
 export default function Team({ data }) {
     // intro
-    const intro = data.intro;
-    const intro_heading = intro.heading;
-    const intro_content = intro.rich_editor;
-    const intro_buttons = intro.buttons;
+    const intro = data?.intro;
+    const intro_heading = intro?.heading;
+    const intro_content = intro?.rich_editor;
+    const intro_buttons = intro?.buttons;
 
     // team
-    const team = data.team;
+    const team = data?.team;
 
     return (
         <section className="block block__team">
@@ -36,13 +36,13 @@ export default function Team({ data }) {
                 </div>
 
                 <div className="team__grid">
-                    {team.length > 0 &&
-                        team.map((item, i) => {
-                            const team_picture = item.team_member.image;
-                            const name = item.team_member.name;
-                            const job_role = item.team_member.job_role;
-                            const linkedin = item.team_member.linkedin;
-                            const bio = item.team_member.bio;
+                    {team?.length > 0 &&
+                        team?.map((item, i) => {
+                            const team_picture = item?.team_member?.image;
+                            const name = item?.team_member?.name;
+                            const job_role = item?.team_member?.job_role;
+                            const linkedin = item?.team_member?.linkedin;
+                            const bio = item?.team_member?.bio;
 
                             return (
                                 <div className={clsx('team__member') }>

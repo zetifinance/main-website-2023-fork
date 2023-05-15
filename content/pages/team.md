@@ -53,7 +53,6 @@ blocks:
               Aenean vel urna vitae mauris aliquet auctor. Sed sit amet dolor diam. Nunc vel nulla sem. Donec non fringilla orci. Curabitur sed orci feugiat, fermentum quam non, condimentum elit.
             heading: Our Ethos 2
           image: /img/tezos-wpn1xnccgpw-unsplash.jpg
-          list: []
   - type: team
     intro:
       heading: Meet the team

@@ -11,32 +11,32 @@ export default function Testimonials({ data }) {
             <div className="container">
                 <div className="testimonials__intro">
                     <div>
-                        {data.intro.heading && (
-                            <h2 className="section-heading">{data.intro.heading}</h2>
+                        {data?.intro?.heading && (
+                            <h2 className="section-heading">{data?.intro?.heading}</h2>
                         )}
 
-                        { data.intro.rich_editor && (
+                        { data?.intro?.rich_editor && (
                             <Text className={ clsx('') }>
-                                { data.intro.rich_editor }
+                                { data?.intro?.rich_editor }
                             </Text>
                         )}
                     </div>
 
-					{data.intro.buttons && (
-						<Buttons buttons={data.intro.buttons} className={ clsx('') } />
+					{data?.intro?.buttons && (
+						<Buttons buttons={data?.intro?.buttons} className={ clsx('') } />
                     )}
                     
                 </div>
                 <div className="testimonials__slider">
                     <Splide options={ { perPage: 3, perMove: 1, rewind: false, gap: '40px' } }>
-                        {data.testimonials.length > 0 &&
-                            data.testimonials.map((item, i) => {
-                                const testimonial = item.testimonial;
-                                const testimonial_image = testimonial.image;
-                                const testimonial_content = testimonial.testimonial;
-                                const testimonial_name = testimonial.name;
-                                const testimonial_job_title = testimonial.job_title;
-                                const testimonial_company_name = testimonial.company_name;
+                        {data?.testimonials?.length > 0 &&
+                            data?.testimonials?.map((item, i) => {
+                                const testimonial = item?.testimonial;
+                                const testimonial_image = testimonial?.image;
+                                const testimonial_content = testimonial?.testimonial;
+                                const testimonial_name = testimonial?.name;
+                                const testimonial_job_title = testimonial?.job_title;
+                                const testimonial_company_name = testimonial?.company_name;
 
                                 return (
                                     <SplideSlide key={i}>
