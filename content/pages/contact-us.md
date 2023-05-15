@@ -3,7 +3,7 @@ id: Dkm3UbPDp
 type: page
 layout: page-builder
 title: Contact Us
-permalink: /contact-us//
+permalink: /contact-us/
 blocks:
   - type: hero
     variant: default
