@@ -36,7 +36,7 @@ blocks:
             - variant: default
               list_item:
                 heading: Ethos Heading Goes Here
-                image: /img/handshake-blue.svg
+                image: /img/handshake-blue.png
             - variant: default
               list_item:
                 image: /img/handshake-blue.png
