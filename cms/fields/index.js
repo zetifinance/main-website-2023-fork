@@ -113,7 +113,6 @@ export const List = {
   collapsed: true,
   required: false,
   fields: [
-    VariantField('default', ['default', 'with-counter']),
     {
       label: 'List Item',
       name: 'list_item',

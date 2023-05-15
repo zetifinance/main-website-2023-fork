@@ -5,7 +5,10 @@ import Buttons from '../components/UI/Buttons'
 import Image from '../resolvers/Image'
 
 export default function Grid({ data }) {
-
+    // Variant
+    const isCard = data?.variant === 'card';
+    const isLargeCard = data?.variant === 'large-card';
+    const isNoCard = data?.variant === 'no-card';
 
     // Intro
     const intro_heading = data?.intro?.heading;
@@ -16,7 +19,7 @@ export default function Grid({ data }) {
     const grid = data?.list;
 
     return (
-        <section className={clsx('block block__grid')}>
+        <section className={clsx('block block__grid', {'block__grid--card': isCard}, {'block__grid--large-card': isLargeCard}, {'block__grid--no-card': isNoCard})}>
             <div className="container">
                 <div className="grid__intro">
                     {intro_heading && (
@@ -34,7 +37,7 @@ export default function Grid({ data }) {
                     )}
                 </div>
 
-                <div className="grid__grid grid">
+                <div className={clsx('grid__grid grid', {'grid--card': isCard}, {'grid--large-card': isLargeCard}, {'grid--no-card': isNoCard})}>
                     { grid?.length > 0 &&
                         grid?.map((item, i) => {
                             const list_item_image = item?.list_item?.image;
