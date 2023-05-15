@@ -41,7 +41,6 @@ export default function Grid({ data }) {
                     { grid?.length > 0 &&
                         grid?.map((item, i) => {
                             const list_item_image = item?.list_item?.image;
-                            const list_item_variant = item?.variant;
                             const list_item_heading = item?.list_item?.heading;
                             const list_item_content = item?.list_item?.rich_editor;
                             const list_item_buttons = item?.list_item?.buttons;
@@ -57,7 +56,7 @@ export default function Grid({ data }) {
                                         { list_item_heading && (
                                             <h3>{ list_item_heading }</h3>
                                         )}
-                                        
+
                                         { list_item_content && (
                                             <Text className={clsx('')}>
                                                 { list_item_content }

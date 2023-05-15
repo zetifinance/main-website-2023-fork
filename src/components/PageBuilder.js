@@ -232,6 +232,7 @@ export const query = graphql`
         variant
         list_item {
           heading
+          rich_editor
           image {
             childImageSharp {
               gatsbyImageData(

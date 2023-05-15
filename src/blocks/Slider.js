@@ -117,7 +117,6 @@ export default function Slider({ data }) {
                                                 { slide_list?.length > 0 &&
                                                     slide_list?.map((item, i) => {
                                                         // List Content
-                                                        const list_item_variant = item?.variant;
                                                         const list_item_heading = item?.list_item?.heading;
                                                         const list_item_content = item?.list_item?.rich_editor;
                                                         const list_item_buttons = item?.list_item?.buttons;

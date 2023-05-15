@@ -1,31 +1,61 @@
 .block__grid {
 
-    .grid__intro {
-        margin-bottom: 9rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    &.block__grid--card,
+    &.block__grid--large-card {
+        .grid__intro {
+            margin-bottom: 9rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
 
-        h2 {
-            margin-bottom: 2rem;
-            text-align: center;
-            color: $lightest;
-        }
+            h2 {
+                margin-bottom: 2rem;
+                text-align: center;
+                color: $lightest;
+            }
 
-        p {
-            margin-top: 0;
-            font-size: 2rem;
-            line-height: 3rem;
-            text-align: center;
-            color: $lightest;
+            p {
+                margin-top: 0;
+                font-size: 2rem;
+                line-height: 3rem;
+                text-align: center;
+                color: $lightest;
 
-            &:last-of-type {
-                margin-bottom: 0;
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
+            }
+
+            .button-box {
+                margin-top: 4rem;
             }
         }
+    }
 
-        .button-box {
-            margin-top: 4rem;
+    &.block__grid--no-card {
+        .grid__intro {
+            max-width: 900px;
+            margin-bottom: 9rem;
+
+            h2 {
+                margin-bottom: 2rem;
+                color: $lightest;
+            }
+
+            p {
+                margin-top: 0;
+                font-size: 2rem;
+                line-height: 3rem;
+                color: $lightest;
+
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
+            }
+
+            .button-box {
+                margin-top: 4rem;
+            }
         }
     }
 }
