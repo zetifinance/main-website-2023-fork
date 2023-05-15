@@ -31,6 +31,51 @@ blocks:
 
 
         Aenean vel urna vitae mauris aliquet auctor. Sed sit amet dolor diam. Nunc vel nulla sem. Donec non fringilla orci. Curabitur sed orci feugiat, fermentum quam non, condimentum elit.
+  - type: grid
+    variant: default
+    intro:
+      heading: Benefits
+    list:
+      - variant: default
+        list_item:
+          heading: Benefit Heading
+          rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          image: /img/handshake-blue.png
+      - variant: default
+        list_item:
+          rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          heading: Benefit Heading
+          image: /img/handshake-blue.png
+      - variant: default
+        list_item:
+          rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          heading: Benefit Heading
+          image: /img/handshake-blue.png
+      - variant: default
+        list_item:
+          rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          heading: Benefit Heading
+          image: /img/handshake-blue.png
+      - variant: default
+        list_item:
+          rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          heading: Benefit Heading
+          image: /img/handshake-blue.png
+      - variant: default
+        list_item:
+          rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          heading: Benefit Heading
+          image: /img/handshake-blue.png
+      - variant: default
+        list_item:
+          rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          heading: Benefit Heading
+          image: /img/handshake-blue.png
+      - variant: default
+        list_item:
+          rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          heading: Benefit Heading
+          image: /img/handshake-blue.png
   - type: text_image
     variant: default
     main:
