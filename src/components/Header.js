@@ -36,7 +36,7 @@ export default function Header() {
 
 				<div className="header__buttons">
 					<DarkmodeToggle />
-					<a href="/" className="button button--standard button--yellow">
+					<a href="/contact-us/" className="button button--standard button--yellow">
 						Contact
 					</a>
 				</div>
