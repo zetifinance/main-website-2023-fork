@@ -32,6 +32,15 @@ blocks:
 
 
               Aenean vel urna vitae mauris aliquet auctor. Sed sit amet dolor diam. Nunc vel nulla sem. Donec non fringilla orci. Curabitur sed orci feugiat, fermentum quam non, condimentum elit.
+          list:
+            - variant: default
+              list_item:
+                heading: Ethos Heading Goes Here
+                image: /img/handshake-blue.svg
+            - variant: default
+              list_item:
+                image: /img/handshake-blue.svg
+                heading: Ethos Heading Goes here
       - slide:
           main:
             rich_editor: >-
