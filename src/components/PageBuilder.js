@@ -251,6 +251,17 @@ export const query = graphql`
         location_name
         address
       }
+      accordions {
+        heading
+        rich_editor
+        buttons {
+          button {
+            variant
+            label
+            url
+          }
+        }
+      }
     }
   }
 `;

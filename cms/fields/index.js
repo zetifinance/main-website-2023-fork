@@ -296,16 +296,10 @@ export const Accordions = {
   widget: 'list',
   collapsed: true,
   required: false,
-  fields: [
-    {
-      label: 'Accordion',
-      name: 'Accordion',
-      widget: 'object',
-      collapsed: true,
-      fields: [
-        Main,
-      ],
-    },
+  fields: [      
+    Heading,
+    RichEditor,
+    Buttons,
   ],
 };
 
@@ -316,32 +310,23 @@ export const Vacancies = {
   required: false,
   collapsed: true,
   fields: [
+    Heading,
+    RichEditor,
     {
-      label: 'Vacancy',
-      name: 'vacancy',
-      widget: 'object',
+      label: 'Apply Link',
+      name: 'apply_link',
+      widget: 'string',
       required: false,
-      collapsed: true,
+    },
+    {
+      label: 'Tags',
+      name: 'tags',
+      widget: 'list',
+      required: false,
       fields: [
+        Image,
         Heading,
-        RichEditor,
-        {
-          label: 'Apply Link',
-          name: 'apply_link',
-          widget: 'string',
-          required: false,
-        },
-        {
-          label: 'Tags',
-          name: 'tags',
-          widget: 'list',
-          required: false,
-          fields: [
-            Image,
-            Heading,
-          ]
-        },
-      ],      
+      ]
     },
   ],
 };

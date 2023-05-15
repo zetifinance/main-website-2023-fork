@@ -1,0 +1,81 @@
+.accordions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .accordions__item {
+        width: 100%;
+        margin-bottom: 5rem;
+        padding-bottom: 5rem;
+        border-bottom: 1px solid $tertiary;
+
+
+        &.open {
+
+            button span {
+                &::before {
+                    transform: translate(-50%, -50%) rotate(0deg);
+                }
+            }
+
+            .accordions__item-inner {
+                max-height: 2000px;
+            }
+        }
+
+        button {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: transparent;
+            border: none;
+            box-shadow: none;
+            cursor: pointer;
+
+            h3 {
+                margin: 0;
+                font-size: 3rem;
+                font-weight: 500;
+                line-height: 4rem;
+                color: $lightest;
+            }
+
+            span {
+                width: 50px;
+                height: 50px;
+                position: relative;
+                display: block;
+                border-radius: 50%;
+                background-color: $tertiary;
+
+                &::before,
+                &::after {
+                    content: "";
+                    width: 25px;
+                    height: 4px;
+                    display: block;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    transform-origin: center center;
+                    background-color: $yellow;
+                    transition: 400ms $cubic;
+                }
+
+                &::before {
+                    transform: translate(-50%, -50%) rotate(-90deg);
+                }
+            }
+        }
+
+        .accordions__item-inner {
+            max-height: 0px;
+            transition: 400ms $cubic;
+            overflow: hidden;
+        }
+    }
+}

@@ -19,8 +19,15 @@ function initTabs() {
     });
 };
   
-function anotherFunction() {
+function initAccordions() {
+    const accordions = document.querySelectorAll('.accordions__item button');
 
+    accordions.forEach(function(accordionButton) {
+        accordionButton.addEventListener('click', function() {
+            const accordionItem = accordionButton.closest('.accordions__item');
+            accordionItem.classList.toggle('open');
+        });
+    });
 };
   
-export { initTabs, anotherFunction };
+export { initTabs, initAccordions };

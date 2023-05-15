@@ -7,6 +7,7 @@
 @import "common/_animations.scss";
 @import "common/_vendor.scss";
 
+@import "components/_accordions.scss";
 @import "components/_buttons.scss";
 @import "components/_forms.scss";
 @import "components/_grid.scss";
@@ -31,3 +32,4 @@
 @import "blocks/_team.scss";
 @import "blocks/_grid.scss";
 @import "blocks/_locations.scss";
+@import "blocks/_accordions.scss";
