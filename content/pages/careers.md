@@ -89,6 +89,18 @@ blocks:
         Aenean vel urna vitae mauris aliquet auctor. Sed sit amet dolor diam. Nunc vel nulla sem. Donec non fringilla orci. Curabitur sed orci feugiat, fermentum quam non, condimentum elit.
       heading: What to expect
     image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+  - type: accordions
+    intro:
+      heading: FAQs
+  - type: vacancies
+    intro:
+      heading: Current Vacancies
+      rich_editor: We’re always on the lookout for talent so if you don’t see anything
+        feel free to send us your CV to careers@zeti.co.uk
+  - type: locations
+    intro:
+      heading: Our Locations
+    list: []
   - type: text_image
     variant: default
     main:
@@ -102,6 +114,10 @@ blocks:
         Aenean vel urna vitae mauris aliquet auctor. Sed sit amet dolor diam. Nunc vel nulla sem. Donec non fringilla orci. Curabitur sed orci feugiat, fermentum quam non, condimentum elit.
       heading: Gender balance heading
     image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+  - type: grid
+    variant: no-card
+    intro:
+      heading: "Our Values heading goes in here and takes up to two lines "
 seo:
   ogimage: /img/henlo-cover.png
 ---
