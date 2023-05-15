@@ -127,6 +127,40 @@ export const List = {
   ],
 };
 
+export const Locations = {
+  label: 'Locations',
+  name: 'locations',
+  widget: 'list',
+  collapsed: true,
+  required: false,
+  fields: [
+    {
+      label: 'Location Name',
+      name: 'location_name',
+      widget: 'string',
+      required: false,
+    },
+    {
+      label: 'Address',
+      name: 'address',
+      widget: 'text',
+      required: false,
+    },
+    {
+      label: 'Email Address',
+      name: 'email_address',
+      widget: 'string',
+      required: false,
+    },
+    {
+      label: 'Phone Number',
+      name: 'phone_number',
+      widget: 'string',
+      required: false,
+    },
+  ],
+};
+
 export const Tabs = {
   label: 'Tabs',
   name: 'tabs',

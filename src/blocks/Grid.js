@@ -47,12 +47,17 @@ export default function Grid({ data }) {
 
                             return (
                                 <div className="grid__item">
+                                    {isNoCard ? (
+                                        <span>{(i+1) < 10 ? "0" + (i + 1) : (i + 1)}.</span>
+                                    ) : null}
+
                                     { list_item_image && (
                                         <div className="grid__item-image">
                                             <Image src={ list_item_image } alt={""} className=""/>
                                         </div>
                                     )}
                                     <div className="grid__item-content">
+
                                         { list_item_heading && (
                                             <h3>{ list_item_heading }</h3>
                                         )}
