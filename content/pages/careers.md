@@ -89,6 +89,22 @@ blocks:
         Aenean vel urna vitae mauris aliquet auctor. Sed sit amet dolor diam. Nunc vel nulla sem. Donec non fringilla orci. Curabitur sed orci feugiat, fermentum quam non, condimentum elit.
       heading: What to expect
     image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+  - type: locations
+    intro:
+      heading: Our Locations
+    locations:
+      - phone_number: +44(0) 123 456 7890
+        email_address: hello@zeti.co.uk
+        location_name: United Kingdom
+        address: 52 Tabernacle St, London, EC2A 4NJ
+      - phone_number: +44(0) 123 456 7890
+        email_address: hello@zeti.co.uk
+        address: 2450 Colorado Avenue, Santa Monica, CA 90404
+        location_name: Los Angeles
+      - location_name: New York City
+        address: c/o NYU Future Lab, 370 Jay Street, Brooklyn. NY 11201
+        email_address: hello@zeti.co.uk
+        phone_number: +44(0) 123 456 7890
   - type: text_image
     variant: default
     main:
