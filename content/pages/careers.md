@@ -118,6 +118,32 @@ blocks:
     variant: no-card
     intro:
       heading: "Our Values heading goes in here and takes up to two lines "
+    list:
+      - list_item:
+          heading: Value heading goes in here
+          rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
+            pretium massa. Cras ipsum arcu, gravida quis enim id, sollicitudin
+            laoreet sem.
+      - list_item:
+          heading: Value heading goes in here
+          rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
+            pretium massa. Cras ipsum arcu, gravida quis enim id, sollicitudin
+            laoreet sem.
+      - list_item:
+          heading: Value heading goes in here
+          rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
+            pretium massa. Cras ipsum arcu, gravida quis enim id, sollicitudin
+            laoreet sem.
+      - list_item:
+          heading: Value heading goes in here
+          rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
+            pretium massa. Cras ipsum arcu, gravida quis enim id, sollicitudin
+            laoreet sem.
+      - list_item:
+          heading: Value heading goes in here
+          rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
+            pretium massa. Cras ipsum arcu, gravida quis enim id, sollicitudin
+            laoreet sem.
 seo:
   ogimage: /img/henlo-cover.png
 ---
