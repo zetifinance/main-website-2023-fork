@@ -5,9 +5,11 @@
         padding: 0;
     }
 
+    &.block__hero--standard,
     &.block__hero--large {
         width: 100%;
         height: 100vh;
+        position: relative;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -15,12 +17,15 @@
         .container {
             display: flex;
             justify-content: space-between;
-            align-items: center;
         }
 
         .hero__content {
             width: 50%;
-            max-width: 750px;
+            max-width: 620px;
+
+            @media(min-width: 1600px) {
+                max-width: 750px;
+            }
 
             h1,
             h2,
@@ -35,8 +40,8 @@
             }
 
             h1 {
-                font-size: 7rem;
-                line-height: 7rem;
+                font-size: 6rem;
+                line-height: 6rem;
                 letter-spacing: 1.6px;
 
                 @media(min-width: 1600px) {
@@ -45,11 +50,20 @@
                 }
             }
 
+            .text-lg {
+                max-width: 670px;
+            }
+
             p,
             li,
             a {
-                font-size: 2.4rem;
-                line-height: 3.8rem;
+                font-size: 2.2rem;
+                line-height: 3.2rem;
+
+                @media(min-width: 1600px) {
+                    font-size: 2.4rem;
+                    line-height: 3.8rem;
+                }
             }
 
             p {
@@ -65,8 +79,45 @@
             }
         }
 
+
+    }
+
+    &.block__hero--standard {
+        overflow: hidden;
+
+        .hero__content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .hero__image {
+            flex: 1;
+            clip-path: polygon(75% 0%, 100% 0%, 100% 100%, 0% 100%);
+            transform: scale(2);
+            overflow: hidden;
+
+            .gatsby-image-wrapper,
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    &.block__hero--large {
+        .container {
+            align-items: center;
+        }
+
         .hero__image {
             width: calc(50% - 8rem);
+
+            .gatsby-image-wrapper,
+            img {
+                width: 100%;
+            }
         }
     }
 }

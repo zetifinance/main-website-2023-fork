@@ -28,6 +28,32 @@
     margin: 0 auto;
 }
 
+.container--float-left {
+
+    @media(min-width: 1200px) {
+        width: 100%;
+        max-width: 100%;
+        padding-left: calc(calc(100vw - 90%) / 2);
+    }
+
+    @media(min-width: 1640px) {
+        padding-left: calc(calc(100vw - 1640px) / 2);
+    }
+}
+
+.container--float-right {
+
+    @include bp(desktop) {
+        width: 100%;
+        max-width: 100%;
+        padding-right: calc(calc(100vw - 90%) / 2);
+    }
+
+    @media(min-width: 1340px) {
+        padding-right: calc(calc(100vw - 1200px) / 2);
+    }
+}
+
 .flex {
     display: flex;
 }

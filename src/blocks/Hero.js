@@ -5,16 +5,12 @@ import Text from '../components/UI/Text'
 import Image from '../resolvers/Image'
 
 export default function Hero({ data }) {
-	const isLarge = data?.variant === 'large'
+	const isStandard = data?.variant === 'default';
+	const isLarge = data?.variant === 'large';
 
   	return (
-		<section className={clsx(
-			'block block__hero',
-			{
-			  'block__hero--large': isLarge,
-			}
-		  )}>
-			<div className='container'>
+		<section className={clsx('block block__hero', {'block__hero--standard': isStandard}, {'block__hero--large': isLarge})}>
+			<div className='container container--float-left'>
 				<div className='hero__content'>
 					{data?.main?.heading && (
 						<h1 className={clsx('')}>{ data?.main?.heading }</h1>

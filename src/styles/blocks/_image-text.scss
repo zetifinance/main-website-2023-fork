@@ -1,0 +1,51 @@
+.block__image-text {
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center
+    }
+
+    .image-text__content {
+        width: calc(50% - 4rem);
+
+        h2 {
+            margin-bottom: 2.5rem;
+            font-size: 6rem;
+            line-height: 8rem;
+            color: $lightest;
+        }
+
+        p,
+        li,
+        a:not(.button) {
+            font-size: 2rem;
+            line-height: 4rem;
+        }
+
+        p {
+            margin-top: 0;
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+
+        .button-box {
+            margin-top: 4rem;
+        }
+    }
+
+    .image-text__image {
+        width: calc(50% - 4rem);
+
+        .gatsby-image-wrapper,
+        img {
+            width: 100%;
+        }
+
+        img {
+            border-radius: 12px;
+        }
+    }
+}
