@@ -92,15 +92,6 @@ blocks:
   - type: accordions
     intro:
       heading: FAQs
-  - type: vacancies
-    intro:
-      heading: Current Vacancies
-      rich_editor: We’re always on the lookout for talent so if you don’t see anything
-        feel free to send us your CV to careers@zeti.co.uk
-  - type: locations
-    intro:
-      heading: Our Locations
-    list: []
   - type: text_image
     variant: default
     main:
