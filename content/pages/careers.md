@@ -89,9 +89,6 @@ blocks:
         Aenean vel urna vitae mauris aliquet auctor. Sed sit amet dolor diam. Nunc vel nulla sem. Donec non fringilla orci. Curabitur sed orci feugiat, fermentum quam non, condimentum elit.
       heading: What to expect
     image: /img/tezos-wpn1xnccgpw-unsplash.jpg
-  - type: accordions
-    intro:
-      heading: FAQs
   - type: text_image
     variant: default
     main:
