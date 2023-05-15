@@ -28,6 +28,24 @@ blocks:
           job_role: Creative Director
           linkedin: https://linkedin.co.uk/
           bio: T﻿his is a demo bio
+      - team_member:
+          name: Jessie Bloggs
+          job_role: Creative Director
+          linkedin: https://linkedin.co.uk/
+          bio: T﻿his is a demo bio
+          image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+      - team_member:
+          name: Jessie Bloggs
+          job_role: Creative Director
+          linkedin: https://linkedin.co.uk/
+          bio: T﻿his is a demo bio
+          image: /img/wojciech-kaluzny-20-312x312.jpg
+      - team_member:
+          name: Jessie Bloggs
+          job_role: Creative Director
+          linkedin: https://linkedin.co.uk/
+          bio: T﻿his is a demo bio
+          image: /img/tezos-wpn1xnccgpw-unsplash.jpg
   - type: text_image
     variant: staggered
     main:
