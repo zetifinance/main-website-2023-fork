@@ -1,1 +1,94 @@
-.block__team {}
+.block__team {
+
+    .team__intro {}
+
+    .team__grid {
+        margin: 0 -2rem -4rem -2rem;
+        display: flex;
+        flex-wrap: wrap;
+
+        .team__member {
+            width: calc(25% - 4rem);
+            margin: 0 2rem 4rem 2rem;
+
+            .gatsby-image-wrapper {
+                width: 100%;
+                margin-bottom: 3rem;
+                position: relative;
+
+                &::before {
+                    content: "";
+                    padding-top: 120%;
+                    display: block;
+                }
+
+                div {
+                    display: none !important;
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: unset;
+                    bottom: unset;
+                    display: block;
+                    object-fit: cover;
+                }
+            }
+
+            div {
+                margin-bottom: 1rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+
+                h3 {
+                    margin: 0;
+                    font-size: 3rem;
+                    line-height: 4rem;
+                    letter-spacing: 0.6px;
+                    color: $lightest;
+                }
+
+                a {
+                    transform: translateY(3px);
+                    text-decoration: none;
+
+                    svg {
+                        width: 30px;
+                        height: auto;
+                        display: block;
+                    }
+                }
+            }
+
+            p {
+                margin: 0;
+                font-size: 2rem;
+                font-weight: 400;
+                line-height: 2.7rem;
+                letter-spacing: 0.4px;
+            }
+
+            button {
+                width: 100%;
+                margin: 4rem 0 0 0;
+                padding: 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background: transparent;
+                border: none;
+                box-shadow: none;
+                font-size: 2rem;
+                line-height: 2.4rem;
+                letter-spacing: 1px;
+                color: $lightest;
+                cursor: pointer;
+            }
+        }
+    }
+}

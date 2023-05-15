@@ -194,6 +194,24 @@ export const query = graphql`
           }
         }
       }
+      team {
+        team_member {
+          image {
+            childImageSharp {
+              gatsbyImageData(
+                width: 800
+                quality: 72
+                placeholder: DOMINANT_COLOR
+                formats: [AUTO, WEBP, AVIF]
+              )
+            }
+          }
+          name
+          job_role
+          linkedin
+          bio
+        }
+      }
     }
   }
 `;

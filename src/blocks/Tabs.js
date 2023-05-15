@@ -82,7 +82,7 @@ export default function Tabs({ data }) {
                                 </div>
                                 <div className="tab__content">
                                     {tab_heading && (
-                                        <h3 className="section-heading">{tab_heading}</h3>
+                                        <h3>{tab_heading}</h3>
                                     )}
 
                                     { tab_content && (
