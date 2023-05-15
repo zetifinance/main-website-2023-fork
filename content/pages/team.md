@@ -46,6 +46,46 @@ blocks:
           linkedin: https://linkedin.co.uk/
           bio: T﻿his is a demo bio
           image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+  - type: team
+    intro:
+      heading: Our advisors
+    team:
+      - team_member:
+          image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+          name: Jessie Bloggs
+          job_role: Creative Director
+          linkedin: https://linkedin.co.uk/
+          bio: T﻿his is a test bio
+      - team_member:
+          name: Jessie Bloggs
+          image: /img/wojciech-kaluzny-20-312x312.jpg
+          job_role: Creative Director
+          linkedin: https://linkedin.co.uk/
+          bio: T﻿his is a test bio
+      - team_member:
+          image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+          name: Jessie Bloggs
+          job_role: Creative Director
+          linkedin: https://linkedin.co.uk/
+          bio: T﻿his is a test bio
+      - team_member:
+          name: Jessie Bloggs
+          image: /img/wojciech-kaluzny-20-312x312.jpg
+          job_role: Creative Director
+          linkedin: https://linkedin.co.uk/
+          bio: T﻿his is a test bio
+      - team_member:
+          image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+          name: Jessie Bloggs
+          job_role: Creative Director
+          linkedin: https://linkedin.co.uk/
+          bio: T﻿his is a test bio
+      - team_member:
+          image: /img/wojciech-kaluzny-20-312x312.jpg
+          name: Jessie Bloggs
+          job_role: Creative Director
+          linkedin: https://linkedin.co.uk/
+          bio: T﻿his is a test bio
   - type: text_image
     variant: staggered
     main:
