@@ -15,7 +15,7 @@ const Config = {
       name: 'hero',
       widget: 'object',
       fields: [
-        VariantField('default', ['default', 'large']),
+        VariantField('default', ['default', 'large', 'contact']),
         Main,
         Image,
       ],

@@ -15,6 +15,21 @@ html {
 	text-rendering: optimizeLegibility;
 }
 
+.wrapper {
+	position: relative;
+
+	.graphic {
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		svg {
+			display: block;
+			transform: translate(-500px, -500px);
+		}
+	}
+}
+
 body {
 	line-height: $baseline;
 	font-size: $global-font-size;
