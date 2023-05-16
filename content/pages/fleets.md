@@ -60,36 +60,42 @@ blocks:
 
 
             [R﻿ead more](/#/)
+          image: /img/wojciech-kaluzny-20-312x312.jpg
       - testimonial:
           company_name: Company name here
           job_title: Job title here
           name: Joe Bloggs
           testimonial: “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
             suscipit leo.”
+          image: /img/wojciech-kaluzny-20-312x312.jpg
       - testimonial:
           company_name: Company name here
           job_title: Job title here
           name: Joe Bloggs
           testimonial: “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
             suscipit leo.”
+          image: /img/wojciech-kaluzny-20-312x312.jpg
       - testimonial:
           company_name: Company name here
           job_title: Job title here
           name: Joe Bloggs
           testimonial: “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
             suscipit leo.”
+          image: /img/wojciech-kaluzny-20-312x312.jpg
       - testimonial:
           company_name: Company name here
           job_title: Job title here
           name: Joe Bloggs
           testimonial: “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
             suscipit leo.”
+          image: /img/wojciech-kaluzny-20-312x312.jpg
       - testimonial:
           company_name: Company name here
           job_title: Job title here
           name: Joe Bloggs
           testimonial: “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
             suscipit leo.”
+          image: /img/wojciech-kaluzny-20-312x312.jpg
   - type: accordions
     intro:
       heading: FAQs
@@ -126,6 +132,22 @@ blocks:
           tristique quis. Duis rhoncus mi eu efficitur sodales. Vestibulum
           efficitur nibh semper urna faucibus mattis. Nunc ornare euismod
           tincidunt.
+  - type: testimonials
+    intro:
+      heading: Test
+    testimonials:
+      - testimonial:
+          testimonial: T﻿his is a test testimonial
+      - testimonial:
+          testimonial: T﻿his is a test testimonial
+      - testimonial:
+          testimonial: T﻿his is a test testimonial
+      - testimonial:
+          testimonial: T﻿his is a test testimonial
+      - testimonial:
+          testimonial: T﻿his is a test testimonial
+      - testimonial:
+          testimonial: T﻿his is a test testimonial
 seo:
   ogimage: /img/henlo-cover.png
 ---
