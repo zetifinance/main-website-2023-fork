@@ -6,7 +6,7 @@ title: Contact Us
 permalink: /contact-us/
 blocks:
   - type: hero
-    variant: default
+    variant: contact
     main:
       heading: Contact us
       rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae
