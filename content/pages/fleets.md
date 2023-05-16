@@ -132,22 +132,6 @@ blocks:
           tristique quis. Duis rhoncus mi eu efficitur sodales. Vestibulum
           efficitur nibh semper urna faucibus mattis. Nunc ornare euismod
           tincidunt.
-  - type: testimonials
-    intro:
-      heading: Test
-    testimonials:
-      - testimonial:
-          testimonial: T﻿his is a test testimonial
-      - testimonial:
-          testimonial: T﻿his is a test testimonial
-      - testimonial:
-          testimonial: T﻿his is a test testimonial
-      - testimonial:
-          testimonial: T﻿his is a test testimonial
-      - testimonial:
-          testimonial: T﻿his is a test testimonial
-      - testimonial:
-          testimonial: T﻿his is a test testimonial
 seo:
   ogimage: /img/henlo-cover.png
 ---
