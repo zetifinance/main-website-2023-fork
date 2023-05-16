@@ -41,6 +41,25 @@ blocks:
           rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit
           heading: Benefit Heading
           image: /img/handshake-blue.png
+  - type: feature_slider
+    intro:
+      heading: Platform Advantages
+      rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+        finibus laoreet dui non convallis. Interdum et malesuada fames ac ante
+        ipsum primis in faucibus.
+    features:
+      - heading: Feature Heading Goes Here
+        rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+          finibus laoreet dui non convallis. Interdum et malesuada fames.
+        image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+      - heading: Feature Heading Goes Here
+        rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+          finibus laoreet dui non convallis. Interdum et malesuada fames.
+        image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+      - heading: Feature Heading Goes Here
+        rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+          finibus laoreet dui non convallis. Interdum et malesuada fames.
+        image: /img/tezos-wpn1xnccgpw-unsplash.jpg
   - type: testimonials
     intro:
       heading: Case Studies
