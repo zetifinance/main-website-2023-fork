@@ -27,8 +27,10 @@ export default function Testimonials({ data }) {
                     )}
                     
                 </div>
+            </div>
+            <div className="container container--float-left">
                 <div className="testimonials__slider">
-                    <Splide options={ { perPage: 3, perMove: 1, rewind: false, gap: '40px' } }>
+                    <Splide options={ {perPage:3, perMove:1, rewind:false, gap:'40px', arrows:false} }>
                         {data?.testimonials?.length > 0 &&
                             data?.testimonials?.map((item, i) => {
                                 const testimonial = item?.testimonial;
@@ -51,21 +53,23 @@ export default function Testimonials({ data }) {
                                                 </blockquote>
                                             )}
 
-                                            {testimonial_name && (
-                                                <p className="testimonial__name">{testimonial_name}</p>
-                                            )}
-
-                                            {(testimonial_job_title || testimonial_company_name) && (
-                                                <div>
-                                                {testimonial_job_title && (
-                                                    <p className="testimonial__job">{testimonial_job_title}</p>
+                                            <div className="testimonial__lower">
+                                                {testimonial_name && (
+                                                    <p className="testimonial__name">{testimonial_name}</p>
                                                 )}
 
-                                                {testimonial_company_name && (
-                                                    <p className="testimonial__company">{testimonial_company_name}</p>
+                                                {(testimonial_job_title || testimonial_company_name) && (
+                                                    <div class="testimonial__lower-details">
+                                                    {testimonial_job_title && (
+                                                        <p className="testimonial__job">{testimonial_job_title}</p>
+                                                    )}
+
+                                                    {testimonial_company_name && (
+                                                        <p className="testimonial__company">{testimonial_company_name}</p>
+                                                    )}
+                                                    </div>
                                                 )}
-                                                </div>
-                                            )}
+                                            </div>
                                         </div>
                                     </SplideSlide>
                                 );

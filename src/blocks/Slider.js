@@ -44,7 +44,7 @@ export default function Slider({ data }) {
 
             {isStandard ? (
                 <div className="slider__slider">
-                    <Splide options={ { width: '100%', rewind: false, gap: '40px' } }>
+                    <Splide options={ { width:'100%', rewind:false, gap:'40px', arrows:false, } }>
                         { slider?.length > 0 && 
                             slider?.map((item, i) => {
                                 const slide_image = item?.slide?.main?.image;
@@ -81,7 +81,7 @@ export default function Slider({ data }) {
             ) : (
                 <div className="container">
                     <div className="slider__slider">
-                        <Splide options={ { width:'100%', type:'fade', rewind:true, gap:'40px', arrows:'false', paginationDirection:'ttb' } }>
+                        <Splide options={ { width:'100%', type:'fade', rewind:true, gap:'40px', arrows:false, paginationDirection:'ttb' } }>
                             { slider?.length > 0 && 
                                 slider?.map((item, i) => {
                                     // Slide Content

@@ -30,6 +30,27 @@ html {
 	}
 }
 
+.splide__pagination {
+
+	li {
+
+		button {
+			width: 30px;
+			height: 30px;
+			margin: 01rem;
+			background: transparent;
+			border: 3px solid $orange;
+			border-radius: 50%;
+			transition: 400ms $cubic;
+
+			&.is-active {
+				background: $orange;
+				transform: none;
+			}
+		}
+	}
+}
+
 body {
 	line-height: $baseline;
 	font-size: $global-font-size;

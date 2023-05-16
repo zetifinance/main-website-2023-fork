@@ -23,6 +23,11 @@
 
                 .splide__list {}
 
+                .splide__pagination {
+                    bottom: -3rem;
+                    transform: translateY(100%);
+                }
+
                 .splide__slide {
                     padding: 15rem 0;
                     background-color: $dark-grey;
@@ -92,18 +97,7 @@
                     li {
 
                         button {
-                            width: 30px;
-                            height: 30px;
                             margin: 1rem 0;
-                            background: transparent;
-                            border: 3px solid $orange;
-                            border-radius: 50%;
-                            transition: 400ms $cubic;
-
-                            &.is-active {
-                                background: $orange;
-                                transform: none;
-                            }
                         }
                     }
                 }
