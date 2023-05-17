@@ -1,0 +1,108 @@
+.block__feature-slider {
+
+    .feature-slider__intro {
+        max-width: 685px;
+        margin: 0 auto 6rem auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            margin-bottom: 2rem;
+            text-align: center;
+            color: $lightest;
+        }
+
+        p {
+            margin-top: 0;
+            font-size: 2rem;
+            font-weight: 400;
+            line-height: 3.4rem;
+            text-align: center;
+            color: $pastel-blue-light;
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+
+        .button-box {
+            margin-top: 4rem;
+        }
+    }
+
+    .feature-slider__main {
+        display: flex;
+        flex-wrap: wrap;
+
+        @media(min-width: 1600px) {
+            padding-left: 17.5rem;
+        }
+
+        &-selectors {
+            width: 40%;
+            max-width: 540px;
+            margin-right: 12rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .feature-slider__feature-content {
+                margin-bottom: 4rem;
+                padding: 2rem 0 3rem 4rem;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                background: transparent;
+                border: none;
+                border-left: 5px solid $tertiary;
+                box-shadow: none;
+                text-align: left;
+                transition: 400ms $cubic;
+                cursor: pointer;
+
+                &.active,
+                &:hover {
+                    border-left-color: $yellow;
+                }
+
+                h3 {
+                    margin-bottom: 1rem;
+                    font-size: 2.4rem;
+                    line-height: 3.2rem;
+                    color: $lightest;
+                }
+
+                p {
+                    margin-top: 0;
+                    font-size: 2rem;
+                    font-weight: 400;
+                    line-height: 3.4rem;
+                    color: $pastel-blue-light;
+
+                    &:last-of-type {
+                        margin-bottom: 0;
+                    }
+                }
+
+                .button-box {
+                    margin-top: 2rem;
+                }
+            }
+        }
+
+        &-images {
+            flex: 1;
+            display: flex;
+            align-items: center;
+
+            .feature-slider__feature-image {
+                display: none;
+
+                &.active {
+                    display: flex;
+                }
+            }
+        }
+    }
+}

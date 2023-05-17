@@ -33,33 +33,33 @@ export default function Hero({ data }) {
 				{isContact &&(
 					<form class="hero__contact-form" name="contact" method="POST" netlify>
 						<div className="half-width">
-							<label>Your Name:</label>
-							<input type="text" name="name" placeholder="Your Name"/>
+							<label htmlFor="name">Your Name:</label>
+							<input id="name" type="text" name="name" placeholder="Your Name"/>
 						</div>
 
 						<div className="half-width">
-							<label>Your Email Address:</label>
-							<input type="email" name="email" placeholder="Email Address"/>
+							<label htmlFor="email">Your Email Address:</label>
+							<input id="email" type="email" name="email" placeholder="Email Address"/>
 						</div>
 
 						<div className="half-width">
-							<label>Your Contact Number:</label>
-							<input type="tel" name="phone" placeholder="Contact Number"/>
+							<label htmlFor="phone">Your Contact Number:</label>
+							<input id="phone" type="tel" name="phone" placeholder="Contact Number"/>
 						</div>
 
 						<div className="half-width">
-							<label>Your Company Name:</label>
-							<input type="text" name="company" placeholder="Company name"/>
+							<label htmlFor="company">Your Company Name:</label>
+							<input id="company" type="text" name="company" placeholder="Company name"/>
 						</div>
 
 						<div className="full-width">
-							<label for="message">Your Message:</label>
-							<textarea name="message" id="message" placeholder="How can we help?"></textarea>
+							<label htmlFor="message">Your Message:</label>
+							<textarea id="message" name="message" placeholder="How can we help?"></textarea>
 						</div>
 
 						<div className="full-width input-container">
-							<input type="radio" name="terms-conditions" id="terms-conditions" value="I agree to receive industry updates and news from Zeti"/>
-							<label for="terms-conditions" className="show">I agree to receive industry updates and news from Zeti</label>
+							<input id="terms-conditions" type="radio" name="terms-conditions"  value="I agree to receive industry updates and news from Zeti"/>
+							<label className="show" htmlFor="terms-conditions">I agree to receive industry updates and news from Zeti</label>
 						</div>
 						
 						<div className="full-width">

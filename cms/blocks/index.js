@@ -1,4 +1,4 @@
-import { VariantField, Image, Images, Video, Intro, Main, List, Locations, Tabs, Slider, Testimonials, Team, Accordions, Vacancies } from '../fields';
+import { VariantField, Image, Images, Video, Intro, Main, List, Locations, Tabs, Slider, Testimonials, Team, Accordions, Vacancies, Features } from '../fields';
 
 const Config = {
   label: 'Blocks',
@@ -230,6 +230,21 @@ const Config = {
       fields: [
         Intro,
         Locations,
+      ],
+    },
+    {
+      /*
+      *
+      * Feature Slider
+      * 
+      */
+      label: 'Feature Slider',
+      name: 'feature_slider',
+      widget: 'object',
+      summary: '{{fields.title}}',
+      fields: [
+        Intro,
+        Features,
       ],
     },
     {

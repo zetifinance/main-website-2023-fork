@@ -18,6 +18,27 @@ function initTabs() {
         });
     });
 };
+
+function initFeatures() {
+    // Get all buttons and tabs
+    const buttons = document.querySelectorAll('.feature-slider__feature-content');
+    const tabs = document.querySelectorAll('.feature-slider__feature-image');
+
+    // Add click event listener to each button
+    buttons.forEach(button => {
+        button.addEventListener('click', () => {
+            // Remove "active" class from all buttons and tabs
+            buttons.forEach(b => b.classList.remove('active'));
+            tabs.forEach(tab => tab.classList.remove('active'));
+
+            // Add "active" class to clicked button and corresponding tab
+            button.classList.add('active');
+            const tabSelectorFormatted = button.getAttribute('data-feature');
+            const correspondingTab = document.querySelector(`.feature-slider__feature-image--${tabSelectorFormatted}`);
+            correspondingTab.classList.add('active');
+        });
+    });
+};
   
 function initAccordions() {
     const accordions = document.querySelectorAll('.accordions__item button');
@@ -30,4 +51,4 @@ function initAccordions() {
     });
 };
   
-export { initTabs, initAccordions };
+export { initTabs, initFeatures, initAccordions };

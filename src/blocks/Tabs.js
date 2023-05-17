@@ -61,7 +61,7 @@ export default function Tabs({ data }) {
                     tabs?.map((item, i) => {
                         // Tab core
                         const tab = item?.tab;
-                        const tab_selector = tab?.heading
+                        const tab_selector = tab?.heading;
                         const tab_selector_formatted = tab_selector.replace(/\s+/g, '-').toLowerCase();
 
                         // Tab content

@@ -330,3 +330,17 @@ export const Vacancies = {
     },
   ],
 };
+
+export const Features = {
+  label: 'Features',
+  name: 'features',
+  widget: 'list',
+  collapsed: true,
+  required: false,
+  fields: [
+    Heading,
+    RichEditor,
+    Buttons,
+    Image,
+  ],
+}

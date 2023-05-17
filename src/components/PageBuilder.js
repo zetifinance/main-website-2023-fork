@@ -16,6 +16,7 @@ import Team from '../blocks/Team';
 import Accordions from '../blocks/Accordions';
 import Vacancies from '../blocks/Vacancies';
 import Locations from '../blocks/Locations';
+import FeatureSlider from '../blocks/FeatureSlider';
 import RecentArticles from '../blocks/RecentArticles';
 import Form from '../blocks/Form';
 
@@ -56,6 +57,8 @@ export default function PageBuilder({ blocks, preview = false }) {
               return <Vacancies key={i} data={block} preview={preview} />;
             case 'locations':
               return <Locations key={i} data={block} preview={preview} />;
+            case 'feature_slider':
+              return <FeatureSlider key={i} data={block} preview={preview} />;
             case 'recentArticles':
               return <RecentArticles key={i} data={block} preview={preview} />;
             case 'form':
@@ -278,6 +281,20 @@ export const query = graphql`
             }
           }
           heading
+        }
+      }
+      features {
+        heading
+        rich_editor
+        image {
+          childImageSharp {
+            gatsbyImageData(
+              width: 800
+              quality: 72
+              placeholder: DOMINANT_COLOR
+              formats: [AUTO, WEBP, AVIF]
+            )
+          }
         }
       }
     }
