@@ -151,7 +151,7 @@
             .gatsby-image-wrapper {
                 mask-image: url('/img/home-mask.svg');
                 mask-repeat: no-repeat;
-                mask-size: contain;
+                mask-size: cover;
             }
         }
     }
