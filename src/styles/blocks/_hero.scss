@@ -125,15 +125,33 @@
 
     &.block__hero--large {
         .container {
-            align-items: center;
+            padding-top: 15rem;
+        }
+
+        .hero__content {
+            width: 40%;
+            margin-right: 17.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
         }
 
         .hero__image {
-            width: calc(50% - 8rem);
+            flex: 1;
 
             .gatsby-image-wrapper,
             img {
                 width: 100%;
+                height: 100%;
+                display: block;
+                object-fit: cover;
+            }
+
+            .gatsby-image-wrapper {
+                mask-image: url('/img/home-mask.svg');
+                mask-repeat: no-repeat;
+                mask-size: contain;
             }
         }
     }

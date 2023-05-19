@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="779px" height="702px" viewBox="0 0 779 702" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mask</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Concept-1" transform="translate(-1021.000000, -148.000000)" fill="#000000">
+            <g id="Group-2" transform="translate(84.000000, 148.000000)">
+                <g id="Group-3" transform="translate(937.000000, 0.000000)">
+                    <path d="M198,198 L988,198 L988,0 L198,0 L198,198 Z M198,702 L988,702 L988,504 L198,504 L198,702 Z M0,451 L790,451 L790,253 L0,253 L0,451 Z" id="mask"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
