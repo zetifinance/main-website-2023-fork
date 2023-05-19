@@ -17,6 +17,8 @@
 
     &.button--standard {
         padding: 1.75rem 3rem;
+        display: flex;
+        align-items: center;
         background-color: $yellow;
         border-radius: 30px;
         box-shadow: none;
@@ -24,6 +26,13 @@
         line-height: 2.5rem;
         letter-spacing: 1px;
         color: $primary;
+
+        svg {
+            width: 40px;
+            height: auto;
+            margin-left: 1rem;
+            display: block;
+        }
 
         &.button--yellow {
             background-color: $yellow;
