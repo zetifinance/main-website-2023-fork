@@ -18,6 +18,10 @@ nav.nav-primary {
 		&:hover {
 			color: $yellow;
 		}
+
+		svg {
+			display: none;
+		}
 	}
 }
 
