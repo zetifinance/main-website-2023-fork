@@ -6,7 +6,7 @@ title: News
 permalink: /news/
 blocks:
   - type: hero
-    variant: default
+    variant: simple
     main:
       heading: Latest News
   - type: recentArticles
