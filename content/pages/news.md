@@ -9,7 +9,7 @@ blocks:
     variant: simple
     main:
       heading: Latest News
-  - type: recentArticles
+  - type: posts_grid
 seo:
   ogimage: /img/henlo-cover.png
 ---
