@@ -3,7 +3,7 @@ id: 44d0d78e-1f11-4f92-85ac-d144d60bb573
 type: post
 layout: post
 title: Philosophy behind Henlo.
-permalink: /news/blog/hello-world/
+permalink: /news/hello-world/
 thumbnail: /img/tezos-wpn1xnccgpw-unsplash.jpg
 date: 2022-05-11T19:16:41.067Z
 author: a1d1172a-8736-47c1-831d-3e508729fee2
