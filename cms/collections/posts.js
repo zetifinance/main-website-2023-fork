@@ -8,8 +8,8 @@ const collection = {
   editor: {
     preview: false,
   },
-  description: 'Blog posts collection',
-  folder: 'content/blog',
+  description: 'News posts collection',
+  folder: 'content/news',
   slug: '{{slug}}',
   summary:
     "{{title}} - {{date | date('YYYY-MM-DD')}} – {{body | truncate(40, '***')}}",
