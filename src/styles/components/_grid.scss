@@ -71,7 +71,7 @@
         .grid__item {
             width: 100%;
             margin: 0 0 2rem 0;
-            padding: 4rem 8rem 7.5rem 6rem;
+            padding: 3rem;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -82,32 +82,53 @@
             @media(min-width: 768px) {
                 width: calc(33.33% - 4rem);
                 margin: 0 2rem 4rem 2rem;
+                padding: 4rem 8rem 7.5rem 6rem;
             }
 
             span {
-                margin-bottom: 7.5rem;
+                margin-bottom: 2rem;
                 display: block;
-                font-size: 16rem;
+                font-size: 8rem;
                 font-weight: 700;
-                line-height: 17rem;
+                line-height: 8rem;
                 color: $tertiary;
                 -webkit-text-stroke-width: 1px;
                 -webkit-text-stroke-color: $light-blue;
+
+                @media(min-width: 768px) {
+                    margin-bottom: 7.5rem;
+                    font-size: 16rem;
+                    line-height: 17rem;
+                }
             }
 
             h3 {
                 margin-bottom: 1rem;
-                font-size: 3rem;
-                line-height: 4rem;
-                letter-spacing: 0.6px;
+                font-size: 2.4rem;
+                line-height: 3rem;
                 color: $lightest;
+
+                @media(min-width: 768px) {
+                    font-size: 3rem;
+                    line-height: 4rem;
+                    letter-spacing: 0.6px;
+                }
+            }
+
+            p,
+            a {
+                font-size: 1.8rem;
+                line-height: 2.8rem;
+
+                @media(min-width: 768px) {
+                    font-size: 2rem;
+                    line-height: 2.7rem;
+                    letter-spacing: .4px;
+                }
             }
 
             p {
                 margin-top: 0;
-                font-size: 2rem;
-                line-height: 2.7rem;
-                letter-spacing: .4px;
                 color: $pastel-blue-light;
 
                 &:last-of-type {
@@ -116,15 +137,20 @@
             }
 
             a {
-                margin-top: 1rem;
+                margin-top: .5rem;
                 display: block;
-                font-size: 2rem;
-                line-height: 2.7rem;
-                letter-spacing: .4px;
                 color: $lightest;
 
+                @media(min-width: 768px) {
+                    margin-top: 1rem;
+                }
+
                 &:first-of-type {
-                    margin-top: 2.5rem;
+                    margin-top: 2rem;
+
+                    @media(min-width: 768px) {
+                        margin-top: 2.5rem;
+                    }
                 }
             }
         }
@@ -167,18 +193,28 @@
             }
 
             h3 {
-                margin-bottom: 3rem;
-                font-size: 4rem;
-                line-height: 5.4rem;
+                margin-bottom: 2rem;
+                font-size: 2.8rem;
+                line-height: 3.4rem;
                 color: $lightest;
+
+                @media(min-width: 768px) {
+                    font-size: 4rem;
+                    line-height: 5.4rem;
+                }
             }
 
             p {
                 margin-top: 0;
-                font-size: 2rem;
+                font-size: 1.8 rem;
                 font-weight: 400;
-                line-height: 3.4rem;
+                line-height: 2.8rem;
                 color: $pastel-blue-light;
+
+                @media(min-width: 768px) {
+                    font-size: 2rem;
+                    line-height: 3.4rem;
+                }
 
                 &:last-of-type {
                     margin-bottom: 0;

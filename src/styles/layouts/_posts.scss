@@ -1,11 +1,20 @@
 .post-grid {
-	margin: 0 -2rem -4rem -2rem;
+	margin: 0 0 -2rem 0;
 	display: flex;
 	flex-wrap: wrap;
 
+	@media(min-width: 768px) {
+		margin: 0 -2rem -4rem -2rem;
+	}
+
 	.blog-post {
-		width: calc(33.33% - 4rem);
-		margin: 0 2rem 4rem 2rem;
+		width: 100%;
+		margin: 0 0 2rem 0;
+
+		@media(min-width: 768px) {
+			width: calc(33.33% - 4rem);
+			margin: 0 2rem 4rem 2rem;
+		}
 	}
 }
 
@@ -31,17 +40,25 @@
 	p {
 		margin: 0 0 1rem 0;
 		font-size: 1.8rem;
-		line-height: 3.6rem;
+		line-height: 2.6rem;
 		color: $pastel-blue-light;
+
+		@media(min-width: 768px) {
+			line-height: 3.6rem;
+		}
 	}
 
 	span {
 		display: flex;
 		align-items: center;
 		font-size: 2rem;
-		line-height: 5rem;
+		line-height: 3rem;
 		letter-spacing: 1px;
 		color: $lightest;
+
+		@media(min-width: 768px) {
+			line-height: 5rem;
+		}
 
 		svg {
 			width: 40px;
