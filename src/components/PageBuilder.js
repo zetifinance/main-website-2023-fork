@@ -18,6 +18,7 @@ import Vacancies from '../blocks/Vacancies';
 import Locations from '../blocks/Locations';
 import FeatureSlider from '../blocks/FeatureSlider';
 import RecentArticles from '../blocks/RecentArticles';
+import PostsGrid from '../blocks/PostsGrid';
 import Form from '../blocks/Form';
 
 
@@ -61,6 +62,8 @@ export default function PageBuilder({ blocks, preview = false }) {
               return <FeatureSlider key={i} data={block} preview={preview} />;
             case 'recentArticles':
               return <RecentArticles key={i} data={block} preview={preview} />;
+            case 'posts_grid':
+              return <PostsGrid key={i} data={block} preview={preview} />;
             case 'form':
               return <Form key={i} data={block} preview={preview} />;
             

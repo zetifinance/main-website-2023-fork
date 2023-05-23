@@ -263,6 +263,19 @@ const Config = {
     {
       /*
       *
+      * Posts Grid
+      * 
+      */
+      label: 'Posts Grid',
+      name: 'posts_grid',
+      widget: 'object',
+      fields: [
+        Intro,
+      ],
+    },
+    {
+      /*
+      *
       * Form
       * 
       */

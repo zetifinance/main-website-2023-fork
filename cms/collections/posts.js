@@ -34,7 +34,7 @@ const collection = {
       widget: 'string',
       default: '',
     },
-    PermalinkField('blog'),
+    PermalinkField('news'),
     {
       label: 'Featured Image',
       name: 'thumbnail',
