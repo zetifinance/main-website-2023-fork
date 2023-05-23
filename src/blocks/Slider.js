@@ -44,7 +44,7 @@ export default function Slider({ data }) {
 
             {isStandard ? (
                 <div className="slider__slider">
-                    <Splide options={ { width:'100%', rewind:false, gap:'40px', arrows:false, } }>
+                    <Splide options={ { width:'100%', type:'fade', rewind:false, gap:'40px', arrows:false, } }>
                         { slider?.length > 0 && 
                             slider?.map((item, i) => {
                                 const slide_image = item?.slide?.main?.image;

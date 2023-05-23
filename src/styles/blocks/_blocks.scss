@@ -1,6 +1,8 @@
 .block {
 	margin: 0;
 	padding: 4rem 0;
+	position: relative;
+	z-index: ;
 
 	@media(min-width: 1200px) {
 		margin: 0;

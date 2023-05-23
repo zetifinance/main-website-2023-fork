@@ -1,17 +1,13 @@
 .block__testimonials {
 
     .testimonials__intro {
-        margin-bottom: 6rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
+        margin-bottom: 5rem;
 
-        h2 {
-            margin-bottom: 2rem;
-            font-size: 6rem;
-            line-height: 8rem;
-            letter-spacing: 1.2px;
-            color: $lightest;
+        @media(min-width: 768px) {
+            margin-bottom: 6rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
         }
 
         p {
@@ -23,7 +19,7 @@
         }
 
         .button-box {
-            margin-top: 1.5rem;
+            margin-top: 2rem;
         }
     }
 
@@ -41,7 +37,7 @@
 }
 
 .testimonial {
-    padding: 6rem;
+    padding: 3rem;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -50,6 +46,10 @@
     background: #2D404D;
     border-radius: 20px;
     overflow: hidden;
+
+    @media(min-width: 768px) {
+        padding: 6rem;
+    }
 
     &::before {
         content: "";
@@ -82,7 +82,11 @@
     }
 
     blockquote {
-        margin-bottom: 6rem;
+        margin-bottom: 4rem;
+
+        @media(min-width: 768px) {
+            margin-bottom: 6rem;
+        }
     }
 
     .testimonial__name {

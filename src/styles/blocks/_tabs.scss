@@ -1,10 +1,14 @@
 .block__tabs {
 
     .tabs__intro {
-        margin-bottom: 7.5rem;
+        margin-bottom: 5rem;
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        @media(min-width: 768px) {
+            margin-bottom: 7.5rem;
+        }
 
         h2 {
             margin-bottom: 2rem;
@@ -25,34 +29,51 @@
         }
 
         .button-box {
-            margin-top: 4rem;
+            margin-top: 2rem;
+
+            @media(min-width: 768px) {
+                margin-top: 4rem;
+            }
         }
     }
 
     .tabs__selectors {
         max-width: 1250px;
-        margin: 0 auto 10rem auto;
+        margin: 0 auto 5rem auto;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
 
+        @media(min-width: 768px) {
+            margin: 0 auto 10rem auto;
+            flex-direction: row;
+        }
+
         .tabs__selectors-button {
             width: 350px;
-            margin: 0;
-            padding: 2rem 4rem;
+            margin: 0 0 1rem 0;
+            padding: 1.5rem 3rem;
             display: block;
             background: transparent;
             border: 2px solid transparent;
             border-radius: 50px;
-            font-size: 3rem;
+            font-size: 2rem;
             font-weight: 400;
-            line-height: 4rem;
-            letter-spacing: 0.6px;
+            line-height: 3rem;
             text-align: center;
             color: $lightest;
             transition: 400ms $cubic;
             cursor: pointer;
+
+            @media(min-width: 768px) {
+                margin: 0;
+                padding: 2rem 4rem;
+                font-size: 3rem;
+                line-height: 4rem;
+                letter-spacing: 0.6px;
+            }
 
             &.active {
                 border: 2px solid $yellow;
@@ -65,17 +86,34 @@
     }
 
     .tabs__tabs {
+        width: 90%;
+        margin: 0 auto;
+
+        @media(min-width: 768px) {
+            width: 100%;
+            margin: 0;
+        }
 
         .tabs__tabs-tab {
             display: none;
+            flex-wrap: wrap;
+
+            @media(min-width: 768px) {
+                flex-wrap: nowrap;
+            }
 
             &.active {
                 display: flex;
             }
 
             .tab__image {
-                width: 50%;
+                width: 100%;
                 display: flex;
+
+                @media(min-width: 768px) {
+                    width: 50%;
+                    margin: 0;
+                }
 
                 .gatsby-image-wrapper {
                     width: 100%;
@@ -90,33 +128,51 @@
             }
 
             .tab__content {
-                flex: 1;
-                margin: 0 8rem 0 8rem;
-                padding: 7rem 0;
+                width: 100%;
+                margin: 0;
+                padding: 2rem 0;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: flex-start;
+
+                @media(min-width: 768px) {
+                    flex: 1;
+                    width: auto;
+                    margin: 0 8rem 0 8rem;
+                    padding: 7rem 0;
+                }
 
                 @media(min-width: 1600px) {
                     margin: 0 8rem 0 14rem;
                 }
 
                 h3 {
-                    max-width: 500px;
-                    margin-bottom: 3rem;
-                    font-size: 6rem;
-                    line-height: 6.5rem;
-                    letter-spacing: 1.2px;
+                    margin-bottom: 2rem;
+                    font-size: 3rem;
+                    line-height: 4rem;
                     color: $lightest;
+
+                    @media(min-width: 768px) {
+                        max-width: 500px;
+                        margin-bottom: 3rem;
+                        font-size: 6rem;
+                        line-height: 6.5rem;
+                        letter-spacing: 1.2px;
+                    }
                 }
 
                 p {
                     margin-top: 0;
-                    font-size: 2rem;
+                    font-size: 1.8rem;
                     font-weight: 400;
-                    line-height: 3rem;
+                    line-height: 2.8rem;
                     color: $pastel-blue-light;
+
+                    @media(min-width: 768px) {
+                        font-size: 2rem;
+                        line-height: 3rem;
+                    }
 
                     &:last-of-type {
                         margin-bottom: 0;

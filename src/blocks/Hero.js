@@ -8,10 +8,11 @@ export default function Hero({ data }) {
 	const isStandard = data?.variant === 'default';
 	const isLarge = data?.variant === 'large';
 	const isContact = data?.variant === 'contact';
+	const isSimple = data?.variant === 'simple';
 
   	return (
-		<section className={clsx('block block__hero', {'block__hero--standard': isStandard}, {'block__hero--large': isLarge}, {'block__hero--contact': isContact})}>
-			<div className='container container--float-left'>
+		<section className={clsx('block block__hero', {'block__hero--standard': isStandard}, {'block__hero--large': isLarge}, {'block__hero--contact': isContact}, {'block__hero--simple': isSimple})}>
+			<div className={clsx('container', {'container--float-left': !isSimple})}>
 				<div className='hero__content'>
 					{data?.main?.heading && (
 						<h1 className={clsx('')}>{ data?.main?.heading }</h1>
@@ -26,9 +27,11 @@ export default function Hero({ data }) {
 					)}
 				</div>
 
-				<div className='hero__image'>
-					<Image src={data?.image} alt={""} className=""/>
-				</div>
+				{!isSimple &&(
+					<div className='hero__image'>
+						<Image src={data?.image} alt={""} className=""/>
+					</div>
+				)}
 
 				{isContact &&(
 					<form class="hero__contact-form" name="contact" method="POST" netlify>

@@ -17,11 +17,17 @@ html {
 
 .wrapper {
 	position: relative;
+	overflow: hidden;
 
 	.graphic {
+		display: none;
 		position: absolute;
 		top: 0;
 		left: 0;
+
+		@media(min-width: 768px) {
+			display: block;
+		}
 
 		svg {
 			display: block;
@@ -35,13 +41,18 @@ html {
 	li {
 
 		button {
-			width: 30px;
-			height: 30px;
-			margin: 01rem;
+			width: 25px;
+			height: 25px;
+			margin: 0 1rem;
 			background: transparent;
 			border: 3px solid $orange;
 			border-radius: 50%;
 			transition: 400ms $cubic;
+
+			@media(min-width: 768px) {
+				width: 30px;
+				height: 30px;
+			}
 
 			&.is-active {
 				background: $orange;

@@ -5,23 +5,31 @@
     }
 
     .logo-grid__intro {
-        margin-bottom: 9rem;
+        margin-bottom: 5rem;
         display: flex;
         flex-direction: column;
         align-items: center;
 
+        @media(min-width: 768px) {
+            margin-bottom: 9rem;
+        }
+
         h2 {
-            margin-bottom: 2rem;
             text-align: center;
             color: $lightest;
         }
 
         p {
             margin-top: 0;
-            font-size: 2rem;
-            line-height: 3rem;
+            font-size: 1.8rem;
+            line-height: 2.8rem;
             text-align: center;
             color: $lightest;
+
+            @media(min-width: 768px) {
+                font-size: 2rem;
+                line-height: 3rem;
+            }
 
             &:last-of-type {
                 margin-bottom: 0;
@@ -29,21 +37,34 @@
         }
 
         .button-box {
-            margin-top: 4rem;
+            margin-top: 2rem;
+
+            @media(min-width: 768px) {
+                margin-top: 4rem;
+            }
         }
     }
 
     .logo-grid__logos {
-        margin: 0 -10rem;
+        margin: 0 -1.5rem;
         display: flex;
         align-items: center;
 
+        @media(min-width: 768px) {
+            margin: 0 -10rem;
+        }
+
         .gatsby-image-wrapper {
-            width: calc(33.33 - 20rem);
-            margin: 0 10rem;
+            width: calc(33.33% - 3rem);
+            margin: 0 1.5rem;
             display: flex;
             justify-content: center;
             align-items: center;
+
+            @media(min-width: 768px) {
+                width: calc(33.33% - 20rem);
+                margin: 0 10rem;
+            }
 
             img {
                 width: 100%;

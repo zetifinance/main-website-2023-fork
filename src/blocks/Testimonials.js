@@ -30,7 +30,21 @@ export default function Testimonials({ data }) {
             </div>
             <div className="container container--float-left">
                 <div className="testimonials__slider">
-                    <Splide options={ {perPage:3, perMove:1, rewind:false, gap:'40px', arrows:false} }>
+                    <Splide options={ 
+                        {
+                            mediaQuery: 'min',
+                            perPage:1, 
+                            perMove:1, 
+                            rewind:false, 
+                            gap:'40px', 
+                            arrows:false,
+                            breakpoints: {
+                                768: {
+                                    perPage:3, 
+                                },
+                            },
+                        }
+                    }>
                         {data?.testimonials?.length > 0 &&
                             data?.testimonials?.map((item, i) => {
                                 const testimonial = item?.testimonial;

@@ -1,21 +1,33 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
+import { format } from 'date-fns';
 
 import Layout from '@/components/Layout'
 import DefaultHead from '../components/Head/DefaultHead'
+import Image from '../resolvers/Image'
 
 const Post = ({ data }) => {
   return (
     <Layout nav={true}>
-      <section className="container mx-auto px-4 py-24">
-        <h1 className="mx-auto my-12 max-w-3xl text-6xl font-bold dark:text-white">
-          {data.post.frontmatter.title}
-        </h1>
-        <div
-          className="prose prose-lg mx-auto max-w-3xl dark:prose-invert"
-          dangerouslySetInnerHTML={{ __html: data?.post.html }}
-        ></div>
+      <section className="block block__hero block__hero--simple">
+        <div className="container">
+          <div className="hero__content">
+              <h1 className="">{data.post.frontmatter.title}</h1>
+              <p>{format(new Date(data.post.frontmatter.date),'MMMM dd, yyyy')}</p>
+          </div>
+          <div className='hero__image'>
+						<Image src={data.post.frontmatter.thumbnail} alt={""} className=""/>
+					</div>
+        </div>
+		  </section>
+
+      <section className="block block__post-single">
+        <div className="container">
+          <article dangerouslySetInnerHTML={{ __html: data?.post.html }}>
+
+          </article>
+        </div>
       </section>
     </Layout>
   )
@@ -46,7 +58,17 @@ export const basicPageQuery = graphql`
       frontmatter {
         id
         title
-        author
+        date
+        thumbnail {
+          childImageSharp {
+            gatsbyImageData(
+              width: 800
+              quality: 72
+              placeholder: DOMINANT_COLOR
+              formats: [AUTO, WEBP, AVIF]
+            )
+          }
+        }
         ...Seo
       }
     }

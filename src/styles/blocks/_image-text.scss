@@ -3,24 +3,29 @@
     .container {
         display: flex;
         justify-content: space-between;
-        align-items: center
+        align-items: center;
+        flex-wrap: wrap;
     }
 
     .image-text__content {
-        width: calc(50% - 4rem);
+        order: 2;
+        width: 100%;
 
-        h2 {
-            margin-bottom: 2.5rem;
-            font-size: 6rem;
-            line-height: 8rem;
-            color: $lightest;
+        @media(min-width: 768px) {
+            order: unset;
+            width: calc(50% - 4rem);
         }
 
         p,
         li,
         a:not(.button) {
-            font-size: 2rem;
-            line-height: 4rem;
+            font-size: 1.8rem;
+            line-height: 2.8rem;
+
+            @media(min-width: 768px) {
+                font-size: 2rem;
+                line-height: 4rem;
+            }
         }
 
         p {
@@ -32,12 +37,24 @@
         }
 
         .button-box {
-            margin-top: 4rem;
+            margin-top: 2rem;
+
+            @media(min-width: 768px) {
+                margin-top: 4rem;
+            }
         }
     }
 
     .image-text__image {
-        width: calc(50% - 4rem);
+        order: 1;
+        width: 100%;
+        margin-bottom: 2rem;
+
+        @media(min-width: 768px) {
+            order: unset;
+            width: calc(50% - 4rem);
+            margin-bottom: 0;
+        }
 
         .gatsby-image-wrapper,
         img {

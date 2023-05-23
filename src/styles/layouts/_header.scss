@@ -4,9 +4,13 @@ header[role="banner"] {
     position: absolute;
     top: 0;
     left: 0;
-    display: flex;
+    display: none;
     align-items: center;
     z-index: 9999;
+
+    @media(min-width: 768px) {
+        display: flex;
+    }
 
     .brand {
         margin-right: 8rem;
