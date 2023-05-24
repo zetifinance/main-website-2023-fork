@@ -51,8 +51,6 @@ export default function Slider({ data }) {
                     {intro_buttons && (
 						<Buttons buttons={intro_buttons} className={ clsx('') } />
                     )}
-
-                    {inView.toString()}
                 </div>
             </div>
 
