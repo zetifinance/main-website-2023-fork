@@ -47,8 +47,12 @@
         flex-wrap: wrap;
 
         @media(min-width: 768px) {
-            margin: 0 auto 10rem auto;
+            margin: 0 auto 2rem auto;
             flex-direction: row;
+        }
+
+        @media(min-width: 1200px) {
+            margin: 0 auto 10rem auto;
         }
 
         .tabs__selectors-button {
@@ -68,6 +72,11 @@
             cursor: pointer;
 
             @media(min-width: 768px) {
+                width: calc(50% - 2rem);
+            }
+
+            @media(min-width: 1200px) {
+                width: 350px;
                 margin: 0;
                 padding: 2rem 4rem;
                 font-size: 3rem;
@@ -89,7 +98,7 @@
         width: 90%;
         margin: 0 auto;
 
-        @media(min-width: 768px) {
+        @media(min-width: 1200px) {
             width: 100%;
             margin: 0;
         }
@@ -98,7 +107,7 @@
             display: none;
             flex-wrap: wrap;
 
-            @media(min-width: 768px) {
+            @media(min-width: 1200px) {
                 flex-wrap: nowrap;
             }
 
@@ -110,7 +119,7 @@
                 width: 100%;
                 display: flex;
 
-                @media(min-width: 768px) {
+                @media(min-width: 1200px) {
                     width: 50%;
                     margin: 0;
                 }
@@ -136,7 +145,7 @@
                 justify-content: center;
                 align-items: flex-start;
 
-                @media(min-width: 768px) {
+                @media(min-width: 1200px) {
                     flex: 1;
                     width: auto;
                     margin: 0 8rem 0 8rem;
@@ -154,6 +163,12 @@
                     color: $lightest;
 
                     @media(min-width: 768px) {
+                        font-size: 4.2rem;
+                        line-height: 5.2rem;
+                        letter-spacing: 1px;
+                    }
+
+                    @media(min-width: 1200px) {
                         max-width: 500px;
                         margin-bottom: 3rem;
                         font-size: 6rem;

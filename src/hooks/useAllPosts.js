@@ -4,11 +4,10 @@ export const useAllPosts = () => {
     allMarkdownRemark: { edges: posts },
   } = useStaticQuery(
     graphql`
-      query RecentArticlesQuery {
+      query AllPostsQuery {
         allMarkdownRemark(
           sort: { frontmatter: { date: DESC } }
           filter: { frontmatter: { type: { eq: "post" } } }
-          limit: 6
         ) {
           edges {
             node {

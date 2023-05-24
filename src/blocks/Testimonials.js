@@ -39,7 +39,7 @@ export default function Testimonials({ data }) {
                             gap:'40px', 
                             arrows:false,
                             breakpoints: {
-                                768: {
+                                1200: {
                                     perPage:3, 
                                 },
                             },

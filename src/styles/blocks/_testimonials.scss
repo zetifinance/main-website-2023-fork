@@ -28,6 +28,10 @@
         .splide__pagination {
             bottom: -3rem;
             transform: translateY(100%);
+
+            @media(min-width: 768px) {
+                bottom: -4rem;
+            }
         }
 
         .testimonial {
@@ -65,7 +69,9 @@
     .gatsby-image-wrapper img,
     img {
         width: 80px;
+        max-width: 80px;
         height: 80px;
+        max-height: 80px;
         margin-bottom: 2rem;
         display: block;
         object-fit: cover;

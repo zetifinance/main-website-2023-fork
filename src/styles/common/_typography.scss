@@ -89,6 +89,11 @@ a {
     color: $lightest;
 
     @media(min-width: 768px) {
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+
+    @media(min-width: 1200px) {
         font-size: 6rem;
         line-height: 8rem;
         letter-spacing: 1.2px;

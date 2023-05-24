@@ -4,7 +4,7 @@
 	flex-wrap: wrap;
 
 	@media(min-width: 768px) {
-		margin: 0 -2rem -4rem -2rem;
+		margin: 0 -2rem;
 	}
 
 	.blog-post {
@@ -14,6 +14,12 @@
 		@media(min-width: 768px) {
 			width: calc(33.33% - 4rem);
 			margin: 0 2rem 4rem 2rem;
+		}
+
+		.gatsby-image-wrapper {
+			div:first-of-type {
+				padding-top: 56.25% !important;
+			}
 		}
 	}
 }
@@ -82,5 +88,16 @@
 	h5,
 	h6 {
 		color: $lightest;
+	}
+}
+
+.load-more {
+	margin-top: 5rem;
+	display: flex;
+	justify-content: center;
+
+	button {
+		border: none;
+		box-shadow: none;
 	}
 }

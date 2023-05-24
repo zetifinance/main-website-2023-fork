@@ -51,6 +51,10 @@
         align-items: center;
 
         @media(min-width: 768px) {
+            margin: 0 -5rem;
+        }
+
+        @media(min-width: 1200px) {
             margin: 0 -10rem;
         }
 
@@ -62,6 +66,11 @@
             align-items: center;
 
             @media(min-width: 768px) {
+                width: calc(33.33% - 10rem);
+                margin: 0 5rem;
+            }
+
+            @media(min-width: 1200px) {
                 width: calc(33.33% - 20rem);
                 margin: 0 10rem;
             }
