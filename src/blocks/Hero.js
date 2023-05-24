@@ -1,10 +1,26 @@
 import clsx from 'clsx'
-import React from 'react'
+import React, { useEffect, useState } from 'react';
 import Buttons from '../components/UI/Buttons'
 import Text from '../components/UI/Text'
 import Image from '../resolvers/Image'
 
 export default function Hero({ data }) {
+	// const [call, setData] = useState(null);
+
+	// useEffect(() => {
+	// 	const fetchData = async () => {
+	// 	  try {
+	// 		const response = await fetch('https://zeti.co.uk/api/aggregatestats');
+	// 		const jsonData = await response.json();
+	// 		setData(jsonData);
+	// 	  } catch (error) {
+	// 		console.error('Error fetching data:', error);
+	// 	  }
+	// 	};
+	
+	// 	fetchData();
+	//   }, []);
+	
 	const isStandard = data?.variant === 'default';
 	const isLarge = data?.variant === 'large';
 	const isContact = data?.variant === 'contact';
@@ -25,6 +41,17 @@ export default function Hero({ data }) {
 					{data?.main?.buttons && (
 						<Buttons buttons={data?.main?.buttons} className={clsx('mt-6')}/>
 					)}
+
+					{/* {call ? (
+						<div>
+						<p>partitionKey: {call.partitionKey}</p>
+						<p>rowKey: {call.rowKey}</p>
+						<p>totalCo2Saving: {call.totalCo2Saving}</p>
+						<p>totalNoxSaving: {call.totalNoxSaving}</p>
+						</div>
+					) : (
+						<p>Loading data...</p>
+					)} */}
 				</div>
 
 				{!isSimple &&(

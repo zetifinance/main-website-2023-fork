@@ -3,10 +3,16 @@ import React from 'react'
 import Text from '../components/UI/Text'
 import Buttons from '../components/UI/Buttons'
 import Photos from '../components/UI/Photos'
+import { useInView } from "react-intersection-observer";
 
 export default function LogoGrid({ data }) {
+    const { ref, inView } = useInView({
+        threshold: .3,
+        triggerOnce: true,
+    });
+
     return (
-        <section className="block block__logo-grid">
+        <section inView={inView} ref={ref} className={clsx('block block__logo-grid', {'in-view': inView})}>
             <div className="container">
                 <div className="logo-grid__intro">
                     {data?.intro?.heading && (
@@ -21,7 +27,7 @@ export default function LogoGrid({ data }) {
 
 					{data?.intro?.buttons && (
 						<Buttons buttons={data?.intro?.buttons} className={clsx('')} />
-					)}
+                    )}
                 </div>
 
                 {data?.images && (

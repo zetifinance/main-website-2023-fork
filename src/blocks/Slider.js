@@ -4,11 +4,23 @@ import Text from '../components/UI/Text'
 import Buttons from '../components/UI/Buttons'
 import Image from '../resolvers/Image'
 import { Splide, SplideSlide } from '@splidejs/react-splide';
+import CountUp, { useCountUp } from 'react-countup';
+import { useInView } from "react-intersection-observer";
 
 // Default theme
 import '@splidejs/react-splide/css';
 
 export default function Slider({ data }) {
+    const [ ref, inView ] = useInView({
+        threshold: .3,
+        triggerOnce: true,
+    });
+
+    const [ ref2, inView2 ] = useInView({
+        threshold: .3,
+        triggerOnce: true,
+    });
+
     // variant
     const isStandard = data?.variant === 'default';
     const isVertical = data?.variant === 'vertical';
@@ -23,7 +35,7 @@ export default function Slider({ data }) {
     const slider = data?.slider;
 
     return (
-        <section className={clsx('block block__slider', {'block__slider--standard': isStandard}, {'block__slider--vertical': isVertical})}>
+        <section inView={inView} ref={ref} className={clsx('block block__slider', {'block__slider--standard': isStandard}, {'block__slider--vertical': isVertical}, {'in-view': inView})}>
             <div className="container">
                 <div className="slider__intro">
                     {intro_heading && (
@@ -39,6 +51,8 @@ export default function Slider({ data }) {
                     {intro_buttons && (
 						<Buttons buttons={intro_buttons} className={ clsx('') } />
                     )}
+
+                    {inView.toString()}
                 </div>
             </div>
 
@@ -54,8 +68,25 @@ export default function Slider({ data }) {
 
                                 return (
                                     <SplideSlide>
-                                        <div className="container">
+                                        <div inView={inView2} ref={ref2} className="container">
                                             <Image src={ slide_image } alt={""} className=""/>
+
+                                            <div className={clsx("splide__slide-statistic", {'in-view': inView})}>
+                                                <svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                        <circle id="Oval" stroke="#FD8C04" stroke-width="30" cx="200" cy="200" r="185"></circle>
+                                                    </g>
+                                                </svg>
+
+                                                { inView2 && (
+                                                    <>
+                                                        <CountUp duration={2} delay={1} end={123457} />   
+                                                    </>
+                                                )}
+                                            </div>
+
+
+
                                             <div className="splide__slide-content">
                                                 { slide_heading && (
                                                     <h3>{ slide_heading }</h3>
