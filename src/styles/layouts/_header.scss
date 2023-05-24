@@ -21,6 +21,18 @@ header[role="banner"] {
             }
         }
 
+        .light & {
+            svg polygon {
+                fill: $primary;
+            }
+
+            &:hover {
+                svg polygon {
+                    fill: $yellow;
+                }
+            }
+        }
+
         svg {
             width: 120px;
             height: auto;

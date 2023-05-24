@@ -16,7 +16,6 @@
 
         h2 {
             text-align: center;
-            color: $lightest;
         }
 
         p {
@@ -24,7 +23,6 @@
             font-size: 1.8rem;
             line-height: 2.8rem;
             text-align: center;
-            color: $lightest;
 
             @media(min-width: 768px) {
                 font-size: 2rem;

@@ -5,20 +5,12 @@ footer[role="contentinfo"] {
 	border-radius: 40px;
 	z-index: 1;
 
-	@media(min-width: 768px) {
-		padding: 12rem 0 6rem 0;
+	.light & {
+		background-color: $dark-grey;
 	}
 
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6,
-	p,
-	a,
-	li {
-		color: $lightest;
+	@media(min-width: 768px) {
+		padding: 12rem 0 6rem 0;
 	}
 
 	.footer__upper {
@@ -151,6 +143,10 @@ footer[role="contentinfo"] {
 				display: block;
 				border-radius: 50%;
 				background-color: $lightest;
+
+				.light & {
+					background-color: $primary;
+				}
 			}
 
 			&:last-of-type {

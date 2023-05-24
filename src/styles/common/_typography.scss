@@ -9,7 +9,12 @@ h6 {
     margin-bottom: $baseline;
     margin-top: 0;
     font-weight: 500;
-    color: $darkest;
+    color: $lightest;
+    transition: 200ms $cubic;
+
+    .light & {
+        color: $primary;
+    }
 }
 
 h5,
@@ -58,27 +63,48 @@ h6 {
 }
 
 p {
-    color: $lightest;
+    margin-bottom: $baseline;
     font-family: $global-font-family;
     font-weight: $global-weight-normal;
     line-height: $baseline;
-    margin-bottom: $baseline;
+    color: $lightest;
+    transition: 200ms $cubic;
+
+    .light & {
+        color: $primary;
+    }
 }
 
 a {
     line-height: inherit;
     color: $lightest;
 
+    .light & {
+        color: $primary;
+    }
+
     &:active {
         color: $lightest;
+
+        .light & {
+            color: $primary;
+        }
     }
 
     &:focus {
         color: $lightest;
+
+        .light & {
+            color: $primary;
+        }
     }
 
     &:hover {
         color: darken($lightest, 10%);
+
+        .light & {
+            color: darken($primary, 10%);
+        }
     }
 }
 

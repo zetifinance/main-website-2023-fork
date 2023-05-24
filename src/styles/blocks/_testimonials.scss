@@ -51,6 +51,10 @@
     border-radius: 20px;
     overflow: hidden;
 
+    .light & {
+        background-color: #C6C7C5;
+    }
+
     @media(min-width: 768px) {
         padding: 6rem;
     }
@@ -64,6 +68,10 @@
         left: 0;
         background-color: #273A48;
         clip-path: polygon(75% 0%, 100% 0%, 100% 100%, 0% 100%);
+
+        .light & {
+            background-color: $dark-grey;
+        }
     }
 
     .gatsby-image-wrapper img,
@@ -116,5 +124,9 @@
         font-weight: 400;
         line-height: 2.5rem;
         color: $pastel-blue-light;
+
+        .light & {
+            color: $primary;
+        }
     }
 }
