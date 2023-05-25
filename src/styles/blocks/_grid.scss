@@ -21,7 +21,6 @@
                 font-size: 1.8rem;
                 line-height: 2.8rem;
                 text-align: center;
-                color: $lightest;
 
                 @media(min-width: 768px) {
                     font-size: 2rem;
@@ -50,14 +49,12 @@
 
             h2 {
                 margin-bottom: 2rem;
-                color: $lightest;
             }
 
             p {
                 margin-top: 0;
                 font-size: 1.8rem;
                 line-height: 2.8rem;
-                color: $lightest;
 
                 @media(min-width: 768px) {
                     font-size: 2rem;

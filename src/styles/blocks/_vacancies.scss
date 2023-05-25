@@ -14,7 +14,6 @@
         h2 {
             margin-bottom: 2rem;
             text-align: center;
-            color: $lightest;
         }
 
         p {
@@ -23,7 +22,6 @@
             font-weight: 400;
             line-height: 2.8rem;
             text-align: center;
-            color: $lightest;
 
             @media(min-width: 768px) {
                 font-size: 2rem;
@@ -68,7 +66,6 @@
                 margin: 0;
                 font-size: 2.2rem;
                 line-height: 3.2rem;
-                color: $lightest;
 
                 @media(min-width: 768px) {
                     font-size: 3rem;
@@ -83,6 +80,10 @@
             font-weight: 400;
             line-height: 2.8rem;
             color: $pastel-blue-light;
+
+            .light & {
+                color: $primary;
+            }
 
             @media(min-width: 768px) {
                 font-size: 2.4rem;
@@ -117,6 +118,10 @@
                 line-height: 2.2rem;
                 white-space: nowrap;
                 color: $pastel-blue-light;
+
+                .light & {
+                    color: $primary;
+                }
 
                 @media(min-width: 768px) {
                     font-size: 2rem;

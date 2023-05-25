@@ -23,6 +23,10 @@
             text-align: center;
             color: $pastel-blue-light;
 
+            .light & {
+                color: $primary;
+            }
+
             @media(min-width: 768px) {
                 font-size: 2rem;
                 line-height: 3.4rem;
@@ -91,7 +95,6 @@
                     margin-bottom: 1rem;
                     font-size: 2rem;
                     line-height: 2.8rem;
-                    color: $lightest;
 
                     @media(min-width: 768px) {
                         font-size: 2.4rem;
@@ -105,6 +108,10 @@
                     font-weight: 400;
                     line-height: 2.4rem;
                     color: $pastel-blue-light;
+
+                    .light & {
+                        color: $primary;
+                    }
 
                     @media(min-width: 768px) {
                         font-size: 2rem;
