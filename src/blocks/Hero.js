@@ -28,7 +28,7 @@ export default function Hero({ data }) {
 
   	return (
 		<section className={clsx('block block__hero', {'block__hero--standard': isStandard}, {'block__hero--large': isLarge}, {'block__hero--contact': isContact}, {'block__hero--simple': isSimple})}>
-			<div className={clsx('container', {'container--float-left': !isSimple})}>
+			<div className={clsx('container', {'container--float-left': isStandard || isLarge})}>
 				<div className='hero__content'>
 					{data?.main?.heading && (
 						<h1 className={clsx('')}>{ data?.main?.heading }</h1>
