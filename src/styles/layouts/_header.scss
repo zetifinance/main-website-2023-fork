@@ -77,9 +77,11 @@ header[role="banner"] {
                     font-weight: 500;
                     line-height: 2.4rem;
                     color: $lightest;
+                    transition: 400ms $cubic;
                 }
 
                 .dark & {
+
                     svg {
 
                         &:first-of-type {
@@ -90,6 +92,11 @@ header[role="banner"] {
                 }
 
                 .light & {
+
+                    &::before {
+                        color: $primary;
+                    }
+
                     svg {
 
                         &:last-of-type {
