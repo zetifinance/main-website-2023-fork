@@ -137,6 +137,78 @@ body {
 	}
 }
 
+.modal {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0, 0, 0, .3);
+	z-index: 10000;
+
+	.modal__inner {
+		width: 75%;
+		height: 90%;
+		padding: 4rem;
+		position: relative;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		background-color: $primary;
+		border-radius: 40px;
+		box-shadow: 0 0 20 rgba(0, 0, 0, 0.75);
+
+		.modal__close {
+			width: 30px;
+			height: 30px;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			top: 2rem;
+			right: 2rem;
+			transform: translate(-17.5%, 17.5%);
+			transform-origin: center;
+			display: block;
+			background: transparent;
+			border: none;
+			box-shadow: none;
+			cursor: pointer;
+
+			&::before,
+			&::after {
+				content: "";
+				width: 100%;
+				height: 3px;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+
+				transform-origin: center, center;
+				background-color: $lightest;
+			}
+
+			&::before {
+				transform: translate(-50%, -50%) rotate(-45deg);
+			}
+
+			&::after {
+				transform: translate(-50%, -50%) rotate(45deg);
+			}
+		}
+
+		.modal__image {
+			width: calc(50% - 4rem);
+		}
+
+		.modal__content {
+			width: calc(50% - 4rem)
+		}
+	}
+}
+
 
 .overlay {
 	display: none;

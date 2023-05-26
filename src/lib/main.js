@@ -70,4 +70,4 @@ function initAccordions() {
     });
 };
   
-export { mobileMenuToggle, closeMobileMenuAfterNav, initTabs, initFeatures, initAccordions };
+export { mobileMenuToggle, closeMobileMenuAfterNav, initTabs, initFeatures, initAccordions};
