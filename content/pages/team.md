@@ -63,9 +63,13 @@ blocks:
           name: Jessie Bloggs
           job_role: Creative Director
           linkedin: https://linkedin.co.uk/
-          bio: T﻿his is a demo bio
+          bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus
+            ultricies lacinia. Nunc nec tellus malesuada, dapibus libero in,
+            ornare lectus. Vestibulum eu mauris purus. Pellentesque rutrum
+            tortor nec nunc ultrices fermentum. Nam scelerisque odio vitae
+            lectus pellentesque, at molestie eros scelerisque.
       - team_member:
-          name: Jessie Bloggs
+          name: "Jessie Bloggs 2 "
           job_role: Creative Director
           linkedin: https://linkedin.co.uk/
           bio: T﻿his is a demo bio
