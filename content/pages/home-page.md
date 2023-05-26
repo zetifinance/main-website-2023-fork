@@ -36,11 +36,13 @@ blocks:
           heading: For Fleets
           image: /img/tezos-wpn1xnccgpw-unsplash.jpg
           main:
-            heading: Accelerate the adoption of zero-emission vehicles across your fleet
-            rich_editor: We're disrupting traditional auto finance and helping
-              forward-thinking fleet operators convert to electric vehicles by
-              making it as simple, easy and transparent as paying for any other
-              utility.
+            heading: Fleets
+            rich_editor: >-
+              **Accelerate the adoption of zero-emission vehicles across your
+              fleet**
+
+
+              We're disrupting traditional auto finance and helping forward-thinking fleet operators convert to electric vehicles by making it as simple, easy and transparent as paying for any other utility.
             buttons:
               - button:
                   variant: arrow
@@ -50,24 +52,24 @@ blocks:
           heading: For Financiers
           image: /img/tezos-wpn1xnccgpw-unsplash.jpg
           main:
-            rich_editor: Zeti acts as a platform for institutional financiers to invest into
-              clean, connected vehicle fleets through a pay-per-mile (or km or
-              kWh) model; managing automated payments and real-time financial
-              and sustainability reporting for financiers via its digital
-              platform, ZERO.
-            heading: Generate attractive, risk-adjusted returns in a new clean asset class
-              comparable to an investment in renewable energy
+            rich_editor: >-
+              **Generate attractive, risk-adjusted returns in a new clean asset
+              class comparable to an investment in renewable energy**
+
+
+              Zeti acts as a platform for institutional financiers to invest into clean, connected vehicle fleets through a pay-per-mile (or km or kWh) model; managing automated payments and real-time financial and sustainability reporting for financiers via its digital platform, ZERO.
+            heading: Financiers
       - tab:
           heading: For Manufacturers
           image: /img/tezos-wpn1xnccgpw-unsplash.jpg
           main:
-            rich_editor: Zeti helps you sell your zero-emission vehicles by allowing you to
-              offer your fleet customers the option of paying per mile, rather
-              than having a fixed monthly cost. Zeti can even deploy your
-              in-house financing division’s money through its platform to turn
-              it into a pay-per-mile offering.
-            heading: Enable the sales of your zero-emission vehicles through attractive
-              pay-per-mile finance
+            rich_editor: >-
+              **Enable the sales of your zero-emission vehicles through
+              attractive pay-per-mile finance**
+
+
+              Zeti helps you sell your zero-emission vehicles by allowing you to offer your fleet customers the option of paying per mile, rather than having a fixed monthly cost. Zeti can even deploy your in-house financing division’s money through its platform to turn it into a pay-per-mile offering.
+            heading: Manufacturers
   - type: testimonials
     intro:
       heading: Customer stories
