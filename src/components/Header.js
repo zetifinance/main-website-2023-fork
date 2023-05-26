@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import nav from '../settings/main.json'
 import Link from '../resolvers/Link'
-
 import DarkmodeToggle from './DarkmodeToggle'
+import { mobileMenuToggle } from '../lib/main'
 
 export default function Header() {
+	useEffect(() => {
+        mobileMenuToggle();
+	}, []);
+	
 	return (
 		<header className="header" role="banner">
 			<a href="/" className="brand">
@@ -28,9 +32,9 @@ export default function Header() {
 			<div className="header__nav">
 				<nav className="nav-primary">
 					{nav.nav.map((item, i) => (
-					<Link to={item.permalink} key={i}>
-						{item.name}
-					</Link>
+						<Link to={item.permalink} key={i}>
+							{item.name}
+						</Link>
 					))}
 				</nav>
 
@@ -39,6 +43,10 @@ export default function Header() {
 					<a href="/contact-us/" className="button button--standard button--yellow">
 						Contact
 					</a>
+
+					<button class="mobile-trigger">
+						<span></span>
+					</button>
 				</div>
 			</div>
 		</header>

@@ -1,19 +1,31 @@
 header[role="banner"] {
-    width: 100%;
-    padding: 4rem 5rem;
+    width: 90%;
+    padding: 2rem 0;
     position: absolute;
     top: 0;
-    left: 0;
-    display: none;
+    left: 5%;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     z-index: 9999;
 
     @media(min-width: 768px) {
-        display: flex;
+        width: 100%;
+        padding: 4rem 5rem;
+        left: 0;
+        justify-content: unset;
     }
 
     .brand {
-        margin-right: 8rem;
+        margin-right: 2rem;
+
+        @media(min-width: 768px) {
+            margin-right: 4rem;
+        }
+
+        @media(min-width: 1200px) {
+            margin-right: 8rem;
+        }
 
         &:hover {
             svg polygon {
@@ -34,9 +46,13 @@ header[role="banner"] {
         }
 
         svg {
-            width: 120px;
+            width: 80px;
             height: auto;
             display: block;
+
+            @media(min-width: 768px) {
+                width: 120px;
+            }
 
             polygon {
                 transition: 400ms $cubic;
@@ -45,19 +61,22 @@ header[role="banner"] {
     }
 
     .header__nav {
-        flex: 1;
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        @media(min-width: 768px) {
+            flex: 1;
+        }
 
         .header__buttons {
             display: flex;
             align-items: center;
 
-            button {
-                width: 50px;
-                height: 50px;
-                margin-right: 2.5rem;
+            .theme-toggle {
+                width: 40px;
+                height: 40px;
+                margin-right: 1rem;
                 position: relative;
                 display: flex;
                 justify-content: center;
@@ -67,17 +86,31 @@ header[role="banner"] {
                 border-radius: 12px;
                 box-shadow: none;
 
+                @media(min-width: 768px) {
+                    width: 50px;
+                    height: 50px;
+                    margin-right: 2.5rem;
+                }
+
                 &::before {
                     content: "Mode";
                     position: absolute;
                     top: 50%;
-                    left: -2rem;
+                    left: -1rem;
                     transform: translate(-100%, -50%);
-                    font-size: 2rem;
+                    display: none;
+                    font-size: 1.6rem;
                     font-weight: 500;
-                    line-height: 2.4rem;
+                    line-height: 2rem;
                     color: $lightest;
                     transition: 400ms $cubic;
+
+                    @media(min-width: 768px) {
+                        left: -2rem;
+                        display: block;
+                        font-size: 2rem;
+                        line-height: 2.4rem;
+                    }
                 }
 
                 .dark & {
@@ -107,7 +140,7 @@ header[role="banner"] {
                 }
 
                 svg {
-                    width: 30px;
+                    width: 25px;
                     height: auto;
                     margin: 0;
                     padding: 0;
@@ -120,10 +153,95 @@ header[role="banner"] {
                     visibility: hidden;
                     transition: 400ms $cubic;
                     transform-origin: center;
+
+                    @media(min-width: 768px) {
+                        width: 30px;
+                    }
                 }
 
                 .sr-only {
                     display: none;
+                }
+            }
+
+            .button.button--standard {
+                padding: 1rem 2rem;
+
+
+                @media(min-width: 768px) {
+                    padding: 1.75rem 3rem;
+                }
+            }
+
+            .mobile-trigger {
+                width: 40px;
+                height: 35px;
+                margin-left: 1rem;
+                padding: 0;
+                position: relative;
+                display: block;
+                background: none;
+                border: none;
+                cursor: pointer;
+
+                @media(min-width: 768px) {
+                    display: none;
+                }
+
+                span {
+                    transition: 400ms $cubic;
+
+                    &,
+                    &::before,
+                    &::after {
+                        content: '';
+                        width: 100%;
+                        height: 4px;
+                        margin: auto;
+                        position: absolute;
+                        top: 50%;
+                        left: 0;
+                        transform: translateY(-50%);
+                        transform-origin: center center;
+                        background: $lightest;
+
+                        .light & {
+                            background: $primary;
+                        }
+                    }
+
+                    &::before {
+                        top: -15px;
+                    }
+
+                    &::after {
+                        top: 15px;
+                    }
+
+                    &::before,
+                    &::after {
+                        transform: rotate(0deg);
+                        transition: 400ms top $cubic 400ms, 400ms transform $cubic 0ms, 400ms background $cubic 0ms;
+                    }
+
+                    .mobile-menu-active & {
+                        background: 0;
+
+                        &::before {
+                            transform: rotate(45deg);
+                        }
+
+                        &::after {
+                            transform: rotate(-45deg);
+                            width: 100%;
+                        }
+
+                        &::before,
+                        &::after {
+                            top: 0;
+                            transition: 400ms top $cubic 0ms, 400ms transform $cubic 400ms;
+                        }
+                    }
                 }
             }
         }

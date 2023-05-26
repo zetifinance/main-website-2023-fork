@@ -2,6 +2,7 @@ import React from 'react'
 
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
+import Offcanvas from '@/components/Offcanvas'
 
 const Layout = ({ nav = false, children }) => {
 	return (
@@ -31,6 +32,7 @@ const Layout = ({ nav = false, children }) => {
 			</main>
 			
 			<Footer/>
+			<Offcanvas/>
 		</>
 	)
 }

@@ -1,3 +1,22 @@
+function mobileMenuToggle() {
+    const mobileTrigger = document.querySelector('.mobile-trigger');
+
+    mobileTrigger.addEventListener('click', () => {
+        const body = document.getElementsByTagName('body')[0];
+        body.classList.toggle('mobile-menu-active');
+    });
+};
+
+function closeMobileMenuAfterNav() {
+    const navMobile = document.querySelector('.nav-mobile');
+
+    navMobile.addEventListener('click', (event) => {
+        if (event.target.tagName === 'A') {
+            document.body.classList.remove('mobile-menu-active');
+        };
+    });
+};
+
 function initTabs() {
     // Get all buttons and tabs
     const buttons = document.querySelectorAll('.tabs__selectors-button');
@@ -51,4 +70,4 @@ function initAccordions() {
     });
 };
   
-export { initTabs, initFeatures, initAccordions };
+export { mobileMenuToggle, closeMobileMenuAfterNav, initTabs, initFeatures, initAccordions };
