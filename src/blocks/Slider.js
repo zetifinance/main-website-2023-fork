@@ -55,57 +55,59 @@ export default function Slider({ data }) {
             </div>
 
             {isStandard ? (
-                <div className="slider__slider">
-                    <Splide options={ { width:'100%', type:'fade', rewind:false, gap:'40px', arrows:false, } }>
-                        { slider?.length > 0 && 
-                            slider?.map((item, i) => {
-                                const slide_image = item?.slide?.main?.image;
-                                const slide_heading = item?.slide?.main?.heading;
-                                const slide_content = item?.slide?.main?.rich_editor;
-                                const slide_buttons = item?.slide?.main?.buttons;
+                <div className="container">
+                    <div className="slider__slider">
+                        <Splide options={ { width:'100%', type:'fade', rewind:false, gap:'40px', arrows:false, } }>
+                            { slider?.length > 0 && 
+                                slider?.map((item, i) => {
+                                    const slide_image = item?.slide?.main?.image;
+                                    const slide_heading = item?.slide?.main?.heading;
+                                    const slide_content = item?.slide?.main?.rich_editor;
+                                    const slide_buttons = item?.slide?.main?.buttons;
 
-                                return (
-                                    <SplideSlide>
-                                        <div inView={inView2} ref={ref2} className="container">
-                                            <Image src={ slide_image } alt={""} className=""/>
+                                    return (
+                                        <SplideSlide>
+                                            <div inView={inView2} ref={ref2} className="container">
+                                                <Image src={ slide_image } alt={""} className=""/>
 
-                                            <div className={clsx("splide__slide-statistic", {'in-view': inView})}>
-                                                <svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg">
-                                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                        <circle id="Oval" stroke="#FD8C04" stroke-width="30" cx="200" cy="200" r="185"></circle>
-                                                    </g>
-                                                </svg>
+                                                <div className={clsx("splide__slide-statistic", {'in-view': inView})}>
+                                                    <svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                            <circle id="Oval" stroke="#FD8C04" stroke-width="30" cx="200" cy="200" r="185"></circle>
+                                                        </g>
+                                                    </svg>
 
-                                                { inView2 && (
-                                                    <>
-                                                        <CountUp duration={2} delay={1} end={123457} />   
-                                                    </>
-                                                )}
+                                                    { inView2 && (
+                                                        <>
+                                                            <CountUp duration={2} delay={1} end={123457} />   
+                                                        </>
+                                                    )}
+                                                </div>
+
+
+
+                                                <div className="splide__slide-content">
+                                                    { slide_heading && (
+                                                        <h3>{ slide_heading }</h3>
+                                                    )}
+
+                                                    { slide_content && (
+                                                        <Text className={clsx('')}>
+                                                            { slide_content }
+                                                        </Text>
+                                                    )}
+
+                                                    { slide_buttons && (
+                                                        <Buttons buttons={ slide_buttons } className={ clsx('') } />
+                                                    )}
+                                                </div>
                                             </div>
-
-
-
-                                            <div className="splide__slide-content">
-                                                { slide_heading && (
-                                                    <h3>{ slide_heading }</h3>
-                                                )}
-
-                                                { slide_content && (
-                                                    <Text className={clsx('')}>
-                                                        { slide_content }
-                                                    </Text>
-                                                )}
-
-                                                { slide_buttons && (
-                                                    <Buttons buttons={ slide_buttons } className={ clsx('') } />
-                                                )}
-                                            </div>
-                                        </div>
-                                    </SplideSlide>
-                                );
-                            })
-                        }
-                    </Splide>
+                                        </SplideSlide>
+                                    );
+                                })
+                            }
+                        </Splide>
+                    </div>
                 </div>
             ) : (
                 <div className="container">

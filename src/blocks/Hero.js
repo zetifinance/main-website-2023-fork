@@ -55,7 +55,7 @@ export default function Hero({ data }) {
 				</div>
 
 				{!isSimple &&(
-					<div className='hero__image'>
+					<div className={clsx('hero__image', {'hero__image--no-gradient': data?.image})}>
 						<Image src={data?.image} alt={""} className=""/>
 					</div>
 				)}

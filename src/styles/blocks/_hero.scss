@@ -149,6 +149,11 @@
                 opacity: 1;
             }
 
+            &.hero__image--no-gradient {
+                background-color: transparent;
+                background-image: none;
+            }
+
             .gatsby-image-wrapper,
             img {
                 width: 100%;
@@ -227,10 +232,6 @@
 
         .container {
             align-items: center;
-
-            @media(min-width: 1600px) {
-                padding-right: 275px;
-            }
         }
 
         .hero__content {
