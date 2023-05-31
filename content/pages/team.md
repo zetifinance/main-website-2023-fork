@@ -18,37 +18,14 @@ blocks:
             variant: arrow
             label: Register Interest
             url: "#"
-  - type: slider
-    variant: vertical
-    slider:
-      - slide:
-          main:
-            heading: Our Ethos
-            rich_editor: We believe that great, motivated people who are given excellent
-              tools deliver the greatest positive impact when they are working
-              towards a goal they believe in.
-          list:
-            - variant: default
-              list_item:
-                heading: Ethos Heading Goes Here
-                image: /img/handshake-blue.png
-            - variant: default
-              list_item:
-                image: /img/handshake-blue.png
-                heading: Ethos Heading Goes here
-      - slide:
-          main:
-            rich_editor: >-
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae
-              tellus lacus. Suspendisse a dolor feugiat, laoreet mi id,
-              ultricies nisi. Nulla quis rutrum dolor, quis iaculis ipsum.
-              Praesent vel luctus magna. 
-
-
-              Aenean vel urna vitae mauris aliquet auctor. Sed sit amet dolor diam. Nunc vel nulla sem. Donec non fringilla orci. Curabitur sed orci feugiat, fermentum quam non, condimentum elit.
-            heading: Our Ethos 2
-          image: /img/tezos-wpn1xnccgpw-unsplash.jpg
-          list: []
+  - type: text_image
+    variant: default
+    main:
+      heading: Our Ethos
+      rich_editor: We believe that great, motivated people who are given excellent
+        tools deliver the greatest positive impact when they are working towards
+        a goal they believe in.
+    image: /img/tezos-wpn1xnccgpw-unsplash.jpg
   - type: team
     intro:
       heading: Meet the team
