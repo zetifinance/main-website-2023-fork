@@ -61,22 +61,23 @@ blocks:
       - list_item:
           heading: Locate each vehicle in real-time
           rich_editor: ""
-          image: /img/handshake-blue.png
+          image: /img/electric-car-1-.png
       - list_item:
           heading: Access full billing history
           rich_editor: ""
-          image: /img/handshake-blue.png
+          image: /img/transaction-history.png
       - list_item:
           rich_editor: ""
           heading: Track payments and monthly statements
-          image: /img/handshake-blue.png
+          image: /img/calendar.png
       - list_item:
           rich_editor: ""
           heading: Analyze mileage breakdown per vehicle
-          image: /img/handshake-blue.png
+          image: /img/speedometer.png
       - list_item:
           heading: Monitor real-time carbon and NOx savings from the adoption of clean
             vehicles
+          image: /img/co2.png
   - type: testimonials
     intro:
       heading: Case Studies
