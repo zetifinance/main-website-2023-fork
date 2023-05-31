@@ -151,7 +151,7 @@ blocks:
   - type: logo_grid
     intro:
       heading: Manufacturers we've financed
-      rich_editor: T﻿est text
+      rich_editor: ""
       buttons:
         - button:
             variant: default
