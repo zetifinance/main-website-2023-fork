@@ -3,7 +3,7 @@ id: PqPD4fGRL
 type: page
 layout: page-builder
 title: Manufacturers
-permalink: /financiers/
+permalink: /manufacturers/
 blocks:
   - type: hero
     variant: default
