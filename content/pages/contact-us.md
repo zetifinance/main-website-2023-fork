@@ -9,9 +9,8 @@ blocks:
     variant: contact
     main:
       heading: Contact us
-      rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae
-        tellus lacus. Suspendisse a dolor feugiat, laoreet mi id, ultricies
-        nisi. Nulla quis rutrum dolor, quis iaculis ipsum.
+      rich_editor: Want to find out more about how Zeti could help you?  Get in touch
+        by submitting our form and we’ll get back to you as soon as possible.
 seo:
   ogimage: /img/henlo-cover.png
 ---
