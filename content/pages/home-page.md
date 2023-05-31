@@ -126,7 +126,7 @@ blocks:
               bibendum congue libero, sed laoreet metus imperdiet at. Cras et
               suscipit libero, eu imperdiet sapien. Nullam bibendum diam in
               libero luctus, at dapibus elit pulvinar.
-            heading: Heading for stat goes in here
+            heading: $40m of vehicles financed to date
             buttons:
               - button:
                   variant: default
@@ -135,12 +135,19 @@ blocks:
           image: /img/tezos-wpn1xnccgpw-unsplash.jpg
       - slide:
           main:
-            heading: Heading for stat 2 goes in here
+            heading: 5,000,000 kg of CO2 avoided
             rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
               bibendum congue libero, sed laoreet metus imperdiet at. Cras et
               suscipit libero, eu imperdiet sapien. Nullam bibendum diam in
               libero luctus, at dapibus elit pulvinar.
           image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+      - slide:
+          main:
+            heading: 14,000 kg of NOx avoided
+            rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              bibendum congue libero, sed laoreet metus imperdiet at. Cras et
+              suscipit libero, eu imperdiet sapien. Nullam bibendum diam in
+              libero luctus, at dapibus elit pulvinar.
   - type: logo_grid
     intro:
       heading: Manufacturers we've financed
