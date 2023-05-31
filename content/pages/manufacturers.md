@@ -14,27 +14,33 @@ blocks:
         id placerat orci. Cras cursus imperdiet nisl at blandit. Fusce vel diam
         pellentesque, sodales lectus non, blandit diam.
       buttons: []
-  - type: feature_slider
+  - type: grid
+    variant: card
     intro:
       heading: Advantages for manufacturers
-      rich_editor: ""
-    features:
-      - heading: Attracting New Customers with innovative Pay-as-you-Use financing
-          options
-        rich_editor: Fleets want the ability to pay as they drive, rather than fixed
-          repayments. Being able to offer your vehicles with our exclusive,
-          patent-pending pay-per-mile financing option will enable sales and
-          make your vehicles more attractive
-      - heading: Transparency
-        rich_editor: Current leasing relies on heavy discounts being given by vehicle
-          manufacturers and hidden from the customer. Zeti keeps everything
-          transparent, which means that manufacturers are less likely to suffer
-          such heavy discounting
-      - heading: Zero-Emission Focused
-        rich_editor: As our finance is exclusively available for zero-emission capable
-          vehicles, it will drive sales towards that section of your range of
-          vehicles, helping you fulfil your emissions obligations without
-          harming your sales.
+    list:
+      - list_item:
+          heading: Attracting New Customers with innovative Pay-as-you-Use financing
+            options
+          rich_editor: Fleets want the ability to pay as they drive, rather than fixed
+            repayments. Being able to offer your vehicles with our exclusive,
+            patent-pending pay-per-mile financing option will enable sales and
+            make your vehicles more attractive
+          image: /img/between.png
+      - list_item:
+          heading: Transparency
+          rich_editor: Current leasing relies on heavy discounts being given by vehicle
+            manufacturers and hidden from the customer. Zeti keeps everything
+            transparent, which means that manufacturers are less likely to
+            suffer such heavy discounting
+          image: /img/transparency.png
+      - list_item:
+          heading: Zero-Emission Focused
+          rich_editor: As our finance is exclusively available for zero-emission capable
+            vehicles, it will drive sales towards that section of your range of
+            vehicles, helping you fulfil your emissions obligations without
+            harming your sales.
+          image: /img/co2.png
   - type: testimonials
     intro:
       heading: Case Studies
