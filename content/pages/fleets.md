@@ -7,7 +7,7 @@ permalink: /fleets/
 blocks:
   - type: hero
     variant: default
-    image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+    image: /img/tesla.jpg
     main:
       heading: Fleets at Zeti
       rich_editor: Transport is becoming an on-demand service and fleet operators need
