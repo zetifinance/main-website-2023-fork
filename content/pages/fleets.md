@@ -16,11 +16,7 @@ blocks:
         hidden costs and penalties found with traditional leasing. Zeti’s model
         uses pay-per-mile financing meaning your monthly payments align with
         your cash flow.
-      buttons:
-        - button:
-            variant: arrow
-            label: Jump to vacancies
-            url: /vacancies/
+      buttons: []
   - type: feature_slider
     intro:
       heading: Advantages for fleets
