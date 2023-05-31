@@ -21,7 +21,7 @@ blocks:
   - type: text_image
     variant: default
     main:
-      heading: Our Ethos
+      heading: "Our Ethos "
       rich_editor: We believe that great, motivated people who are given excellent
         tools deliver the greatest positive impact when they are working towards
         a goal they believe in.
