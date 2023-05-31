@@ -68,6 +68,39 @@ blocks:
             label: Meet the team
             url: /team/
     image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+  - type: vacancies
+    intro:
+      heading: Current Vacancies
+      rich_editor: We’re always on the lookout for talent so if you don’t see anything
+        feel free to send us your CV to careers@zeti.co.uk
+    vacancies:
+      - heading: Product Designer
+        rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
+          pretium massa.
+        apply_link: /#/
+        tags:
+          - image: /img/handshake-blue.png
+            heading: 100% Remote
+          - image: /img/handshake-blue.png
+            heading: Full time
+      - rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
+          pretium massa.
+        heading: Web Developer
+        apply_link: /#/
+        tags:
+          - image: /img/handshake-blue.png
+            heading: London
+          - heading: Full time
+            image: /img/handshake-blue.png
+      - rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
+          pretium massa.
+        heading: Engineers
+        apply_link: /#/
+        tags:
+          - heading: New York
+            image: /img/handshake-blue.png
+          - heading: Full time
+            image: /img/handshake-blue.png
   - type: accordions
     accordions:
       - heading: Do you run internships, work experience or placements?
@@ -107,39 +140,6 @@ blocks:
           Aenean vel urna vitae mauris aliquet auctor. Sed sit amet dolor diam. Nunc vel nulla sem. Donec non fringilla orci. Curabitur sed orci feugiat, fermentum quam non, condimentum elit.
     intro:
       heading: FAQs
-  - type: vacancies
-    intro:
-      heading: Current Vacancies
-      rich_editor: We’re always on the lookout for talent so if you don’t see anything
-        feel free to send us your CV to careers@zeti.co.uk
-    vacancies:
-      - heading: Product Designer
-        rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
-          pretium massa.
-        apply_link: /#/
-        tags:
-          - image: /img/handshake-blue.png
-            heading: 100% Remote
-          - image: /img/handshake-blue.png
-            heading: Full time
-      - rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
-          pretium massa.
-        heading: Web Developer
-        apply_link: /#/
-        tags:
-          - image: /img/handshake-blue.png
-            heading: London
-          - heading: Full time
-            image: /img/handshake-blue.png
-      - rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
-          pretium massa.
-        heading: Engineers
-        apply_link: /#/
-        tags:
-          - heading: New York
-            image: /img/handshake-blue.png
-          - heading: Full time
-            image: /img/handshake-blue.png
   - type: text_image
     variant: default
     main:
