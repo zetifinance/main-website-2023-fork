@@ -18,7 +18,7 @@ blocks:
             variant: arrow
             label: Register Interest
             url: "#"
-    image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+    image: /img/hyundai-motor-group-jitbid8yjue-unsplash.jpg
   - type: video
     video: https://player.vimeo.com/progressive_redirect/playback/817643304/rendition/720p/file.mp4?loc=external&signature=48b73b5fb78d9082be47f009d252171fb9b13cfce8c20459546b0167bc2f207a
   - type: tabs
