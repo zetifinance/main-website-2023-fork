@@ -5,7 +5,7 @@ layout: post
 title: "Zeti: a brand new way to finance the clean fleets of tomorrow"
 permalink: /news/zeti-a-brand-new-way-to-finance-the-clean-fleets-of-tomorrow/
 thumbnail: /img/pic1.webp
-date: 2023-06-09T09:45:46.186Z
+date: 2022-06-09T09:45:46.186Z
 author: ""
 excerpt: ""
 seo:
