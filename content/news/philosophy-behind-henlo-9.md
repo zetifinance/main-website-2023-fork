@@ -2,14 +2,12 @@
 id: 44d0d78e-1f11-4f92-85ac-d144d60bb573
 type: post
 layout: post
-title: Philosophy behind Henlo.
-permalink: /news/test-9/
-thumbnail: /img/tezos-wpn1xnccgpw-unsplash.jpg
-date: 2022-05-11T19:16:41.067Z
-author: a1d1172a-8736-47c1-831d-3e508729fee2
-excerpt: If you’re a WordPress developer then you must have heard about a plugin
-  called Advanced Custom Fields and a Flexible Content field that allows editors
-  to generate new pages easily.
+title: PAYD Fulham Cabs
+permalink: /news/payd-fulham-cabs/
+thumbnail: /img/fulham1.webp
+date: 2020-10-04T19:16:41.067Z
+author: ""
+excerpt: ""
 seo:
   ogimage: /img/tezos-wpn1xnccgpw-unsplash.jpg
   title: Hello World
@@ -17,19 +15,8 @@ seo:
     plugin called Advanced Custom Fields and a Flexible Content field that
     allows editors to generate new pages easily.
 ---
+Zeti’s pay as you drive business model has enabled Fulham Cab Company to expand its electric taxi fleet to become the largest zero-emissions capable cab fleet in the UK.
 
-If you’re a WordPress developer then you must have heard about a plugin called Advanced Custom Fields and a Flexible Content field that allows editors to generate new pages easily.
+Note: this investment was made during Zeti’s original incubation period at Octopus Group and is now under the management of Zeti.
 
-When I started to move more into JAMStack I wanted to recreate ACF’s Flexible Content field in Gatsby. It's possible to use WordPress as a headless CMS and some headless CMS have implemented some sort of an alternative. Prismic has Slices (unfortunately you can’t create multiple repeatable fields within fields).
-
-For smaller projects WordPress or Prismic may be too complex. In such cases, I usually go with my favorite flat-file CMS - Netlify CMS.
-
-Netlify CMS offers everything you need, it’s open-source and free to use. The only thing missing? Flexible Content field. Fortunately, with beta features - Manual Initialization and Variable Types for List fields we can easily create a solution that copies ACF's Flexible Content.
-
-## Why using flexible content is a great idea?
-
-Advanced Custom Fields' Flexible Content allows editors to quickly make significant changes without engaging developers. Creating new pages is a breeze, and optimizing for conversions is easier.
-
-Using a singular template may not be the best way to organize your content, especially if you want to quickly test new changes. That's why component-based, modular design gives you much more flexibility.
-
-It lowers development and maintenance costs. Websites are tools that have to generate business value. The better system you build the longer it’ll last without any code changes.
+Read more [here](https://www.levc.com/corporate/news/fulham-cab-company-the-largest-electric-taxi-fleet/).
