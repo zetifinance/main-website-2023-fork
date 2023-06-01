@@ -18,14 +18,6 @@ blocks:
             variant: arrow
             label: Register Interest
             url: "#"
-  - type: text_image
-    variant: default
-    main:
-      heading: "Our Ethos "
-      rich_editor: We believe that great, motivated people who are given excellent
-        tools deliver the greatest positive impact when they are working towards
-        a goal they believe in.
-    image: /img/tezos-wpn1xnccgpw-unsplash.jpg
   - type: team
     intro:
       heading: Meet the team
