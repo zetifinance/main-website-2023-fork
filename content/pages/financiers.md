@@ -49,28 +49,32 @@ blocks:
       - list_item:
           heading: Real-time IRR projections based on each vehicles average mileage
           rich_editor: ""
-          image: /img/handshake-blue.png
+          image: /img/line-chart.png
       - list_item:
           heading: Locate each vehicle in real-time
           rich_editor: ""
-          image: /img/handshake-blue.png
+          image: /img/electric-car-1-.png
       - list_item:
           rich_editor: ""
           heading: Monitor progress of a portfolio over time
-          image: /img/handshake-blue.png
+          image: /img/profit.png
       - list_item:
           rich_editor: ""
           heading: View projected cash flows
-          image: /img/handshake-blue.png
+          image: /img/money-flow.png
       - list_item:
           heading: Access full billing history
+          image: /img/transaction-history.png
       - list_item:
           heading: Track payments and monthly accruals
+          image: /img/loupe.png
       - list_item:
           heading: Analyse mileage breakdown per vehicle
+          image: /img/speedometer.png
       - list_item:
           heading: Monitor your real-time carbon and NOx savings from financing clean
             transport
+          image: /img/co2.png
   - type: testimonials
     intro:
       heading: Case Studies
