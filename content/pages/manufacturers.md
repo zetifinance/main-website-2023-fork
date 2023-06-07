@@ -41,6 +41,7 @@ blocks:
             vehicles, helping you fulfil your emissions obligations without
             harming your sales.
           image: /img/co2.png
+    columns: Three
   - type: testimonials
     intro:
       heading: Case Studies
