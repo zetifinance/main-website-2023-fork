@@ -6,6 +6,9 @@ import { PermalinkField } from '../fields/permalink-field';
 const collection = {
   name: 'pages',
   label: 'Page',
+  editor: {
+    preview: false,
+  },
   description: 'Custom pages',
   folder: 'content/pages',
   create: true,

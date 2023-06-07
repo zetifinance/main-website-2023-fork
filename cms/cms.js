@@ -29,8 +29,8 @@ const config = {
   },
 };
 
-CMS.registerPreviewStyle('../commons.css');
-CMS.registerPreviewTemplate('pages', PagePreview);
+// CMS.registerPreviewStyle('../commons.css');
+// CMS.registerPreviewTemplate('pages', PagePreview);
 
 CMS.registerWidget(UuidWidget);
 CMS.registerWidget(PermalinkWidget);
