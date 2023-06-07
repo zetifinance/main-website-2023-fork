@@ -31,7 +31,7 @@ export default function Locations({ data }) {
                     )}
                 </div>
 
-                <div className={clsx('locations__grid grid', 'grid--large-card')}>
+                <div className={clsx('locations__grid grid', 'grid--col-Three', 'grid--large-card')}>
                     { grid?.length > 0 &&
                         grid?.map((item, i) => {
                             const location_name = item?.location_name;

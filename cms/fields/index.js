@@ -195,8 +195,29 @@ export const Slider = {
       widget: 'object',
       collapsed: true,
       fields: [
+        VariantField('image', ['image', 'statistic']),
         Main,
         Image,
+        {
+          label: 'Statistic',
+          name: 'statistic',
+          widget: 'object',
+          collapsed: true,
+          fields: [
+            {
+              label: 'Stat',
+              name: 'stat',
+              widget: 'number',
+              required: false,
+            },
+            {
+              label: 'Text',
+              name: 'text',
+              widget: 'string',
+              required: false,
+            },
+          ],
+        },
         List,
       ],
     },

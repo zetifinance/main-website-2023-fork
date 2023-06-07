@@ -43,8 +43,10 @@
     }
 
     .feature-slider__main {
+        position: relative;
         display: flex;
         flex-wrap: wrap;
+        align-items: flex-start;
 
         @media(min-width: 1600px) {
             padding-left: 17.5rem;
@@ -131,8 +133,9 @@
 
         &-images {
             width: 100%;
-            display: flex;
-            align-items: center;
+            position: sticky;
+            top: 100px;
+            left: 0;
 
             @media(min-width: 1200px) {
                 flex: 1;

@@ -80,14 +80,23 @@
                             transition-delay: 1s;
                         }
 
-
-                        span {
+                        p {
                             width: 90%;
+                            margin: 0;
                             position: absolute;
                             top: 50%;
                             left: 50%;
                             transform: translate(-50%, -50%);
                             display: block;
+                            font-size: clamp(6rem, 5vw, 12rem);
+                            color: $olive-green;
+                            text-align: center;
+                        }
+
+
+                        span,
+                        p {
+                            display: inline-block;
                             font-size: clamp(6rem, 5vw, 12rem);
                             color: $olive-green;
                             text-align: center;

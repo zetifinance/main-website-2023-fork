@@ -123,12 +123,16 @@
             position: relative;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: flex-start;
             z-index: 1;
 
             @media(min-width: 768px) {
+                padding-top: 5rem;
                 padding-right: 0;
+            }
+
+            @media(min-width: 1200px) {
+                padding-top: 7.5rem;
             }
         }
 

@@ -12,7 +12,7 @@ export default function Testimonials({ data }) {
                 <div className="testimonials__intro">
                     <div>
                         {data?.intro?.heading && (
-                            <h2 className="section-heading">{data?.intro?.heading}</h2>
+                            <h2 className="section-heading section-heading--left">{data?.intro?.heading}</h2>
                         )}
 
                         { data?.intro?.rich_editor && (

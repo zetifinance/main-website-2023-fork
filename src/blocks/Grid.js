@@ -10,6 +10,9 @@ export default function Grid({ data }) {
     const isLargeCard = data?.variant === 'large-card';
     const isNoCard = data?.variant === 'no-card';
 
+    // Variant
+    const columns = data?.columns;
+
     // Intro
     const intro_heading = data?.intro?.heading;
     const intro_content = data?.intro?.rich_editor;
@@ -37,7 +40,7 @@ export default function Grid({ data }) {
                     )}
                 </div>
 
-                <div className={clsx('grid__grid grid', {'grid--card': isCard}, {'grid--large-card': isLargeCard}, {'grid--no-card': isNoCard})}>
+                <div className={clsx('grid__grid grid', 'grid--col-'+columns, {'grid--card': isCard}, {'grid--large-card': isLargeCard}, {'grid--no-card': isNoCard})}>
                     { grid?.length > 0 &&
                         grid?.map((item, i) => {
                             const list_item_image = item?.list_item?.image;

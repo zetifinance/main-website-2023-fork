@@ -86,6 +86,7 @@ export const query = graphql`
     blocks {
       type
       variant
+      columns
       intro {
         heading
         rich_editor
@@ -133,6 +134,7 @@ export const query = graphql`
       video
       slider {
         slide {
+          variant
           main {
             heading
             rich_editor
@@ -153,6 +155,10 @@ export const query = graphql`
                 formats: [AUTO, WEBP, AVIF]
               )
             }
+          }
+          statistic {
+            stat
+            text
           }
           list {
             list_item {

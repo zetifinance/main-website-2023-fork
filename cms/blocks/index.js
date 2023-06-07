@@ -106,6 +106,14 @@ const Config = {
       summary: '{{fields.title}}',
       fields: [
         VariantField('card', ['card', 'large-card', 'no-card']),
+        {
+          label: 'Columns',
+          name: 'columns',
+          widget: 'select',
+          default: 'Three',
+          options: ['Three', 'Two', 'Four'],
+          required: true,
+        },
         Intro,
         List,
       ],
