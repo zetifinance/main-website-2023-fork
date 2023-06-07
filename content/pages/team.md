@@ -7,7 +7,7 @@ permalink: /team/
 blocks:
   - type: hero
     variant: default
-    image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+    image: /img/team.jpg
     main:
       heading: Team
       rich_editor: We’re using our patent-pending financial technology to
