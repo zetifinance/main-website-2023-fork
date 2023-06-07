@@ -79,9 +79,9 @@ blocks:
           pretium massa.
         apply_link: /#/
         tags:
-          - image: /img/handshake-blue.png
+          - image: /img/pin.svg
             heading: 100% Remote
-          - image: /img/handshake-blue.png
+          - image: /img/clock.svg
             heading: Full time
       - rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
           pretium massa.
@@ -189,6 +189,7 @@ blocks:
           rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
             pretium massa. Cras ipsum arcu, gravida quis enim id, sollicitudin
             laoreet sem.
+    columns: Four
 seo:
   ogimage: /img/henlo-cover.png
 ---
