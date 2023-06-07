@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function ContentVideo({ data }) {
+export default function TextVideo({ data }) {
   return (
     <section className="block block__video-text">
       

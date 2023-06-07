@@ -46,7 +46,7 @@ export default function Grid({ data }) {
                             const list_item_buttons = item?.list_item?.buttons;
 
                             return (
-                                <div className="grid__item">
+                                <div className="grid__item" key={i}>
                                     {isNoCard ? (
                                         <span>{(i+1) < 10 ? "0" + (i + 1) : (i + 1)}.</span>
                                     ) : null}

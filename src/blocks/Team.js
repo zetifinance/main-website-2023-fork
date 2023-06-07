@@ -114,7 +114,7 @@ export default function Team({ data }) {
 
                   {bio && (
                     <button onClick={() => openModal(item?.team_member)}>
-                      Read bio
+                      <span>Read bio</span>
                       {/* Button SVG */}
                     </button>
                   )}

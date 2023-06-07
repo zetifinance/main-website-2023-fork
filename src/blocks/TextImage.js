@@ -4,7 +4,7 @@ import Text from '../components/UI/Text'
 import Buttons from '../components/UI/Buttons'
 import Image from '../resolvers/Image'
 
-export default function ContentImage({ data }) {
+export default function TextImage({ data }) {
 	// Variant
 	const staggered = data.variant === 'staggered';
 	  

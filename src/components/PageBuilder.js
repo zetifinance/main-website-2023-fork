@@ -155,7 +155,6 @@ export const query = graphql`
             }
           }
           list {
-            variant
             list_item {
               heading
               image {
@@ -235,7 +234,6 @@ export const query = graphql`
         }
       }
       list {
-        variant
         list_item {
           heading
           rich_editor

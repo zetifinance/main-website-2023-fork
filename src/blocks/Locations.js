@@ -40,7 +40,7 @@ export default function Locations({ data }) {
                             const location_phone = item?.phone_number;
 
                             return (
-                                <div className="grid__item">
+                                <div className="grid__item" key={i}>
                                     <span>{(i+1) < 10 ? "0" + (i + 1) : (i + 1)}</span>
 
                                     <div className="grid__item-content">

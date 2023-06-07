@@ -1,5 +1,6 @@
 import clsx from 'clsx'
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+// import React, { useEffect, useState } from 'react';
 import Buttons from '../components/UI/Buttons'
 import Text from '../components/UI/Text'
 import Image from '../resolvers/Image'
