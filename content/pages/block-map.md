@@ -25,17 +25,6 @@ blocks:
             variant: default
             label: test
             url: "#"
-  - type: text_image
-    variant: default
-    image: /img/52523575759_bca15fdde9_o.webp
-    main:
-      heading: test
-      rich_editor: t﻿est
-      buttons:
-        - button:
-            variant: default
-            label: test
-            url: "#"
   - type: text_video
     video: "#"
     main:
