@@ -25,6 +25,17 @@ blocks:
             variant: default
             label: test
             url: "#"
+  - type: text_image
+    variant: default
+    main:
+      heading: test
+      rich_editor: t﻿est
+      buttons:
+        - button:
+            variant: default
+            label: test
+            url: "#"
+    image: /img/52523575759_bca15fdde9_o.webp
   - type: text_video
     video: "#"
     main:
