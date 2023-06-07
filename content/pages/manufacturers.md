@@ -7,7 +7,7 @@ permalink: /manufacturers/
 blocks:
   - type: hero
     variant: default
-    image: /img/tesla.jpg
+    image: /img/shutterstock_1491230117.jpg
     main:
       heading: Manufacturers
       rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
