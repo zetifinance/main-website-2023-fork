@@ -132,7 +132,11 @@ blocks:
                   variant: default
                   label: Demo Button
                   url: "#"
-          image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+          image: ""
+          variant: statistic
+          statistic:
+            stat: "300"
+            text: m
       - slide:
           main:
             heading: 5,000,000 kg of CO2 avoided
