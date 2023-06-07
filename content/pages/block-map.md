@@ -27,7 +27,6 @@ blocks:
             url: "#"
   - type: text_image
     variant: default
-    image: /img/52523575759_bca15fdde9_o.webp
     main:
       heading: test
       rich_editor: t﻿est
@@ -36,6 +35,7 @@ blocks:
             variant: default
             label: test
             url: "#"
+    image: /img/52523575759_bca15fdde9_o.webp
   - type: text_video
     video: "#"
     main:
