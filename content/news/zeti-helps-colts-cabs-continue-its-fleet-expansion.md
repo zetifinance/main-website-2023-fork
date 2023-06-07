@@ -4,7 +4,7 @@ type: post
 layout: post
 title: Zeti helps Colts Cabs continue its fleet expansion
 permalink: /news/zeti-helps-colts-cabs-continue-its-fleet-expansion/
-thumbnail: /img/fqithlexsaej7rx.webp
+thumbnail: /img/52523575759_bca15fdde9_o.webp
 date: 2023-03-08T00:00:00.000Z
 author: ""
 excerpt: ""
