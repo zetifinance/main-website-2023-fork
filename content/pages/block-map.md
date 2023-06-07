@@ -2,7 +2,7 @@
 id: mvYXMsSQC
 type: page
 layout: page-builder
-title: Block Map
+title: Block Map - DO NOT DELETE
 permalink: /block-map/
 blocks:
   - type: hero
