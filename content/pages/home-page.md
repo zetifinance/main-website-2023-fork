@@ -148,6 +148,7 @@ blocks:
           statistic:
             stat: 5
             text: m kg
+          variant: statistic
       - slide:
           main:
             heading: 14,000 kg of NOx avoided
@@ -158,6 +159,7 @@ blocks:
           statistic:
             stat: 140000
             text: kg
+          variant: statistic
   - type: logo_grid
     intro:
       heading: Manufacturers we've financed
