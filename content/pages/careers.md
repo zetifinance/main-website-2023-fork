@@ -79,28 +79,28 @@ blocks:
           pretium massa.
         apply_link: /#/
         tags:
-          - image: /img/pin.svg
+          - image: /img/pin.png
             heading: 100% Remote
-          - image: /img/clock.svg
+          - image: /img/clock.png
             heading: Full time
       - rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
           pretium massa.
         heading: Web Developer
         apply_link: /#/
         tags:
-          - image: /img/handshake-blue.png
+          - image: /img/pin.png
             heading: London
           - heading: Full time
-            image: /img/handshake-blue.png
+            image: /img/clock.png
       - rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
           pretium massa.
         heading: Engineers
         apply_link: /#/
         tags:
           - heading: New York
-            image: /img/handshake-blue.png
+            image: /img/pin.png
           - heading: Full time
-            image: /img/handshake-blue.png
+            image: /img/clock.png
   - type: accordions
     accordions:
       - heading: Do you run internships, work experience or placements?
