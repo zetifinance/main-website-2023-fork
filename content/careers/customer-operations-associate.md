@@ -5,9 +5,9 @@ layout: post
 title: Customer Operations Associate
 permalink: /careers/customer-operations-associate/
 thumbnail: /img/52523575759_bca15fdde9_o.webp
-excerpt: ""
+excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec pretium massa.
 location: Santa Monica, LA
-hours: ""
+hours: Full Time
 seo:
   ogimage: /img/henlo-cover.png
 ---
