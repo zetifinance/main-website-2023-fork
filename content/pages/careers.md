@@ -7,7 +7,7 @@ permalink: /careers/
 blocks:
   - type: hero
     variant: default
-    image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+    image: /img/careers.jpg
     main:
       heading: "We’re building something different. "
       rich_editor: >-
@@ -26,7 +26,7 @@ blocks:
             url: "#vacancies"
   - type: text_image
     variant: default
-    image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+    image: /img/who-is-zeti.jpg
     main:
       heading: Who are Zeti?
       rich_editor: Zeti is a green fintech scaleup that originated in London but now
@@ -67,7 +67,7 @@ blocks:
             variant: default
             label: Meet the team
             url: /team/
-    image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+    image: /img/team.jpg
   - type: vacancies
     intro:
       heading: Current Vacancies
@@ -150,7 +150,7 @@ blocks:
 
         Find out more about Disability Confident [here](https://disabilityconfident.campaign.gov.uk/).
       heading: Diversity & Inclusion
-    image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+    image: /img/christina-wocintechchat-com-ef7hn40wbaq-unsplash.jpg
   - type: grid
     variant: no-card
     intro:
