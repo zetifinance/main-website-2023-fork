@@ -295,6 +295,10 @@ body {
 				flex: unset;
 				width: calc(50% - 4rem);
 
+				&.modal__content--full {
+					width: 100%;
+				}
+
 				h3 {
 					margin-bottom: 2.5rem;
 				}

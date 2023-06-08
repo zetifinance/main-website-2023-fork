@@ -36,10 +36,12 @@ export default function Team({ data }) {
             <div className="modal">
                 <div className="modal__inner modal__inner--team">
                     <button onClick={closeModal} className="modal__close"></button>
-                    <div className="modal__image">
-                        <Image src={data?.image} alt="" className="" />
-                    </div>
-                    <div className="modal__content">
+                    {data?.image && 
+                      <div className="modal__image">
+                          <Image src={data?.image} alt="" className="" />
+                      </div>
+                    }
+                    <div className={clsx('modal__content', { 'modal__content--full': !data?.name })}>
 
                         <div>
                             {data?.name && 
