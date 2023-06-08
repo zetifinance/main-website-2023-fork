@@ -14,6 +14,14 @@ ul {
     margin-left: 0;
     padding-left: 2rem;
     list-style-type: $list-style-type;
+
+    li::marker {
+        color: $yellow;
+
+        .light & {
+            color: $primary;
+        }
+    }
 }
 
 ol {
@@ -32,8 +40,12 @@ ol {
             display: inline-block;
             content: counter(counter)".";
             font-size: 2rem;
-            color: $primary;
+            color: $yellow;
             font-weight: bold;
+
+            .light & {
+                color: $primary;
+            }
         }
     }
 }
