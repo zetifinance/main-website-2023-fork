@@ -13,11 +13,7 @@ blocks:
       rich_editor: We’re using our patent-pending financial technology to
         revolutionize the way clean transport is funded in London and the US and
         in doing so, help solve the climate crisis.
-      buttons:
-        - button:
-            variant: arrow
-            label: Register Interest
-            url: "#"
+      buttons: []
   - type: team
     intro:
       heading: Meet the team
