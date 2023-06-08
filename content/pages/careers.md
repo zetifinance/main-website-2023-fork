@@ -74,31 +74,23 @@ blocks:
       rich_editor: We’re always on the lookout for talent so if you don’t see anything
         feel free to send us your CV to careers@zeti.co.uk
     vacancies:
-      - heading: Product Designer
-        rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
-          pretium massa.
+      - heading: Customer Operations Associate
+        rich_editor: Our Santa Monica office has a new role available to grow and manage
+          the development and operations of our US customers and projects.
         apply_link: /#/
         tags:
           - image: /img/pin.png
-            heading: 100% Remote
+            heading: Santa Monica, LA
           - image: /img/clock.png
             heading: Full time
-      - rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
-          pretium massa.
-        heading: Web Developer
+      - rich_editor: We're looking for someone to lead our front-end UX design and
+          development as we build out our cutting-edge ZERO platform in our
+          journey to revolutionise transport finance for good.
+        heading: Senior UX Designer/Developer
         apply_link: /#/
         tags:
           - image: /img/pin.png
             heading: London
-          - heading: Full time
-            image: /img/clock.png
-      - rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
-          pretium massa.
-        heading: Engineers
-        apply_link: https://google.co.uk/
-        tags:
-          - heading: New York
-            image: /img/pin.png
           - heading: Full time
             image: /img/clock.png
   - type: accordions
@@ -165,30 +157,24 @@ blocks:
       heading: "Our Values heading goes in here and takes up to two lines "
     list:
       - list_item:
-          heading: Value heading goes in here
-          rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
-            pretium massa. Cras ipsum arcu, gravida quis enim id, sollicitudin
-            laoreet sem.
+          heading: We are transparent
+          rich_editor: We’re providing a data-driven solution with no hidden charges.
+            Using live telematics, our customers have full visibility over
+            fleets and investment performance.
       - list_item:
-          heading: Value heading goes in here
-          rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
-            pretium massa. Cras ipsum arcu, gravida quis enim id, sollicitudin
-            laoreet sem.
+          heading: We are aligned
+          rich_editor: We believe in success through symbiotic relationships. Our business
+            and customers alike are working towards a cleaner future for
+            transport.
       - list_item:
-          heading: Value heading goes in here
-          rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
-            pretium massa. Cras ipsum arcu, gravida quis enim id, sollicitudin
-            laoreet sem.
+          heading: We are innovative
+          rich_editor: We’re disrupting traditional vehicle finance to benefit our
+            customers, and using our patent-pending technology to deliver value.
       - list_item:
-          heading: Value heading goes in here
-          rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
-            pretium massa. Cras ipsum arcu, gravida quis enim id, sollicitudin
-            laoreet sem.
-      - list_item:
-          heading: Value heading goes in here
-          rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
-            pretium massa. Cras ipsum arcu, gravida quis enim id, sollicitudin
-            laoreet sem.
+          heading: We are supportive
+          rich_editor: We facilitate the transition to zero and ultra-low emission
+            vehicles by making it simple as paying for a utility. We’re with our
+            customers every step of the way.
     columns: Four
 seo:
   ogimage: /img/henlo-cover.png
