@@ -23,6 +23,10 @@
     {
       "name": "News",
       "permalink": "/news/"
+    },
+    {
+      "name": "Insights",
+      "permalink": "/insights/"
     }
   ]
 }
