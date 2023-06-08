@@ -8,6 +8,11 @@ dl {
 
 li {
     font-size: 2rem;
+    color: $lightest;
+
+    .light & {
+        color: $primary;
+    }
 }
 
 ul {
