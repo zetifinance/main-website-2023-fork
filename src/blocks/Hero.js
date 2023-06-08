@@ -5,20 +5,20 @@ import Text from '../components/UI/Text'
 import Image from '../resolvers/Image'
 
 export default function Hero({ data }) {
-	const [call, setData] = useState(null);
+	const [data, setData] = useState(null);
 
 	useEffect(() => {
 		const fetchData = async () => {
-		  try {
-			const response = await fetch('https://zeti.co.uk/api/aggregatestats');
-			const jsonData = await response.json();
-			setData(jsonData);
-		  } catch (error) {
-			console.error('Error fetching data:', error);
-		  }
-		};
-	
-		fetchData();
+			try {
+			  const response = await fetch('https://zeti.co.uk/api/aggregatestats');
+			  const data = await response.json();
+			  setData(data);
+			} catch (error) {
+			  console.error('Error fetching data:', error);
+			}
+		  };
+	  
+		  fetchData();
 	}, []);
 	
 	const isStandard = data?.variant === 'default';
@@ -42,16 +42,7 @@ export default function Hero({ data }) {
 						<Buttons buttons={data?.main?.buttons} className={clsx('mt-6')}/>
 					)}
 
-					{call ? (
-						<div>
-							<p>partitionKey: {call.partitionKey}</p>
-							<p>rowKey: {call.rowKey}</p>
-							<p>totalCo2Saving: {call.totalCo2Saving}</p>
-							<p>totalNoxSaving: {call.totalNoxSaving}</p>
-						</div>
-					) : (
-						<p>Loading data...</p>
-					)}
+					{data ? <pre>{JSON.stringify(data, null, 2)}</pre> : 'Loading...'}
 				</div>
 
 				{!isSimple &&(
