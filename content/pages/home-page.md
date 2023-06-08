@@ -20,7 +20,13 @@ blocks:
             url: /contact-us/
     image: /img/hyundai-motor-group-jitbid8yjue-unsplash.jpg
   - type: video
-    video: https://player.vimeo.com/progressive_redirect/playback/817643304/rendition/720p/file.mp4?loc=external&signature=48b73b5fb78d9082be47f009d252171fb9b13cfce8c20459546b0167bc2f207a
+    video: <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+      src="https://player.vimeo.com/video/833246997?h=319f2b1d72&title=0&byline=0&portrait=0"
+      style="position:absolute;top:0;left:0;width:100%;height:100%;"
+      frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+      allowfullscreen></iframe></div><script
+      src="https://player.vimeo.com/api/player.js"></script>
+    variant: Embed
   - type: tabs
     variant: default
     intro:
