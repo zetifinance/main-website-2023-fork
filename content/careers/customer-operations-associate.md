@@ -7,7 +7,7 @@ permalink: /careers/customer-operations-associate/
 thumbnail: /img/52523575759_bca15fdde9_o.webp
 excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec pretium massa.
 location: Santa Monica, LA
-hours: Full Time
+hours: Full time
 seo:
   ogimage: /img/henlo-cover.png
 ---
