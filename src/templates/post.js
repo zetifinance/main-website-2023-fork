@@ -17,7 +17,9 @@ const Post = ({ data }) => {
               <p>{format(new Date(data.post.frontmatter.date),'MMMM dd, yyyy')}</p>
           </div>
           <div className='hero__image'>
-						<Image src={data.post.frontmatter.thumbnail} alt={""} className=""/>
+            {data?.post?.frontmatter?.thumbnail && (
+						  <Image src={data?.post?.frontmatter?.thumbnail} alt={""} className=""/>
+            )}
 					</div>
         </div>
 		  </section>
@@ -62,8 +64,9 @@ export const basicPageQuery = graphql`
         thumbnail {
           childImageSharp {
             gatsbyImageData(
-              width: 800
+              width: 690
               quality: 72
+              layout: FULL_WIDTH
               placeholder: DOMINANT_COLOR
               formats: [AUTO, WEBP, AVIF]
             )

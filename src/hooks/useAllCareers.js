@@ -1,14 +1,14 @@
 import { useStaticQuery, graphql } from 'gatsby';
 
-export const useAllInsights = () => {
+export const useAllCareers = () => {
   const {
     allMarkdownRemark: { edges: posts },
   } = useStaticQuery(
     graphql`
-      query AllInsightsQuery {
+      query AllCareersQuery {
         allMarkdownRemark(
           sort: { frontmatter: { date: DESC } }
-          filter: { frontmatter: { type: { eq: "post" } }, fileAbsolutePath: { regex: "/content/insights/" } }
+          filter: { frontmatter: { type: { eq: "post" } }, fileAbsolutePath: { regex: "/content/careers/" } }
         ) {
           edges {
             node {

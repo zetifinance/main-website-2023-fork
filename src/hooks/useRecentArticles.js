@@ -1,4 +1,5 @@
 import { useStaticQuery, graphql } from 'gatsby';
+
 export const useRecentArticles = () => {
   const {
     allMarkdownRemark: { edges: posts },
@@ -7,7 +8,7 @@ export const useRecentArticles = () => {
       query RecentArticlesQuery {
         allMarkdownRemark(
           sort: { frontmatter: { date: DESC } }
-          filter: { frontmatter: { type: { eq: "post" } } }
+          filter: { frontmatter: { type: { eq: "post" } }, fileAbsolutePath: { regex: "/content/news/" } }
           limit: 3
         ) {
           edges {
