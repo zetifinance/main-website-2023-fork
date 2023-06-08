@@ -56,6 +56,12 @@
             padding-bottom: 4rem;
         }
 
+        &-upper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
         div {
             width: 100%;
             margin-bottom: 1rem;
@@ -133,10 +139,11 @@
                 }
 
                 img {
-                    width: auto;
-                    height: 15px;
-                    margin-right: 1rem;
+                    width: auto !important;
+                    height: 15px !important;
+                    margin: 0 1rem 0 0 !important;
                     display: block;
+                    position: relative !important;
                 }
             }
         }

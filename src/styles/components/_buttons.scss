@@ -25,6 +25,7 @@
         font-size: 1.6rem;
         line-height: 2.4rem;
         color: $primary;
+        transition: 400ms $cubic;
 
         @media(min-width: 768px) {
             padding: 1.75rem 3rem;
@@ -42,11 +43,69 @@
             @media(min-width: 768px) {
                 width: 40px;
             }
+
+            path {
+                transition: 400ms $cubic;
+            }
         }
 
         &.button--yellow {
             background-color: $yellow;
             color: $primary;
+        }
+
+        &.button--white {
+            background-color: $lightest;
+            color: $primary;
+        }
+
+        &.button--yellow-border {
+            background-color: transparent;
+            border: 2px solid $yellow;
+            color: $yellow;
+
+            &:hover {
+                background-color: $yellow;
+                color: $primary;
+
+                svg path {
+                    fill: $primary;
+                }
+            }
+        }
+
+        &.button--white-border {
+            background-color: transparent;
+            border: 2px solid $lightest;
+            color: $lightest;
+
+            .light & {
+                border-color: $primary;
+                color: $primary;
+
+                svg path {
+                    fill: $primary;
+                }
+            }
+
+            &:hover {
+                background-color: $lightest;
+                color: $primary;
+
+                svg path {
+                    fill: $primary;
+                }
+
+                .light & {
+                    background-color: $lightest;
+                    color: $orange;
+                    border-color: $orange;
+
+                    svg path {
+                        fill: $orange;
+                    }
+                }
+            }
         }
     }
 }

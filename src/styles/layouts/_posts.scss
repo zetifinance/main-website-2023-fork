@@ -47,6 +47,24 @@
 		}
 	}
 
+	&:hover {
+		.blog-post__content span {
+			color: $yellow;
+
+			.light & {
+				color: $orange;
+			}
+
+			svg path {
+				fill: $yellow;
+
+				.light & {
+					fill: $orange;
+				}
+			}
+		}
+	}
+
 	.blog-post__content {
 		flex: 1;
 		display: flex;
@@ -81,6 +99,7 @@
 			line-height: 3rem;
 			letter-spacing: 1px;
 			color: $lightest;
+			transition: 400ms $cubic;
 
 			@media(min-width: 768px) {
 				line-height: 5rem;
@@ -91,12 +110,16 @@
 				height: auto;
 				margin-left: 2rem;
 				display: block;
+
+				path {
+					transition: 400ms $cubic;
+				}
 			}
 
 			.light & {
 				color: $primary;
 
-				svg g {
+				svg path {
 					fill: $primary;
 				}
 			}

@@ -3,13 +3,13 @@ import seo from '../fields/seo';
 import { ID } from '../fields';
 
 const collection = {
-  name: 'blog',
-  label: 'Posts',
+  name: 'careers',
+  label: 'Careers',
   editor: {
     preview: false,
   },
-  description: 'News collection',
-  folder: 'content/news',
+  description: 'Careers collection',
+  folder: 'content/careers',
   slug: '{{slug}}',
   summary:
     "{{title}} - {{date | date('YYYY-MM-DD')}} – {{body | truncate(40, '***')}}",
@@ -34,7 +34,7 @@ const collection = {
       widget: 'string',
       default: '',
     },
-    PermalinkField('news'),
+    PermalinkField('careers'),
     {
       label: 'Featured Image',
       name: 'thumbnail',

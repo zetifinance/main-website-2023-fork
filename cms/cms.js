@@ -4,9 +4,9 @@ import { Widget as PermalinkWidget } from 'netlify-cms-widget-permalink';
 
 import pages from './collections/pages';
 import posts from './collections/posts';
+import insights from './collections/insights';
 import authors from './collections/authors';
 import settings from './collections/settings';
-import PagePreview from './previews/Page';
 
 window.CMS_MANUAL_INIT = true;
 
@@ -25,12 +25,9 @@ const config = {
     },
     media_folder: '/static/img',
     public_folder: '/img',
-    collections: [pages, posts, authors, settings],
+    collections: [pages, posts, insights, careers, authors, settings],
   },
 };
-
-// CMS.registerPreviewStyle('../commons.css');
-// CMS.registerPreviewTemplate('pages', PagePreview);
 
 CMS.registerWidget(UuidWidget);
 CMS.registerWidget(PermalinkWidget);
