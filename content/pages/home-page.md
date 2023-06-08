@@ -188,8 +188,8 @@ blocks:
               suscipit libero, eu imperdiet sapien. Nullam bibendum diam in
               libero luctus, at dapibus elit pulvinar.
           statistic:
-            stat: 140
-            text: k kg
+            stat: 14000
+            text: kg
           variant: statistic
   - type: logo_grid
     intro:
