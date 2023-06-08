@@ -153,8 +153,11 @@ blocks:
       - image: /img/levc.png
     logos:
       - image_light: /img/tesla.png
+        image_dark: /img/tesla-light-theme.webp
       - image_light: /img/jaguar.png
+        image_dark: /img/jaguar-light-theme.webp
       - image_light: /img/levc.png
+        image_dark: /img/levc-light-theme.webp
 seo:
   ogimage: /img/henlo-cover.png
 ---
