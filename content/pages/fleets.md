@@ -28,7 +28,7 @@ blocks:
           is no minimum monthly commitment or penalty for driving over your
           estimated monthly mileage. Our contracts are based on a longer-term
           contracted mileage commitment to allow more flexibility in payments.
-        image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+        image: /img/lexus.jpeg
       - heading: "Fully automated billing "
         rich_editor: Billing and Payment collection are entirely automated and always
           available on our dedicated Fleet Operator portal. for your ease of
@@ -41,11 +41,12 @@ blocks:
           through the Operator Portal. You will often receive access to the
           underlying telematics provider’s dashboard which allows you to manage
           your fleet's charging, driver assignments etc..
-        image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+        image: /img/tesla.jpg
       - heading: No hidden costs
         rich_editor: Unlike traditional fixed-term finance with estimated mileage,
           having a fixed contracted mileage means the total cost of ownership is
           always accurate and transparent.. Just pay for what you use.
+        image: /img/hyundai-motor-group-jitbid8yjue-unsplash.jpg
   - type: grid
     variant: card
     intro:
