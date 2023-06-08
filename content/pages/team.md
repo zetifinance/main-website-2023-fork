@@ -47,7 +47,7 @@ blocks:
             (‘NESTA’) and the British Venture Capital Association (‘BVCA’). Also
             an active angel investor with a strong interest in the alternative
             energy and infrastructure sectors.
-          image: /img/wojciech-kaluzny-20-312x312.jpg
+          image: /img/ernie-richardson.jpg
       - team_member:
           image: /img/pete-malcolm.jpeg
           name: Pete Malcolm
