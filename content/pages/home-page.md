@@ -156,6 +156,7 @@ blocks:
       - image_light: /img/levc.png
         image_dark: /img/levc-light-theme.webp
         link: https://www.levc.com/
+    variant: Slider
   - type: logo_grid
     intro:
       heading: Working alongside
