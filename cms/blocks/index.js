@@ -60,6 +60,7 @@ const Config = {
       widget: 'object',
       summary: '{{fields.title}}',
       fields: [
+        VariantField('Vimeo', ['Vimeo', 'Embed']),
         Main,
         Video,
       ],
@@ -90,6 +91,7 @@ const Config = {
       widget: 'object',
       summary: '{{fields.title}}',
       fields: [
+        VariantField('Vimeo', ['Vimeo', 'Embed']),
         Intro,
         Video,
       ],
