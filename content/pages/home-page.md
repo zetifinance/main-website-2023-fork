@@ -154,10 +154,13 @@ blocks:
     logos:
       - image_light: /img/tesla.png
         image_dark: /img/tesla-light-theme.webp
+        link: https://www.tesla.com/
       - image_light: /img/jaguar.png
         image_dark: /img/jaguar-light-theme.webp
+        link: https://www.jaguar.co.uk/index.html/
       - image_light: /img/levc.png
         image_dark: /img/levc-light-theme.webp
+        link: https://www.levc.com/
 seo:
   ogimage: /img/henlo-cover.png
 ---
