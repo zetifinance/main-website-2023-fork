@@ -17,7 +17,7 @@ blocks:
         - button:
             variant: arrow
             label: Register Interest
-            url: "#"
+            url: /contact-us/
     image: /img/hyundai-motor-group-jitbid8yjue-unsplash.jpg
   - type: video
     video: https://player.vimeo.com/progressive_redirect/playback/817643304/rendition/720p/file.mp4?loc=external&signature=48b73b5fb78d9082be47f009d252171fb9b13cfce8c20459546b0167bc2f207a
@@ -25,12 +25,8 @@ blocks:
     variant: default
     intro:
       heading: How it works
-      rich_editor: T﻿his is example filler content
-      buttons:
-        - button:
-            variant: default
-            label: Test button
-            url: "#"
+      rich_editor: ""
+      buttons: []
     tabs:
       - tab:
           heading: For Fleets
@@ -47,7 +43,7 @@ blocks:
               - button:
                   variant: arrow
                   label: Find out more
-                  url: "#"
+                  url: /fleets/
       - tab:
           heading: For Financiers
           image: /img/tezos-wpn1xnccgpw-unsplash.jpg
@@ -59,6 +55,11 @@ blocks:
 
               Zeti acts as a platform for institutional financiers to invest into clean, connected vehicle fleets through a pay-per-mile (or km or kWh) model; managing automated payments and real-time financial and sustainability reporting for financiers via its digital platform, ZERO.
             heading: Financiers
+            buttons:
+              - button:
+                  variant: default
+                  label: Find out more
+                  url: /financiers/
       - tab:
           heading: For Manufacturers
           image: /img/tezos-wpn1xnccgpw-unsplash.jpg
@@ -70,6 +71,11 @@ blocks:
 
               Zeti helps you sell your zero-emission vehicles by allowing you to offer your fleet customers the option of paying per mile, rather than having a fixed monthly cost. Zeti can even deploy your in-house financing division’s money through its platform to turn it into a pay-per-mile offering.
             heading: Manufacturers
+            buttons:
+              - button:
+                  variant: default
+                  label: Find out more
+                  url: /manufacturers/
   - type: testimonials
     intro:
       heading: Customer stories
@@ -164,11 +170,7 @@ blocks:
     intro:
       heading: Manufacturers we've financed
       rich_editor: ""
-      buttons:
-        - button:
-            variant: default
-            label: Test Button
-            url: "#"
+      buttons: []
     images:
       - image: /img/tesla.png
       - image: /img/jaguar.png
