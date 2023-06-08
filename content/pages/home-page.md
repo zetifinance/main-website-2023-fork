@@ -113,11 +113,7 @@ blocks:
               suscipit libero, eu imperdiet sapien. Nullam bibendum diam in
               libero luctus, at dapibus elit pulvinar.
             heading: $40m of vehicles financed to date
-            buttons:
-              - button:
-                  variant: default
-                  label: Demo Button
-                  url: "#"
+            buttons: []
           image: ""
           variant: statistic
           statistic:
