@@ -91,6 +91,7 @@ blocks:
 
 
             \- Jeff Davis, Breathe COO
+          image: /img/quotation.png
       - list_item:
           rich_editor: >-
             A particular benefit of the ZERO platform is the pooling of vehicle
@@ -99,6 +100,7 @@ blocks:
 
 
             \- Asher Moses, Sherbet CEO
+          image: /img/quotation.png
   - type: accordions
     intro:
       heading: FAQs
