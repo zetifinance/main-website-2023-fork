@@ -1,7 +1,7 @@
 ---
 id: No0rdZcP3
 type: post
-layout: post
+layout: career-single
 title: Customer Operations Associate
 permalink: /careers/customer-operations-associate/
 thumbnail: /img/52523575759_bca15fdde9_o.webp

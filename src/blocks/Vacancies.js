@@ -34,7 +34,6 @@ export default function Vacancies({ data }) {
 
                 <div className={clsx('vacancies__list')}>
                     {postsArray.map((vacancy) => {
-                        console.log(vacancy);
                         const vacancy_heading = vacancy?.node?.frontmatter?.title;
                         const vacancy_apply_link = vacancy?.node?.fields?.slug;
                         const vacancy_excerpt = vacancy?.node?.frontmatter?.excerpt;

@@ -1,7 +1,7 @@
 ---
 id: HIHQn1dZZ
 type: post
-layout: post
+layout: career-single
 title: Senior UX Designer/Developer
 permalink: /careers/senior-ux-designer-developer/
 excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec pretium massa.

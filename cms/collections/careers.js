@@ -26,7 +26,7 @@ const collection = {
       label: 'Layout',
       name: 'layout',
       widget: 'hidden',
-      default: 'post',
+      default: 'career-single',
     },
     {
       label: 'Title',
