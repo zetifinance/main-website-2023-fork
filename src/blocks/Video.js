@@ -1,23 +1,22 @@
 import React from 'react'
 
 export default function Video({ data }) {
-  const isEmbed = data?.variant === 'embed';
+  const isEmbed = data?.variant === 'Embed';
 
   return (
     <section className="block block__video">
-        <div className="container">
+        
           { 
             isEmbed ? (
-              <>
-                {data?.video}
-              </>
+              <div className="container" dangerouslySetInnerHTML={{ __html: data?.video }}/>
             ) : (
-              <video src={data?.video} playsInline controls>
-                <track default kind="captions" srclang="en" src=""></track>
-              </video>
+              <div className="container">
+                <video src={data?.video} playsInline controls>
+                  <track default kind="captions" srclang="en" src=""></track>
+                </video>
+              </div>
             )
           }
-        </div>
     </section>
   )
 }
