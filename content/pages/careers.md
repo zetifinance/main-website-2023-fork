@@ -73,26 +73,7 @@ blocks:
       heading: Current Vacancies
       rich_editor: We’re always on the lookout for talent so if you don’t see anything
         feel free to send us your CV to careers@zeti.co.uk
-    vacancies:
-      - heading: Customer Operations Associate
-        rich_editor: Our Santa Monica office has a new role available to grow and manage
-          the development and operations of our US customers and projects.
-        apply_link: /#/
-        tags:
-          - image: /img/pin.png
-            heading: Santa Monica, LA
-          - image: /img/clock.png
-            heading: Full time
-      - rich_editor: We're looking for someone to lead our front-end UX design and
-          development as we build out our cutting-edge ZERO platform in our
-          journey to revolutionise transport finance for good.
-        heading: Senior UX Designer/Developer
-        apply_link: /#/
-        tags:
-          - image: /img/pin.png
-            heading: London
-          - heading: Full time
-            image: /img/clock.png
+    vacancies: []
   - type: accordions
     accordions:
       - heading: Do you run internships, work experience or placements?
