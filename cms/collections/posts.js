@@ -4,7 +4,7 @@ import { ID } from '../fields';
 
 const collection = {
   name: 'blog',
-  label: 'Posts',
+  label: 'Blog',
   editor: {
     preview: false,
   },

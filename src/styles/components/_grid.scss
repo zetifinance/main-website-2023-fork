@@ -5,7 +5,8 @@
         display: flex;
         flex-wrap: wrap;
 
-        &.grid--col- {
+        &.grid--col-,
+        &.grid--col-null {
 
             .grid__item {
                 width: 100%;
@@ -150,7 +151,8 @@
             margin: 0 -2rem -4rem -2rem;
         }
 
-        &.grid--col- {
+        &.grid--col-,
+        &.grid--col-null {
 
             .grid__item {
                 width: 100%;
@@ -340,7 +342,8 @@
             margin: 0 -9rem -9rem -9rem;
         }
 
-        &.grid--col- {
+        &.grid--col-,
+        &.grid--col-null {
             .grid__item {
                 width: 100%;
                 margin: 0 0 2rem 0;
