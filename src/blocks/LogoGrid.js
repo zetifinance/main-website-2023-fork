@@ -45,19 +45,14 @@ export default function LogoGrid({ data }) {
                 
                 {
                     isSlider ? (
-                        <div className="logo-grid__logos--slider">
+                        <div className="logo-grid__logos logo-grid__logos--slider">
                             <Splide options={ {
                                 mediaQuery: 'min',
-                                perPage:1, 
-                                perMove:1, 
-                                rewind:false, 
-                                gap:'40px', 
-                                arrows:false,
-                                breakpoints: {
-                                    1200: {
-                                        perPage:3, 
-                                    },
-                                },
+                                perPage: 4, 
+                                perMove: 4, 
+                                rewind: false, 
+                                gap: '100px', 
+                                arrows: false,
                             } }>
                             
                             {

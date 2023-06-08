@@ -11,7 +11,7 @@
         align-items: center;
 
         @media(min-width: 768px) {
-            margin-bottom: 9rem;
+            margin-bottom: 7.5rem;
         }
 
         h2 {
@@ -55,6 +55,34 @@
 
         @media(min-width: 1200px) {
             margin: 0 -10rem;
+        }
+
+        &.logo-grid__logos--slider {
+
+            .splide {
+                padding-bottom: 7.5rem;
+            }
+
+            .splide__slide {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .logos__logo {
+                width: 100%;
+                margin: 0;
+
+                @media(min-width: 768px) {
+                    width: 100%;
+                    margin: 0;
+                }
+
+                @media(min-width: 1200px) {
+                    width: 100%;
+                    margin: 0;
+                }
+            }
         }
 
         .logos__logo {
