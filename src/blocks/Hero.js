@@ -19,7 +19,7 @@ export default function Hero({ data }) {
 		};
 	
 		fetchData();
-	  }, []);
+	}, []);
 	
 	const isStandard = data?.variant === 'default';
 	const isLarge = data?.variant === 'large';
@@ -42,16 +42,16 @@ export default function Hero({ data }) {
 						<Buttons buttons={data?.main?.buttons} className={clsx('mt-6')}/>
 					)}
 
-					{ {call ? (
+					{call ? (
 						<div>
-						<p>partitionKey: {call.partitionKey}</p>
-						<p>rowKey: {call.rowKey}</p>
-						<p>totalCo2Saving: {call.totalCo2Saving}</p>
-						<p>totalNoxSaving: {call.totalNoxSaving}</p>
+							<p>partitionKey: {call.partitionKey}</p>
+							<p>rowKey: {call.rowKey}</p>
+							<p>totalCo2Saving: {call.totalCo2Saving}</p>
+							<p>totalNoxSaving: {call.totalNoxSaving}</p>
 						</div>
 					) : (
 						<p>Loading data...</p>
-					)} }
+					)}
 				</div>
 
 				{!isSimple &&(
