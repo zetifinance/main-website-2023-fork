@@ -2,7 +2,7 @@ import clsx from 'clsx'
 import React from 'react'
 import Text from '../components/UI/Text'
 import Buttons from '../components/UI/Buttons'
-import Photos from '../components/UI/Photos'
+import Image from '../resolvers/Image'
 import { useInView } from "react-intersection-observer";
 
 export default function LogoGrid({ data }) {
@@ -30,12 +30,48 @@ export default function LogoGrid({ data }) {
                     )}
                 </div>
 
-                {data?.images && (
-                    <div className="logo-grid__logos">
-                        <Photos photos={data?.images} className={clsx('')} />
-                    </div>
-                )}
+                <div className="logo-grid__logos">
+                    {data?.logos?.map((item, i) => {
+                        const image_link = item?.link;
+                        const image_light = item?.image_light;
+                        const image_dark = item?.image_dark;
 
+                        return (
+                            <>
+                                {image_link ? (
+                                    <a className="logos__logo" href={image_link} rel="noreferrer noopener" target="_blank">
+                                        {image_light && (
+                                            <div className={clsx('logos__logo-light')}>
+                                                <img src={image_light} alt="" className="logos__logo-light"></img>
+                                                <Image src={image_light} alt="" className=""/>
+                                            </div>
+                                        )}
+                                                                    
+                                        {image_dark && (
+                                            <div className={clsx('logos__logo-dark', { 'primary': !image_light })}>
+                                                <Image src={image_dark} alt="" className=""/>
+                                            </div>
+                                        )}
+                                    </a>
+                                ) : (
+                                    <div className="logos__logo">
+                                        {image_light && (
+                                            <div className={clsx('logos__logo-light')}>
+                                                <Image src={image_light} alt="" className=""/>
+                                            </div>
+                                        )}
+                                                                    
+                                        {image_dark && (
+                                            <div className={clsx('logos__logo-dark', { 'primary': !image_light })}>
+                                                <Image src={image_dark} alt="" className=""/>
+                                            </div>
+                                        )}
+                                    </div>
+                                )}
+                            </>
+                        );
+                    })}
+                </div>
             </div>
         </section>
     )

@@ -131,6 +131,29 @@ export const query = graphql`
           }
         }
       }
+      logos {
+        link
+        image_light {
+          childImageSharp {
+            gatsbyImageData(
+              width: 800
+              quality: 72
+              placeholder: DOMINANT_COLOR
+              formats: [AUTO, WEBP, AVIF]
+            )
+          }
+        }
+        image_dark {
+          childImageSharp {
+            gatsbyImageData(
+              width: 800
+              quality: 72
+              placeholder: DOMINANT_COLOR
+              formats: [AUTO, WEBP, AVIF]
+            )
+          }
+        }
+      } 
       video
       slider {
         slide {

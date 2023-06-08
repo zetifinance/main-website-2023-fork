@@ -96,6 +96,7 @@ header[role="banner"] {
                 &:hover {
                     &::after {
                         opacity: 1;
+                        z-index: 1;
                     }
                 }
 

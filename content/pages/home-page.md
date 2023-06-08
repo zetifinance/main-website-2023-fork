@@ -147,10 +147,6 @@ blocks:
       heading: Manufacturers we've financed
       rich_editor: ""
       buttons: []
-    images:
-      - image: /img/tesla.png
-      - image: /img/jaguar.png
-      - image: /img/levc.png
     logos:
       - image_light: /img/tesla.png
         image_dark: /img/tesla-light-theme.webp
