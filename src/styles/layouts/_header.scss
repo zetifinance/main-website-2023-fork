@@ -137,6 +137,7 @@ header[role="banner"] {
                     color: $primary;
                     opacity: 0;
                     transition: 400ms $cubic;
+                    z-index: -10;
                 }
 
                 .dark & {

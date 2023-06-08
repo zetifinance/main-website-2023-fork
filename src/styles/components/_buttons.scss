@@ -34,11 +34,18 @@
             letter-spacing: 1px;
         }
 
+        &:hover {
+            svg {
+                transform: translateX(3px);
+            }
+        }
+
         svg {
             width: 30px;
             height: auto;
             margin-left: 1rem;
             display: block;
+            transition: 400ms $cubic;
 
             @media(min-width: 768px) {
                 width: 40px;

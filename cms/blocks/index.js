@@ -130,7 +130,27 @@ const Config = {
       summary: '{{fields.title}}',
       fields: [
         Intro,
-        Images,
+        {
+          label: 'Logos',
+          name: 'logos',
+          widget: 'list',
+          collapsed: true,
+          required: false,
+          fields: [
+            {
+              label: 'Image (Dark Theme)',
+              name: 'image_light',
+              widget: 'image',
+              required: false,
+            },
+            {
+              label: 'Image (Light Theme)',
+              name: 'image_dark',
+              widget: 'image',
+              required: false,
+            }
+          ],
+        }
       ],
     },
     {
