@@ -108,10 +108,8 @@ blocks:
     slider:
       - slide:
           main:
-            rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-              bibendum congue libero, sed laoreet metus imperdiet at. Cras et
-              suscipit libero, eu imperdiet sapien. Nullam bibendum diam in
-              libero luctus, at dapibus elit pulvinar.
+            rich_editor: We've been working with customers to enable clean vehicle
+              deployment across the UK.
             heading: $40m of vehicles financed to date
             buttons: []
           image: ""
@@ -122,10 +120,7 @@ blocks:
       - slide:
           main:
             heading: 5,000,000 kg of CO2 avoided
-            rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-              bibendum congue libero, sed laoreet metus imperdiet at. Cras et
-              suscipit libero, eu imperdiet sapien. Nullam bibendum diam in
-              libero luctus, at dapibus elit pulvinar.
+            rich_editor: That's the equivalent to 973 homes' electricity use for one year.
           image: /img/tezos-wpn1xnccgpw-unsplash.jpg
           statistic:
             stat: 5
@@ -134,10 +129,8 @@ blocks:
       - slide:
           main:
             heading: 14,000 kg of NOx avoided
-            rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-              bibendum congue libero, sed laoreet metus imperdiet at. Cras et
-              suscipit libero, eu imperdiet sapien. Nullam bibendum diam in
-              libero luctus, at dapibus elit pulvinar.
+            rich_editor: Zeti's model continues to prevent the emission of Nitrous Oxide
+              into the atmosphere.
           statistic:
             stat: 14000
             text: kg
