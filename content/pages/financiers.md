@@ -24,20 +24,21 @@ blocks:
       - heading: New ESG asset class
         rich_editor: Generate attractive, risk-adjusted returns in a new clean asset
           class comparable to an investment in renewable energy.
-        image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+        image: /img/lexus.jpeg
       - heading: Investment visibility
         rich_editor: Our digital platform pulls live telematics directly from each
           vehicle giving you insight into asset security. Also, vehicle
           utilization patterns give insight into the economic performance of the
           borrower, meaning pre-emptive action can be taken to protect your
           investment.
-        image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+        image: /img/team.jpg
       - heading: Fully automated repayments
         rich_editor: Monthly repayments are entirely managed by Zeti meaning you'll see
           the monthly repayments in your account hassle free.
-        image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+        image: /img/shutterstock_742689853.jpg
       - heading: Optimised returns
         rich_editor: Risk-adjusted upside returns with downside protection.
+        image: /img/careers.jpg
   - type: grid
     variant: card
     intro:
