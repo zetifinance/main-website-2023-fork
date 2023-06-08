@@ -284,6 +284,7 @@ body {
 			}
 
 			@media(min-width: 768px) {
+				flex: unset;
 				width: calc(50% - 4rem);
 
 				h3 {

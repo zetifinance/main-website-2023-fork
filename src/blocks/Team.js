@@ -73,7 +73,7 @@ export default function Team({ data }) {
       <div className="container">
         <div className="team__intro">
           <div>
-            {intro_heading && <h2 className="section-heading">{intro_heading}</h2>}
+            {intro_heading && <h2 className="section-heading section-heading--left">{intro_heading}</h2>}
 
             {intro_content && (
               <Text className={clsx('')}>
@@ -106,6 +106,7 @@ export default function Team({ data }) {
 
                     {linkedin && (
                       <a href={linkedin} rel="noreferrer noopener" target="_blank">
+                        {/* Update */}
                         {/* LinkedIn SVG */}
                       </a>
                     )}
@@ -115,6 +116,7 @@ export default function Team({ data }) {
                   {bio && (
                     <button onClick={() => openModal(item?.team_member)}>
                       <span>Read bio</span>
+                      {/* Update */}
                       {/* Button SVG */}
                     </button>
                   )}
