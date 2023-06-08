@@ -31,7 +31,7 @@ export default function Footer() {
 					</div>
 					<div className="footer__column footer__column--form">
 						<h3>Stay up to date</h3>
-						<form name="contact" method="POST" netlify>
+						<form name="contact" method="POST" data-netlify="true">
 							<label htmlFor="footer-email">Your Email:</label>
 							<input id="footer-email" type="email" name="footer-email" placeholder="yourname@emailaddress.com"/>
 							<button type="submit" className="button button--standard button--yellow">
