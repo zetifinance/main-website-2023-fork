@@ -10,6 +10,7 @@ blocks:
     main:
       heading: Insights
   - type: posts_grid
+    variant: insights
 seo:
   ogimage: /img/henlo-cover.png
 ---
