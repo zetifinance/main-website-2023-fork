@@ -74,6 +74,7 @@ blocks:
           heading: Monitor real-time carbon and NOx savings from the adoption of clean
             vehicles
           image: /img/co2.png
+    columns: Four
   - type: testimonials
     intro:
       heading: Case Studies
