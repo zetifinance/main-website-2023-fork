@@ -88,6 +88,14 @@
                         @media(min-width: 768px) {
                             width: 30px;
                         }
+
+                        .light & {
+
+                            rect,
+                            path {
+                                fill: $primary;
+                            }
+                        }
                     }
                 }
             }

@@ -36,6 +36,13 @@ const collection = {
     },
     PermalinkField('careers'),
     {
+      label: 'Featured Image',
+      name: 'thumbnail',
+      widget: 'image',
+      default: '',
+      required: false,
+    },
+    {
       label: 'Excerpt',
       name: 'excerpt',
       widget: 'markdown',

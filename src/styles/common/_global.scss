@@ -163,6 +163,10 @@ body {
 		box-shadow: 0 0 20 rgba(0, 0, 0, 0.75);
 		overflow: hidden;
 
+		.light & {
+			background-color: $lightest;
+		}
+
 		@media(min-width: 768px) {
 			width: 75%;
 			height: 90%;
@@ -203,6 +207,10 @@ body {
 
 				transform-origin: center, center;
 				background-color: $lightest;
+
+				.light & {
+					background-color: $primary;
+				}
 			}
 
 			&::before {
