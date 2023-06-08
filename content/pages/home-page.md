@@ -150,6 +150,22 @@ blocks:
       - image_light: /img/levc.png
         image_dark: /img/levc-light-theme.webp
         link: https://www.levc.com/
+  - type: logo_grid
+    intro:
+      heading: Working alongside
+    logos:
+      - image_light: /img/ey-white.png
+        image_dark: /img/ey-dark.png
+      - image_light: /img/microsoft-white.png
+        image_dark: /img/microsoft-colour.png
+      - image_light: /img/amber-white.png
+        image_dark: /img/amber.jpeg
+      - image_light: /img/gravis-white.png
+        image_dark: /img/gravis-black.png
+      - image_light: /img/bvlra-white.png
+        image_dark: /img/bvrla-logo.png
+      - image_light: /img/octopus-investments-white.png
+        image_dark: /img/octopus-investments-logo-vector.png
 seo:
   ogimage: /img/henlo-cover.png
 ---
