@@ -248,7 +248,6 @@ const Config = {
       summary: '{{fields.title}}',
       fields: [
         Intro,
-        Vacancies,
       ],
     },
     {

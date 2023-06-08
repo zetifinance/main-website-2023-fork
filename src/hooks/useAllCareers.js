@@ -19,8 +19,9 @@ export const useAllCareers = () => {
               }
               frontmatter {
                 title
-                date(formatString: "MMMM DD, YYYY")
-                author
+                excerpt
+                location
+                hours
               }
             }
           }

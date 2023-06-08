@@ -4,23 +4,7 @@ import Buttons from '../components/UI/Buttons'
 import Text from '../components/UI/Text'
 import Image from '../resolvers/Image'
 
-export default function Hero({ data }) {
-	const [data, setData] = useState(null);
-
-	useEffect(() => {
-		const fetchData = async () => {
-			try {
-			  const response = await fetch('https://zeti.co.uk/api/aggregatestats');
-			  const data = await response.json();
-			  setData(data);
-			} catch (error) {
-			  console.error('Error fetching data:', error);
-			}
-		  };
-	  
-		  fetchData();
-	}, []);
-	
+export default function Hero({ data }) {	
 	const isStandard = data?.variant === 'default';
 	const isLarge = data?.variant === 'large';
 	const isContact = data?.variant === 'contact';
@@ -41,8 +25,6 @@ export default function Hero({ data }) {
 					{data?.main?.buttons && (
 						<Buttons buttons={data?.main?.buttons} className={clsx('mt-6')}/>
 					)}
-
-					{data ? <pre>{JSON.stringify(data, null, 2)}</pre> : 'Loading...'}
 				</div>
 
 				{!isSimple &&(
