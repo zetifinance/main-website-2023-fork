@@ -67,7 +67,6 @@ export default function LogoGrid({ data }) {
                                                 <a className="logos__logo" href={image_link} rel="noreferrer noopener" target="_blank">
                                                     {image_light && (
                                                         <div className={clsx('logos__logo-light')}>
-                                                            <img src={image_light} alt="" className="logos__logo-light"></img>
                                                             <Image src={image_light} alt="" className=""/>
                                                         </div>
                                                     )}
@@ -112,14 +111,13 @@ export default function LogoGrid({ data }) {
                                             <a className="logos__logo" href={image_link} rel="noreferrer noopener" target="_blank">
                                                 {image_light && (
                                                     <div className={clsx('logos__logo-light')}>
-                                                        <img src={image_light} alt="" className="logos__logo-light"></img>
-                                                        <Image src={image_light} alt="" className=""/>
+                                                        <Image src={image_light} alt=""/>
                                                     </div>
                                                 )}
                                                                             
                                                 {image_dark && (
                                                     <div className={clsx('logos__logo-dark', { 'primary': !image_light })}>
-                                                        <Image src={image_dark} alt="" className=""/>
+                                                        <Image src={image_dark} alt=""/>
                                                     </div>
                                                 )}
                                             </a>
@@ -127,13 +125,13 @@ export default function LogoGrid({ data }) {
                                             <div className="logos__logo">
                                                 {image_light && (
                                                     <div className={clsx('logos__logo-light')}>
-                                                        <Image src={image_light} alt="" className=""/>
+                                                        <Image src={image_light} alt=""/>
                                                     </div>
                                                 )}
                                                                             
                                                 {image_dark && (
                                                     <div className={clsx('logos__logo-dark', { 'primary': !image_light })}>
-                                                        <Image src={image_dark} alt="" className=""/>
+                                                        <Image src={image_dark} alt=""/>
                                                     </div>
                                                 )}
                                             </div>
