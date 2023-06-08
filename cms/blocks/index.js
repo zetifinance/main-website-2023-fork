@@ -304,7 +304,7 @@ const Config = {
       name: 'posts_grid',
       widget: 'object',
       fields: [
-        Intro,
+        VariantField('news', ['news', 'insights']),
       ],
     },
     {

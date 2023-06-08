@@ -1,18 +1,20 @@
 import React, { useState, useEffect } from 'react'
 import ArticleCard from '../components/Article/ArticleCard';
-import { useAllPosts } from '../hooks/useAllPosts';
+import { useAllPosts, useAllInsights } from '../hooks/postQueries';
 
 export default function PostsGrid({ data }) {
-    const allNews = useAllPosts();
+
+    
+    const postsArray = useAllPosts();
 
     // State for the list
-    const [list, setList] = useState([...allNews.slice(0, 9)])
+    const [list, setList] = useState([...postsArray.slice(0, 9)])
 
     // State to trigger oad more
     const [loadMore, setLoadMore] = useState(false)
 
     // State of whether there is more to load
-    const [hasMore, setHasMore] = useState(allNews.length > 9)
+    const [hasMore, setHasMore] = useState(postsArray.length > 9)
 
     // Load more button click
     const handleLoadMore = () => {
@@ -23,9 +25,9 @@ export default function PostsGrid({ data }) {
     useEffect(() => {
         if (loadMore && hasMore) {
         const currentLength = list.length
-        const isMore = currentLength < allNews.length
+        const isMore = currentLength < postsArray.length
         const nextResults = isMore
-            ? allNews.slice(currentLength, currentLength + 9)
+            ? postsArray.slice(currentLength, currentLength + 9)
             : []
         setList([...list, ...nextResults])
         setLoadMore(false)
@@ -34,7 +36,7 @@ export default function PostsGrid({ data }) {
 
     //Check if there is more
     useEffect(() => {
-        const isMore = list.length < allNews.length
+        const isMore = list.length < postsArray.length
         setHasMore(isMore)
     }, [list]) //eslint-disable-line
 
