@@ -156,7 +156,7 @@ blocks:
       - image_light: /img/levc.png
         image_dark: /img/levc-light-theme.webp
         link: https://www.levc.com/
-    variant: Slider
+    variant: Grid
   - type: logo_grid
     intro:
       heading: Working alongside
@@ -173,6 +173,7 @@ blocks:
         image_dark: /img/bvrla-logo.png
       - image_light: /img/octopus-investments-white.png
         image_dark: /img/octopus-investments-logo-vector.png
+    variant: Slider
 seo:
   ogimage: /img/henlo-cover.png
 ---
