@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 
 import Hero from '@/blocks/Hero';
-import Text from '../blocks/Text';
+import Content from '../blocks/Text';
 import TextImage from '../blocks/TextImage';
 import TextVideo from '../blocks/TextVideo';
 import Image from '../blocks/Image';
@@ -31,7 +31,7 @@ export default function PageBuilder({ blocks, preview = false }) {
             case 'hero':
               return <Hero key={i} data={block} />;
             case 'text':
-              return <Text key={i} data={block} preview={preview} />;
+              return <Content key={i} data={block} preview={preview} />;
             case 'text_image':
               return <TextImage key={i} data={block} preview={preview} />;
             case 'text_video':
