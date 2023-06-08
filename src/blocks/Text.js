@@ -1,12 +1,14 @@
 import React from 'react';
 import Text from '../components/UI/Text';
 
-export default function Content({ data }) {
+export default function Text({ data }) {
   return (
-    <section className='block block__content py-10 lg:py-16'>
-        {data?.content && (
-          <Text className='mx-auto w-full max-w-6xl'>{data?.content}</Text>
+    <section className='block block__text'>
+      <div className="container">
+        {data?.main?.rich_editor && (
+          <Text className=''>{data?.main?.rich_editor}</Text>
         )}
+      </div>
     </section>
   );
 }
