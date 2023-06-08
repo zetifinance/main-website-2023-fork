@@ -7,7 +7,7 @@ export const useAllPosts = () => {
       query AllPostsQuery {
         allMarkdownRemark(
           sort: { frontmatter: { date: DESC } }
-          filter: { frontmatter: { type: { eq: "post" } } }
+          filter: { frontmatter: { type: { eq: "post" } }, fileAbsolutePath: { regex: "/news/" } }
         ) {
           edges {
             node {

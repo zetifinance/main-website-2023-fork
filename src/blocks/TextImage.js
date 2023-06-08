@@ -22,7 +22,7 @@ export default function TextImage({ data }) {
 				<div className="image-text__content">
 					<div className="">
 						{heading && (
-							<h2 className={clsx('section-heading')}>{heading}</h2>
+							<h2 className={clsx('section-heading section-heading--left')}>{heading}</h2>
 						)}
 						{content && (
 							<Text className={clsx('')}>{content}</Text>
