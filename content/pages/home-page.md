@@ -151,6 +151,10 @@ blocks:
       - image: /img/tesla.png
       - image: /img/jaguar.png
       - image: /img/levc.png
+    logos:
+      - image_light: /img/tesla.png
+      - image_light: /img/jaguar.png
+      - image_light: /img/levc.png
 seo:
   ogimage: /img/henlo-cover.png
 ---
