@@ -252,7 +252,7 @@ blocks:
             variant: arrow
             label: View Careers
             url: /careers/
-    image: /img/olena-sergienko-dimjwlx1ybe-unsplash.jpg
+    image: /img/img_2286.jpg
 seo:
   ogimage: /img/henlo-cover.png
 ---
