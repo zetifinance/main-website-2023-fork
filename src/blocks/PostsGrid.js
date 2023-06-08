@@ -1,11 +1,19 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
 import ArticleCard from '../components/Article/ArticleCard';
 import { useAllPosts, useAllInsights } from '../hooks/postQueries';
 
 export default function PostsGrid({ data }) {
+    const isInsights = data?.variant === 'insights';
+    const newsPosts = useAllPosts();
+    const insightsPosts = useAllInsights();
 
-    
-    const postsArray = useAllPosts();
+    let postsArray = null;
+
+    if (isInsights) {
+        postsArray = insightsPosts;
+    } else {
+        postsArray = newsPosts;
+    }
 
     // State for the list
     const [list, setList] = useState([...postsArray.slice(0, 9)])
