@@ -75,61 +75,7 @@ blocks:
           heading: Monitor your real-time carbon and NOx savings from financing clean
             transport
           image: /img/co2.png
-  - type: testimonials
-    intro:
-      heading: Case Studies
-      buttons:
-        - button:
-            variant: arrow-white
-            label: View Case Studies
-            url: /#/
-    testimonials:
-      - testimonial:
-          company_name: Company name here
-          job_title: Job title here
-          name: Joe Bloggs
-          testimonial: >-
-            “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
-            suscipit leo.”
-
-
-            [R﻿ead more](/#/)
-          image: /img/wojciech-kaluzny-20-312x312.jpg
-      - testimonial:
-          company_name: Company name here
-          job_title: Job title here
-          name: Joe Bloggs
-          testimonial: “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
-            suscipit leo.”
-          image: /img/wojciech-kaluzny-20-312x312.jpg
-      - testimonial:
-          company_name: Company name here
-          job_title: Job title here
-          name: Joe Bloggs
-          testimonial: “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
-            suscipit leo.”
-          image: /img/wojciech-kaluzny-20-312x312.jpg
-      - testimonial:
-          company_name: Company name here
-          job_title: Job title here
-          name: Joe Bloggs
-          testimonial: “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
-            suscipit leo.”
-          image: /img/wojciech-kaluzny-20-312x312.jpg
-      - testimonial:
-          company_name: Company name here
-          job_title: Job title here
-          name: Joe Bloggs
-          testimonial: “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
-            suscipit leo.”
-          image: /img/wojciech-kaluzny-20-312x312.jpg
-      - testimonial:
-          company_name: Company name here
-          job_title: Job title here
-          name: Joe Bloggs
-          testimonial: “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
-            suscipit leo.”
-          image: /img/wojciech-kaluzny-20-312x312.jpg
+    columns: Four
   - type: accordions
     intro:
       heading: FAQs
