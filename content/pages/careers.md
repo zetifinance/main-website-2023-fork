@@ -23,7 +23,7 @@ blocks:
         - button:
             variant: arrow
             label: Jump to vacancies
-            url: /#/
+            url: /#vacancies/
   - type: text_image
     variant: default
     image: /img/tezos-wpn1xnccgpw-unsplash.jpg
