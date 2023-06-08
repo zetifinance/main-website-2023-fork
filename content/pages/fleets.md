@@ -75,61 +75,30 @@ blocks:
             vehicles
           image: /img/co2.png
     columns: Four
-  - type: testimonials
+  - type: grid
+    variant: card
+    columns: Two
     intro:
-      heading: Case Studies
-      buttons:
-        - button:
-            variant: arrow-white
-            label: View Case Studies
-            url: /#/
-    testimonials:
-      - testimonial:
-          company_name: Company name here
-          job_title: Job title here
-          name: Joe Bloggs
-          testimonial: >-
-            “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
-            suscipit leo.”
+      heading: Testimonials
+      rich_editor: ""
+    list:
+      - list_item:
+          rich_editor: >-
+            Zeti are a bridge between Breathe and the investment funds. We have
+            an ambitious target to scale 10,000 vehicles across the UK so we
+            really need player like Zeti who can provide us with security and
+            base of information.
 
 
-            [R﻿ead more](/#/)
-          image: /img/wojciech-kaluzny-20-312x312.jpg
-      - testimonial:
-          company_name: Company name here
-          job_title: Job title here
-          name: Joe Bloggs
-          testimonial: “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
-            suscipit leo.”
-          image: /img/wojciech-kaluzny-20-312x312.jpg
-      - testimonial:
-          company_name: Company name here
-          job_title: Job title here
-          name: Joe Bloggs
-          testimonial: “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
-            suscipit leo.”
-          image: /img/wojciech-kaluzny-20-312x312.jpg
-      - testimonial:
-          company_name: Company name here
-          job_title: Job title here
-          name: Joe Bloggs
-          testimonial: “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
-            suscipit leo.”
-          image: /img/wojciech-kaluzny-20-312x312.jpg
-      - testimonial:
-          company_name: Company name here
-          job_title: Job title here
-          name: Joe Bloggs
-          testimonial: “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
-            suscipit leo.”
-          image: /img/wojciech-kaluzny-20-312x312.jpg
-      - testimonial:
-          company_name: Company name here
-          job_title: Job title here
-          name: Joe Bloggs
-          testimonial: “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
-            suscipit leo.”
-          image: /img/wojciech-kaluzny-20-312x312.jpg
+            \- Jeff Davis, Breathe COO
+      - list_item:
+          rich_editor: >-
+            A particular benefit of the ZERO platform is the pooling of vehicle
+            mileage; with a contracted aggregate mileage across all vehicles, we
+            don’t need to juggle individual cabs to a fixed mileage or end date
+
+
+            \- Asher Moses, Sherbet CEO
   - type: accordions
     intro:
       heading: FAQs
