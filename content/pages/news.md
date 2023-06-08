@@ -10,6 +10,7 @@ blocks:
     main:
       heading: Latest News
   - type: posts_grid
+    variant: news
 seo:
   ogimage: /img/henlo-cover.png
 ---
