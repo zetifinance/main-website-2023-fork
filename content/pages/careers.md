@@ -73,10 +73,6 @@ blocks:
       heading: Current Vacancies
       rich_editor: We’re always on the lookout for talent so if you don’t see anything
         feel free to send us your CV to careers@zeti.co.uk
-<<<<<<< HEAD
-=======
-    vacancies: []
->>>>>>> 7e40afd7832bd9408b7d04482fe11628f0512e21
   - type: accordions
     accordions:
       - heading: Do you run internships, work experience or placements?
