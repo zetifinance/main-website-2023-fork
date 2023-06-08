@@ -4,6 +4,7 @@ type: post
 layout: post
 title: Customer Operations Associate
 permalink: /careers/customer-operations-associate/
+thumbnail: /img/52523575759_bca15fdde9_o.webp
 excerpt: ""
 location: Santa Monica, LA
 hours: ""
