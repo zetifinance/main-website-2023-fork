@@ -138,6 +138,12 @@ const Config = {
           required: false,
           fields: [
             {
+              label: 'Link',
+              name: 'link',
+              widget: 'string',
+              required: false,
+            },
+            {
               label: 'Image (Dark Theme)',
               name: 'image_light',
               widget: 'image',
