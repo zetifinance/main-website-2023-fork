@@ -1,7 +1,7 @@
 ---
 id: mvYXMsSQC
 type: page
-layout: page-builder
+layout: page-builder-no-index
 title: Block Map - DO NOT DELETE
 permalink: /block-map/
 blocks:
