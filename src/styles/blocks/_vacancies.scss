@@ -127,6 +127,7 @@
 
                 .light & {
                     color: $primary;
+                    border-color: $primary;
                 }
 
                 @media(min-width: 768px) {
@@ -138,12 +139,20 @@
                     margin: 0;
                 }
 
-                img {
-                    width: auto !important;
-                    height: 15px !important;
-                    margin: 0 1rem 0 0 !important;
+                svg {
+                    width: auto;
+                    height: 15px;
+                    margin: 0 1rem 0 0;
                     display: block;
-                    position: relative !important;
+                    position: relative;
+
+                    path {
+                        fill: $lightest;
+
+                        .light & {
+                            fill: $primary;
+                        }
+                    }
                 }
             }
         }

@@ -4,9 +4,9 @@ type: post
 layout: post
 title: Senior UX Designer/Developer
 permalink: /careers/senior-ux-designer-developer/
-excerpt: ""
+excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec pretium massa.
 location: London
-hours: ""
+hours: Full time
 seo:
   ogimage: /img/henlo-cover.png
 ---

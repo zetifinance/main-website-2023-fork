@@ -10,9 +10,9 @@ blocks:
     image: /img/shutterstock_1491230117.jpg
     main:
       heading: Manufacturers
-      rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-        id placerat orci. Cras cursus imperdiet nisl at blandit. Fusce vel diam
-        pellentesque, sodales lectus non, blandit diam.
+      rich_editor: Zeti’s acts as a sales enablement tool for vehicle manufacturers
+        and dealerships, providing an attractive customer-centric option to add
+        to your existing financing options.
       buttons: []
   - type: grid
     variant: card

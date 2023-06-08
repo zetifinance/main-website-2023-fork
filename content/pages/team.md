@@ -7,7 +7,7 @@ permalink: /team/
 blocks:
   - type: hero
     variant: default
-    image: /img/team.jpg
+    image: /img/img_2273.jpg
     main:
       heading: Team
       rich_editor: We’re using our patent-pending financial technology to
@@ -244,18 +244,15 @@ blocks:
     variant: staggered
     main:
       heading: Work with us
-      rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae
-        tellus lacus. Suspendisse a dolor feugiat, laoreet mi id, ultricies
-        nisi. Nulla quis rutrum dolor, quis iaculis ipsum. Praesent vel luctus
-        magna. Aenean vel urna vitae mauris aliquet auctor. Sed sit amet dolor
-        diam. Nunc vel nulla sem. Donec non fringilla orci. Curabitur sed orci
-        feugiat, fermentum quam non, condimentum elit.
+      rich_editor: We're always on the lookout for new talent to join our growing
+        team. If you'd like to work with us, head to our careers page to see our
+        current openings.
       buttons:
         - button:
             variant: arrow
             label: View Careers
             url: /careers/
-    image: /img/olena-sergienko-dimjwlx1ybe-unsplash.jpg
+    image: /img/img_2286.jpg
 seo:
   ogimage: /img/henlo-cover.png
 ---
