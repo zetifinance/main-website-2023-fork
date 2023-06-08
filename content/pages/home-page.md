@@ -135,7 +135,7 @@ blocks:
           image: ""
           variant: statistic
           statistic:
-            stat: "300"
+            stat: 40
             text: m
       - slide:
           main:
@@ -145,6 +145,9 @@ blocks:
               suscipit libero, eu imperdiet sapien. Nullam bibendum diam in
               libero luctus, at dapibus elit pulvinar.
           image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+          statistic:
+            stat: 5
+            text: m kg
       - slide:
           main:
             heading: 14,000 kg of NOx avoided
@@ -152,6 +155,9 @@ blocks:
               bibendum congue libero, sed laoreet metus imperdiet at. Cras et
               suscipit libero, eu imperdiet sapien. Nullam bibendum diam in
               libero luctus, at dapibus elit pulvinar.
+          statistic:
+            stat: 140000
+            text: kg
   - type: logo_grid
     intro:
       heading: Manufacturers we've financed
