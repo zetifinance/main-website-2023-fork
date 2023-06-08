@@ -3,7 +3,7 @@ id: Ab6DCyX0V
 type: post
 layout: post
 title: Zeti joins ACRE, NYC’s Leading Clean Energy Incubator
-permalink: /news/zeti-joins-acre-nyc-leading-clean-energy-incubator/
+permalink: /news/zeti-joins-acre-nyc-s-leading-clean-energy-incubator/
 thumbnail: /img/acre.webp
 date: 2023-02-09T01:00:00.000Z
 author: ""
