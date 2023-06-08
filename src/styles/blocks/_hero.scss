@@ -119,6 +119,7 @@
         }
 
         .hero__content {
+            margin-bottom: 2rem;
             padding-right: 2rem;
             position: relative;
             display: flex;
@@ -127,6 +128,7 @@
             z-index: 1;
 
             @media(min-width: 768px) {
+                margin-bottom: 0;
                 padding-top: 5rem;
                 padding-right: 0;
             }
@@ -258,15 +260,10 @@
         .hero__content {
             width: 100%;
             position: relative;
-            transform: translateY(-5rem);
             z-index: 1;
 
             @media(min-width: 1200px) {
                 width: 40%;
-                max-width: 480px;
-            }
-
-            @media(min-width: 1600px) {
                 max-width: 480px;
             }
         }
