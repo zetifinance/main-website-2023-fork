@@ -101,51 +101,6 @@ blocks:
 
             \- Asher Moses, Sherbet CEO
           image: /img/quotation.png
-  - type: testimonials
-    intro:
-      heading: Customer stories
-      rich_editor: T﻿his is a test
-      buttons:
-        - button:
-            variant: arrow-white
-            label: View Case Studies
-            url: "#"
-    testimonials:
-      - testimonial:
-          image: /img/wojciech-kaluzny-20-312x312.jpg
-          testimonial: “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
-            suscipit leo.”
-          name: Joe Bloggs
-          job_title: Job title here
-          company_name: Company name here
-      - testimonial:
-          company_name: Company name here
-          name: Joe Bloggs
-          job_title: Job title here
-          testimonial: “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
-            suscipit leo.”
-          image: /img/wojciech-kaluzny-20-312x312.jpg
-      - testimonial:
-          company_name: Company name here
-          job_title: Job title here
-          name: Joe Bloggs
-          image: /img/wojciech-kaluzny-20-312x312.jpg
-          testimonial: “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
-            suscipit leo.”
-      - testimonial:
-          company_name: Company name here
-          job_title: Job title here
-          name: Joe Bloggs
-          image: /img/wojciech-kaluzny-20-312x312.jpg
-          testimonial: “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
-            suscipit leo.”
-      - testimonial:
-          company_name: Company name here
-          job_title: Job title here
-          name: Joe Bloggs
-          testimonial: “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu
-            suscipit leo.”
-          image: /img/wojciech-kaluzny-20-312x312.jpg
   - type: slider
     variant: default
     intro:
