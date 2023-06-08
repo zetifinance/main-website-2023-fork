@@ -95,7 +95,7 @@ blocks:
       - rich_editor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec
           pretium massa.
         heading: Engineers
-        apply_link: /#/
+        apply_link: https://google.co.uk/
         tags:
           - heading: New York
             image: /img/pin.png
