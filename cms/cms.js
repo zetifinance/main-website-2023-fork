@@ -5,6 +5,7 @@ import { Widget as PermalinkWidget } from 'netlify-cms-widget-permalink';
 import pages from './collections/pages';
 import posts from './collections/posts';
 import insights from './collections/insights';
+import careers from './collections/careers';
 import authors from './collections/authors';
 import settings from './collections/settings';
 
