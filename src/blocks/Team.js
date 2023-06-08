@@ -41,7 +41,7 @@ export default function Team({ data }) {
                           <Image src={data?.image} alt="" className="" />
                       </div>
                     }
-                    <div className={clsx('modal__content', { 'modal__content--full': !data?.name })}>
+                    <div className={clsx('modal__content', { 'modal__content--full': !data?.image })}>
 
                         <div>
                             {data?.name && 
