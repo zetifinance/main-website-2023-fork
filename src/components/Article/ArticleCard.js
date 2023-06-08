@@ -5,7 +5,7 @@ import Image from '../../resolvers/Image'
 export default function ArticleCard({ data }) {
   const { node: post } = data;
   return (
-      <Link to={post.fields.slug} className="blog-post">
+      <Link to={post.frontmatter.permalink} className="blog-post">
         <Image src={post?.frontmatter?.thumbnail} alt={""} className="blog-post__thumbnail"/>
         <div className="blog-post__content">
           <div>

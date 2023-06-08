@@ -19,6 +19,7 @@ export const useAllPosts = () => {
               }
               frontmatter {
                 title
+                permalink
                 date(formatString: "MMMM DD, YYYY")
                 author
                 thumbnail {

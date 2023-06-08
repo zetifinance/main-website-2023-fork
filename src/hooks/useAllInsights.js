@@ -19,6 +19,7 @@ export const useAllInsights = () => {
               }
               frontmatter {
                 title
+                permalink
                 date(formatString: "MMMM DD, YYYY")
                 author
               }
