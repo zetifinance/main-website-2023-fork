@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ArticleCard from '../components/Article/ArticleCard';
-import { useAllPosts, useAllInsights } from '../hooks/postQueries';
+import { useAllPosts } from '../hooks/useAllPosts';
+import { useAllInsights } from '../hooks/useAllInsights';
 
 export default function PostsGrid({ data }) {
     const isInsights = data?.variant === 'insights';
