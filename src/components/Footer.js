@@ -59,7 +59,8 @@ export default function Footer() {
 
 				<div className="footer__lower">
 					<div className="footer__copyright">
-						<p>©2023 Zeti Limited. All Rights Reserved. Credits</p>
+						<p>©2023 Zeti Limited. All Rights Reserved. </p>
+						<a href="/privacy-and-cookies/" rel="noreferrer noopener" target="_blank">Privacy & Cookies Policy</a>
 					</div>
 					<div className="footer__socials">
 						<a href="/" target="_blank" rel="noopener noreferrer">Twitter</a>

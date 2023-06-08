@@ -94,10 +94,6 @@
             }
         }
 
-
-
-
-
         .grid__item {
             display: flex;
             flex-direction: column;
@@ -110,11 +106,14 @@
                 background-color: $dark-grey;
             }
 
-            img {
-                width: 65px;
-                height: auto;
+            .grid__item-image {
                 margin-bottom: 2rem;
-                display: block;
+
+                img {
+                    width: 65px;
+                    height: auto;
+                    display: block;
+                }
             }
 
             h3 {

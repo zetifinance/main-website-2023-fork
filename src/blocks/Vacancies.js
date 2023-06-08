@@ -16,7 +16,7 @@ export default function Vacancies({ data }) {
     const vacancies = data?.vacancies;
 
     return (
-        <section className={clsx('block block__vacancies')}>
+        <section id='vacancies' className={clsx('block block__vacancies')}>
             <div className="container">
                 <div className="vacancies__intro">
                     {intro_heading && (

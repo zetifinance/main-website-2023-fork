@@ -211,6 +211,25 @@ footer[role="contentinfo"] {
 			}
 		}
 
+		.footer__copyright {
+			display: flex;
+			flex-direction: column;
+
+			@media(min-width: 768px) {
+				flex-direction: row;
+				align-items: center;
+			}
+
+			a {
+				margin-top: 1rem;
+
+				@media(min-width: 768px) {
+					margin-top: 0;
+					margin-left: 1rem;
+				}
+			}
+		}
+
 		.footer__socials {
 			margin-top: 1rem;
 			display: flex;
