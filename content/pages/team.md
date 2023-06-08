@@ -92,6 +92,7 @@ blocks:
           bio: Extensive automotive industry experience encompassing vehicle finance,
             de-fleet and remarketing as well as dealer operations and the
             implementation of software solutions to improve business capability.
+          image: /img/dave-kennon.jpg
       - team_member:
           name: John Fentiman
           image: /img/john-fentiman.jpg
@@ -125,7 +126,7 @@ blocks:
             the main focus on streamlining and automising consumer experiences
             and operational processes, using data-led teams to drive successful
             outcomes.
-          image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+          image: /img/david-martin.jpg
       - team_member:
           name: Phoebe Dickson
           job_role: Marketing Manager
