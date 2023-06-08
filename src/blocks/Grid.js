@@ -26,7 +26,7 @@ export default function Grid({ data }) {
             <div className="container">
                 <div className="grid__intro">
                     {intro_heading && (
-                        <h2 className="section-heading">{intro_heading}</h2>
+                        <h2 className={clsx('section-heading', {'section-heading--': isNoCard})}>{intro_heading}</h2>
                     )}
 
                     { intro_content && (
