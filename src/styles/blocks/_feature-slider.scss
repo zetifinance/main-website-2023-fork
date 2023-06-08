@@ -1,4 +1,5 @@
 .block__feature-slider {
+    overflow: unset;
 
     .feature-slider__intro {
         max-width: 685px;
@@ -134,7 +135,7 @@
         &-images {
             width: 100%;
             position: sticky;
-            top: 100px;
+            top: calc(50vh - (50vh / 2));
             left: 0;
 
             @media(min-width: 1200px) {

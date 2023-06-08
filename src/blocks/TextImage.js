@@ -17,9 +17,9 @@ export default function TextImage({ data }) {
 	const image = data.image;
 
   	return (
-		<section className="block block__image-text">
+		<section className="block block__media-text">
 			<div className={clsx('container')}>
-				<div className="image-text__content">
+				<div className="media-text__content">
 					<div className="">
 						{heading && (
 							<h2 className={clsx('section-heading section-heading--left')}>{heading}</h2>
@@ -32,7 +32,7 @@ export default function TextImage({ data }) {
 						)}
 					</div>
 				</div>
-				<div className="image-text__image">
+				<div className="media-text__media">
 					{image && (    
 						<Image src={image} alt={""} className="" />
 					)}

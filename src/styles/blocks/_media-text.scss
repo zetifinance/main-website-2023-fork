@@ -1,4 +1,4 @@
-.block__image-text {
+.block__media-text {
 
     .container {
         display: flex;
@@ -7,7 +7,7 @@
         flex-wrap: wrap;
     }
 
-    .image-text__content {
+    .media-text__content {
         order: 2;
         width: 100%;
 
@@ -45,7 +45,7 @@
         }
     }
 
-    .image-text__image {
+    .media-text__media {
         order: 1;
         width: 100%;
         margin-bottom: 2rem;
@@ -63,6 +63,13 @@
 
         img {
             border-radius: 12px;
+        }
+
+        .media-text__media-embed,
+        video {
+            width: 100%;
+            height: auto;
+            display: block;
         }
     }
 }

@@ -131,6 +131,7 @@ const Config = {
       widget: 'object',
       summary: '{{fields.title}}',
       fields: [
+        VariantField('Grid', ['Grid', 'Slider']),
         Intro,
         {
           label: 'Logos',
