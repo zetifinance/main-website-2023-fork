@@ -11,7 +11,7 @@ const Layout = ({ nav = false, children }) => {
 			
 			<main className="wrapper">
 				<div class="graphic">
-					<svg width="1638px" height="1746px" viewBox="0 0 1638 1746" version="1.1" xmlns="http://www.w3.org/2000/svg">
+					<svg width="1638px" height="1746px" viewBox="0 0 1638 1746" version="1.1">
 						<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.501229422">
 							<g id="dotted-line" transform="translate(1.000000, 0.000000)" stroke="#5ADAFD">
 								<g id="Page-1">

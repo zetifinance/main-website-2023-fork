@@ -12,7 +12,7 @@ export default function Header() {
 	return (
 		<header className="header" role="banner">
 			<a href="/" className="brand">
-				<svg width="116px" height="36px" viewBox="0 0 116 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns xlink="http://www.w3.org/1999/xlink">
+				<svg width="116px" height="36px" viewBox="0 0 116 36" version="1.1">
 					<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 						<g id="logo" fill="#FFFFFF" fill-rule="nonzero">
 							<polygon id="Fill-1" points="14.1505078 35.2825015 35.2825367 35.2825015 35.2825367 28.2256075 21.2070678 28.225959"></polygon>

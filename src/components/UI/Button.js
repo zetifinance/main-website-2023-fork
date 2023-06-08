@@ -31,7 +31,7 @@ export default function Button({ className, button, children, ...props }) {
       ) : (
         <button className={clsx(buttonStyle, className)} {...props}>
           {children}
-          <svg width="40px" height="18px" viewBox="0 0 40 18" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <svg width="40px" height="18px" viewBox="0 0 40 18" version="1.1">
             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
               <g id="Home-Concept-1" transform="translate(-295.000000, -689.000000)" fill="#141F26" fill-rule="nonzero">
                 <g id="Group-2" transform="translate(84.000000, 148.000000)">

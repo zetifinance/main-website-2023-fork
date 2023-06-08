@@ -10,7 +10,7 @@ blocks:
     main:
       heading: Privacy & Cookies
       rich_editor: ""
-  - type: Text
+  - type: text
     main:
       rich_editor: >-
         At Zeti, accessible from zeti.co.uk, one of our main priorities is the

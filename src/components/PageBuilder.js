@@ -69,11 +69,13 @@ export default function PageBuilder({ blocks, preview = false }) {
             
             default:
               return (
-                <div className='container mx-auto'>
-                  <div className='text-center'>
-                    Missing Section {block.type}
+                <section className="block block__missing-block">
+                  <div className='container'>
+                    <div className='text-center'>
+                      Missing Section {block.type}
+                    </div>
                   </div>
-                </div>
+                </section>
               );
           }
         })}

@@ -27,7 +27,7 @@ const Config = {
       * 
       */
       label: 'Text',
-      name: 'Text',
+      name: 'text',
       widget: 'object',
       fields: [
         Main,

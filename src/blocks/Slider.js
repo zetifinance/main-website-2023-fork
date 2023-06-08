@@ -81,7 +81,7 @@ export default function Slider({ data }) {
                                             <div inView={inView2} ref={ref2} className="container">
                                                 {isStat ? (
                                                     <div className={clsx("splide__slide-statistic", {'in-view': inView})}>
-                                                        <svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                        <svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1">
                                                             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                                                 <circle id="Oval" stroke="#FD8C04" stroke-width="30" cx="200" cy="200" r="185"></circle>
                                                             </g>
