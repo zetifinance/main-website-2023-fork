@@ -30,7 +30,7 @@ blocks:
     tabs:
       - tab:
           heading: For Fleets
-          image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+          image: /img/shutterstock_742689853.jpg
           main:
             heading: Fleets
             rich_editor: >-
@@ -46,7 +46,7 @@ blocks:
                   url: /fleets/
       - tab:
           heading: For Financiers
-          image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+          image: /img/tesla.jpg
           main:
             rich_editor: >-
               **Generate attractive, risk-adjusted returns in a new clean asset
@@ -62,7 +62,7 @@ blocks:
                   url: /financiers/
       - tab:
           heading: For Manufacturers
-          image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+          image: /img/shutterstock_1491230117.jpg
           main:
             rich_editor: >-
               **Enable the sales of your zero-emission vehicles through
