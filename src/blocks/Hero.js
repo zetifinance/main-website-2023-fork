@@ -19,6 +19,22 @@ export default function Hero({ data }) {
 	const isContact = data?.variant === 'contact';
 	const isSimple = data?.variant === 'simple';
 
+	const [call, setData] = useState(null);
+
+	useEffect(() => {
+		const fetchData = async () => {
+		  try {
+			const response = await fetch('https://zeti.co.uk/api/aggregatestats');
+			const jsonData = await response.json();
+			setData(jsonData);
+		  } catch (error) {
+			console.error('Error fetching data:', error);
+		  }
+		};
+	
+		fetchData();
+	}, []);
+
   	return (
 		<section inView={inView} ref={ref} className={clsx('block block__hero', {'block__hero--standard': isStandard}, {'block__hero--large': isLarge}, {'block__hero--contact': isContact}, {'block__hero--simple': isSimple}, {'in-view': inView})}>
 			<div className={clsx('container', {'container--float-left': isStandard || isLarge})}>
@@ -33,6 +49,18 @@ export default function Hero({ data }) {
 
 					{data?.main?.buttons && (
 						<Buttons buttons={data?.main?.buttons} className={clsx('mt-6')}/>
+					)}
+
+
+					{call ? (
+						<div>
+							<p>partitionKey: {call.partitionKey}</p>
+							<p>rowKey: {call.rowKey}</p>
+							<p>totalCo2Saving: {call.totalCo2Saving}</p>
+							<p>totalNoxSaving: {call.totalNoxSaving}</p>
+						</div>
+					) : (
+						<p>Loading data...</p>
 					)}
 				</div>
 
