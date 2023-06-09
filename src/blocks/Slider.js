@@ -11,6 +11,7 @@ import { useInView } from "react-intersection-observer";
 import '@splidejs/react-splide/css';
 
 export default function Slider({ data }) {
+    // In View
     const [ ref, inView ] = useInView({
         threshold: .3,
         triggerOnce: true,
@@ -21,17 +22,17 @@ export default function Slider({ data }) {
         triggerOnce: true,
     });
 
-    // variant
+    // Options
     const isStandard = data?.variant === 'default';
     const isVertical = data?.variant === 'vertical';
     
-    // intro
+    // Intro
     const intro = data?.intro;
     const intro_heading = intro?.heading;
     const intro_content = intro?.rich_editor;
     const intro_buttons = intro?.buttons;
 
-    // slider
+    // Slider
     const slider = data?.slider;
 
     return (

@@ -4,15 +4,23 @@ import Buttons from '../components/UI/Buttons'
 import Text from '../components/UI/Text'
 import Image from '../resolvers/Image'
 import CountUp, { useCountUp } from 'react-countup';
+import { useInView } from "react-intersection-observer";
 
 export default function Hero({ data }) {	
+	// In View
+	const [ ref, inView ] = useInView({
+        threshold: .3,
+        triggerOnce: true,
+	});
+	
+	// Options
 	const isStandard = data?.variant === 'default';
 	const isLarge = data?.variant === 'large';
 	const isContact = data?.variant === 'contact';
 	const isSimple = data?.variant === 'simple';
 
   	return (
-		<section className={clsx('block block__hero', {'block__hero--standard': isStandard}, {'block__hero--large': isLarge}, {'block__hero--contact': isContact}, {'block__hero--simple': isSimple})}>
+		<section inView={inView} ref={ref} className={clsx('block block__hero', {'block__hero--standard': isStandard}, {'block__hero--large': isLarge}, {'block__hero--contact': isContact}, {'block__hero--simple': isSimple}, {'in-view': inView})}>
 			<div className={clsx('container', {'container--float-left': isStandard || isLarge})}>
 				<div className='hero__content'>
 					{data?.main?.heading && (
@@ -33,7 +41,7 @@ export default function Hero({ data }) {
 						{isLarge &&(
 							<div className="hero__image-emissions">
 								<h4>Kilograms of CO<sub>2</sub> saved</h4>
-								<p><strong><CountUp duration={2} delay={1} end={5438.80} /></strong></p>
+								<p><strong><CountUp duration={2} delay={3} start={0} end={5438.80} /></strong></p>
 							</div>
 						)}
 
