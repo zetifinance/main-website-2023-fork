@@ -30,6 +30,10 @@
                     border-radius: 40px;
 
                     @media(min-width: 768px) {
+                        padding: 10rem 0;
+                    }
+
+                    @media(min-width: 1200px) {
                         padding: 15rem 0;
                     }
 
@@ -116,6 +120,11 @@
                             color: $olive-green;
 
                             @media(min-width: 768px) {
+                                font-size: 4.8rem;
+                                line-height: 5.4rem;
+                            }
+
+                            @media(min-width: 1200px) {
                                 max-width: 460px;
                                 margin-bottom: 3rem;
                                 font-size: 6rem;

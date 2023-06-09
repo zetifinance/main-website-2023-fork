@@ -29,6 +29,13 @@ export default function Hero({ data }) {
 
 				{!isSimple &&(
 					<div className={clsx('hero__image', {'hero__image--no-gradient': data?.image})}>
+						{isLarge &&(
+							<div className="hero__image-emissions">
+								<h4>Kilograms of CO<sub>2</sub> saved</h4>
+								<p><strong>5438.80</strong></p>
+							</div>
+						)}
+
 						<Image src={data?.image} alt={""} className=""/>
 					</div>
 				)}
@@ -72,7 +79,6 @@ export default function Hero({ data }) {
 							<button type="submit">Send Message</button>
 						</div> 
 				  	</form>
-				  
 				)}
 			</div>
 		</section>

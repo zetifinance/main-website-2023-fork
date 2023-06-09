@@ -33,15 +33,15 @@ export default function TextImage({ data }) {
 					</div>
 				</div>
 				<div className="media-text__media">
-          { 
-            isEmbed ? (
-              <div className="media-text__media-embed" dangerouslySetInnerHTML={{ __html: video }}/>
-            ) : (
-              <video src={video} playsInline controls>
-                <track default kind="captions" srclang="en" src=""></track>
-              </video>
-            )
-          }
+          			{ 
+						isEmbed ? (
+						<div className="media-text__media-embed" dangerouslySetInnerHTML={{ __html: video }}/>
+						) : (
+						<video src={video} playsInline controls>
+							<track default kind="captions" srclang="en" src=""></track>
+						</video>
+						)
+					}
 				</div>
 			</div>
 		</section>

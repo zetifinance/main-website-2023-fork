@@ -222,10 +222,76 @@
 
         .hero__image {
             width: 100%;
+            position: relative;
 
             @media(min-width: 1200px) {
                 width: auto;
                 flex: 1;
+            }
+
+            &-emissions {
+                padding: 1rem 3rem;
+                position: absolute;
+                bottom: 2.5rem;
+                left: 0;
+                transform: translateX(0rem);
+                background-color: $yellow;
+                clip-path: polygon(0% 0%, 0% 73%, 6% 100%, 100% 100%, 100% 19%, 93% 0%);
+                z-index: 10;
+
+                @media(min-width: 768px) {
+                    padding: 1.5rem 4rem;
+                    bottom: 7.5rem;
+                    left: 0;
+                }
+
+                @media(min-width: 1200px) {
+                    bottom: 10rem;
+                    left: 0;
+                    transform: translateX(-10rem);
+                }
+
+                h4 {
+                    margin: 0;
+                    font-size: 2rem;
+                    font-weight: 500;
+                    line-height: 2.4rem;
+                    text-align: center;
+                    color: $primary;
+
+                    @media(min-width: 768px) {
+                        font-size: 2.4rem;
+                        line-height: 3rem;
+                    }
+
+                    @media(min-width: 1600px) {
+                        font-size: 2.8rem;
+                        line-height: 3.8rem;
+                        letter-spacing: 0.56px;
+                    }
+                }
+
+                p,
+                strong {
+                    margin: 0;
+                    font-size: 4rem;
+                    font-weight: 600;
+                    line-height: 5rem;
+                    text-align: center;
+                    color: $primary;
+
+                    @media(min-width: 768px) {
+                        font-size: 5rem;
+                        line-height: 6rem;
+                        letter-spacing: 1px;
+                    }
+
+                    @media(min-width: 1600px) {
+                        font-size: 7rem;
+                        line-height: 8rem;
+                        letter-spacing: 1.4px;
+                    }
+                }
             }
 
             .gatsby-image-wrapper,
