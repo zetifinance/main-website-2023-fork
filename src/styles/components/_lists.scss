@@ -30,23 +30,26 @@ ul {
 }
 
 ol {
+    margin-left: 0;
+    padding-left: 2rem;
     position: relative;
-    margin-left: $list-side-margin;
     counter-reset: counter;
     list-style: none;
 
     li {
-        counter-increment: counter;
         margin-bottom: 1rem;
+        counter-increment: counter;
 
         &:before {
-            position: absolute;
-            left: 1rem;
-            display: inline-block;
             content: counter(counter)".";
-            font-size: 2rem;
+            position: absolute;
+            left: 0rem;
+            transform: translateY(9px);
+            display: inline-block;
+            font-size: 1.6rem;
+            line-height: 1;
+            font-weight: 700;
             color: $yellow;
-            font-weight: bold;
 
             .light & {
                 color: $primary;
