@@ -16,13 +16,12 @@
 
             .splide {
 
-                .splide__track {}
-
-                .splide__list {}
-
                 .splide__pagination {
-                    bottom: -3rem;
-                    transform: translateY(100%);
+                    margin-top: 7.5rem;
+                    position: relative;
+                    bottom: unset;
+                    left: unset;
+                    right: unset;
                 }
 
                 .splide__slide {
