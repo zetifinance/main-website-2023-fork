@@ -80,6 +80,10 @@ body {
 		transform: translateX(0%);
 	}
 
+	@media(min-width: 768px) {
+		padding: 12.5rem 0 2rem 0;
+	}
+
 	&__inner {
 		flex: 1;
 		width: 90%;

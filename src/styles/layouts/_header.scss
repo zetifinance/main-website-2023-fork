@@ -11,8 +11,13 @@ header[role="banner"] {
 
     @media(min-width: 768px) {
         width: 100%;
-        padding: 4rem 5rem;
+        padding: 2.5rem 4rem;
         left: 0;
+        justify-content: space-between;
+    }
+
+    @media(min-width: 1200px) {
+        padding: 4rem 5rem;
         justify-content: unset;
     }
 
@@ -65,7 +70,7 @@ header[role="banner"] {
         justify-content: space-between;
         align-items: center;
 
-        @media(min-width: 768px) {
+        @media(min-width: 1200px) {
             flex: 1;
         }
 
@@ -213,6 +218,10 @@ header[role="banner"] {
                 cursor: pointer;
 
                 @media(min-width: 768px) {
+                    margin-left: 2.5rem;
+                }
+
+                @media(min-width: 1200px) {
                     display: none;
                 }
 

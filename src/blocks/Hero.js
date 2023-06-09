@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Buttons from '../components/UI/Buttons'
 import Text from '../components/UI/Text'
 import Image from '../resolvers/Image'
+import CountUp, { useCountUp } from 'react-countup';
 
 export default function Hero({ data }) {	
 	const isStandard = data?.variant === 'default';
@@ -32,7 +33,7 @@ export default function Hero({ data }) {
 						{isLarge &&(
 							<div className="hero__image-emissions">
 								<h4>Kilograms of CO<sub>2</sub> saved</h4>
-								<p><strong>5438.80</strong></p>
+								<p><strong><CountUp duration={2} delay={1} end={5438.80} /></strong></p>
 							</div>
 						)}
 
