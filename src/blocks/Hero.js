@@ -50,18 +50,6 @@ export default function Hero({ data }) {
 					{data?.main?.buttons && (
 						<Buttons buttons={data?.main?.buttons} className={clsx('mt-6')}/>
 					)}
-
-
-					{call ? (
-						<div>
-							<p>partitionKey: {call.partitionKey}</p>
-							<p>rowKey: {call.rowKey}</p>
-							<p>totalCo2Saving: {call.totalCo2Saving}</p>
-							<p>totalNoxSaving: {call.totalNoxSaving}</p>
-						</div>
-					) : (
-						<p>Loading data...</p>
-					)}
 				</div>
 
 				{!isSimple &&(
