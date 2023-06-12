@@ -54,12 +54,11 @@ export default function Hero({ data }) {
 
 				{!isSimple &&(
 					<div className={clsx('hero__image', {'hero__image--no-gradient': data?.image})}>
-						{isLarge &&(
+						{isLarge && call &&(
 							<div className="hero__image-emissions">
 								<h4>Kilograms of CO<sub>2</sub> saved</h4>
-								{call && (
+								
 									<p><strong><CountUp duration={2} delay={3} start={0} end={5438.80} /></strong></p>
-								)}
 							</div>
 						)}
 
