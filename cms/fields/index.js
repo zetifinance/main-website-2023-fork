@@ -176,7 +176,7 @@ export const Maps = {
     },
     {
       label: 'API',
-      name: 'api',
+      name: 'map_api',
       widget: 'string',
       required: false,
     },
