@@ -33,6 +33,7 @@
 @import "blocks/_team.scss";
 @import "blocks/_grid.scss";
 @import "blocks/_locations.scss";
+@import "blocks/_maps.scss";
 @import "blocks/_accordions.scss";
 @import "blocks/_vacancies.scss";
 @import "blocks/_feature-slider.scss";

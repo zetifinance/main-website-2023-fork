@@ -35,16 +35,11 @@ export default function Maps({ data }) {
                     { maps?.length > 0 &&
                         maps?.map((item, i) => {
                             const map_name = item?.map_name;
-                            const map_api = item?.map_api;
 
                             return (
-                                <div className="grid__item" key={i}>
+                                <div className="maps__map" key={i}>
                                     { map_name && (
                                         <h3>{map_name}</h3>
-                                    )}
-
-                                    { map_api && (
-                                        {map_api}
                                     )}
                                 </div>
                             );

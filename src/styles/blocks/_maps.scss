@@ -1,0 +1,19 @@
+.block__maps {
+
+    .maps__grid {
+        margin-top: 10rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .maps__map {
+        width: calc(50% - 4rem);
+
+        h3 {
+            margin-bottom: 3.5rem;
+            font-size: 4rem;
+            line-height: 5.4rem;
+            text-align: center;
+        }
+    }
+}

@@ -289,6 +289,9 @@ export const query = graphql`
         location_name
         address
       }
+      maps_grid {
+        map_name
+      }
       accordions {
         heading
         rich_editor
