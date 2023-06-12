@@ -250,6 +250,7 @@
 
                 &.hero__image-emissions--loaded {
                     clip-path: inset(0 0% 0 0%);
+                    transition-delay: 1.5s;
 
                     h4,
                     p,

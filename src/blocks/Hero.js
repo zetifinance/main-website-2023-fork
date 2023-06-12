@@ -57,8 +57,7 @@ export default function Hero({ data }) {
 						{isLarge && call &&(
 							<div className={clsx('hero__image-emissions', {'hero__image-emissions--loaded': call})}>
 								<h4>Kilograms of CO<sub>2</sub> saved</h4>
-								
-									<p><strong><CountUp duration={2} delay={3} start={0} end={5438.80} /></strong></p>
+								<p><strong><CountUp duration={2} delay={5} start={0} end={5438.80} /></strong></p>
 							</div>
 						)}
 
