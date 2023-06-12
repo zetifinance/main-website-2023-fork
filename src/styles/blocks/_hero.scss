@@ -197,15 +197,7 @@
         &.in-view {
             .hero__image {
 
-                &-emissions {
-                    clip-path: inset(0 0% 0 0%);
-
-                    h4,
-                    p,
-                    strong {
-                        opacity: 1;
-                    }
-                }
+                &-emissions {}
             }
         }
 
@@ -255,6 +247,16 @@
                 clip-path: inset(0 50% 0 50%);
                 overflow: hidden;
                 transition: 800ms $cubic 800ms;
+
+                &.hero__image-emissions--loaded {
+                    clip-path: inset(0 0% 0 0%);
+
+                    h4,
+                    p,
+                    strong {
+                        opacity: 1;
+                    }
+                }
 
                 &::before {
                     content: "";
