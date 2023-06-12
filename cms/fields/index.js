@@ -162,8 +162,8 @@ export const Locations = {
 };
 
 export const Maps = {
-  label: 'Maps',
-  name: 'maps',
+  label: 'Maps Grid',
+  name: 'maps_grid',
   widget: 'list',
   collapsed: true,
   required: false,

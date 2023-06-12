@@ -16,6 +16,7 @@ import Team from '../blocks/Team';
 import Accordions from '../blocks/Accordions';
 import Vacancies from '../blocks/Vacancies';
 import Locations from '../blocks/Locations';
+import Maps from '../blocks/Maps';
 import FeatureSlider from '../blocks/FeatureSlider';
 import RecentArticles from '../blocks/RecentArticles';
 import PostsGrid from '../blocks/PostsGrid';
@@ -58,6 +59,8 @@ export default function PageBuilder({ blocks, preview = false }) {
               return <Vacancies key={i} data={block} preview={preview} />;
             case 'locations':
               return <Locations key={i} data={block} preview={preview} />;
+            case 'maps':
+              return <Maps key={i} data={block} preview={preview} />;
             case 'feature_slider':
               return <FeatureSlider key={i} data={block} preview={preview} />;
             case 'recentArticles':

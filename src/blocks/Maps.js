@@ -10,7 +10,7 @@ export default function Maps({ data }) {
     const intro_buttons = data?.intro?.buttons;
 
     // Slide List
-    const maps = data?.maps;
+    const maps = data?.maps_grid;
 
     return (
         <section className={clsx('block block__maps')}>
