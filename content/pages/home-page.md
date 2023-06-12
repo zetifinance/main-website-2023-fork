@@ -82,6 +82,9 @@ blocks:
                   variant: default
                   label: Find out more
                   url: /manufacturers/
+  - type: maps
+    intro:
+      heading: Vehicles in the wild
   - type: grid
     variant: card
     columns: Two
