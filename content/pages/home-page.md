@@ -82,14 +82,6 @@ blocks:
                   variant: default
                   label: Find out more
                   url: /manufacturers/
-  - type: maps
-    intro:
-      heading: Vehicles in the wild
-    maps:
-      - map_name: UK
-        map_api: temp
-      - map_name: USA
-        map_api: temp
   - type: grid
     variant: card
     columns: Two
