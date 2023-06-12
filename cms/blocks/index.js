@@ -271,6 +271,20 @@ const Config = {
     {
       /*
       *
+      * Maps
+      * 
+      */
+      label: 'Maps',
+      name: 'maps',
+      widget: 'object',
+      summary: '{{fields.title}}',
+      fields: [
+        Intro,
+      ],
+    },
+    {
+      /*
+      *
       * Feature Slider
       * 
       */
