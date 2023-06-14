@@ -3,7 +3,10 @@ import React, { useEffect, useState } from 'react';
 import Text from '../components/UI/Text';
 import Buttons from '../components/UI/Buttons';
 import { useInView } from "react-intersection-observer";
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+
+import { MapContainer } from 'https://cdn.esm.sh/react-leaflet/MapContainer'
+import { TileLayer } from 'https://cdn.esm.sh/react-leaflet/TileLayer'
+import { useMap } from 'https://cdn.esm.sh/react-leaflet/hooks'
 
 export default function Maps({ data }) {
     // In View
@@ -13,13 +16,13 @@ export default function Maps({ data }) {
     });
 
     // Functions
-    const [geoAssets, setGeoAssets] = useState([]);
+    // const [geoAssets, setGeoAssets] = useState([]);
 
-    useEffect(() => {
-        fetch('https://zeti.co.uk/api/geoAssets')
-            .then(response => response.json())
-            .then(data => setGeoAssets(data));
-    }, []);
+    // useEffect(() => {
+    //     fetch('https://zeti.co.uk/api/geoAssets')
+    //         .then(response => response.json())
+    //         .then(data => setGeoAssets(data));
+    // }, []);
 
     // Intro
     const intro_heading = data ?.intro ?.heading;
