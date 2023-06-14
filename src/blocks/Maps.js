@@ -3,10 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Text from '../components/UI/Text';
 import Buttons from '../components/UI/Buttons';
 import { useInView } from "react-intersection-observer";
-
-import { MapContainer } from 'https://cdn.esm.sh/react-leaflet/MapContainer'
-import { TileLayer } from 'https://cdn.esm.sh/react-leaflet/TileLayer'
-import { useMap } from 'https://cdn.esm.sh/react-leaflet/hooks'
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
 export default function Maps({ data }) {
     // In View
@@ -16,13 +13,13 @@ export default function Maps({ data }) {
     });
 
     // Functions
-    // const [geoAssets, setGeoAssets] = useState([]);
+    const [geoAssets, setGeoAssets] = useState([]);
 
-    // useEffect(() => {
-    //     fetch('https://zeti.co.uk/api/geoAssets')
-    //         .then(response => response.json())
-    //         .then(data => setGeoAssets(data));
-    // }, []);
+    useEffect(() => {
+        fetch('https://zeti.co.uk/api/geoAssets')
+            .then(response => response.json())
+            .then(data => setGeoAssets(data));
+    }, []);
 
     // Intro
     const intro_heading = data ?.intro ?.heading;
@@ -55,17 +52,7 @@ export default function Maps({ data }) {
                     <div className="maps__map">
                         <h3>UK</h3>
                         <div>
-                            <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={false}>
-                                <TileLayer
-                                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                                />
-                                <Marker position={[51.505, -0.09]}>
-                                    <Popup>
-                                        A pretty CSS3 popup. <br /> Easily customizable.
-                                    </Popup>
-                                </Marker>
-                            </MapContainer>
+
                         </div>
                     </div>
                     <div className="maps__map">
