@@ -22,12 +22,12 @@ export default function Maps({ data }) {
     // }, []);
 
     // Intro
-    const intro_heading = data ?.intro ?.heading;
-    const intro_content = data ?.intro ?.rich_editor;
-    const intro_buttons = data ?.intro ?.buttons;
+    const intro_heading = data?.intro?.heading;
+    const intro_content = data?.intro?.rich_editor;
+    const intro_buttons = data?.intro?.buttons;
 
     // Slide List
-    const maps = data ?.maps_grid;
+    const maps = data?.maps_grid;
 
     return (
         <section inview={inView} className={clsx('block block__maps', { 'in-view': inView })}>
