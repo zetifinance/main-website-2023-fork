@@ -3,8 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Text from '../components/UI/Text';
 import Buttons from '../components/UI/Buttons';
 import { useInView } from "react-intersection-observer";
-// import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import { MapContainer, TileLayer, useMap } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
 export default function Maps({ data }) {
     // In View
