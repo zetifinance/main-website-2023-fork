@@ -11,14 +11,9 @@ export default function Hero({ data }) {
 	const { ref, inView } = useInView({
         threshold: .3,
         triggerOnce: true,
-    });
+	});
 	
-	// Options
-	const isStandard = data?.variant === 'default';
-	const isLarge = data?.variant === 'large';
-	const isContact = data?.variant === 'contact';
-	const isSimple = data?.variant === 'simple';
-
+	// Functions
 	const [call, setData] = useState(null);
 
 	useEffect(() => {
@@ -34,6 +29,12 @@ export default function Hero({ data }) {
 	
 		fetchData();
 	}, []);
+	
+	// Options
+	const isStandard = data?.variant === 'default';
+	const isLarge = data?.variant === 'large';
+	const isContact = data?.variant === 'contact';
+	const isSimple = data?.variant === 'simple';
 
   	return (
 		<section inview={inView} ref={ref} className={clsx('block block__hero', {'block__hero--standard': isStandard}, {'block__hero--large': isLarge}, {'block__hero--contact': isContact}, {'block__hero--simple': isSimple}, {'in-view': inView})}>

@@ -1,8 +1,9 @@
 import clsx from 'clsx';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Text from '../components/UI/Text';
 import Buttons from '../components/UI/Buttons';
 import { useInView } from "react-intersection-observer";
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
 export default function Maps({ data }) {
     // In View
@@ -10,6 +11,15 @@ export default function Maps({ data }) {
         threshold: .3,
         triggerOnce: true,
     });
+
+    // Functions
+    const [geoAssets, setGeoAssets] = useState([]);
+
+    useEffect(() => {
+        fetch('https://zeti.co.uk/api/geoAssets')
+            .then(response => response.json())
+            .then(data => setGeoAssets(data));
+    }, []);
 
     // Intro
     const intro_heading = data ?.intro ?.heading;
@@ -41,11 +51,44 @@ export default function Maps({ data }) {
                 <div className={clsx('maps__grid')}>
                     <div className="maps__map">
                         <h3>UK</h3>
+                        <div>
+                            <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: "500px", width: "100%" }}>
+                                <TileLayer
+                                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                                    attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                                />
+                                {/* Filter and plot UK markers */}
+                                {geoAssets
+                                    .filter(asset => asset.latitude > 49 && asset.latitude < 61 && asset.longitude > -11 && asset.longitude < 2)
+                                    .map((asset, index) => (
+                                        <Marker key={index} position={[asset.latitude, asset.longitude]}>
+                                            <Popup>
+                                                A pretty CSS3 popup. <br /> Easily customizable.
+                                            </Popup>
+                                        </Marker>
+                                    ))}
+                            </MapContainer>
+                        </div>
                     </div>
                     <div className="maps__map">
                         <h3>USA</h3>
                         <div>
-
+                            <MapContainer center={[37.6, -95.665]} zoom={13} style={{ height: "500px", width: "100%" }}>
+                                <TileLayer
+                                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                                    attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                                />
+                                {/* Filter and plot USA markers */}
+                                {geoAssets
+                                    .filter(asset => asset.latitude > 24.396308 && asset.latitude < 49.384358 && asset.longitude > -125.000000 && asset.longitude < -66.934570)
+                                    .map((asset, index) => (
+                                        <Marker key={index} position={[asset.latitude, asset.longitude]}>
+                                            <Popup>
+                                                A pretty CSS3 popup. <br /> Easily customizable.
+                                            </Popup>
+                                        </Marker>
+                                    ))}
+                            </MapContainer>
                         </div>
                     </div>
                 </div>
