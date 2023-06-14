@@ -44,7 +44,6 @@ const Config = {
       widget: 'object',
       summary: '{{fields.title}}',
       fields: [
-        VariantField('default', ['default', 'staggered']),
         Main,
         Image,
       ],

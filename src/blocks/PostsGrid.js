@@ -1,9 +1,18 @@
+import clsx from 'clsx';
 import React, { useState, useEffect } from 'react';
 import ArticleCard from '../components/Article/ArticleCard';
 import { useAllPosts } from '../hooks/useAllPosts';
 import { useAllInsights } from '../hooks/useAllInsights';
+import { useInView } from "react-intersection-observer";
 
 export default function PostsGrid({ data }) {
+    // In View
+    const { ref, inView } = useInView({
+        threshold: .3,
+        triggerOnce: true,
+    });
+
+    // Options
     const isInsights = data?.variant === 'insights';
     const newsPosts = useAllPosts();
     const insightsPosts = useAllInsights();
@@ -50,7 +59,7 @@ export default function PostsGrid({ data }) {
     }, [list]) //eslint-disable-line
 
 	return (
-		<section className='block block__recent-articles'>
+		<section inview={inView} className={clsx('block block__recent-articles', {'in-view': inView})}>
 			<div className="container">
 				<div className="recent-articles__posts post-grid">
                     {list.map((article) => (

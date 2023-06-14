@@ -55,11 +55,15 @@
 				color: $orange;
 			}
 
-			svg path {
-				fill: $yellow;
+			svg {
+				transform: translateX(3px);
 
-				.light & {
-					fill: $orange;
+				path {
+					fill: $yellow;
+
+					.light & {
+						fill: $orange;
+					}
 				}
 			}
 		}
@@ -110,6 +114,7 @@
 				height: auto;
 				margin-left: 2rem;
 				display: block;
+				transition: 400ms $cubic;
 
 				path {
 					transition: 400ms $cubic;

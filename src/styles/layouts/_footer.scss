@@ -12,6 +12,18 @@ footer[role="contentinfo"] {
 		padding: 12rem 0 6rem 0;
 	}
 
+	a {
+		transition: 400ms $cubic;
+
+		&:hover {
+			color: $yellow;
+
+			.light & {
+				color: $orange;
+			}
+		}
+	}
+
 	.footer__upper {
 		margin: 0;
 		display: flex;

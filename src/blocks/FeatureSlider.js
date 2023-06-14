@@ -1,14 +1,22 @@
-import clsx from 'clsx'
+import clsx from 'clsx';
 import React, { useEffect } from 'react';
-import Text from '../components/UI/Text'
-import Buttons from '../components/UI/Buttons'
-import Image from '../resolvers/Image'
-import { initFeatures } from '../lib/main'
+import Text from '../components/UI/Text';
+import Buttons from '../components/UI/Buttons';
+import Image from '../resolvers/Image';
+import { initFeatures } from '../lib/main';
+import { useInView } from "react-intersection-observer";
 
 export default function FeatureSlider({ data }) {
+    // Functions
     useEffect(() => {
         initFeatures();
     }, []);
+
+    // In View
+    const { ref, inView } = useInView({
+        threshold: .3,
+        triggerOnce: true,
+    });
 
     // Intro
     const intro_heading = data?.intro?.heading;
@@ -18,7 +26,7 @@ export default function FeatureSlider({ data }) {
     // Features
     const features = data?.features;
     return (
-        <section className="block block__feature-slider">
+        <section inview={inView} className={clsx('block block__feature-slider', {'in-view': inView})}>
             <div className="container">
                 <div className="feature-slider__intro">
                     {intro_heading && (

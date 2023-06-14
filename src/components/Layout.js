@@ -10,9 +10,9 @@ const Layout = ({ nav = false, children }) => {
 			{nav && <Header/>}
 			
 			<main className="wrapper">
-				<div class="graphic">
+				<div className="graphic">
 					<svg width="1638px" height="1746px" viewBox="0 0 1638 1746" version="1.1">
-						<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.501229422">
+						<g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd" opacity="0.501229422">
 							<g id="dotted-line" transform="translate(1.000000, 0.000000)" stroke="#5ADAFD">
 								<g id="Page-1">
 									<g id="Home-Concept-1" opacity="0.313114711">

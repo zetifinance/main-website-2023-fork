@@ -1,9 +1,16 @@
-import clsx from 'clsx'
+import clsx from 'clsx';
 import React from 'react';
-import Text from '../components/UI/Text'
-import Buttons from '../components/UI/Buttons'
+import Text from '../components/UI/Text';
+import Buttons from '../components/UI/Buttons';
+import { useInView } from "react-intersection-observer";
 
 export default function Locations({ data }) {
+    // In View
+    const { ref, inView } = useInView({
+        threshold: .3,
+        triggerOnce: true,
+    });
+
     // Intro
     const intro_heading = data?.intro?.heading;
     const intro_content = data?.intro?.rich_editor;
@@ -13,7 +20,7 @@ export default function Locations({ data }) {
     const grid = data?.locations;
 
     return (
-        <section className={clsx('block block__locations')}>
+        <section inview={inView} className={clsx('block block__locations', {'in-view': inView})}>
             <div className="container">
                 <div className="locations__intro">
                     {intro_heading && (

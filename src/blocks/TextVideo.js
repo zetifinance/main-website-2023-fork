@@ -1,10 +1,16 @@
-import clsx from 'clsx'
-import React from 'react'
-import Text from '../components/UI/Text'
-import Buttons from '../components/UI/Buttons'
-import Image from '../resolvers/Image'
+import clsx from 'clsx';
+import React from 'react';
+import Text from '../components/UI/Text';
+import Buttons from '../components/UI/Buttons';
+import { useInView } from "react-intersection-observer";
 
 export default function TextImage({ data }) {
+	// In View
+    const { ref, inView } = useInView({
+        threshold: .3,
+        triggerOnce: true,
+	});
+	
 	// Variant
 	const isEmbed = data?.variant === 'Embed';
 	  
@@ -17,7 +23,7 @@ export default function TextImage({ data }) {
 	const video = data?.video;
 
   	return (
-		<section className="block block__media-text">
+		<section inview={inView} className={clsx('block block__media-text', {'in-view': inView})}>
 			<div className={clsx('container')}>
 				<div className="media-text__content">
 					<div className="">

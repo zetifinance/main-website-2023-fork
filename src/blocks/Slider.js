@@ -1,8 +1,8 @@
-import clsx from 'clsx'
+import clsx from 'clsx';
 import React from 'react';
-import Text from '../components/UI/Text'
-import Buttons from '../components/UI/Buttons'
-import Image from '../resolvers/Image'
+import Text from '../components/UI/Text';
+import Buttons from '../components/UI/Buttons';
+import Image from '../resolvers/Image';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import CountUp, { useCountUp } from 'react-countup';
 import { useInView } from "react-intersection-observer";
@@ -36,7 +36,7 @@ export default function Slider({ data }) {
     const slider = data?.slider;
 
     return (
-        <section inView={inView} ref={ref} className={clsx('block block__slider', {'block__slider--standard': isStandard}, {'block__slider--vertical': isVertical}, {'in-view': inView})}>
+        <section inview={inView} ref={ref} className={clsx('block block__slider', {'block__slider--standard': isStandard}, {'block__slider--vertical': isVertical}, {'in-view': inView})}>
             <div className="container">
                 <div className="slider__intro">
                     {intro_heading && (
@@ -78,13 +78,13 @@ export default function Slider({ data }) {
                                     const slide_stat_text = item?.slide?.statistic?.text;
 
                                     return (
-                                        <SplideSlide>
-                                            <div inView={inView2} ref={ref2} className="container">
+                                        <SplideSlide key={i}>
+                                            <div inview={inView2} ref={ref2} className="container">
                                                 {isStat ? (
                                                     <div className={clsx("splide__slide-statistic", {'in-view': inView})}>
                                                         <svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1">
-                                                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                                <circle id="Oval" stroke="#FD8C04" stroke-width="30" cx="200" cy="200" r="185"></circle>
+                                                            <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+                                                                <circle id="Oval" stroke="#FD8C04" strokeWidth="30" cx="200" cy="200" r="185"></circle>
                                                             </g>
                                                         </svg>
 
@@ -138,7 +138,7 @@ export default function Slider({ data }) {
                                     const slide_list = item?.slide?.list;
 
                                     return (
-                                        <SplideSlide>
+                                        <SplideSlide key={i}>
                                             <div className="splide__slide-content">
                                                 { slide_heading && (
                                                     <h3>{ slide_heading }</h3>
@@ -167,7 +167,7 @@ export default function Slider({ data }) {
                                                         const list_item_image = item?.list_item?.image;
 
                                                         return (
-                                                            <li className="list__item">
+                                                            <li className="list__item" key={i}>
                                                                 { list_item_image && (
                                                                     <div className="list__item-image">
                                                                         <Image src={ list_item_image } alt={""} className=""/>

@@ -1,10 +1,17 @@
-import clsx from 'clsx'
+import clsx from 'clsx';
 import React from 'react';
-import Text from '../components/UI/Text'
-import Buttons from '../components/UI/Buttons'
+import Text from '../components/UI/Text';
+import Buttons from '../components/UI/Buttons';
 import { useAllCareers } from '../hooks/useAllCareers';
+import { useInView } from "react-intersection-observer";
 
 export default function Vacancies({ data }) {
+    // In View
+    const { ref, inView } = useInView({
+        threshold: .3,
+        triggerOnce: true,
+    });
+
     // Intro
     const intro_heading = data?.intro?.heading;
     const intro_content = data?.intro?.rich_editor;
@@ -14,7 +21,7 @@ export default function Vacancies({ data }) {
     let postsArray = useAllCareers();
 
     return (
-        <section id='vacancies' className={clsx('block block__vacancies')}>
+        <section inview={inView} id='vacancies' className={clsx('block block__vacancies', {'in-view': inView})}>
             <div className="container">
                 <div className="vacancies__intro">
                     {intro_heading && (
@@ -51,8 +58,8 @@ export default function Vacancies({ data }) {
                                         <a className="button button--standard button--white-border" href={vacancy_apply_link} tartget="_blank" rel="noreferrer noopener">
                                             Apply
                                             <svg width="40px" height="18px" viewBox="0 0 40 18" version="1.1">
-                                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                    <g id="Home-Concept-1" transform="translate(-295.000000, -689.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                                <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+                                                    <g id="Home-Concept-1" transform="translate(-295.000000, -689.000000)" fill="#FFFFFF" fillRule="nonzero">
                                                         <g id="Group-2" transform="translate(84.000000, 148.000000)">
                                                             <g id="CTA" transform="translate(0.000000, 519.000000)">
                                                                 <g id="right-arrow-(8)" transform="translate(211.000000, 22.000000)">
@@ -76,8 +83,8 @@ export default function Vacancies({ data }) {
                                 <div className="vacancies__item-tags">
                                     <span>
                                         <svg width="12px" height="14.8px" viewBox="0 0 12 14.8" version="1.1">
-                                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                <g id="Careers-Concept-1" transform="translate(-295.000000, -4699.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                            <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+                                                <g id="Careers-Concept-1" transform="translate(-295.000000, -4699.000000)" fill="#FFFFFF" fillRule="nonzero">
                                                     <g id="Careers" transform="translate(274.000000, 3349.000000)">
                                                         <g id="Group-14" transform="translate(0.000000, 1225.000000)">
                                                             <g id="Group-8" transform="translate(1.000000, 112.000000)">
@@ -95,8 +102,8 @@ export default function Vacancies({ data }) {
                                     </span>
                                     <span>
                                         <svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1">
-                                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                <g id="Careers-Concept-1" transform="translate(-503.000000, -4699.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                            <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+                                                <g id="Careers-Concept-1" transform="translate(-503.000000, -4699.000000)" fill="#FFFFFF" fillRule="nonzero">
                                                     <g id="Careers" transform="translate(274.000000, 3349.000000)">
                                                         <g id="Group-14" transform="translate(0.000000, 1225.000000)">
                                                             <g id="Group-8" transform="translate(209.000000, 112.000000)">

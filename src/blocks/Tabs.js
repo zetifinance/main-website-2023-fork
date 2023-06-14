@@ -1,11 +1,19 @@
-import clsx from 'clsx'
+import clsx from 'clsx';
 import React, { useEffect } from 'react';
-import Text from '../components/UI/Text'
-import Buttons from '../components/UI/Buttons'
-import Image from '../resolvers/Image'
-import { initTabs } from '../lib/main'
+import Text from '../components/UI/Text';
+import Buttons from '../components/UI/Buttons';
+import Image from '../resolvers/Image';
+import { initTabs } from '../lib/main';
+import { useInView } from "react-intersection-observer";
 
 export default function Tabs({ data }) {
+    // In View
+    const { ref, inView } = useInView({
+        threshold: .3,
+        triggerOnce: true,
+    });
+
+    // Functions
     useEffect(() => {
         initTabs();
     }, []);
@@ -20,7 +28,7 @@ export default function Tabs({ data }) {
     const tabs = data?.tabs;
 
     return (
-        <section className="block block__tabs">
+        <section inview={inView} className={clsx('block block__tabs', {'in-view': inView})}>
             <div className="container">
                 <div className="tabs__intro">
                     <div>
@@ -44,12 +52,12 @@ export default function Tabs({ data }) {
                     {tabs?.length > 0 &&
                         tabs?.map((item, i) => {
                             const tab = item?.tab;
-                            const tab_selector = tab?.heading
+                            const tab_selector = tab?.heading;
                             const tab_selector_formatted = tab_selector.replace(/\s+/g, '-').toLowerCase();
                             const isFirst = i === 0 ? 'active' : '';
 
                             return (
-                                <button data-tab={tab_selector_formatted} className={clsx('tabs__selectors-button', isFirst)}>{tab_selector}</button>
+                                <button data-tab={tab_selector_formatted} className={clsx('tabs__selectors-button', isFirst)} key={i}>{tab_selector}</button>
                             );
                         })
                     }
@@ -74,7 +82,7 @@ export default function Tabs({ data }) {
                         const isFirst = i === 0 ? 'active' : '';
 
                         return (
-                            <div className={clsx('tabs__tabs-tab', `tabs__tabs-tab--${tab_selector_formatted}`, isFirst) }>
+                            <div className={clsx('tabs__tabs-tab', `tabs__tabs-tab--${tab_selector_formatted}`, isFirst) } key={i}>
                                 <div className="tab__image">
                                     {tab_image && (    
                                         <Image src={tab_image} alt={""} className="" />

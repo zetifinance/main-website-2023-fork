@@ -39,8 +39,8 @@ export default function Footer() {
 							<button type="submit" className="button button--standard button--yellow">
 								<span>Submit</span>
 								<svg width="40px" height="18px" viewBox="0 0 40 18" version="1.1">
-									<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-										<g id="Home-Concept-1" transform="translate(-295.000000, -689.000000)" fill="#141F26" fill-rule="nonzero">
+									<g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+										<g id="Home-Concept-1" transform="translate(-295.000000, -689.000000)" fill="#141F26" fillRule="nonzero">
 											<g id="Group-2" transform="translate(84.000000, 148.000000)">
 												<g id="CTA" transform="translate(0.000000, 519.000000)">
 													<g id="right-arrow-(8)" transform="translate(211.000000, 22.000000)">

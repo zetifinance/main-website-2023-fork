@@ -1,13 +1,21 @@
-import clsx from 'clsx'
+import clsx from 'clsx';
 import React, { useEffect } from 'react';
-import Text from '../components/UI/Text'
-import Buttons from '../components/UI/Buttons'
-import { initAccordions } from '../lib/main'
+import Text from '../components/UI/Text';
+import Buttons from '../components/UI/Buttons';
+import { initAccordions } from '../lib/main';
+import { useInView } from "react-intersection-observer";
 
 export default function Accordions({ data }) {
+    // Functions
     useEffect(() => {
         initAccordions();
     }, []);
+
+    // In View
+    const { ref, inView } = useInView({
+        threshold: .3,
+        triggerOnce: true,
+    });
 
     // Intro
     const intro_heading = data?.intro?.heading;
@@ -18,7 +26,7 @@ export default function Accordions({ data }) {
     const accordions = data?.accordions;
 
     return (
-        <section className={clsx('block block__accordions')}>
+        <section inview={inView} className={clsx('block block__accordions', {'in-view': inView})}>
             <div className="container">
                 <div className="accordions__intro">
                     {intro_heading && (

@@ -89,11 +89,32 @@
                             width: 30px;
                         }
 
+                        rect,
+                        path {
+                            transition: 400ms $cubic;
+                        }
+
+                        &:hover {
+
+                            rect,
+                            path {
+                                fill: $yellow;
+                            }
+                        }
+
                         .light & {
 
                             rect,
                             path {
                                 fill: $primary;
+                            }
+
+                            &:hover {
+
+                                rect,
+                                path {
+                                    fill: $orange;
+                                }
                             }
                         }
                     }
@@ -126,13 +147,42 @@
                 font-size: 1.8rem;
                 line-height: 2.4rem;
                 color: $lightest;
+                transition: 400ms $cubic;
                 cursor: pointer;
+
+                svg {
+                    transition: 400ms $cubic;
+
+                    path {
+                        transition: 400ms $cubic;
+                    }
+                }
+
+                &:hover {
+                    color: $yellow;
+
+                    svg {
+                        transform: translateX(3px);
+
+                        path {
+                            fill: $yellow;
+                        }
+                    }
+                }
 
                 .light & {
                     color: $primary;
 
-                    svg g {
+                    svg path {
                         fill: $primary;
+                    }
+
+                    &:hover {
+                        color: $orange;
+
+                        svg path {
+                            fill: $orange;
+                        }
                     }
                 }
 

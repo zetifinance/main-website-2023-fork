@@ -1,17 +1,17 @@
-import clsx from 'clsx'
+import clsx from 'clsx';
 import React, { useEffect, useState } from 'react';
-import Buttons from '../components/UI/Buttons'
-import Text from '../components/UI/Text'
-import Image from '../resolvers/Image'
+import Buttons from '../components/UI/Buttons';
+import Text from '../components/UI/Text';
+import Image from '../resolvers/Image';
 import CountUp, { useCountUp } from 'react-countup';
 import { useInView } from "react-intersection-observer";
 
 export default function Hero({ data }) {	
 	// In View
-	const [ ref, inView ] = useInView({
+	const { ref, inView } = useInView({
         threshold: .3,
         triggerOnce: true,
-	});
+    });
 	
 	// Options
 	const isStandard = data?.variant === 'default';
@@ -36,7 +36,7 @@ export default function Hero({ data }) {
 	}, []);
 
   	return (
-		<section inView={inView} ref={ref} className={clsx('block block__hero', {'block__hero--standard': isStandard}, {'block__hero--large': isLarge}, {'block__hero--contact': isContact}, {'block__hero--simple': isSimple}, {'in-view': inView})}>
+		<section inview={inView} ref={ref} className={clsx('block block__hero', {'block__hero--standard': isStandard}, {'block__hero--large': isLarge}, {'block__hero--contact': isContact}, {'block__hero--simple': isSimple}, {'in-view': inView})}>
 			<div className={clsx('container', {'container--float-left': isStandard || isLarge})}>
 				<div className='hero__content'>
 					{data?.main?.heading && (
@@ -66,7 +66,7 @@ export default function Hero({ data }) {
 				)}
 
 				{isContact &&(
-					<form class="hero__contact-form" name="contact" method="POST" data-netlify="true">
+					<form className="hero__contact-form" name="contact" method="POST" data-netlify="true">
 						<input type="hidden" name="form-name" value="contact"/>
 						
 						<div className="half-width">

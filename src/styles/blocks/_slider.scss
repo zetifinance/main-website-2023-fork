@@ -33,7 +33,7 @@
                         padding: 10rem 0;
                     }
 
-                    @media(min-width: 1200px) {
+                    @media(min-width: 1600px) {
                         padding: 15rem 0;
                     }
 
@@ -127,6 +127,11 @@
                             @media(min-width: 1200px) {
                                 max-width: 460px;
                                 margin-bottom: 3rem;
+                                font-size: 5.4rem;
+                                line-height: 6rem;
+                            }
+
+                            @media(min-width: 1600px) {
                                 font-size: 6rem;
                                 line-height: 6.5rem;
                             }

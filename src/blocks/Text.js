@@ -1,11 +1,18 @@
-import clsx from 'clsx'
+import clsx from 'clsx';
 import React from 'react';
 import Text from '../components/UI/Text';
-import Buttons from '../components/UI/Buttons'
+import Buttons from '../components/UI/Buttons';
+import { useInView } from "react-intersection-observer";
 
 export default function Content({ data }) {
+  // In View
+  const { ref, inView } = useInView({
+    threshold: .3,
+    triggerOnce: true,
+  });
+
   return (
-    <section className='block block__text'>
+    <section inview={inView} className={clsx('block block__text', {'in-view': inView})}>
       <div className="container">
         {data?.main?.heading && (
           <h2 className={clsx('section-heading')}>{ data?.main?.heading }</h2>

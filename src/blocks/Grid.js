@@ -1,10 +1,17 @@
-import clsx from 'clsx'
+import clsx from 'clsx';
 import React from 'react';
-import Text from '../components/UI/Text'
-import Buttons from '../components/UI/Buttons'
-import Image from '../resolvers/Image'
+import Text from '../components/UI/Text';
+import Buttons from '../components/UI/Buttons';
+import Image from '../resolvers/Image';
+import { useInView } from "react-intersection-observer";
 
 export default function Grid({ data }) {
+    // In View
+    const { ref, inView } = useInView({
+        threshold: .3,
+        triggerOnce: true,
+    });
+
     // Variant
     const isCard = data?.variant === 'card';
     const isLargeCard = data?.variant === 'large-card';
@@ -22,7 +29,7 @@ export default function Grid({ data }) {
     const grid = data?.list;
 
     return (
-        <section className={clsx('block block__grid', {'block__grid--card': isCard}, {'block__grid--large-card': isLargeCard}, {'block__grid--no-card': isNoCard})}>
+        <section inview={inView} className={clsx('block block__grid', {'block__grid--card': isCard}, {'block__grid--large-card': isLargeCard}, {'block__grid--no-card': isNoCard}, {'in-view': inView})}>
             <div className="container">
                 <div className="grid__intro">
                     {intro_heading && (

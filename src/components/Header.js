@@ -13,8 +13,8 @@ export default function Header() {
 		<header className="header" role="banner">
 			<a href="/" className="brand">
 				<svg width="116px" height="36px" viewBox="0 0 116 36" version="1.1">
-					<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-						<g id="logo" fill="#FFFFFF" fill-rule="nonzero">
+					<g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+						<g id="logo" fill="#FFFFFF" fillRule="nonzero">
 							<polygon id="Fill-1" points="14.1505078 35.2825015 35.2825367 35.2825015 35.2825367 28.2256075 21.2070678 28.225959"></polygon>
 							<polygon id="Fill-2" points="42.3390792 7.05654249 70.5650733 7.05654249 70.5650733 0 42.3390792 0"></polygon>
 							<polygon id="Fill-3" points="42.3390792 35.2824488 70.5650733 35.2824488 70.5650733 28.2259063 42.3390792 28.2259063"></polygon>
@@ -44,7 +44,7 @@ export default function Header() {
 						Contact
 					</a>
 
-					<button class="mobile-trigger">
+					<button className="mobile-trigger">
 						<span></span>
 					</button>
 				</div>

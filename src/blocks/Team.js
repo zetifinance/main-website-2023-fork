@@ -1,10 +1,17 @@
 import clsx from 'clsx';
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Text from '../components/UI/Text';
 import Buttons from '../components/UI/Buttons';
 import Image from '../resolvers/Image';
+import { useInView } from "react-intersection-observer";
 
 export default function Team({ data }) {
+  // In View
+  const { ref, inView } = useInView({
+    threshold: .3,
+    triggerOnce: true,
+  });
+
   // Intro
   const intro = data?.intro;
   const intro_heading = intro?.heading;
@@ -17,6 +24,7 @@ export default function Team({ data }) {
   // Modal states
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalData, setModalData] = useState(null);
+  const modalRef = useRef(null);
 
   const openModal = (data) => {
     setIsModalOpen(true);
@@ -27,51 +35,63 @@ export default function Team({ data }) {
     setIsModalOpen(false);
   };
 
-    const TeamModal = ({ isOpen, data }) => {
-        if (!isOpen) {
-            return null;
-        }
+  const escPress = (event) => {
+    if (event.key === 'Escape') {
+      closeModal();
+    }
+  };
 
-        return (
-            <div className="modal">
-                <div className="modal__inner modal__inner--team">
-                    <button onClick={closeModal} className="modal__close"></button>
-                    {data?.image && 
-                      <div className="modal__image">
-                          <Image src={data?.image} alt="" className="" />
-                      </div>
-                    }
-                    <div className={clsx('modal__content', { 'modal__content--full': !data?.image })}>
+  useEffect(() => {
+    if (isModalOpen) {
+      modalRef.current.focus();
+    }
+  }, [isModalOpen]);
 
-                        <div>
-                            {data?.name && 
-                                <h3>{data?.name}</h3>
-                            }
+  const TeamModal = ({ isOpen, data }) => {
+      if (!isOpen) {
+          return null;
+      }
 
-                            {data?.linkedin && (
-                                <a href={data?.linkedin} rel="noreferrer noopener" target="_blank">
-                                    {/* LinkedIn SVG */}
-                                </a>
-                            )}
-                        </div>
-                        
-                        {data?.job_role && 
-                            <p>{data?.job_role}</p>
-                        }
-
-                        {data?.bio && (
-                            <Text className={clsx('')}>
-                                {data?.bio}
-                            </Text>
-                        )}
+      return (
+        <div className="modal" ref={modalRef} tabIndex={-1} onKeyDown={escPress}>
+              <div className="modal__inner modal__inner--team">
+                  <button onClick={closeModal} className="modal__close"></button>
+                  {data?.image && 
+                    <div className="modal__image">
+                        <Image src={data?.image} alt="" className="" />
                     </div>
-                </div>
-            </div>
-        );
-    };
+                  }
+                  <div className={clsx('modal__content', { 'modal__content--full': !data?.image })}>
+
+                      <div>
+                          {data?.name && 
+                              <h3>{data?.name}</h3>
+                          }
+
+                          {data?.linkedin && (
+                              <a href={data?.linkedin} rel="noreferrer noopener" target="_blank">
+                                  {/* LinkedIn SVG */}
+                              </a>
+                          )}
+                      </div>
+                      
+                      {data?.job_role && 
+                          <p>{data?.job_role}</p>
+                      }
+
+                      {data?.bio && (
+                          <Text className={clsx('')}>
+                              {data?.bio}
+                          </Text>
+                      )}
+                  </div>
+              </div>
+          </div>
+      );
+  };
 
   return (
-    <section className="block block__team">
+    <section inview={inView} className={clsx('block block__team', {'in-view': inView})}>
       <div className="container">
         <div className="team__intro">
           <div>
@@ -109,8 +129,8 @@ export default function Team({ data }) {
                     {linkedin && (
                       <a href={linkedin} rel="noreferrer noopener" target="_blank">
                         <svg width="100px" height="101px" viewBox="0 0 100 101" version="1.1">
-                          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                            <g id="4202085_linkedin_logo_social_social-media_icon" transform="translate(0.000000, 0.000000)" fill="#E0FF02" fill-rule="nonzero">
+                          <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+                            <g id="4202085_linkedin_logo_social_social-media_icon" transform="translate(0.000000, 0.000000)" fill="#FFFFFF" fillRule="nonzero">
                               <rect id="Rectangle" x="0.0830543933" y="31.4393305" width="22.325523" height="68.8221757"></rect>
                               <path d="M83.2194561,32.2464435 C82.9824268,32.1721757 82.7577406,32.0910042 82.5089958,32.0209205 C82.208159,31.9525105 81.9096234,31.8953975 81.6035565,31.8466527 C80.4190377,31.6083682 79.1192469,31.4393305 77.5976987,31.4393305 C64.5828452,31.4393305 56.3261506,40.93159 53.6073222,44.5972803 L53.6073222,31.4393305 L31.28159,31.4393305 L31.28159,100.261506 L53.607113,100.261506 L53.607113,62.7223849 C53.607113,62.7223849 70.4780335,39.1600418 77.5974895,56.4648536 L77.5974895,100.261506 L99.9171548,100.261506 L99.9171548,53.8194561 C99.9171548,43.4202929 92.8094142,34.7552301 83.2194561,32.2464435 L83.2194561,32.2464435 Z" id="Path"></path>
                               <path d="M21.9223849,11.1056485 C21.9223849,17.1535565 17.032636,22.0548117 11.0029289,22.0548117 C4.97280335,22.0548117 0.0832635983,17.1533473 0.0832635983,11.1056485 C0.0832635983,5.05899582 4.97280335,0.156903766 11.0029289,0.156903766 C17.032636,0.156903766 21.9223849,5.05899582 21.9223849,11.1056485 L21.9223849,11.1056485 Z" id="Path"></path>
@@ -126,8 +146,8 @@ export default function Team({ data }) {
                     <button onClick={() => openModal(item?.team_member)}>
                       <span>Read bio</span>
                       <svg width="40px" height="18px" viewBox="0 0 40 18" version="1.1">
-                          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                              <g id="Home-Concept-1" transform="translate(-295.000000, -689.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                          <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+                              <g id="Home-Concept-1" transform="translate(-295.000000, -689.000000)" fill="#FFFFFF" fillRule="nonzero">
                                   <g id="Group-2" transform="translate(84.000000, 148.000000)">
                                       <g id="CTA" transform="translate(0.000000, 519.000000)">
                                           <g id="right-arrow-(8)" transform="translate(211.000000, 22.000000)">

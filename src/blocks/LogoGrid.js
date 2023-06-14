@@ -1,12 +1,18 @@
-import clsx from 'clsx'
-import React from 'react'
-import Text from '../components/UI/Text'
-import Buttons from '../components/UI/Buttons'
-import Image from '../resolvers/Image'
+import clsx from 'clsx';
+import React from 'react';
+import Text from '../components/UI/Text';
+import Buttons from '../components/UI/Buttons';
+import Image from '../resolvers/Image';
 import { useInView } from "react-intersection-observer";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 
 export default function LogoGrid({ data }) {
+    // In View
+    const { ref, inView } = useInView({
+        threshold: .3,
+        triggerOnce: true,
+    });
+
     // Options
     const isSlider = data?.variant === "Slider";
 
@@ -16,16 +22,10 @@ export default function LogoGrid({ data }) {
     const intro_buttons = data?.intro?.buttons;
     
     // Logos
-    const logos = data?.logos;
-
-    // Functions
-    const { ref, inView } = useInView({
-        threshold: .3,
-        triggerOnce: true,
-    });
+    const logos = data?.logos;    
 
     return (
-        <section inView={inView} ref={ref} className={clsx('block block__logo-grid', {'in-view': inView})}>
+        <section inview={inView} ref={ref} className={clsx('block block__logo-grid', {'in-view': inView})}>
             <div className="container">
                 <div className="logo-grid__intro">
                     {intro_heading && (
@@ -47,12 +47,23 @@ export default function LogoGrid({ data }) {
                     isSlider ? (
                         <div className="logo-grid__logos logo-grid__logos--slider">
                             <Splide options={ {
-                                mediaQuery: 'min',
                                 perPage: 4, 
                                 perMove: 4, 
                                 rewind: false, 
                                 gap: '100px', 
                                 arrows: false,
+                                breakpoints: {
+                                    1199: {
+                                        perPage: 3, 
+                                        perMove: 3, 
+                                        gap: '50px', 
+                                    },
+                                    767: {
+                                        perPage: 2, 
+                                        perMove: 2, 
+                                        gap: '75px', 
+                                    },
+                                },
                             } }>
                             
                             {
@@ -106,7 +117,7 @@ export default function LogoGrid({ data }) {
                                 const image_dark = item?.image_dark;
 
                                 return (
-                                    <>
+                                    <React.Fragment key={i}>
                                         {image_link ? (
                                             <a className="logos__logo" href={image_link} rel="noreferrer noopener" target="_blank">
                                                 {image_light && (
@@ -136,7 +147,7 @@ export default function LogoGrid({ data }) {
                                                 )}
                                             </div>
                                         )}
-                                    </>
+                                    </React.Fragment>
                                 );
                             })}
                         </div>

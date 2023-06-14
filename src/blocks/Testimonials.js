@@ -1,13 +1,20 @@
-import clsx from 'clsx'
+import clsx from 'clsx';
 import React from 'react';
-import Text from '../components/UI/Text'
-import Buttons from '../components/UI/Buttons'
-import Image from '../resolvers/Image'
+import Text from '../components/UI/Text';
+import Buttons from '../components/UI/Buttons';
+import Image from '../resolvers/Image';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
+import { useInView } from "react-intersection-observer";
 
 export default function Testimonials({ data }) {
+    // In View
+    const { ref, inView } = useInView({
+        threshold: .3,
+        triggerOnce: true,
+    });
+
     return (
-        <section className="block block__testimonials">
+        <section inview={inView} className={clsx('block block__testimonials', {'in-view': inView})}>
             <div className="container">
                 <div className="testimonials__intro">
                     <div>
@@ -73,7 +80,7 @@ export default function Testimonials({ data }) {
                                                 )}
 
                                                 {(testimonial_job_title || testimonial_company_name) && (
-                                                    <div class="testimonial__lower-details">
+                                                    <div className="testimonial__lower-details">
                                                     {testimonial_job_title && (
                                                         <p className="testimonial__job">{testimonial_job_title}</p>
                                                     )}

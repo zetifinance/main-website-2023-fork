@@ -241,7 +241,7 @@ blocks:
             Auto1 Group.
           linkedin: https://www.linkedin.com/in/ivelinadelcheva
   - type: text_image
-    variant: staggered
+    variant: default
     main:
       heading: Work with us
       rich_editor: We're always on the lookout for new talent to join our growing
