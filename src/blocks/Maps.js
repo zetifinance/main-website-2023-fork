@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Text from '../components/UI/Text';
 import Buttons from '../components/UI/Buttons';
 import { useInView } from "react-intersection-observer";
-// import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker } from 'react-leaflet';
 
 export default function Maps({ data }) {
     // In View
@@ -51,15 +51,20 @@ export default function Maps({ data }) {
                 <div className={clsx('maps__grid')}>
                     <div className="maps__map">
                         <h3>UK</h3>
-                        <div>
 
-                        </div>
+                        <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: "500px", width: "100%" }} scrollWheelZoom={false}>
+                            <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/>
+                            <Marker position={[51.505, -0.09]}>
+                            </Marker>
+                        </MapContainer>
                     </div>
                     <div className="maps__map">
                         <h3>USA</h3>
-                        <div>
-
-                        </div>
+                        <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: "500px", width: "100%" }} scrollWheelZoom={false}>
+                            <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/>
+                            <Marker position={[51.505, -0.09]}>
+                            </Marker>
+                        </MapContainer>
                     </div>
                 </div>
             </div>

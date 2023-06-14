@@ -22,7 +22,6 @@ export default function Hero({ data }) {
 			const response = await fetch('https://zeti.co.uk/api/aggregatestats');
 			const jsonData = await response.json();
 			setData(jsonData);
-			console.log(jsonData.totalCo2Saving);
 		  } catch (error) {
 			console.error('Error fetching data:', error);
 		  }

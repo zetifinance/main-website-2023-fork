@@ -3,17 +3,38 @@
     .maps__grid {
         margin-top: 10rem;
         display: flex;
+        justify-content: space-between;
         flex-wrap: wrap;
     }
 
     .maps__map {
-        width: calc(50% - 4rem);
+        width: 100%;
+        margin-bottom: 4rem;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+
+        @media(min-width: 768px) {
+            width: calc(50% - 2rem);
+            margin-bottom: 0;
+        }
+
+        @media(min-width: 1200px) {
+            width: calc(50% - 4rem);
+        }
 
         h3 {
-            margin-bottom: 3.5rem;
-            font-size: 4rem;
-            line-height: 5.4rem;
+            margin-bottom: 2rem;
+            font-size: 3rem;
+            line-height: 4rem;
             text-align: center;
+
+            @media(min-width: 768px) {
+                margin-bottom: 3.5rem;
+                font-size: 4rem;
+                line-height: 5.4rem;
+            }
         }
     }
 }
