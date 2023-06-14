@@ -22,6 +22,7 @@ export default function Hero({ data }) {
 			const response = await fetch('https://zeti.co.uk/api/aggregatestats');
 			const jsonData = await response.json();
 			setData(jsonData);
+			console.log(jsonData.totalCo2Saving);
 		  } catch (error) {
 			console.error('Error fetching data:', error);
 		  }
@@ -58,7 +59,8 @@ export default function Hero({ data }) {
 						{isLarge && (
 							<div className={clsx('hero__image-emissions', {'hero__image-emissions--loaded': call})}>
 								<h4>Kilograms of CO<sub>2</sub> saved</h4>
-								<p><strong><CountUp duration={2} delay={5} start={0} end={call.totalCo2Saving} /></strong></p>
+								{console.log(call)}
+								<p><strong><CountUp duration={2} delay={5} start={0} end={5438.80} /></strong></p>
 							</div>
 						)}
 
