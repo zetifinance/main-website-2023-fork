@@ -61,6 +61,14 @@ blocks:
             Storage, Data Protection and Healthcare fields. Has held senior
             executive positions with Fortune 500 and UK public companies.
       - team_member:
+          name: Sabeen Forster
+          job_role: Finance Director
+          bio: ACA qualified with both external and internal audit roles at Deloitte and
+            Clifford Chance respectively. Transitioned into industry to work
+            with various startups experiencing vast growth within the technology
+            sector.
+          image: /img/sabeen-forster.jpg
+      - team_member:
           image: /img/chelsea-dowling.jpg
           name: Chelsea Dowling
           job_role: Head of Operations
@@ -68,6 +76,14 @@ blocks:
           bio: Senior operations manager with 9 years operational experience managing
             Entech with leading UK energy suppliers. Customer champion with a
             focus on building data driven teams.
+      - team_member:
+          name: Emma Bell
+          job_role: Investment Director
+          linkedin: https://www.linkedin.com/in/emma-bell-cfa-6698a8135/
+          bio: CFA certified, with a background in private debt investments gained at M&G
+            Investments. Specialised experience in alternative investments,
+            quantitative analysis and asset structuring.
+          image: /img/emma-bell.jpg
       - team_member:
           image: /img/rebecca-saletta.jpeg
           job_role: Director of Strategic Partnerships, US
@@ -77,14 +93,6 @@ blocks:
             transportation and automotive technology. Extensive career in the
             public sector building out the UK Government's Future of Mobility
             strategy for the Western US. Based in Los Angeles.
-      - team_member:
-          name: Emma Bell
-          job_role: Investment Director
-          linkedin: https://www.linkedin.com/in/emma-bell-cfa-6698a8135/
-          bio: CFA certified, with a background in private debt investments gained at M&G
-            Investments. Specialised experience in alternative investments,
-            quantitative analysis and asset structuring.
-          image: /img/emma-bell.jpg
       - team_member:
           name: Dave Kennon
           job_role: Director of Automotive Partnerships
@@ -101,14 +109,6 @@ blocks:
           bio: Senior Software Developer with over 15 years experience in finance,
             technology and operations. A believer in Software Craftsmanship and
             pragmatic test driven development.
-      - team_member:
-          name: Sabeen Forster
-          job_role: Finance Director
-          bio: ACA qualified with both external and internal audit roles at Deloitte and
-            Clifford Chance respectively. Transitioned into industry to work
-            with various startups experiencing vast growth within the technology
-            sector.
-          image: /img/sabeen-forster.jpg
       - team_member:
           image: /img/jenny-carus.jpg
           name: Jenny Carus
@@ -164,6 +164,12 @@ blocks:
             the University of Oxford. Previous experience as a biomedical
             researcher at the Francis Crick Institute. Formerly worked for an
             EdTech startup.
+      - team_member:
+          image: /img/jon-stafford.jpg
+          name: Jon Stafford
+          job_role: Senior Vice President of North American Sales
+          linkedin: https://www.linkedin.com/in/jonstafford-cma-cafm/
+          bio: J﻿on's bio
   - type: team
     intro:
       heading: Our advisors
