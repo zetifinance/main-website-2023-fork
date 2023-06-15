@@ -11,8 +11,8 @@ blocks:
     main:
       heading: Team
       rich_editor: We’re using our patent-pending financial technology to
-        revolutionize the way clean transport is funded in London and the US and
-        in doing so, help solve the climate crisis.
+        revolutionize the way clean transport is funded. We started in the UK
+        and we’re now in the USA. But our ambitions don’t stop there.
       buttons: []
   - type: team
     intro:
