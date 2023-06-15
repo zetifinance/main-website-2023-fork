@@ -44,7 +44,7 @@ blocks:
           borrower, meaning pre-emptive action can be taken to protect your
           investment.
         image: /img/team.jpg
-      - heading: Fully automated repayments
+      - heading: Fully automated payment collection
         rich_editor: Monthly repayments are entirely managed by Zeti meaning you'll see
           the monthly repayments in your account hassle free.
         image: /img/shutterstock_742689853.jpg
