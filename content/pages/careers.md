@@ -75,7 +75,7 @@ blocks:
     intro:
       heading: Current Vacancies
       rich_editor: We’re always on the lookout for talent so if you don’t see anything
-        feel free to send us your CV to careers@zeti.co.uk
+        feel free to send us your CV to careers@zeti.group
   - type: accordions
     accordions:
       - heading: Do you run internships, work experience or placements?
@@ -132,7 +132,7 @@ blocks:
 
 
         Find out more about Disability Confident [here](https://disabilityconfident.campaign.gov.uk/).
-      heading: Diversity & Inclusion
+      heading: Diversity and inclusion
     image: /img/christina-wocintechchat-com-ef7hn40wbaq-unsplash.jpg
   - type: grid
     variant: no-card
@@ -142,13 +142,13 @@ blocks:
       - list_item:
           heading: We are transparent
           rich_editor: We’re providing a data-driven solution with no hidden charges.
-            Using live telematics, our customers have full visibility over
+            Using live telematics data, our customers have full visibility over
             fleets and investment performance.
       - list_item:
           heading: We are aligned
           rich_editor: We believe in success through symbiotic relationships. Our business
-            and customers alike are working towards a cleaner future for
-            transport.
+            and customers alike are working towards a better future for everyone
+            through the adoption of clean transport.
       - list_item:
           heading: We are innovative
           rich_editor: We’re disrupting traditional vehicle finance to benefit our
