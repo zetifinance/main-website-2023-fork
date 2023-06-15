@@ -11,8 +11,8 @@ blocks:
     main:
       heading: Revolutionizing transport finance for good.
       rich_editor: We help fleets convert to EVs by making it as simple, easy and
-        transparent as paying for any other utility with our patent-pending
-        pay-per-mile financial technology.
+        transparent as paying for a utility with our patent-pending pay-per-mile
+        financial technology.
       buttons:
         - button:
             variant: arrow
@@ -44,7 +44,7 @@ blocks:
               fleet**
 
 
-              We're disrupting traditional auto finance and helping forward-thinking fleet operators convert to electric vehicles by making it as simple, easy and transparent as paying for any other utility.
+              We're disrupting traditional auto finance and helping forward-thinking fleet operators convert to electric vehicles by making it as simple, easy and transparent as paying for a utility.
             buttons:
               - button:
                   variant: arrow
@@ -52,14 +52,14 @@ blocks:
                   url: /fleets/
       - tab:
           heading: For Financiers
-          image: /img/tesla.jpg
+          image: /img/shutterstock_2221825713.jpg
           main:
             rich_editor: >-
               **Generate attractive, risk-adjusted returns in a new clean asset
               class comparable to an investment in renewable energy**
 
 
-              Zeti acts as a platform for institutional financiers to invest into clean, connected vehicle fleets through a pay-per-mile (or km or kWh) model; managing automated payments and real-time financial and sustainability reporting for financiers via its digital platform, ZERO.
+              Zeti acts as a platform for institutional lenders to invest into clean, connected vehicle fleets through a pay-per-mile (or km or kWh) model; managing automated invoicing and payment collection; and real-time financial and sustainability reporting for lenders via our patent-pending digital platform.
             heading: Financiers
             buttons:
               - button:
@@ -68,14 +68,14 @@ blocks:
                   url: /financiers/
       - tab:
           heading: For Manufacturers
-          image: /img/shutterstock_1491230117.jpg
+          image: /img/shutterstock_749339836.jpg
           main:
             rich_editor: >-
-              **Enable the sales of your zero-emission vehicles through
-              attractive pay-per-mile finance**
+              **Introducing an innovative new financing tool to accelerate
+              sales**
 
 
-              Zeti helps you sell your zero-emission vehicles by allowing you to offer your fleet customers the option of paying per mile, rather than having a fixed monthly cost. Zeti can even deploy your in-house financing division’s money through its platform to turn it into a pay-per-mile offering.
+              Zeti acts as a sales enablement tool to boost zero-emission vehicle sales by allowing your fleet customers the option of paying per mile for vehicle finance, rather than having a fixed monthly cost. Zeti’s software can also be used to deploy your in-house finance, enabling you to offer your own pay-per-mile solution.
             heading: Manufacturers
             buttons:
               - button:
@@ -98,19 +98,20 @@ blocks:
     list:
       - list_item:
           rich_editor: >-
-            Zeti are a bridge between Breathe and the investment funds. We have
+            "Zeti are a bridge between Breathe and the investment funds. We have
             an ambitious target to scale 10,000 vehicles across the UK so we
-            really need player like Zeti who can provide us with security and
-            base of information.
+            really need players like Zeti who can provide us with security and a
+            base of information."
 
 
             \- Jeff Davis, Breathe COO
           image: /img/quotation.png
       - list_item:
           rich_editor: >-
-            A particular benefit of the ZERO platform is the pooling of vehicle
+            "A particular benefit of Zeti's platform is the pooling of vehicle
             mileage; with a contracted aggregate mileage across all vehicles, we
-            don’t need to juggle individual cabs to a fixed mileage or end date 
+            don’t need to juggle individual cabs to a fixed mileage or end
+            date."
 
 
             \- Asher Moses, Sherbet CEO
@@ -122,9 +123,9 @@ blocks:
     slider:
       - slide:
           main:
-            rich_editor: We've been working with customers to enable clean vehicle
-              deployment across the UK.
-            heading: $40m of vehicles financed to date
+            rich_editor: We’ve been working with customers to enable clean vehicle
+              deployment across the UK.
+            heading: vehicles financed to date
             buttons: []
           image: ""
           variant: statistic
@@ -133,18 +134,28 @@ blocks:
             text: m
       - slide:
           main:
-            heading: 5,000,000 kg of CO2 avoided
-            rich_editor: That's the equivalent to 973 homes' electricity use for one year.
+            heading: kg of CO2 avoided
+            rich_editor: >-
+              
+
+              ﻿That's equivalent to 973 homes’ electricity use for one year.
+
+
+              *\*﻿savings at tailpipe ([US EPA](https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator))*
           image: /img/tezos-wpn1xnccgpw-unsplash.jpg
           statistic:
             stat: 5
-            text: m kg
+            text: m kg*
           variant: statistic
       - slide:
           main:
-            heading: 14,000 kg of NOx avoided
-            rich_editor: Zeti's model continues to prevent the emission of Nitrous Oxide
-              into the atmosphere.
+            heading: kg of NOx avoided
+            rich_editor: >-
+              Zeti’s model supports the reduction of harmful Nitrous Oxide
+              emissions, improving air quality. 
+
+
+              *\*﻿savings at tailpipe ([US EPA](https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator))*
           statistic:
             stat: 14000
             text: kg
