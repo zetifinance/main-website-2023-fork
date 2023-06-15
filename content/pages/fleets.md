@@ -38,19 +38,24 @@ blocks:
           available on our dedicated Fleet Operator portal. for your ease of
           use, check any historic information whenever you like in your
           dedicated portal.
-        image: /img/tezos-wpn1xnccgpw-unsplash.jpg
+        image: /img/lexus.jpeg
       - heading: Monitor your fleet in real-time
-        rich_editor: Our digital platform pulls best-in-class telematics directly from
-          each vehicle in real-time, giving you insight into live fleet behavior
-          through the Operator Portal. You will often receive access to the
-          underlying telematics provider’s dashboard which allows you to manage
-          your fleet's charging, driver assignments etc..
-        image: /img/tesla.jpg
+        rich_editor: Our digital platform integrates with best-in-class telematics to
+          capture data from each vehicle in real-time, giving you insight into
+          live fleet behavior through the Fleet Operator portal.
+        image: /img/lexus.jpeg
       - heading: No hidden costs
-        rich_editor: Unlike traditional fixed-term finance with estimated mileage,
+        rich_editor: Unlike traditional fixed-duration finance with estimated mileage,
           having a fixed contracted mileage means the total cost of ownership is
-          always accurate and transparent.. Just pay for what you use.
-        image: /img/hyundai-motor-group-jitbid8yjue-unsplash.jpg
+          always accurate and transparent. You pay for what you’ve used.
+        image: /img/lexus.jpeg
+      - heading: Sustainability focused
+        rich_editor: Our focus is to accelerate the adoption of zero emission vehicles.
+          We appreciate that zero-emission technologies may not be applicable to
+          all vehicle types and industries just yet. Therefore we also support
+          ultra-low emission vehicles. We seek to boost adoption of clean
+          vehicles but won’t dictate the underlying clean technology to be used.
+        image: /img/lexus.jpeg
   - type: grid
     variant: card
     intro:
