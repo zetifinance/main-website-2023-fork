@@ -104,15 +104,6 @@ blocks:
           * Final interview, this will be carried out usually with a wider and different selection of people and will have two halves. One half will focus on feedback for your take-home test, and the other half will be a more wide-ranging interview. They may happen in any order, depending on availability. 
 
           * You start working to revolutionize transport finance for good!
-      - heading: Question goes in here lorem ipsum dolor sit amet
-        rich_editor: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae
-          tellus lacus. Suspendisse a dolor feugiat, laoreet mi id, ultricies
-          nisi. Nulla quis rutrum dolor, quis iaculis ipsum. Praesent vel luctus
-          magna.
-
-
-          Aenean vel urna vitae mauris aliquet auctor. Sed sit amet dolor diam. Nunc vel nulla sem. Donec non fringilla orci. Curabitur sed orci feugiat, fermentum quam non, condimentum elit.
     intro:
       heading: FAQs
   - type: text_image
