@@ -9,22 +9,34 @@ blocks:
     variant: default
     image: /img/tesla.jpg
     main:
-      heading: Financiers
-      rich_editor: In recent years, traditional ESG asset class returns have been
-        falling which has left investors seeking portfolio diversification away
-        from overcrowded solar and wind markets. Not only does Zeti provide a
-        new ESG asset class, but it also drastically reduces the time and
-        expense required to manage a portfolio of vehicles.
+      heading: Lenders
+      rich_editor: >-
+        ESG investment in ‘real’ clean assets has been primarily restricted to a
+        limited number of technologies including solar PV, wind, battery and
+        biomass technologies. With the deployment of zero-emission vehicles
+        globally, aggregating clean transport at scale provides a new, proven
+        clean asset class for institutional investors with attractive
+        risk-adjusted returns.
+
+
+        It can be hard for traditional automotive lenders to stand out in a crowded market. Zeti can help such lenders differentiate their offering and have a strategic advantage in securing customers whilst generating attractive risk-adjusted returns and gaining operational insight.
       buttons: []
   - type: feature_slider
     intro:
-      heading: Advantages for financiers
+      heading: Advantages for lenders
       rich_editor: ""
     features:
-      - heading: New ESG asset class
+      - heading: New asset class for ESG investors
         rich_editor: Generate attractive, risk-adjusted returns in a new clean asset
-          class comparable to an investment in renewable energy.
+          class comparable to an investment in renewable energy, whilst tracking
+          the environmental benefits in real-time.
         image: /img/lexus.jpeg
+        buttons:
+          - button:
+              variant: default
+      - heading: Differentiated offering for traditional lenders
+        rich_editor: Gain a strategic advantage from your competitors, with
+          risk-adjusted upside returns and downside protection.
       - heading: Investment visibility
         rich_editor: Our digital platform pulls live telematics directly from each
           vehicle giving you insight into asset security. Also, vehicle
