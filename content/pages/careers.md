@@ -7,7 +7,7 @@ permalink: /careers/
 blocks:
   - type: hero
     variant: default
-    image: /img/careers.jpg
+    image: /img/img_2286.jpg
     main:
       heading: "We’re building something different. "
       rich_editor: >-
