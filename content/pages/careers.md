@@ -12,10 +12,10 @@ blocks:
       heading: "We’re building something different. "
       rich_editor: >-
         We’re disrupting traditional auto-finance and giving fleets the
-        resources to transition to zero-emission without hidden fees and huge
-        monthly charges, and in a way that aligns with their cash flow.  In
-        order to grow our product, we need a team focused on striving towards a
-        greener future through innovation. 
+        resources to transition to zero and ultra-low emission vehicles without
+        hidden fees and huge monthly charges, and in a way that aligns with
+        their cash flow.  In order to grow our product, we need a team focused
+        on striving towards a greener future through innovation. 
 
 
         We’re hiring talented and creative problem-solvers to do just that.
@@ -31,9 +31,10 @@ blocks:
       heading: Who are Zeti?
       rich_editor: Zeti is a green fintech scaleup that originated in London but now
         operates in California and New York. We’re on a mission to reduce carbon
-        emissions and make it easier for fleets to transition to zero-emission
-        vehicles whilst also offering institutional financiers the option to
-        generate attractive, risk-adjusted returns in a new, clean asset class.
+        emissions and make it easier for fleets to transition to zero and
+        ultra-low vehicles whilst also offering institutional lenders the option
+        to generate attractive, risk-adjusted returns in a new, clean asset
+        class.
   - type: locations
     intro:
       heading: Our Locations
@@ -44,18 +45,18 @@ blocks:
 
         We operate a very flexible work scheme meaning you can balance your professional career with the demands of home life.
     locations:
-      - phone_number: +44(0) 123 456 7890
+      - phone_number: ""
         email_address: hello@zeti.co.uk
         location_name: United Kingdom
         address: 52 Tabernacle St, London, EC2A 4NJ
-      - phone_number: +44(0) 123 456 7890
+      - phone_number: ""
         email_address: hello@zeti.co.uk
         address: 2450 Colorado Avenue, Santa Monica, CA 90404
         location_name: Los Angeles
       - location_name: New York City
         address: c/o NYU Future Lab, 370 Jay Street, Brooklyn. NY 11201
         email_address: hello@zeti.co.uk
-        phone_number: +44(0) 123 456 7890
+        phone_number: ""
   - type: text_image
     variant: default
     main:
