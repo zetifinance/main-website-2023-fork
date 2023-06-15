@@ -180,8 +180,8 @@ blocks:
     intro:
       heading: Working alongside
     logos:
-      - image_light: /img/ey-white.png
-        image_dark: /img/ey-dark.png
+      - image_light: /img/ey-white-logo.png
+        image_dark: /img/ey_logo_2019.svg.png
       - image_light: /img/1069295-1-.png
         image_dark: /img/microsoft-colour.png
       - image_light: /img/amber-white.png
