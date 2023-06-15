@@ -10,12 +10,16 @@ blocks:
     image: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
     main:
       heading: Fleets
-      rich_editor: Transport is becoming an on-demand service and fleet operators need
-        to adopt low or zero-emission vehicles. However, financing is expensive
-        and often disconnected from revenue generation, not to mention the
-        hidden costs and penalties found with traditional leasing. Zeti’s model
-        uses pay-per-mile financing meaning your monthly payments align with
-        your cash flow.
+      rich_editor: >-
+        Transport is becoming an on-demand service. Fleet operators need to
+        adopt low or zero-emission vehicles; whether due to customer demand,
+        legislative requirements, or simply because it’s the right thing to do. 
+
+
+        However, financing is expensive and often disconnected from revenue generation, not to mention the hidden costs and penalties found with traditional leasing. 
+
+
+        Zeti’s pay-per-mile financing optimises your cash flow and can help secure your profit margin.
       buttons: []
   - type: feature_slider
     intro:
@@ -23,11 +27,11 @@ blocks:
       rich_editor: ""
     features:
       - heading: Pay-per-mile
-        rich_editor: We offer true pay-per-mile vehicle purchasing and long-term
-          leasing, pooled across an entire fleet, rather than per vehicle. There
-          is no minimum monthly commitment or penalty for driving over your
-          estimated monthly mileage. Our contracts are based on a longer-term
-          contracted mileage commitment to allow more flexibility in payments.
+        rich_editor: We offer true pay-per-mile vehicle fleet financing; pooled across
+          the fleet, rather than per vehicle. There is no penalty for driving
+          over your estimated monthly mileage. Our contracts are based on a
+          contracted mileage commitment and allow for greater flexibility in
+          payments than traditional finance.
         image: /img/lexus.jpeg
       - heading: "Fully automated billing "
         rich_editor: Billing and Payment collection are entirely automated and always
