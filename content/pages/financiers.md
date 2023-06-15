@@ -79,17 +79,17 @@ blocks:
           heading: Access full billing history
           image: /img/transaction-history.png
       - list_item:
+          heading: Automated billing and payment collection
+      - list_item:
           heading: Track payments and monthly accruals
           image: /img/loupe.png
       - list_item:
           heading: Analyse mileage breakdown per vehicle
           image: /img/speedometer.png
       - list_item:
-          heading: Monitor your real-time carbon and NOx savings from financing clean
-            transport
+          heading: Monitor real-time tailpipe carbon and NOx savings to share with
+            stakeholders
           image: /img/co2.png
-      - list_item:
-          heading: Automated billing and payment collection
     columns: Four
   - type: accordions
     intro:
