@@ -2,7 +2,7 @@
 id: Z0BWKZfFv
 type: page
 layout: page-builder
-title: Financiers
+title: Lenders
 permalink: /financiers/
 blocks:
   - type: hero
