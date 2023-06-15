@@ -54,10 +54,10 @@ blocks:
   - type: grid
     variant: card
     intro:
-      heading: "Platform advantages:"
+      heading: Platform advantages
       rich_editor: Our patent-pending Zero platform offers unparalleled insight for
-        fleet operators looking to switch to greener transport and closely
-        monitor the behaviour and profitability of their fleet.
+        lenders looking to switch to greener transport and closely monitor the
+        behaviour and profitability of their fleet.
     list:
       - list_item:
           heading: Real-time IRR projections based on each vehicles average mileage
@@ -88,6 +88,8 @@ blocks:
           heading: Monitor your real-time carbon and NOx savings from financing clean
             transport
           image: /img/co2.png
+      - list_item:
+          heading: Automated billing and payment collection
     columns: Four
   - type: accordions
     intro:
