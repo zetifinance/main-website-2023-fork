@@ -60,9 +60,9 @@ blocks:
     variant: card
     intro:
       heading: Platform advantages
-      rich_editor: Our patent-pending Zero platform offers unmatched insight for fleet
-        operators looking to switch to cleaner transport while closely
-        monitoring the behavior and profitability of their fleet.
+      rich_editor: Our patent-pending software platform offers key insights for fleet
+        operators looking to finance the switch to cleaner transport while
+        closely monitoring the behavior and profitability of their fleet.
     list:
       - list_item:
           heading: Locate each vehicle in real-time
@@ -81,8 +81,8 @@ blocks:
           heading: Analyze mileage breakdown per vehicle
           image: /img/speedometer.png
       - list_item:
-          heading: Monitor real-time carbon and NOx savings from the adoption of clean
-            vehicles
+          heading: Monitor real-time tailpipe carbon and NOx savings from the adoption of
+            your clean vehicles
           image: /img/co2.png
     columns: Four
   - type: grid
