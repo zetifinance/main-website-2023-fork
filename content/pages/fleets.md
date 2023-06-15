@@ -7,7 +7,7 @@ permalink: /fleets/
 blocks:
   - type: hero
     variant: default
-    image: /img/shutterstock_742689853.jpg
+    image: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
     main:
       heading: Fleets
       rich_editor: Transport is becoming an on-demand service and fleet operators need
