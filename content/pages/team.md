@@ -49,7 +49,7 @@ blocks:
             energy and infrastructure sectors.
           image: /img/ernie-richardson.jpg
       - team_member:
-          image: /img/pete-malcolm.jpeg
+          image: /img/untitled-design-14-.png
           name: Pete Malcolm
           job_role: Board Member & President, Zeti, Inc.
           linkedin: https://www.linkedin.com/in/petemalcolm
