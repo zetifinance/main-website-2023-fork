@@ -85,14 +85,11 @@ blocks:
             quantitative analysis and asset structuring.
           image: /img/emma-bell.jpg
       - team_member:
-          image: /img/rebecca-saletta.jpeg
-          job_role: Director of Strategic Partnerships, US
-          name: Rebecca Saletta
-          linkedin: https://www.linkedin.com/in/rebecca-saletta-b74b62104
-          bio: Five years of experience developing international start-ups in clean
-            transportation and automotive technology. Extensive career in the
-            public sector building out the UK Government's Future of Mobility
-            strategy for the Western US. Based in Los Angeles.
+          image: /img/jon-stafford.jpg
+          name: Jon Stafford
+          job_role: Senior Vice President of North American Sales
+          linkedin: https://www.linkedin.com/in/jonstafford-cma-cafm/
+          bio: J﻿on's bio
       - team_member:
           name: Dave Kennon
           job_role: Director of Automotive Partnerships
@@ -102,21 +99,32 @@ blocks:
             implementation of software solutions to improve business capability.
           image: /img/dave-kennon.jpg
       - team_member:
-          name: John Fentiman
-          image: /img/john-fentiman.jpg
-          job_role: Senior Software Developer
-          linkedin: https://www.linkedin.com/in/john-fentiman-46766b127/
-          bio: Senior Software Developer with over 15 years experience in finance,
-            technology and operations. A believer in Software Craftsmanship and
-            pragmatic test driven development.
+          image: /img/rebecca-saletta.jpeg
+          job_role: Director of Strategic Partnerships, US
+          name: Rebecca Saletta
+          linkedin: https://www.linkedin.com/in/rebecca-saletta-b74b62104
+          bio: Five years of experience developing international start-ups in clean
+            transportation and automotive technology. Extensive career in the
+            public sector building out the UK Government's Future of Mobility
+            strategy for the Western US. Based in Los Angeles.
       - team_member:
-          image: /img/jenny-carus.jpg
-          name: Jenny Carus
-          job_role: Senior Software Developer
-          linkedin: https://www.linkedin.com/in/jennifer-carus-452b4754/
-          bio: Senior software developer with experience in full stack and DevOps
-            processes within financial services. Passionate about bringing value
-            to clients through an end-to-end delivery focus.
+          name: Phoebe Dickson
+          job_role: Marketing Manager
+          bio: 7 years experience in Video Production, Marketing and Professional Services
+            gained with both startups and established companies, including three
+            years with VFX industry leader, The Mill. Specialist in brand
+            messaging and communications.
+          linkedin: https://www.linkedin.com/in/phoebe-dickson-malcolm-aa5a1a9a/
+          image: /img/phoebe-dickson.jpg
+      - team_member:
+          name: Manjot Heer
+          job_role: Investment Analyst
+          linkedin: https://www.linkedin.com/in/manjot-heer-82a81a145/
+          bio: Background in Investment Banking with experience in successfully raising
+            money for SMID public and private companies, with a focus in TMT and
+            Renewables. Specialising in equity research, business development
+            and fundraising.
+          image: /img/manjot-heer.jpg
       - team_member:
           name: David Martin
           job_role: Operations Manager
@@ -128,14 +136,21 @@ blocks:
             outcomes.
           image: /img/david-martin.jpg
       - team_member:
-          name: Phoebe Dickson
-          job_role: Marketing Manager
-          bio: 7 years experience in Video Production, Marketing and Professional Services
-            gained with both startups and established companies, including three
-            years with VFX industry leader, The Mill. Specialist in brand
-            messaging and communications.
-          linkedin: https://www.linkedin.com/in/phoebe-dickson-malcolm-aa5a1a9a/
-          image: /img/phoebe-dickson.jpg
+          image: /img/jenny-carus.jpg
+          name: Jenny Carus
+          job_role: Senior Software Developer
+          linkedin: https://www.linkedin.com/in/jennifer-carus-452b4754/
+          bio: Senior software developer with experience in full stack and DevOps
+            processes within financial services. Passionate about bringing value
+            to clients through an end-to-end delivery focus.
+      - team_member:
+          name: John Fentiman
+          image: /img/john-fentiman.jpg
+          job_role: Senior Software Developer
+          linkedin: https://www.linkedin.com/in/john-fentiman-46766b127/
+          bio: Senior Software Developer with over 15 years experience in finance,
+            technology and operations. A believer in Software Craftsmanship and
+            pragmatic test driven development.
       - team_member:
           name: Pavundeep Johal
           bio: Experience within the energy industry as a maintenance analyst at
@@ -147,15 +162,6 @@ blocks:
           job_role: Junior Product Manager
           image: /img/pavundeep-johal.jpg
       - team_member:
-          name: Manjot Heer
-          job_role: Investment Analyst
-          linkedin: https://www.linkedin.com/in/manjot-heer-82a81a145/
-          bio: Background in Investment Banking with experience in successfully raising
-            money for SMID public and private companies, with a focus in TMT and
-            Renewables. Specialising in equity research, business development
-            and fundraising.
-          image: /img/manjot-heer.jpg
-      - team_member:
           name: Melissa Rose
           image: /img/melissa-rose-2.jpg
           job_role: Junior Developer
@@ -164,26 +170,10 @@ blocks:
             the University of Oxford. Previous experience as a biomedical
             researcher at the Francis Crick Institute. Formerly worked for an
             EdTech startup.
-      - team_member:
-          image: /img/jon-stafford.jpg
-          name: Jon Stafford
-          job_role: Senior Vice President of North American Sales
-          linkedin: https://www.linkedin.com/in/jonstafford-cma-cafm/
-          bio: J﻿on's bio
   - type: team
     intro:
       heading: Our advisors
     team:
-      - team_member:
-          image: ""
-          name: Alan Morgan
-          job_role: Advisor
-          linkedin: https://www.linkedin.com/in/alan-morgan-8b76b119/
-          bio: Investor in early stage and growth FinTech companies. Chairman and
-            co-founder of MMC Ventures. Chairman of Adfisco, Fintech investor.
-            28 years in McKinsey (Senior Partner 1991-2006), heading the
-            financial services practises in UK, Europe (including CEE) and then
-            MENA.
       - team_member:
           name: Emily Kirsch
           image: ""
@@ -199,6 +189,16 @@ blocks:
             the podcast Watt It Takes, which has over 1 million downloads and
             has featured founders of some of the energy and automotive
             industries most iconic companies like Nest, Sunrun, and Tesla.
+      - team_member:
+          image: ""
+          name: Alan Morgan
+          job_role: Advisor
+          linkedin: https://www.linkedin.com/in/alan-morgan-8b76b119/
+          bio: Investor in early stage and growth FinTech companies. Chairman and
+            co-founder of MMC Ventures. Chairman of Adfisco, Fintech investor.
+            28 years in McKinsey (Senior Partner 1991-2006), heading the
+            financial services practises in UK, Europe (including CEE) and then
+            MENA.
       - team_member:
           image: ""
           name: Nina Teng
