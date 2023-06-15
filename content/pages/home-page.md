@@ -162,7 +162,7 @@ blocks:
           variant: statistic
   - type: logo_grid
     intro:
-      heading: Manufacturers we've financed
+      heading: Manufacturers financed through us
       rich_editor: ""
       buttons: []
     logos:
