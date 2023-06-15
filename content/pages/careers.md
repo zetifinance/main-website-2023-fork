@@ -61,14 +61,16 @@ blocks:
     variant: default
     main:
       rich_editor: Our business started in 2020 and since then we’ve grown rapidly
-        both as a business and as a team.
+        both as a business and as a team. Our team covers various functions
+        including software development, business development, investment and
+        operations.
       heading: Meet the Team
       buttons:
         - button:
             variant: default
             label: Meet the team
             url: /team/
-    image: /img/team.jpg
+    image: /img/careers.jpg
   - type: vacancies
     intro:
       heading: Current Vacancies
