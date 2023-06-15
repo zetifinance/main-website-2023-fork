@@ -84,7 +84,7 @@ blocks:
                   url: /manufacturers/
   - type: maps
     intro:
-      heading: Vehicles in the wild
+      heading: Live vehicles
     maps_grid:
       - map_name: UK
         map_api: placeholder
