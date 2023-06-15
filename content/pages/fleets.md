@@ -94,19 +94,20 @@ blocks:
     list:
       - list_item:
           rich_editor: >-
-            Zeti are a bridge between Breathe and the investment funds. We have
+            "Zeti are a bridge between Breathe and the investment funds. We have
             an ambitious target to scale 10,000 vehicles across the UK so we
-            really need player like Zeti who can provide us with security and
-            base of information.
+            really need players like Zeti who can provide us with security and
+            base of information."
 
 
             \- Jeff Davis, Breathe COO
           image: /img/quotation.png
       - list_item:
           rich_editor: >-
-            A particular benefit of the ZERO platform is the pooling of vehicle
+            "A particular benefit of the ZERO platform is the pooling of vehicle
             mileage; with a contracted aggregate mileage across all vehicles, we
-            don’t need to juggle individual cabs to a fixed mileage or end date
+            don’t need to juggle individual cabs to a fixed mileage or end
+            date."
 
 
             \- Asher Moses, Sherbet CEO
