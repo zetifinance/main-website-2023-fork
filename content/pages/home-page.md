@@ -188,9 +188,9 @@ blocks:
         image_dark: /img/amber.jpeg
       - image_light: /img/gravis-white.png
         image_dark: /img/gravis-black.png
-      - image_light: /img/bvlra-white.png
+      - image_light: /img/bvrla.png
         image_dark: /img/bvrla-logo.png
-      - image_light: /img/octopus-investments-white.png
+      - image_light: /img/octopus-logo-oi-white.svg
         image_dark: /img/octopus-investments-logo-vector.png
     variant: Slider
 seo:
