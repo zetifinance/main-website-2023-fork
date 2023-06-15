@@ -9,7 +9,7 @@ blocks:
     variant: default
     image: /img/shutterstock_742689853.jpg
     main:
-      heading: Fleets at Zeti
+      heading: Fleets
       rich_editor: Transport is becoming an on-demand service and fleet operators need
         to adopt low or zero-emission vehicles. However, financing is expensive
         and often disconnected from revenue generation, not to mention the
