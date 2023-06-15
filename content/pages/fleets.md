@@ -117,25 +117,30 @@ blocks:
       heading: FAQs
     accordions:
       - heading: Who provides the finance for the vehicles?
-        rich_editor: We work with any Institutional Fund (i.e. banks, insurance firms,
-          pension funds, family offices) that is seeking to invest in clean
-          assets. Zeti turns transportation into a new clean asset class and is
-          therefore able to support a wide range of financiers as they seek to
-          add zero-emission vehicles to their portfolios. These are most often
-          financiers who previously invested in solar and wind projects.
+        rich_editor: >-
+          We work with lenders seeking to invest in clean transport; unlocking
+          new pools of capital as well as leveraging traditional pools. Lenders
+          may include banks, insurance firms, pension funds, family offices,
+          etc,. 
+
+
+          Zeti turns transportation into a new clean asset class and is therefore able to support a wide range of lenders as they seek to add zero-emission vehicles to their portfolios.
       - heading: What kind of vehicles can you finance?
-        rich_editor: Zeti supports the financing of commercial vehicles across any
-          industry including, but not limited, to taxi, rideshare, delivery,
-          logistics, transit and haulage.
+        rich_editor: Zeti supports the financing of zero or ultra-low emission vehicles
+          across any industry including, but not limited, to taxi and rideshare;
+          last-mile delivery, haulage and mass transit. Typically these vehicles
+          are road vehicles but Zeti’s software can also support the financing
+          of non-road vehicles as well as static assets. Contact us for more
+          information.
       - heading: Can Zeti fund any vehicle?
-        rich_editor: We will only support the funding of zero or ultra-low-emission
+        rich_editor: We will only support the funding of zero or ultra-low emission
           vehicles.
-      - heading: What is ZERO?
-        rich_editor: The ZERO platform is the patent-pending automated asset financing
+      - heading: What does Zeti's software do?
+        rich_editor: Zeti’s patent-pending software is the automated asset financing
           platform that enables our pay-per-mile finance model. It handles all
           billing and payments, maps all assets, reports environmental benefits
-          and provides online portals for both fleet operators and financiers.
-          You will interact with ZERO through your Fleet Operator Portal.
+          and provides online portals for both fleet operators and lenders. You
+          will interact with our software through your Fleet Operator portal.
       - heading: Does Zeti finance consumers?
         rich_editor: Zeti does not provide its pay-per-mile product directly to
           consumers, yet! Stay tuned.
@@ -145,11 +150,11 @@ blocks:
           measure usage without having to ask for odometer readings.
       - heading: Where does Zeti operate?
         rich_editor: Zeti is active and supporting the deployment of clean vehicles in
-          Europe and the USA with offices in London, Los Angeles and New York
-          with plans to expand further in the future.
+          Europe and the USA with offices in London, Los Angeles and New York;
+          and with plans to expand further in the future.
       - heading: Where can I find more in-depth information about Zeti's products and
           services?
-        rich_editor: If you’re a fleet operator, manufacturer or financier interested in
+        rich_editor: If you’re a fleet operator, lender or manufacturer interested in
           learning more about Zeti, please get in touch at hello@zeti.group.
 seo:
   ogimage: /img/henlo-cover.png
