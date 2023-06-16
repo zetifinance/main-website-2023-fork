@@ -84,7 +84,7 @@ blocks:
           heading: Monitor real-time tailpipe carbon and NOx savings from the adoption of
             your clean vehicles
           image: /img/co2.png
-    columns: Four
+    columns: Three
   - type: grid
     variant: card
     columns: Two
