@@ -5,7 +5,8 @@ layout: career-single
 title: Customer Operations Associate
 permalink: /careers/customer-operations-associate/
 thumbnail: /img/52523575759_bca15fdde9_o.webp
-excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec pretium massa.
+excerpt: Managing the development and operations of our US customers and
+  projects in our Santa Monica office.
 location: Santa Monica, LA
 hours: Full time
 seo:
