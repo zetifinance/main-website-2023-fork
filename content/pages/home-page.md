@@ -51,7 +51,7 @@ blocks:
                   label: Find out more
                   url: /fleets/
       - tab:
-          heading: For Financiers
+          heading: For Lenders
           image: /img/shutterstock_2221825713.jpg
           main:
             rich_editor: >-
