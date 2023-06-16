@@ -207,9 +207,9 @@ body {
 				position: absolute;
 				top: 50%;
 				left: 50%;
-
 				transform-origin: center, center;
 				background-color: $lightest;
+				transition: 400ms $cubic;
 
 				.light & {
 					background-color: $primary;
@@ -222,6 +222,30 @@ body {
 
 			&::after {
 				transform: translate(-50%, -50%) rotate(45deg);
+			}
+
+
+			&:hover {
+
+				&::before,
+				&::after {
+					background-color: $yellow;
+
+					.light & {
+						background-color: $orange;
+					}
+				}
+			}
+
+			span {
+				height: 0;
+				max-height: 0;
+				position: absolute;
+				background: transparent;
+				font-size: 0;
+				line-height: 0;
+				color: transparent;
+				opacity: 0;
 			}
 		}
 
@@ -280,8 +304,56 @@ body {
 				display: none;
 			}
 
-			h3 {
+			@media(min-width: 768px) {
+				padding-right: 5rem;
+			}
+
+			&-upper {
 				margin-bottom: 1.5rem;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+
+				@media(min-width: 768px) {
+					margin-bottom: 2.5rem;
+				}
+
+				h3 {
+					margin-bottom: 0;
+				}
+
+				a {
+					text-decoration: none;
+
+					svg {
+						width: 35px;
+						height: auto;
+						display: block;
+
+						rect,
+						path {
+							transition: 400ms $cubic;
+
+							.light & {
+								fill: $primary;
+							}
+						}
+					}
+
+					&:hover {
+						svg {
+
+							rect,
+							path {
+								fill: $yellow;
+
+								.light & {
+									fill: $orange;
+								}
+							}
+						}
+					}
+				}
 			}
 
 			p {
@@ -300,10 +372,6 @@ body {
 
 				&.modal__content--full {
 					width: 100%;
-				}
-
-				h3 {
-					margin-bottom: 2.5rem;
 				}
 
 				p {

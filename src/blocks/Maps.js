@@ -42,7 +42,7 @@ export default function Maps({ data }) {
   const maps = data?.maps_grid;
 
   return (
-    <section inview={inView} className={clsx('block block__maps', { 'in-view': inView })}>
+    <section inview={inView} ref={ref} className={clsx('block block__maps', { 'in-view': inView })}>
       <div className="container">
         <div className="maps__intro">
           {intro_heading && <h2 className="section-heading">{intro_heading}</h2>}

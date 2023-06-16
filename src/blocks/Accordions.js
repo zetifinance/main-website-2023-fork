@@ -26,7 +26,7 @@ export default function Accordions({ data }) {
     const accordions = data?.accordions;
 
     return (
-        <section inview={inView} className={clsx('block block__accordions', {'in-view': inView})}>
+        <section inview={inView} ref={ref} className={clsx('block block__accordions', {'in-view': inView})}>
             <div className="container">
                 <div className="accordions__intro">
                     {intro_heading && (
@@ -52,7 +52,7 @@ export default function Accordions({ data }) {
                             const accordion_buttons = item?.buttons;
 
                             return (
-                                <>
+                                <React.Fragment key={i}>
                                 {accordion_heading && (
                                     <div className="accordions__item">
                                         <button>
@@ -72,7 +72,7 @@ export default function Accordions({ data }) {
                                         </div>
                                     </div>
                                 )}
-                                </>
+                                </React.Fragment>
                             );
                         })
                     }

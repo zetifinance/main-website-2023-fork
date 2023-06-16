@@ -28,7 +28,7 @@ export default function Tabs({ data }) {
     const tabs = data?.tabs;
 
     return (
-        <section inview={inView} className={clsx('block block__tabs', {'in-view': inView})}>
+        <section inview={inView} ref={ref} className={clsx('block block__tabs', {'in-view': inView})}>
             <div className="container">
                 <div className="tabs__intro">
                     <div>

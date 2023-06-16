@@ -26,7 +26,7 @@ export default function FeatureSlider({ data }) {
     // Features
     const features = data?.features;
     return (
-        <section inview={inView} className={clsx('block block__feature-slider', {'in-view': inView})}>
+        <section inview={inView} ref={ref} className={clsx('block block__feature-slider', {'in-view': inView})}>
             <div className="container">
                 <div className="feature-slider__intro">
                     {intro_heading && (
@@ -54,7 +54,7 @@ export default function FeatureSlider({ data }) {
                                 const feature_buttons = item?.buttons;
 
                                 return (
-                                    <button data-feature={i} className={clsx('feature-slider__feature-content', isFirst)}>
+                                    <button key={i} data-feature={i} className={clsx('feature-slider__feature-content', isFirst)}>
                                         {feature_heading && (
                                             <h3>{feature_heading}</h3>
                                         )}
@@ -81,7 +81,7 @@ export default function FeatureSlider({ data }) {
                                 const feature_image = item?.image;
 
                                 return (
-                                    <div className={clsx('feature-slider__feature-image', `feature-slider__feature-image--${i}`, isFirst)}>
+                                    <div key={i} className={clsx('feature-slider__feature-image', `feature-slider__feature-image--${i}`, isFirst)}>
                                         {feature_image && (    
                                             <Image src={feature_image} alt={""} className="" />
                                         )}

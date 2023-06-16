@@ -12,7 +12,7 @@ export default function Content({ data }) {
   });
 
   return (
-    <section inview={inView} className={clsx('block block__text', {'in-view': inView})}>
+    <section inview={inView} ref={ref} className={clsx('block block__text', {'in-view': inView})}>
       <div className="container">
         {data?.main?.heading && (
           <h2 className={clsx('section-heading')}>{ data?.main?.heading }</h2>

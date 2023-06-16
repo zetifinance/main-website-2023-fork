@@ -21,7 +21,7 @@ export default function Vacancies({ data }) {
     let postsArray = useAllCareers();
 
     return (
-        <section inview={inView} id='vacancies' className={clsx('block block__vacancies', {'in-view': inView})}>
+        <section inview={inView} ref={ref} id='vacancies' className={clsx('block block__vacancies', {'in-view': inView})}>
             <div className="container">
                 <div className="vacancies__intro">
                     {intro_heading && (

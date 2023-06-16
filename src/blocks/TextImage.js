@@ -13,15 +13,15 @@ export default function TextImage({ data }) {
 	});
 	  
 	// Content
-	const content = data.main.rich_editor;
-	const heading = data.main.heading;
-	const buttons = data.main.buttons;
+	const content = data?.main?.rich_editor;
+	const heading = data?.main?.heading;
+	const buttons = data?.main?.buttons;
 
 	// Image
-	const image = data.image;
+	const image = data?.image;
 
   	return (
-		<section inview={inView} className={clsx('block block__media-text', {'in-view': inView})}>
+		<section inview={inView} ref={ref} className={clsx('block block__media-text', {'in-view': inView})}>
 			<div className={clsx('container')}>
 				<div className="media-text__content">
 					<div className="">

@@ -10,8 +10,10 @@ export default function Image({ data }) {
   });
 
   return (
-    <section inview={inView} className={clsx('block block__image', {'in-view': inView})}>
-      
+    <section inview={inView} ref={ref} className={clsx('block block__image', {'in-view': inView})}>
+      <div className="container">
+
+      </div>
     </section>
   )
 }

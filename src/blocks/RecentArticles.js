@@ -11,7 +11,7 @@ export default function RecentArticles({ data }) {
 	});
 	
 	return (
-		<section inview={inView} className={clsx('block block__recent-articles', {'in-view': inView})}>
+		<section inview={inView} ref={ref} className={clsx('block block__recent-articles', {'in-view': inView})}>
 			<div className="container">
 				<div className="recent-articles__posts post-grid">
 					<Recent/>

@@ -20,7 +20,7 @@ export default function Locations({ data }) {
     const grid = data?.locations;
 
     return (
-        <section inview={inView} className={clsx('block block__locations', {'in-view': inView})}>
+        <section inview={inView} ref={ref} className={clsx('block block__locations', {'in-view': inView})}>
             <div className="container">
                 <div className="locations__intro">
                     {intro_heading && (
@@ -51,23 +51,25 @@ export default function Locations({ data }) {
                                     <span>{(i+1) < 10 ? "0" + (i + 1) : (i + 1)}</span>
 
                                     <div className="grid__item-content">
+                                        <div className="grid__item-content__upper">
+                                            {location_name && (
+                                                <h3>{location_name}</h3>
+                                            )}
 
-                                        {location_name && (
-                                            <h3>{location_name}</h3>
-                                        )}
-
-                                        {location_address && (
-                                            <Text className={clsx('')}>
-                                                {location_address}
-                                            </Text>
-                                        )}
-
-                                        {location_email && (
-                                            <a href={"mailto:" + location_email}>{location_email}</a>
-                                        )}
-                                        {location_phone && (
-                                            <a href={"tel:" + location_phone}>{location_phone}</a>
-                                        )}
+                                            {location_address && (
+                                                <Text className={clsx('')}>
+                                                    {location_address}
+                                                </Text>
+                                            )}
+                                        </div>
+                                        <div className="grid__item-content__lower">
+                                            {location_email && (
+                                                <a href={"mailto:" + location_email}>{location_email}</a>
+                                            )}
+                                            {location_phone && (
+                                                <a href={"tel:" + location_phone}>{location_phone}</a>
+                                            )}
+                                        </div>
                                     </div>
                                 </div>
                             );

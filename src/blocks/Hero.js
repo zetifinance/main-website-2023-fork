@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Buttons from '../components/UI/Buttons';
 import Text from '../components/UI/Text';
 import Image from '../resolvers/Image';
-import CountUp, { useCountUp } from 'react-countup';
+import CountUp from 'react-countup';
 import { useInView } from "react-intersection-observer";
 
 export default function Hero({ data }) {	
@@ -101,7 +101,7 @@ export default function Hero({ data }) {
 						</div>
 						
 						<div className="full-width">
-							<p className="small-print">You can unsubscribe from these communications at any time. For more information, please review our <a href="#" target="_blank">Privacy Policy</a>. By clicking submit below, you consent to allow Zeti to store and process the personal information submitted above to provide you with the content requested.</p>
+							<p className="small-print">You can unsubscribe from these communications at any time. For more information, please review our <a href="/privacy-and-cookies/" target="_blank">Privacy Policy</a>. By clicking submit below, you consent to allow Zeti to store and process the personal information submitted above to provide you with the content requested.</p>
 							<button type="submit">Send Message</button>
 						</div> 
 				  	</form>

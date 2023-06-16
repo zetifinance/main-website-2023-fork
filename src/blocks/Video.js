@@ -14,7 +14,7 @@ export default function Video({ data }) {
   const video = data?.video;
 
   return (
-    <section inview={inView} className={clsx('block block__video', {'in-view': inView})}>
+    <section inview={inView} ref={ref} className={clsx('block block__video', {'in-view': inView})}>
           { 
             isEmbed ? (
               <div className="container" dangerouslySetInnerHTML={{ __html: video }}/>

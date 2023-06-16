@@ -23,7 +23,7 @@ export default function TextImage({ data }) {
 	const video = data?.video;
 
   	return (
-		<section inview={inView} className={clsx('block block__media-text', {'in-view': inView})}>
+		<section inview={inView} ref={ref} className={clsx('block block__media-text', {'in-view': inView})}>
 			<div className={clsx('container')}>
 				<div className="media-text__content">
 					<div className="">

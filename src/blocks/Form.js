@@ -10,7 +10,7 @@ export default function Form({ data }) {
   });
 
   return (
-    <section inview={inView} className={clsx('block block__form', {'in-view': inView})}>
+    <section inview={inView} ref={ref} className={clsx('block block__form', {'in-view': inView})}>
         
     </section>
   )

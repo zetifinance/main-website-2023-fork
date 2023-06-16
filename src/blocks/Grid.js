@@ -29,7 +29,7 @@ export default function Grid({ data }) {
     const grid = data?.list;
 
     return (
-        <section inview={inView} className={clsx('block block__grid', {'block__grid--card': isCard}, {'block__grid--large-card': isLargeCard}, {'block__grid--no-card': isNoCard}, {'in-view': inView})}>
+        <section inview={inView} ref={ref} className={clsx('block block__grid', {'block__grid--card': isCard}, {'block__grid--large-card': isLargeCard}, {'block__grid--no-card': isNoCard}, {'in-view': inView})}>
             <div className="container">
                 <div className="grid__intro">
                     {intro_heading && (

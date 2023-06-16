@@ -4,7 +4,7 @@ import Text from '../components/UI/Text';
 import Buttons from '../components/UI/Buttons';
 import Image from '../resolvers/Image';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
-import CountUp, { useCountUp } from 'react-countup';
+import CountUp from 'react-countup';
 import { useInView } from "react-intersection-observer";
 
 // Default theme
