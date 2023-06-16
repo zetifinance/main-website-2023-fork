@@ -2,7 +2,7 @@
 id: wUHJuOk_e
 type: post
 layout: post
-title: "Weekly News Roundup: 14/02/23 Happy EV(alentines) Day"
+title: "Weekly News Roundup: Happy EV(alentines) Day"
 permalink: /insights/weekly-news-roundup-happy-evalentines-day/
 thumbnail: ""
 date: 2023-02-14T00:00:00.000Z
