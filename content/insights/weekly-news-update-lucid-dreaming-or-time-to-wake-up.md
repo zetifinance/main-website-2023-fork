@@ -3,7 +3,7 @@ id: PgLxwyi2E
 type: post
 layout: post
 title: "Weekly News Update: Lucid Dreaming or Time to Wake Up?"
-permalink: /insights/insights/weekly-news-roundup-02-03-23-all-things-stellantis/
+permalink: /
 thumbnail: /img/08.06.jpg
 date: 2023-06-07T23:00:00.000Z
 author: ""
