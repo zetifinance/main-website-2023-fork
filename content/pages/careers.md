@@ -71,11 +71,6 @@ blocks:
             label: Meet the team
             url: /team/
     image: /img/careers.jpg
-  - type: vacancies
-    intro:
-      heading: Current Vacancies
-      rich_editor: We’re always on the lookout for talent so if you don’t see anything
-        feel free to send us your CV to careers@zeti.group
   - type: accordions
     accordions:
       - heading: Do you run internships, work experience or placements?
@@ -150,6 +145,11 @@ blocks:
             vehicles by making it simple as paying for a utility. We’re with our
             customers every step of the way.
     columns: Four
+  - type: vacancies
+    intro:
+      heading: Current Vacancies
+      rich_editor: We’re always on the lookout for talent so if you don’t see anything
+        feel free to send us your CV to careers@zeti.group
 seo:
   ogimage: /img/henlo-cover.png
 ---
