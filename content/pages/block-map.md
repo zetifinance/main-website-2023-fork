@@ -260,6 +260,8 @@ blocks:
     main:
       heading: Test
       rich_editor: t﻿est
+  - type: image
+    image: /img/52523575759_bca15fdde9_o.webp
 seo:
   ogimage: /img/henlo-cover.png
 ---
