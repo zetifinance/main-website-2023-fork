@@ -16,15 +16,6 @@ blocks:
             variant: default
             label: test
             url: "#"
-  - type: Text
-    main:
-      heading: test
-      rich_editor: t﻿est
-      buttons:
-        - button:
-            variant: default
-            label: test
-            url: "#"
   - type: text_image
     variant: default
     main:
