@@ -89,7 +89,15 @@ blocks:
           name: Jon Stafford
           job_role: Senior Vice President of North American Sales
           linkedin: https://www.linkedin.com/in/jonstafford-cma-cafm/
-          bio: J﻿on's bio
+          bio: Twenty years' experience in fleet management, automotive, finance,
+            operations and sales leadership.  Certified Auto Fleet Manager
+            (CAFM) and Certified Management Accountant (CMA) with exposure
+            speaking at North American Fleet Administrators (NAFA) conference,
+            Global Fleet Conference and MoveUSA on topics related to total cost
+            of ownership, utilization and variable fleet management.  Leadership
+            tenure with Enterprise Fleet Management and LeasePlan USA
+            building long-term mutually beneficial ​relationships with
+            companies ranging from start-ups to Fortune 500.
       - team_member:
           name: Dave Kennon
           job_role: Director of Automotive Partnerships
