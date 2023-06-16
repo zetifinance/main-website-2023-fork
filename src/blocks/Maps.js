@@ -1,37 +1,15 @@
 import clsx from 'clsx';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, Suspense } from 'react';
 import Text from '../components/UI/Text';
 import Buttons from '../components/UI/Buttons';
 import { useInView } from 'react-intersection-observer';
-// import NoSSR from 'react-no-ssr';
-// import { MapContainer, TileLayer, Marker } from 'react-leaflet';
-// import 'leaflet/dist/leaflet.css';
-// import L from 'leaflet';
+import 'leaflet/dist/leaflet.css';
 
 export default function Maps({ data }) {
   const { ref, inView } = useInView({
     threshold: 0.3,
     triggerOnce: true,
   });
-
-  // const [MapContainer, setMapContainer] = useState(null);
-
-  // useEffect(() => {
-  //   import('react-leaflet').then((module) => {
-  //     setMapContainer(module.MapContainer);
-  //   });
-
-  //   const L = require('leaflet');
-  //   delete L.Icon.Default.prototype._getIconUrl;
-
-  //   L.Icon.Default.mergeOptions({
-  //     iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png').default,
-  //     iconUrl: require('leaflet/dist/images/marker-icon.png').default,
-  //     shadowUrl: require('leaflet/dist/images/marker-shadow.png').default,
-  //   });
-
-  //   // fetch('https://zeti.co.uk/api/geoAssets').then(response => response.json()).then(data => setGeoAssets(data));
-  // }, []);
 
   // Intro
   const intro_heading = data?.intro?.heading;
@@ -40,6 +18,22 @@ export default function Maps({ data }) {
 
   // Slide List
   const maps = data?.maps_grid;
+
+  const [MapModule, setMapModule] = useState(null);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      import('react-leaflet').then((leaflet) => {
+        const { MapContainer, TileLayer, Marker } = leaflet;
+        setMapModule(
+          <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: '400px', width: '100%' }}>
+            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+            <Marker position={[51.505, -0.09]} />
+          </MapContainer>
+        );
+      });
+    }
+  }, []);
 
   return (
     <section inview={inView} ref={ref} className={clsx('block block__maps', { 'in-view': inView })}>
@@ -55,6 +49,13 @@ export default function Maps({ data }) {
         <div className={clsx('maps__grid')}>
           <div className="maps__map">
             <h3>UK</h3>
+            {typeof window !== 'undefined' && (
+              <div className="map">
+                <Suspense fallback={<div>Loading map...</div>}>
+                  {MapModule}
+                </Suspense>
+              </div>
+            )}
           </div>
           <div className="maps__map">
             <h3>USA</h3>
