@@ -2,7 +2,7 @@
 id: dJhTfW0qR
 type: post
 layout: post
-title: "Weekly News Roundup: 16/03/23: Price Wars 'Attack of the ICEs'"
+title: "Weekly News Roundup: Price Wars 'Attack of the ICEs'"
 permalink: /insights/weekly-news-roundup-16-03-23-price-wars-attack-of-the-ices/
 thumbnail: ""
 date: 2023-03-16T00:00:00.000Z
