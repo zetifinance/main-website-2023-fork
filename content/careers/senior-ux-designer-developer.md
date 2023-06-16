@@ -4,21 +4,19 @@ type: post
 layout: career-single
 title: Senior UX Designer/Developer
 permalink: /careers/senior-ux-designer-developer/
-excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec pretium massa.
+excerpt: Lead our UX and other design efforts for Zeti's platform in London.
 location: London
 hours: Full time
 seo:
   ogimage: /img/henlo-cover.png
 ---
-
-
 # About the Role
 
 Would you like to use your UX Design skills to help solve the climate crisis by developing groundbreaking financial technology? We're looking for someone to lead our front-end UX design and development as we build out our cutting-edge ZERO platform in our journey to revolutionise transport finance for good.
 
 # What you’ll do
 
-* Lead our UX and other design efforts for the ZERO platform and Zeti more broadly
+* Lead our UX and other design efforts for Zeti's platform and Zeti more broadly
 * Work in a cross functional team with developers, actively helping them to integrate your designs into code. All of our frontends are currently on the React - Typescript - Material UI stack.
 * Further our understanding of our customers through user research sessions
 * Collaborate constantly with a variety of people across the business, but focused initially on software developers and operations
