@@ -7,7 +7,7 @@ permalink: /financiers/
 blocks:
   - type: hero
     variant: default
-    image: /img/tesla.jpg
+    image: /img/shutterstock_2221825713.jpg
     main:
       heading: Lenders
       rich_editor: >-
