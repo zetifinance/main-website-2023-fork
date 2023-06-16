@@ -77,6 +77,7 @@ blocks:
                 variant: default
                 label: test
                 url: "#"
+    columns: Three
   - type: logo_grid
     intro:
       heading: test
@@ -88,6 +89,10 @@ blocks:
             url: test
     images:
       - image: /img/52523575759_bca15fdde9_o.webp
+    logos:
+      - link: "#"
+        image_light: /img/amber-white.png
+        image_dark: /img/amber-colour.png
   - type: tabs
     variant: default
     intro:
@@ -251,6 +256,10 @@ blocks:
             variant: default
             label: test
             url: "#"
+  - type: text
+    main:
+      heading: Test
+      rich_editor: t﻿est
 seo:
   ogimage: /img/henlo-cover.png
 ---
