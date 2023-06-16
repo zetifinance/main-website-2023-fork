@@ -2,7 +2,7 @@
 id: tG0_fwi1V
 type: post
 layout: post
-title: "Weekly News Roundup: 04/05/23: BYD Marches On "
+title: "Weekly News Roundup: BYD Marches On "
 permalink: /insights/weekly-news-roundup-04-05-23-byd-marches-on/
 thumbnail: ""
 date: 2023-05-03T23:00:00.000Z
