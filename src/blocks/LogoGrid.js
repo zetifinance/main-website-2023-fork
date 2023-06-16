@@ -4,7 +4,7 @@ import Text from '../components/UI/Text';
 import Buttons from '../components/UI/Buttons';
 import Image from '../resolvers/Image';
 import { useInView } from "react-intersection-observer";
-import { Splide, SplideSlide } from '@splidejs/react-splide';
+import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide';
 
 export default function LogoGrid({ data }) {
     // In View
@@ -46,67 +46,81 @@ export default function LogoGrid({ data }) {
                 {
                     isSlider ? (
                         <div className="logo-grid__logos logo-grid__logos--slider">
-                            <Splide options={ {
+                            <Splide hasTrack={ false } options={ {
+                                type: 'loop',
+                                interval: 2500,
+                                autoplay: true,
+                                pauseOnHover: false,
+                                pauseOnFocus: false,
+                                resetProgress: false,
                                 perPage: 4, 
-                                perMove: 4, 
+                                perMove: 1, 
                                 rewind: false, 
                                 gap: '100px', 
                                 arrows: false,
                                 breakpoints: {
                                     1199: {
                                         perPage: 3, 
-                                        perMove: 3, 
                                         gap: '50px', 
                                     },
                                     767: {
                                         perPage: 2, 
-                                        perMove: 2, 
                                         gap: '75px', 
                                     },
                                 },
                             } }>
-                            
-                            {
-                                logos?.map((item, i) => {
-                                    const image_link = item?.link;
-                                    const image_light = item?.image_light;
-                                    const image_dark = item?.image_dark;
+                                <SplideTrack>
+                                    {
+                                        logos?.map((item, i) => {
+                                            const image_link = item?.link;
+                                            const image_light = item?.image_light;
+                                            const image_dark = item?.image_dark;
 
-                                    return (
-                                        <SplideSlide key={i}>
-                                            {image_link ? (
-                                                <a className="logos__logo" href={image_link} rel="noreferrer noopener" target="_blank">
-                                                    {image_light && (
-                                                        <div className={clsx('logos__logo-light')}>
-                                                            <Image src={image_light} alt="" className=""/>
+                                            return (
+                                                <SplideSlide key={i}>
+                                                    {image_link ? (
+                                                        <a className="logos__logo" href={image_link} rel="noreferrer noopener" target="_blank">
+                                                            {image_light && (
+                                                                <div className={clsx('logos__logo-light')}>
+                                                                    <Image src={image_light} alt="" className=""/>
+                                                                </div>
+                                                            )}
+                                                                                        
+                                                            {image_dark && (
+                                                                <div className={clsx('logos__logo-dark', { 'primary': !image_light })}>
+                                                                    <Image src={image_dark} alt="" className=""/>
+                                                                </div>
+                                                            )}
+                                                        </a>
+                                                    ) : (
+                                                        <div className="logos__logo">
+                                                            {image_light && (
+                                                                <div className={clsx('logos__logo-light')}>
+                                                                    <Image src={image_light} alt="" className=""/>
+                                                                </div>
+                                                            )}
+                                                                                        
+                                                            {image_dark && (
+                                                                <div className={clsx('logos__logo-dark', { 'primary': !image_light })}>
+                                                                    <Image src={image_dark} alt="" className=""/>
+                                                                </div>
+                                                            )}
                                                         </div>
                                                     )}
-                                                                                
-                                                    {image_dark && (
-                                                        <div className={clsx('logos__logo-dark', { 'primary': !image_light })}>
-                                                            <Image src={image_dark} alt="" className=""/>
-                                                        </div>
-                                                    )}
-                                                </a>
-                                            ) : (
-                                                <div className="logos__logo">
-                                                    {image_light && (
-                                                        <div className={clsx('logos__logo-light')}>
-                                                            <Image src={image_light} alt="" className=""/>
-                                                        </div>
-                                                    )}
-                                                                                
-                                                    {image_dark && (
-                                                        <div className={clsx('logos__logo-dark', { 'primary': !image_light })}>
-                                                            <Image src={image_dark} alt="" className=""/>
-                                                        </div>
-                                                    )}
-                                                </div>
-                                            )}
-                                        </SplideSlide>
-                                    );
-                                })
-                            }
+                                                </SplideSlide>
+                                            );
+                                        })
+                                    }
+                                </SplideTrack>
+ 
+                                <div className="splide__progress">
+                                    <div className="splide__progress__bar" />
+                                </div>
+
+                                <button className="splide__toggle">
+                                    <span className="splide__toggle__play">Play</span>
+                                    <span className="splide__toggle__pause">Pause</span>
+                                </button>
                             </Splide>
                         </div>
                     ): (

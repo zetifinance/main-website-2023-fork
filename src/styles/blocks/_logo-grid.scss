@@ -54,11 +54,55 @@
         }
 
         &.logo-grid__logos--slider {
+            margin: 0;
+
+            @media(min-width: 768px) {
+                margin: 0;
+            }
+
+            @media(min-width: 1200px) {
+                margin: 0;
+            }
 
             .splide {
                 width: 100%;
                 min-width: 100%;
+                position: relative;
                 padding-bottom: 7.5rem;
+
+                @media(min-width: 1200px) {
+                    padding-bottom: 12.5rem;
+                }
+            }
+
+            .splide__progress {
+                margin: 2rem 0;
+                display: none;
+            }
+
+            .splide__toggle {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+
+                padding: 1.25rem 2.5rem;
+                display: flex;
+                align-items: center;
+                background-color: $yellow;
+                border: none;
+                border-radius: 100px;
+                box-shadow: none;
+                font-size: 1.6rem;
+                line-height: 2.4rem;
+                color: $primary;
+                transition: 400ms $cubic;
+
+                @media(min-width: 768px) {
+                    padding: 1.75rem 3rem;
+                    font-size: 2rem;
+                    line-height: 2.5rem;
+                    letter-spacing: 1px;
+                }
             }
 
             .splide__slide {
