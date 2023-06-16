@@ -11,6 +11,7 @@
 @import "components/_buttons.scss";
 @import "components/_forms.scss";
 @import "components/_grid.scss";
+@import "components/_intro.scss";
 @import "components/_lists.scss";
 @import "components/_tables.scss";
 
@@ -24,6 +25,7 @@
 
 @import "blocks/_blocks.scss";
 @import "blocks/_hero.scss";
+@import "blocks/_image.scss";
 @import "blocks/_text.scss";
 @import "blocks/_logo-grid.scss";
 @import "blocks/_slider.scss";

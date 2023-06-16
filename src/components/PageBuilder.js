@@ -5,7 +5,7 @@ import Hero from '@/blocks/Hero';
 import Content from '../blocks/Text';
 import TextImage from '../blocks/TextImage';
 import TextVideo from '../blocks/TextVideo';
-import Image from '../blocks/Image';
+import ImageBlock from '../blocks/Image';
 import Video from '../blocks/Video';
 import Grid from '../blocks/Grid';
 import LogoGrid from '../blocks/LogoGrid';
@@ -38,7 +38,7 @@ export default function PageBuilder({ blocks, preview = false }) {
             case 'text_video':
               return <TextVideo key={i} data={block} preview={preview} />;
             case 'image':
-              return <Image key={i} data={block} preview={preview} />;
+              return <ImageBlock key={i} data={block} preview={preview} />;
             case 'video':
               return <Video key={i} data={block} preview={preview} />;
             case 'grid':
@@ -117,7 +117,7 @@ export const query = graphql`
       image {
         childImageSharp {
           gatsbyImageData(
-            width: 800
+            layout: FULL_WIDTH
             quality: 72
             placeholder: DOMINANT_COLOR
             formats: [AUTO, WEBP, AVIF]
