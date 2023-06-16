@@ -85,7 +85,7 @@ blocks:
             quantitative analysis and asset structuring.
           image: /img/emma-bell.jpg
       - team_member:
-          image: /img/jon-stafford.jpg
+          image: /img/jon-stafford.png
           name: Jon Stafford
           job_role: Senior Vice President of North American Sales
           linkedin: https://www.linkedin.com/in/jonstafford-cma-cafm/
