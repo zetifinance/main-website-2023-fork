@@ -11,14 +11,14 @@ const CareerSingle = ({ data }) => {
       <section className="block block__hero block__hero--simple">
         <div className="container">
           <div className="hero__content">
-              <h1 className="">{data.post.frontmatter.title}</h1>
+              <h1 className="">{data?.post?.frontmatter?.title}</h1>
           </div>
         </div>
 		  </section>
 
       <section className="block block__post-single">
         <div className="container">
-          <article dangerouslySetInnerHTML={{ __html: data?.post.html }}>
+          <article dangerouslySetInnerHTML={{ __html: data?.post?.html }}>
 
           </article>
         </div>
@@ -36,10 +36,14 @@ CareerSingle.propTypes = {
 }
 
 export const Head = ({ data }) => (
-  <DefaultHead data={data.post.frontmatter.seo}>
-    {/* Additonal values here */}
-    <meta id="oty" property="og:type" content="article" />
-  </DefaultHead>
+  <>
+    {data?.post?.frontmatter?.seo && (
+      <DefaultHead data={data?.post?.frontmatter?.seo}>
+        {/* Additonal values here */}
+        <meta id="oty" property="og:type" content="article" />
+      </DefaultHead>
+    )}
+  </>
 )
 
 export default CareerSingle

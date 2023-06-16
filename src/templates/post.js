@@ -13,8 +13,12 @@ const Post = ({ data }) => {
       <section className="block block__hero block__hero--simple">
         <div className="container">
           <div className="hero__content">
-              <h1 className="">{data.post.frontmatter.title}</h1>
-              <p>{format(new Date(data.post.frontmatter.date),'MMMM dd, yyyy')}</p>
+            {data?.post?.frontmatter?.title && (
+              <h1 className="">{data?.post?.frontmatter?.title}</h1>
+            )}
+            {data?.post?.frontmatter?.date && (
+              <p>{format(new Date(data?.post?.frontmatter?.date),'MMMM dd, yyyy')}</p>
+            )}
           </div>
           <div className='hero__image'>
             {data?.post?.frontmatter?.thumbnail && (
@@ -24,13 +28,15 @@ const Post = ({ data }) => {
         </div>
 		  </section>
 
-      <section className="block block__post-single">
-        <div className="container">
-          <article dangerouslySetInnerHTML={{ __html: data?.post.html }}>
+      {data?.post?.html && (
+        <section className="block block__post-single">
+          <div className="container">
+            <article dangerouslySetInnerHTML={{ __html: data?.post?.html }}>
 
-          </article>
-        </div>
-      </section>
+            </article>
+          </div>
+        </section>
+      )}
     </Layout>
   )
 }
@@ -43,11 +49,16 @@ Post.propTypes = {
   }),
 }
 
+
 export const Head = ({ data }) => (
-  <DefaultHead data={data.post.frontmatter.seo}>
-    {/* Additonal values here */}
-    <meta id="oty" property="og:type" content="article" />
-  </DefaultHead>
+  <>
+    {data?.post?.frontmatter?.seo && (
+      <DefaultHead data={data?.post?.frontmatter?.seo}>
+        {/* Additonal values here */}
+        <meta id="oty" property="og:type" content="article" />
+      </DefaultHead>
+    )}
+  </>
 )
 
 export default Post

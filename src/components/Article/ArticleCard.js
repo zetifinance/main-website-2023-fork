@@ -9,8 +9,8 @@ export default function ArticleCard({ data }) {
         <Image src={post?.frontmatter?.thumbnail} alt={""} className="blog-post__thumbnail"/>
         <div className="blog-post__content">
           <div>
-            <h3>{post.frontmatter.title}</h3>
-            <p>{post.frontmatter.date}</p>
+            <h3>{post?.frontmatter?.title}</h3>
+            <p>{post?.frontmatter?.date}</p>
           </div>
           <span>
             Read more

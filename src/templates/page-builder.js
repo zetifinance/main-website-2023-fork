@@ -25,9 +25,14 @@ Page.propTypes = {
 export default Page
 
 export const Head = ({ data }) => (
-  <DefaultHead data={data.page.frontmatter.seo}>
-    <meta id="type" property="og:type" content="website" />
-  </DefaultHead>
+  <>
+    {data?.post?.frontmatter?.seo && (
+      <DefaultHead data={data?.page?.frontmatter?.seo}>
+        {/* Additonal values here */}
+        <meta id="type" property="og:type" content="website" />
+      </DefaultHead>
+    )}
+  </>
 )
 
 export const basicPageQuery = graphql`
