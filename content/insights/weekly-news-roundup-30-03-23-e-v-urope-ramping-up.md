@@ -2,7 +2,7 @@
 id: H9jDFJVCi
 type: post
 layout: post
-title: "Weekly News Roundup: 30/03/23: E(V)urope Ramping Up"
+title: "Weekly News Roundup: E(V)urope Ramping Up"
 permalink: /insights/weekly-news-roundup-30/03/23-evurope-ramping-up/
 thumbnail: ""
 date: 2023-03-29T23:00:00.000Z
