@@ -199,13 +199,6 @@
 
     &.block__hero--large {
 
-        &.in-view {
-            .hero__image {
-
-                &-emissions {}
-            }
-        }
-
         .container {
             padding-top: 10rem;
 
@@ -255,7 +248,7 @@
 
                 &.hero__image-emissions--loaded {
                     clip-path: inset(0 0% 0 0%);
-                    transition-delay: 1s;
+                    transition-delay: 0s;
 
                     h4,
                     p,
