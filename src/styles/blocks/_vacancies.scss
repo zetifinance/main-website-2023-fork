@@ -66,11 +66,12 @@
             h3 {
                 margin: 0;
                 font-size: 2.2rem;
+                font-weight: 600;
                 line-height: 3.2rem;
 
                 @media(min-width: 768px) {
-                    font-size: 3rem;
-                    line-height: 4rem;
+                    font-size: 3.2rem;
+                    line-height: 4.2rem;
                 }
             }
 
