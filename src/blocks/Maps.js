@@ -4,7 +4,6 @@ import Text from '../components/UI/Text';
 import Buttons from '../components/UI/Buttons';
 import { useInView } from 'react-intersection-observer';
 
-import 'leaflet-defaulticon-compatibility';
 import 'leaflet/dist/leaflet.css';
 
 export default function Maps({ data }) {
@@ -39,6 +38,15 @@ export default function Maps({ data }) {
       if (typeof window !== 'undefined') {
         import('react-leaflet').then((leaflet) => {
           const { MapContainer, TileLayer, Marker } = leaflet;
+
+          delete L.Icon.Default.prototype._getIconUrl;
+
+          L.Icon.Default.mergeOptions({
+              iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
+              iconUrl: require('leaflet/dist/images/marker-icon.png'),
+              shadowUrl: require('leaflet/dist/images/marker-shadow.png')
+          });
+          
           setMapModule(
             <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: '500px', width: '100%' }}>
               <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
