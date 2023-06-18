@@ -16,15 +16,6 @@ module.exports = {
     'gatsby-plugin-preload-fonts',
     'gatsby-plugin-image',
     {
-      resolve: 'gatsby-plugin-use-dark-mode',
-      options: {
-        classNameDark: 'dark',
-        classNameLight: 'light',
-        storageKey: 'darkMode',
-        minify: true,
-      },
-    },
-    {
       resolve: 'gatsby-plugin-dark-mode',
       options: {
         defaultMode: 'dark',
