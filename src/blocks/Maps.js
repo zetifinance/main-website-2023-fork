@@ -25,15 +25,13 @@ export default function Maps({ data }) {
   console.log(geoAssets);
   
   useEffect(() => {
-    fetch('https://zeti.co.uk/api/geoAssets')
-      .then(response => response.json())
-      .then(data => setGeoAssets(data));
+    fetch('https://zeti.co.uk/api/geoAssets').then(response => response.json()).then(data => setGeoAssets(data));
 
     if (typeof window !== 'undefined') {
       import('react-leaflet').then((leaflet) => {
         const { MapContainer, TileLayer, Marker } = leaflet;
         setMapModule(
-          <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: '400px', width: '100%' }}>
+          <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: '500px', width: '100%' }}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             
             {/* Filter and plot UK markers */}
