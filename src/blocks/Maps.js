@@ -24,7 +24,6 @@ export default function Maps({ data }) {
 
   console.log(geoAssets);
   
-
   useEffect(() => {
     fetch('https://zeti.co.uk/api/geoAssets')
       .then(response => response.json())
@@ -36,7 +35,14 @@ export default function Maps({ data }) {
         setMapModule(
           <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: '400px', width: '100%' }}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[51.505, -0.09]} />
+            
+            {/* Filter and plot UK markers */}
+            {geoAssets
+              .filter(asset => asset.latitude > 49 && asset.latitude < 61 && asset.longitude > -11 && asset.longitude < 2)
+              .map((asset, index) => (
+                <Marker key={index} position={[asset.latitude, asset.longitude]}>
+                </Marker>
+              ))}
           </MapContainer>
         );
       });
