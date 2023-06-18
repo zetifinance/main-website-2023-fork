@@ -4,9 +4,8 @@ import Text from '../components/UI/Text';
 import Buttons from '../components/UI/Buttons';
 import { useInView } from 'react-intersection-observer';
 
+import 'leaflet-defaulticon-compatibility';
 import 'leaflet/dist/leaflet.css';
-import 'leaflet/dist/images/marker-icon.png';
-import 'leaflet/dist/images/marker-shadow.png';
 
 export default function Maps({ data }) {
   const { ref, inView } = useInView({
