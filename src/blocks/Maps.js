@@ -39,12 +39,15 @@ export default function Maps({ data }) {
         import('react-leaflet').then((leaflet) => {
           const { MapContainer, TileLayer, Marker } = leaflet;
 
-          delete leaflet.Icon.Default.prototype._getIconUrl;
+          // here
+          import('leaflet').then((L) => {
+            delete L.Icon.Default.prototype._getIconUrl;
 
-          leaflet.Icon.Default.mergeOptions({
-              iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
-              iconUrl: require('leaflet/dist/images/marker-icon.png'),
-              shadowUrl: require('leaflet/dist/images/marker-shadow.png')
+            L.Icon.Default.mergeOptions({
+                iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
+                iconUrl: require('leaflet/dist/images/marker-icon.png'),
+                shadowUrl: require('leaflet/dist/images/marker-shadow.png')
+            });
           });
           
           setMapModule(
