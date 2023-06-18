@@ -5,6 +5,9 @@ import Buttons from '../components/UI/Buttons';
 import { useInView } from 'react-intersection-observer';
 
 import 'leaflet/dist/leaflet.css';
+import iconMarker from 'leaflet/dist/images/marker-icon.png'
+import iconRetina from 'leaflet/dist/images/marker-icon-2x.png'
+import iconShadow from 'leaflet/dist/images/marker-shadow.png'
 
 export default function Maps({ data }) {
   const { ref, inView } = useInView({
@@ -37,12 +40,10 @@ export default function Maps({ data }) {
     if (loadMap === true) {
       if (typeof window !== 'undefined') {
         import('leaflet').then((L) => {
-          delete L.Icon.Default.prototype._getIconUrl;
-  
-          L.Icon.Default.mergeOptions({
-              iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
-              iconUrl: require('leaflet/dist/images/marker-icon.png'),
-              shadowUrl: require('leaflet/dist/images/marker-shadow.png')
+          const icon = L.icon({ 
+            iconUrl: iconMarker, 
+            iconSize: [30, 49],
+            iconAnchor: [15, 49]
           });
   
           import('react-leaflet').then((leaflet) => {
@@ -51,13 +52,13 @@ export default function Maps({ data }) {
             setMapModule(
               <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: '500px', width: '100%' }}>
                 <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                <Marker position={[51.505, -0.09]} />
+                <Marker position={[51.505, -0.09]} icon={icon} />
     
                 {/* Filter and plot UK markers */}
                 {geoAssets
                   .filter(asset => asset.latitude > 49 && asset.latitude < 61 && asset.longitude > -11 && asset.longitude < 2)
                   .map((asset, index) => (
-                    <Marker key={index} position={[asset.latitude, asset.longitude]} />
+                    <Marker key={index} position={[asset.latitude, asset.longitude]} icon={icon} />
                   ))}
               </MapContainer>
             );
