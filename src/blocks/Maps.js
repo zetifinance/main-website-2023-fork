@@ -20,8 +20,16 @@ export default function Maps({ data }) {
   const maps = data?.maps_grid;
 
   const [MapModule, setMapModule] = useState(null);
+  const [geoAssets, setGeoAssets] = useState([]);
+
+  console.log(geoAssets);
+  
 
   useEffect(() => {
+    fetch('https://zeti.co.uk/api/geoAssets')
+      .then(response => response.json())
+      .then(data => setGeoAssets(data));
+
     if (typeof window !== 'undefined') {
       import('react-leaflet').then((leaflet) => {
         const { MapContainer, TileLayer, Marker } = leaflet;
