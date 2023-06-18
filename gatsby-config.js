@@ -15,7 +15,12 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-preload-fonts',
     'gatsby-plugin-image',
-    'gatsby-plugin-dark-mode',
+    {
+      resolve: 'gatsby-plugin-dark-mode',
+      options: {
+        defaultMode: 'dark',
+      },
+    },
     'gatsby-plugin-postcss',
     {
       resolve: 'gatsby-plugin-brotli',
