@@ -1,38 +1,34 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
-const DarkModeToggle = () => {
-  const [darkMode, setDarkMode] = useState(true);
+const LightModeToggle = () => {
+  const [isLightMode, setIsLightMode] = useState(false);
 
   useEffect(() => {
-    const preferredDarkMode = localStorage.getItem('darkMode');
-
-    if (preferredDarkMode !== null) {
-      setDarkMode(JSON.parse(preferredDarkMode));
-    } else {
-      const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      setDarkMode(prefersDarkScheme);
-    }
+    const storedMode = localStorage.getItem('lightMode');
+    setIsLightMode(storedMode === 'true');
   }, []);
 
-  const toggleDarkMode = () => {
-    const newDarkMode = !darkMode;
-    setDarkMode(newDarkMode);
-    localStorage.setItem('darkMode', JSON.stringify(newDarkMode));
-    
-    if (newDarkMode) {
-      document.body.classList.remove('light');
-    } else {
-      document.body.classList.add('light');
-    }
+  const toggleMode = () => {
+    const newMode = !isLightMode;
+    setIsLightMode(newMode);
+    localStorage.setItem('lightMode', newMode);
   };
 
+  useEffect(() => {
+    if (isLightMode) {
+      document.body.classList.add('light');
+      document.body.classList.remove('dark');
+    } else {
+      document.body.classList.add('dark');
+      document.body.classList.remove('light');
+    }
+  }, [isLightMode]);
+
   return (
-    <div>
-      <button type="button" onClick={toggleDarkMode}>
-        {darkMode ? '☾' : '☀'}
-      </button>
-    </div>
+    <button onClick={toggleMode}>
+      {isLightMode ? '☀️' : '☾'}
+    </button>
   );
 };
 
-export default DarkModeToggle;
+export default LightModeToggle;
