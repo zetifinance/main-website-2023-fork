@@ -23,38 +23,38 @@ export default function Maps({ data }) {
   const [loadMap, setLoadMap] = useState(false);
   const [MapModule, setMapModule] = useState(null);
   const [geoAssets, setGeoAssets] = useState([]);
-
-  console.log(geoAssets);
   
   useEffect(() => {
     fetch('https://zeti.co.uk/api/geoAssets')
       .then(response => response.json())
-      .then(
-        data => setGeoAssets(data),
-        setLoadMap(true),
-      );
-
-    if (typeof window !== 'undefined') {
-      import('react-leaflet').then((leaflet) => {
-        const { MapContainer, TileLayer, Marker } = leaflet;
-        setMapModule(
-          <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: '500px', width: '100%' }}>
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[51.505, -0.09]}>
-            </Marker>
-
-            {/* Filter and plot UK markers */}
-            {geoAssets
-              .filter(asset => asset.latitude > 49 && asset.latitude < 61 && asset.longitude > -11 && asset.longitude < 2)
-              .map((asset, index) => (
-                <Marker key={index} position={[asset.latitude, asset.longitude]}>
-                </Marker>
-              ))}
-          </MapContainer>
-        );
+      .then(data => {
+        setGeoAssets(data);
+        setLoadMap(true);
       });
-    }
   }, []);
+  
+  useEffect(() => {
+    if (loadMap === true) {
+      if (typeof window !== 'undefined') {
+        import('react-leaflet').then((leaflet) => {
+          const { MapContainer, TileLayer, Marker } = leaflet;
+          setMapModule(
+            <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: '500px', width: '100%' }}>
+              <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+              <Marker position={[51.505, -0.09]} />
+  
+              {/* Filter and plot UK markers */}
+              {geoAssets
+                .filter(asset => asset.latitude > 49 && asset.latitude < 61 && asset.longitude > -11 && asset.longitude < 2)
+                .map((asset, index) => (
+                  <Marker key={index} position={[asset.latitude, asset.longitude]} />
+                ))}
+            </MapContainer>
+          );
+        });
+      }
+    }
+  }, [loadMap]);
 
   return (
     <section inview={inView} ref={ref} className={clsx('block block__maps', { 'in-view': inView })}>
@@ -70,16 +70,12 @@ export default function Maps({ data }) {
         <div className={clsx('maps__grid')}>
           <div className="maps__map">
             <h3>UK</h3>
-            {loadMap === true && (
-              <>  
-                {typeof window !== 'undefined' && (
-                  <div className="map">
-                    <Suspense fallback={<div>Loading map...</div>}>
-                      {MapModule}
-                    </Suspense>
-                  </div>
-                )}
-              </>
+            {typeof window !== 'undefined' && (
+              <div className="map">
+                <Suspense fallback={<div>Loading map...</div>}>
+                  {MapModule}
+                </Suspense>
+              </div>
             )}
           </div>
           <div className="maps__map">
