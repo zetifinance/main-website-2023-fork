@@ -36,33 +36,32 @@ export default function Maps({ data }) {
   useEffect(() => {
     if (loadMap === true) {
       if (typeof window !== 'undefined') {
-        import('react-leaflet').then((leaflet) => {
-          const { MapContainer, TileLayer, Marker } = leaflet;
-
-          // here
-          import('leaflet').then((L) => {
-            delete L.Icon.Default.prototype._getIconUrl;
-
-            L.Icon.Default.mergeOptions({
-                iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
-                iconUrl: require('leaflet/dist/images/marker-icon.png'),
-                shadowUrl: require('leaflet/dist/images/marker-shadow.png')
-            });
-          });
-          
-          setMapModule(
-            <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: '500px', width: '100%' }}>
-              <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-              <Marker position={[51.505, -0.09]} />
+        import('leaflet').then((L) => {
+          delete L.Icon.Default.prototype._getIconUrl;
   
-              {/* Filter and plot UK markers */}
-              {geoAssets
-                .filter(asset => asset.latitude > 49 && asset.latitude < 61 && asset.longitude > -11 && asset.longitude < 2)
-                .map((asset, index) => (
-                  <Marker key={index} position={[asset.latitude, asset.longitude]} />
-                ))}
-            </MapContainer>
-          );
+          L.Icon.Default.mergeOptions({
+              iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
+              iconUrl: require('leaflet/dist/images/marker-icon.png'),
+              shadowUrl: require('leaflet/dist/images/marker-shadow.png')
+          });
+  
+          import('react-leaflet').then((leaflet) => {
+            const { MapContainer, TileLayer, Marker } = leaflet;
+  
+            setMapModule(
+              <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: '500px', width: '100%' }}>
+                <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+                <Marker position={[51.505, -0.09]} />
+    
+                {/* Filter and plot UK markers */}
+                {geoAssets
+                  .filter(asset => asset.latitude > 49 && asset.latitude < 61 && asset.longitude > -11 && asset.longitude < 2)
+                  .map((asset, index) => (
+                    <Marker key={index} position={[asset.latitude, asset.longitude]} />
+                  ))}
+              </MapContainer>
+            );
+          });
         });
       }
     }
