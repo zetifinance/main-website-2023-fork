@@ -5,15 +5,6 @@ import Buttons from '../components/UI/Buttons';
 import { useInView } from 'react-intersection-observer';
 
 import 'leaflet/dist/leaflet.css';
-import L from 'leaflet';
-
-delete L.Icon.Default.prototype._getIconUrl;
-
-L.Icon.Default.mergeOptions({
-    iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
-    iconUrl: require('leaflet/dist/images/marker-icon.png'),
-    shadowUrl: require('leaflet/dist/images/marker-shadow.png')
-});
 
 export default function Maps({ data }) {
   const { ref, inView } = useInView({
@@ -47,6 +38,14 @@ export default function Maps({ data }) {
       if (typeof window !== 'undefined') {
         import('react-leaflet').then((leaflet) => {
           const { MapContainer, TileLayer, Marker } = leaflet;
+
+          delete leaflet.Icon.Default.prototype._getIconUrl;
+
+          leaflet.Icon.Default.mergeOptions({
+              iconRetinaUrl: require('leaflet/dist/images/marker-icon-2x.png'),
+              iconUrl: require('leaflet/dist/images/marker-icon.png'),
+              shadowUrl: require('leaflet/dist/images/marker-shadow.png')
+          });
           
           setMapModule(
             <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: '500px', width: '100%' }}>
