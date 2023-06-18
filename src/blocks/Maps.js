@@ -8,18 +8,18 @@ import 'leaflet/dist/leaflet.css';
 import icon from 'leaflet/dist/images/marker-icon.png';
 import iconShadow from 'leaflet/dist/images/marker-shadow.png';
 
-let DefaultIcon = L.icon({
-    iconUrl: icon,
-    shadowUrl: iconShadow
-});
-
-L.Marker.prototype.options.icon = DefaultIcon;
-
 export default function Maps({ data }) {
   const { ref, inView } = useInView({
     threshold: 0.3,
     triggerOnce: true,
   });
+
+  let DefaultIcon = L.icon({
+    iconUrl: icon,
+    shadowUrl: iconShadow
+  });
+
+  L.Marker.prototype.options.icon = DefaultIcon;
 
   // Intro
   const intro_heading = data?.intro?.heading;
@@ -51,7 +51,7 @@ export default function Maps({ data }) {
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[51.505, -0.09]}>
             </Marker>
-            
+
             {/* Filter and plot UK markers */}
             {geoAssets
               .filter(asset => asset.latitude > 49 && asset.latitude < 61 && asset.longitude > -11 && asset.longitude < 2)
