@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import nav from '../settings/main.json'
 import Link from '../resolvers/Link'
-import DarkmodeToggle from './DarkmodeToggle'
+// import DarkmodeToggle from './DarkmodeToggle'
+import DarkModeToggle from './DarkmodeToggleNew'
 import { mobileMenuToggle } from '../lib/main'
 
 export default function Header() {
@@ -39,7 +40,7 @@ export default function Header() {
 				</nav>
 
 				<div className="header__buttons">
-					<DarkmodeToggle />
+					<DarkModeToggle />
 					<a href="/contact-us/" className="button button--standard button--yellow">
 						Contact
 					</a>

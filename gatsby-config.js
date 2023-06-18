@@ -15,12 +15,6 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-plugin-preload-fonts',
     'gatsby-plugin-image',
-    {
-      resolve: 'gatsby-plugin-dark-mode',
-      options: {
-        defaultMode: 'dark',
-      },
-    },
     'gatsby-plugin-postcss',
     {
       resolve: 'gatsby-plugin-brotli',
@@ -87,3 +81,9 @@ module.exports = {
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 }
+
+exports.onClientEntry = () => {
+  if (!localStorage.getItem('darkMode')) {
+    localStorage.setItem('darkMode', 'dark');
+  }
+};
