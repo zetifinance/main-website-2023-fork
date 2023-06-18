@@ -21,6 +21,15 @@ module.exports = {
         defaultMode: 'dark',
       },
     },
+    {
+      resolve: 'gatsby-plugin-use-dark-mode',
+      options: {
+        classNameDark: 'dark',
+        classNameLight: 'light',
+        storageKey: 'darkMode',
+        minify: true,
+      },
+    },
     'gatsby-plugin-postcss',
     {
       resolve: 'gatsby-plugin-brotli',
