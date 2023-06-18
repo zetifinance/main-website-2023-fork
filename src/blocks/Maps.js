@@ -6,8 +6,6 @@ import { useInView } from 'react-intersection-observer';
 
 import 'leaflet/dist/leaflet.css';
 import iconMarker from 'leaflet/dist/images/marker-icon.png'
-import iconRetina from 'leaflet/dist/images/marker-icon-2x.png'
-import iconShadow from 'leaflet/dist/images/marker-shadow.png'
 
 export default function Maps({ data }) {
   const { ref, inView } = useInView({
@@ -20,11 +18,10 @@ export default function Maps({ data }) {
   const intro_content = data?.intro?.rich_editor;
   const intro_buttons = data?.intro?.buttons;
 
-  // Slide List
-  const maps = data?.maps_grid;
-
+  // Maps
   const [loadMap, setLoadMap] = useState(false);
-  const [MapModule, setMapModule] = useState(null);
+  const [MapModuleUK, setMapModuleUK] = useState(null);
+  const [MapModuleUSA, setMapModuleUSA] = useState(null);
   const [geoAssets, setGeoAssets] = useState([]);
   
   useEffect(() => {
@@ -49,14 +46,26 @@ export default function Maps({ data }) {
           import('react-leaflet').then((leaflet) => {
             const { MapContainer, TileLayer, Marker } = leaflet;
   
-            setMapModule(
+            setMapModuleUK(
               <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: '500px', width: '100%' }}>
                 <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                <Marker position={[51.505, -0.09]} icon={icon} />
     
                 {/* Filter and plot UK markers */}
                 {geoAssets
                   .filter(asset => asset.latitude > 49 && asset.latitude < 61 && asset.longitude > -11 && asset.longitude < 2)
+                  .map((asset, index) => (
+                    <Marker key={index} position={[asset.latitude, asset.longitude]} icon={icon} />
+                  ))}
+              </MapContainer>
+            );
+
+            setMapModuleUSA(
+              <MapContainer center={[37.6, -95.665]} zoom={13} style={{ height: '500px', width: '100%' }}>
+                <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+    
+                {/* Filter and plot UK markers */}
+                {geoAssets
+                  .filter(asset => asset.latitude > 24.396308 && asset.latitude < 49.384358 && asset.longitude > -125.000000 && asset.longitude < -66.934570)
                   .map((asset, index) => (
                     <Marker key={index} position={[asset.latitude, asset.longitude]} icon={icon} />
                   ))}
@@ -85,13 +94,20 @@ export default function Maps({ data }) {
             {typeof window !== 'undefined' && (
               <div className="map">
                 <Suspense fallback={<div>Loading map...</div>}>
-                  {MapModule}
+                  {MapModuleUK}
                 </Suspense>
               </div>
             )}
           </div>
           <div className="maps__map">
             <h3>USA</h3>
+            {typeof window !== 'undefined' && (
+              <div className="map">
+                <Suspense fallback={<div>Loading map...</div>}>
+                  {MapModuleUSA}
+                </Suspense>
+              </div>
+            )}
           </div>
         </div>
       </div>
