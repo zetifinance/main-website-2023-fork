@@ -30,8 +30,8 @@ blocks:
     main:
       heading: Who are Zeti?
       rich_editor: Zeti is a green fintech scaleup that originated in London but now
-        operates in California and New York. We’re on a mission to reduce carbon
-        emissions and make it easier for fleets to transition to zero and
+        also operates in California and New York. We’re on a mission to reduce
+        carbon emissions and make it easier for fleets to transition to zero and
         ultra-low vehicles whilst also offering institutional lenders the option
         to generate attractive, risk-adjusted returns in a new, clean asset
         class.
