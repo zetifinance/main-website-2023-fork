@@ -134,7 +134,7 @@ blocks:
             text: m
       - slide:
           main:
-            heading: kg of CO2 avoided
+            heading: of CO2 avoided
             rich_editor: >-
               
 
@@ -149,7 +149,7 @@ blocks:
           variant: statistic
       - slide:
           main:
-            heading: kg of NOx avoided
+            heading: of NOx avoided
             rich_editor: >-
               Zeti’s model supports the reduction of harmful Nitrous Oxide
               emissions, improving air quality. 
