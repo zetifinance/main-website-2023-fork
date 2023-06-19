@@ -193,7 +193,12 @@ header[role="banner"] {
                 }
 
                 .sr-only {
-                    display: none;
+                    height: 0;
+                    max-height: 0;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    opacity: 0;
                 }
             }
 
