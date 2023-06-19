@@ -227,6 +227,12 @@ export const Slider = {
           collapsed: true,
           fields: [
             {
+              label: 'Text',
+              name: 'pretext',
+              widget: 'string',
+              required: false,
+            },
+            {
               label: 'Stat',
               name: 'stat',
               widget: 'number',

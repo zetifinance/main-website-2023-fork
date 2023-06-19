@@ -83,6 +83,7 @@ export default function Slider({ data }) {
                                     const slide_image = item?.slide?.main?.image;
 
                                     // Slide Statistic
+                                    const slide_stat_pretext = item?.slide?.statistic?.pretext;
                                     const slide_stat = item?.slide?.statistic?.stat;
                                     const slide_stat_text = item?.slide?.statistic?.text;
 
@@ -99,6 +100,7 @@ export default function Slider({ data }) {
 
                                                         { inView2 && (
                                                             <p>
+                                                                { slide_stat_pretext }
                                                                 <CountUp duration={2} delay={1} end={slide_stat} />
                                                                 { slide_stat_text }
                                                             </p>
