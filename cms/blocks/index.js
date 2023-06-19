@@ -1,4 +1,4 @@
-import { VariantField, Image, Images, Video, Intro, Main, List, Locations, Maps, Tabs, Slider, Testimonials, Team, Accordions, Vacancies, Features } from '../fields';
+import { VariantField, Image, Images, Video, Intro, Main, List, Locations, Tabs, Slider, Testimonials, Team, Accordions, Vacancies, Features } from '../fields';
 
 const Config = {
   label: 'Blocks',
@@ -279,7 +279,6 @@ const Config = {
       summary: '{{fields.title}}',
       fields: [
         Intro,
-        Maps,
       ],
     },
     {

@@ -185,6 +185,7 @@ export const query = graphql`
             }
           }
           statistic {
+            pretext
             stat
             text
           }

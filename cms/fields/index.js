@@ -161,28 +161,6 @@ export const Locations = {
   ],
 };
 
-export const Maps = {
-  label: 'Maps Grid',
-  name: 'maps_grid',
-  widget: 'list',
-  collapsed: true,
-  required: false,
-  fields: [
-    {
-      label: 'Map Name',
-      name: 'map_name',
-      widget: 'string',
-      required: false,
-    },
-    {
-      label: 'API',
-      name: 'map_api',
-      widget: 'string',
-      required: false,
-    },
-  ],
-};
-
 export const Tabs = {
   label: 'Tabs',
   name: 'tabs',
