@@ -1,18 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
 export default function Footer() {
-	const [newsletterForm, setNewsletterForm] = useState(null);
-
-  	useEffect(() => {
-		if (window.hbspt) {
-			setNewsletterForm(hbspt.forms.create({
-				region: "eu1",
-				portalId: "26948233",
-				formId: "7c6757eb-1427-4457-acad-cc1e111800b8"
-			}));
-		};
-	}, []);
-
 	useEffect(() => {
         const script = document.createElement('script');
         script.src='https://js.hsforms.net/forms/v2.js';
@@ -23,9 +11,9 @@ export default function Footer() {
             if (window.hbspt) {
                 // @TS-ignore
                 window.hbspt.forms.create({
-                    region: "eu1",
 					portalId: "26948233",
-					formId: "7c6757eb-1427-4457-acad-cc1e111800b8"
+					formId: "7c6757eb-1427-4457-acad-cc1e111800b8",
+					target: '#hubspotForm',
                 })
             }
         });
