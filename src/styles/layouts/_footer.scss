@@ -102,10 +102,16 @@ footer[role="contentinfo"] {
 					width: calc(32.5% - 2rem);
 				}
 
+				#hubspot-form-newsletter {
+					width: 100%;
+				}
+
 				form {
 					width: 100%;
+					margin-top: 1rem;
 					padding: 1rem 1rem 1rem 1rem;
 					display: flex;
+					justify-content: space-between;
 					align-items: center;
 					background-color: #19262F;
 					border-radius: 12px;
@@ -113,6 +119,76 @@ footer[role="contentinfo"] {
 					.light & {
 						background-color: $lightest;
 					}
+
+					.hs-email {
+						flex: 1;
+
+						input {
+							font-size: 1.6rem;
+							font-weight: 400;
+							line-height: 2.2rem;
+							color: $lightest;
+
+							.light & {
+								color: $primary
+							}
+
+							&::placeholder,
+							&:placeholder-shown {
+								font-size: 1.6rem;
+								font-weight: 400;
+								line-height: 2.2rem;
+								color: $lightest;
+
+								.light & {
+									color: $primary
+								}
+
+								@media(min-width: 1600px) {
+									font-size: 1.8rem;
+									line-height: 2.4rem;
+									letter-spacing: 0.36px;
+								}
+							}
+						}
+
+						.hs-error-msgs {
+							display: none;
+						}
+					}
+
+					.hs-submit {
+
+						.hs-button {
+							padding: 1rem 2rem;
+							background-color: $yellow;
+							border: none;
+							border-radius: 20px;
+							box-shadow: none;
+							font-size: 2rem;
+							font-weight: 500;
+							line-height: 2.7rem;
+							letter-spacing: 0px;
+							color: $primary;
+
+							@media(min-width: 1600px) {
+								font-size: 2rem;
+								line-height: 2.7rem;
+								letter-spacing: 0.4px;
+							}
+						}
+					}
+
+
+
+
+
+
+
+
+
+
+
 
 					label {
 						width: 0px;
