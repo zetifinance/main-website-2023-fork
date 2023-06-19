@@ -50,7 +50,7 @@ blocks:
         location_name: United Kingdom
         address: 52 Tabernacle St, London, EC2A 4NJ
       - phone_number: ""
-        email_address: hello@zeti.co.uk
+        email_address: hellola@zeti.co.uk
         address: 2450 Colorado Avenue, Santa Monica, CA 90404
         location_name: Los Angeles
       - location_name: New York City
