@@ -164,7 +164,8 @@ blocks:
       - heading: Where can I find more in-depth information about Zeti's products and
           services?
         rich_editor: If you’re a fleet operator, lender or manufacturer interested in
-          learning more about Zeti, please get in touch at hello@zeti.group.
+          learning more about Zeti, please get in touch with us via our [contact
+          page](https://zeti-tlp-dev.netlify.app/contact-us/).
 seo:
   ogimage: /img/henlo-cover.png
 ---
