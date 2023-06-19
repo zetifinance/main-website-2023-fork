@@ -7615,6 +7615,13 @@ gatsby-plugin-brotli@^2.1.0:
     mkdirp "^1.0.4"
     piscina "^3.1.0"
 
+gatsby-plugin-hubspot@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-hubspot/-/gatsby-plugin-hubspot-2.0.0.tgz#35d393f3a7072fc149d520e1be263cd1b6c4e11f"
+  integrity sha512-QldNOgR4/XOoSTov3mX5q2W0kRP7WMAL7yBxkV9ngqf0iGw47HYTUymYezuJfuaQ9IpOydcdk249ys0OZCKvpw==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+
 gatsby-plugin-image@^3.3.2:
   version "3.9.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-image/-/gatsby-plugin-image-3.9.0.tgz#d181060c34481e4bdb62c8cb00525de0d9e82e4e"

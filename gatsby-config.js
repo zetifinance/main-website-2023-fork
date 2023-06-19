@@ -79,6 +79,14 @@ module.exports = {
       },
     },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
+    {
+      resolve: "gatsby-plugin-hubspot",
+      options: {
+        trackingCode: "26948233",
+        respectDNT: true,
+        productionOnly: true,
+      },
+    },
   ],
 }
 
