@@ -150,13 +150,13 @@ blocks:
             heading: of NOx avoided
             rich_editor: >-
               Zeti’s model supports the reduction of harmful Nitrous Oxide
-              emissions, improving air quality. 
+              emissions, improving air quality.*
 
 
               *\*﻿savings at tailpipe ([US EPA](https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator))*
           statistic:
-            stat: 14000
-            text: kg
+            stat: 1400
+            text: " kg"
           variant: statistic
   - type: logo_grid
     intro:
