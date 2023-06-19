@@ -52,7 +52,7 @@ blocks:
     accordions:
       - heading: Where can I find more in-depth information about Zeti's products and
           services?
-        rich_editor: If you’re a fleet operator, manufacturer or financier interested in
+        rich_editor: If you’re a fleet operator, manufacturer or lender interested in
           learning more about Zeti, please get in touch at hello@zeti.group.
 seo:
   ogimage: /img/henlo-cover.png
