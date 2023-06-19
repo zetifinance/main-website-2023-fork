@@ -19,10 +19,11 @@ export default function Maps({ data }) {
   const intro_buttons = data?.intro?.buttons;
 
   // Maps
+  const [geoAssets, setGeoAssets] = useState([]);
   const [loadMap, setLoadMap] = useState(false);
   const [MapModuleUK, setMapModuleUK] = useState(null);
   const [MapModuleUSA, setMapModuleUSA] = useState(null);
-  const [geoAssets, setGeoAssets] = useState([]);
+  
   
   useEffect(() => {
     fetch('https://zeti.co.uk/api/geoAssets')
@@ -32,10 +33,7 @@ export default function Maps({ data }) {
         setLoadMap(true);
       })
       .catch(error => {
-        // Handle the error here, e.g., log the error or show an error message
         console.error('Error fetching geoAssets:', error);
-        // Optionally, you can also set a state to indicate the error occurred
-        // setError(true);
       });
   }, []);
   

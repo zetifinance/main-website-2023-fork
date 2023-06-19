@@ -21,7 +21,7 @@ export const useAllCareers = () => {
                 title
                 excerpt
                 location
-                hours @include(if: true)
+                hours
               }
             }
           }

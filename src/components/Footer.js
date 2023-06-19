@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 
 export default function Footer() {
 	useEffect(() => {
@@ -13,7 +13,7 @@ export default function Footer() {
                 window.hbspt.forms.create({
 					portalId: "26948233",
 					formId: "7c6757eb-1427-4457-acad-cc1e111800b8",
-					target: '#hubspotForm',
+					target: '#hubspot-form-newsletter',
                 })
             }
         });
@@ -49,7 +49,7 @@ export default function Footer() {
 					</div>
 					<div className="footer__column footer__column--form">
 						<h3>Stay up to date</h3>
-						<div id="hubspotForm"></div>
+						<div id="hubspot-form-newsletter"></div>
 					</div>
 				</div>
 
