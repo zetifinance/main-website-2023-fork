@@ -192,5 +192,5 @@ blocks:
         image_dark: /img/octopus-investments-logo-vector.png
     variant: Slider
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/3.png
 ---
