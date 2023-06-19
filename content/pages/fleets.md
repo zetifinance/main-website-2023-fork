@@ -37,8 +37,8 @@ blocks:
           image: /img/electric-car-1-.png
       - list_item:
           heading: "Fully automated billing "
-          rich_editor: Billing and Payment collection are entirely automated and always
-            available on our dedicated Fleet Operator portal. for your ease of
+          rich_editor: Billing and payment collection are entirely automated and always
+            available on our dedicated Fleet Operator portal. For your ease of
             use, check any historic information whenever you like in your
             dedicated portal.
           image: /img/transaction-history.png
