@@ -85,14 +85,14 @@ blocks:
       - heading: How do I apply for a role?
         rich_editor: Either via email or on the platform you see it listed (e.g.
           LinkedIn or Otta).
-      - heading: What can I expect from the interview process
+      - heading: What can I expect from the interview process?
         rich_editor: >-
           * Firstly, we will review your application. Please make sure to
           include anything that you think will help us decide if you are right
           for the role and any reasonable adjustments you require. If we think
-          you might be a good fit we will progress to the first interview
+          you might be a good fit we will progress to the first interview.
 
-          * The first interview will be digital, with 1-2 members of Zeti staff, likely including the hiring manager for the role. Our objective with this interview is to clear up any queries about your application and evaluate your suitability for the next stage of the process
+          * The first interview will be digital, with 1-2 members of Zeti staff, likely including the hiring manager for the role. Our objective with this interview is to clear up any queries about your application and evaluate your suitability for the next stage of the process.
 
           * The next stage is a take-home test. You must complete this yourself, and you will be tested on its contents in the next interview. The structure and rules of this test varies between departments, but this will be clearly communicated with you when you are invited to complete it. Any questions are welcome, and we’d rather you ask than not (some tasks will naturally have questions that we cannot answer, but we’ll tell you if that’s the case). 
 
