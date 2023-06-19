@@ -5,7 +5,7 @@ import Buttons from '../components/UI/Buttons';
 import { useInView } from 'react-intersection-observer';
 
 import 'leaflet/dist/leaflet.css';
-import iconMarker from 'leaflet/dist/images/marker-icon.png'
+import iconMarker from '../../static/img/marker-icon-orange.png'
 
 export default function Maps({ data }) {
   const { ref, inView } = useInView({
