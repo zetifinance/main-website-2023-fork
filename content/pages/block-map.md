@@ -141,6 +141,11 @@ blocks:
                   variant: default
                   label: test
                   url: "#"
+          statistic:
+            pretext: $
+            stat: 10
+            text: test
+          variant: statistic
   - type: testimonials
     intro:
       heading: test
