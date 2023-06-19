@@ -144,7 +144,7 @@ blocks:
           rich_editor: We facilitate the transition to zero and ultra-low emission
             vehicles by making it simple as paying for a utility. We’re with our
             customers every step of the way.
-    columns: Four
+    columns: Two
   - type: vacancies
     intro:
       heading: Current Vacancies
