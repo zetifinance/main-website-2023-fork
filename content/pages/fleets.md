@@ -130,7 +130,7 @@ blocks:
           We work with lenders seeking to invest in clean transport; unlocking
           new pools of capital as well as leveraging traditional pools. Lenders
           may include banks, insurance firms, pension funds, family offices,
-          etc,. 
+          etc. 
 
 
           Zeti turns transportation into a new clean asset class and is therefore able to support a wide range of lenders as they seek to add zero-emission vehicles to their portfolios.
