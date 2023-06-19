@@ -50,6 +50,7 @@ blocks:
           heading: Fully automated payment collection
           rich_editor: Monthly repayments are entirely managed by Zeti meaning you'll see
             the monthly repayments in your account hassle free.
+          image: /img/automation.png
       - list_item:
           heading: Optimised returns
           rich_editor: Risk-adjusted upside returns with downside protection.
@@ -85,6 +86,7 @@ blocks:
           image: /img/transaction-history.png
       - list_item:
           heading: Automated billing and payment collection
+          image: /img/automation.png
       - list_item:
           heading: Track payments and monthly accruals
           image: /img/loupe.png
