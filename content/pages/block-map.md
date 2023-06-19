@@ -93,6 +93,7 @@ blocks:
       - link: "#"
         image_light: /img/amber-white.png
         image_dark: /img/amber-colour.png
+    variant: Grid
   - type: tabs
     variant: default
     intro:
@@ -261,12 +262,30 @@ blocks:
             variant: default
             label: test
             url: "#"
+    variant: news
   - type: text
     main:
       heading: Test
       rich_editor: t﻿est
   - type: image
     image: /img/52523575759_bca15fdde9_o.webp
+    intro:
+      heading: test
+      rich_editor: t﻿est
+      buttons:
+        - button:
+            variant: default
+            label: test
+            url: "#"
+  - type: maps
+    intro:
+      heading: test
+      rich_editor: t﻿est
+      buttons:
+        - button:
+            variant: default
+            label: test
+            url: "#"
 seo:
   ogimage: /img/henlo-cover.png
 ---
