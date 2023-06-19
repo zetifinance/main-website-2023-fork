@@ -55,7 +55,7 @@ blocks:
         location_name: Los Angeles
       - location_name: New York City
         address: c/o NYU Future Lab, 370 Jay Street, Brooklyn. NY 11201
-        email_address: hello@zeti.co.uk
+        email_address: hellonyc@zeti.co.uk
         phone_number: ""
   - type: text_image
     variant: default
