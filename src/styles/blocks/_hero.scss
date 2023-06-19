@@ -384,14 +384,88 @@
             }
 
             @media(min-width: 1200px) {
-                width: calc(60% - 2rem);
+                width: calc(60% - 4rem);
                 max-width: 825px;
-                max-height: 700px;
             }
 
             @media(min-width: 1600px) {
                 padding: 6rem;
             }
+
+            form {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+
+                fieldset {
+                    width: 100%;
+                    max-width: unset;
+
+                    &.form-columns-1 {}
+
+                    &.form-columns-2 {
+                        display: flex;
+                        justify-content: space-between;
+
+                        .hs-form-field {
+                            width: calc(50% - 1rem)
+                        }
+                    }
+
+                    .hs-form-field {
+                        margin-bottom: 2rem;
+
+                        .hs-error-msgs {
+                            display: none;
+                        }
+
+                        .input {
+                            margin: 0;
+
+                            .hs-input {
+                                width: 100%;
+                                margin: 0;
+                            }
+                        }
+                    }
+
+                    .legal-consent-container {
+
+                        .hs-richtext {
+                            margin-bottom: 1rem;
+                            font-size: 1.2rem;
+                            font-weight: 400;
+                            line-height: 1.4rem;
+                        }
+                    }
+                }
+
+                .hs_submit {
+
+                    .hs-button {
+                        margin-top: 3rem;
+                        padding: 1.5rem 3rem;
+                        background-color: $yellow;
+                        border: none;
+                        border-radius: 25px;
+                        font-size: 1.8rem;
+                        font-weight: 500;
+                        line-height: 2.4rem;
+                        color: $darkest;
+                    }
+                }
+            }
+
+
+
+
+
+
+
+
+
+
+
 
             .input-container {
                 display: flex;
@@ -416,9 +490,9 @@
                 height: 0;
                 max-height: 0;
                 position: absolute;
-                font-size: 2.2rem;
+                font-size: 1.8rem;
                 font-weight: 400;
-                line-height: 2.9rem;
+                line-height: 2.4rem;
                 opacity: 0;
                 overflow: hidden;
 
@@ -435,15 +509,15 @@
             }
 
             input {
-                height: 65px;
+                height: 55px;
                 margin: 0;
                 padding: 1rem 3rem;
                 display: block;
                 background-color: $secondary;
                 border-radius: 12px;
-                font-size: 2.2rem;
+                font-size: 1.8rem;
                 font-weight: 400;
-                line-height: 2.9rem;
+                line-height: 2.4rem;
                 letter-spacing: 1.16px;
                 color: $lightest;
 
@@ -454,9 +528,9 @@
 
                 &::placeholder,
                 &:placeholder-shown {
-                    font-size: 2.2rem;
+                    font-size: 1.8rem;
                     font-weight: 400;
-                    line-height: 2.9rem;
+                    line-height: 2.4rem;
                     letter-spacing: 1.16px;
                     color: $lightest;
 
@@ -477,9 +551,9 @@
                 display: block;
                 background-color: $secondary;
                 border-radius: 12px;
-                font-size: 2.2rem;
+                font-size: 1.8rem;
                 font-weight: 400;
-                line-height: 2.9rem;
+                line-height: 2.4rem;
                 letter-spacing: 1.16px;
                 color: $lightest;
                 resize: none;
@@ -491,9 +565,9 @@
 
                 &::placeholder,
                 &:placeholder-shown {
-                    font-size: 2.2rem;
+                    font-size: 1.8rem;
                     font-weight: 400;
-                    line-height: 2.9rem;
+                    line-height: 2.4rem;
                     letter-spacing: 1.16px;
                     color: $lightest;
 

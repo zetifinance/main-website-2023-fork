@@ -22,24 +22,22 @@ export default function Hero({ data }) {
 	// Functions
 	const [call, setData] = useState(null);
 
-	if(isLarge) {
-		useEffect(() => {
+	useEffect(() => {
+		if(isLarge) {
 			const fetchData = async () => {
-			try {
-				const response = await fetch('https://zeti.co.uk/api/aggregatestats');
-				const jsonData = await response.json();
-				setData(jsonData);
-			} catch (error) {
-				console.error('Error fetching data:', error);
-			}
+				try {
+					const response = await fetch('https://zeti.co.uk/api/aggregatestats');
+					const jsonData = await response.json();
+					setData(jsonData);
+				} catch (error) {
+					console.error('Error fetching data:', error);
+				}
 			};
 		
 			fetchData();
-		}, []);
-	};
+		};
 
-	if(isContact) {
-		useEffect(() => {
+		if(isContact) {
 			const script = document.createElement('script');
 			script.src='https://js.hsforms.net/forms/v2.js';
 			document.body.appendChild(script);
@@ -50,13 +48,13 @@ export default function Hero({ data }) {
 					// @TS-ignore
 					window.hbspt.forms.create({
 						portalId: "26948233",
-    					formId: "e1d3afe0-34fb-4c5b-8988-f4662666ed38",
+						formId: "e1d3afe0-34fb-4c5b-8988-f4662666ed38",
 						target: '#hubspot-form-contact',
 					})
 				}
 			});
-		}, []);
-	};
+		};
+	}, []);
 
   	return (
 		<section inview={inView} ref={ref} className={clsx('block block__hero', {'block__hero--standard': isStandard}, {'block__hero--large': isLarge}, {'block__hero--contact': isContact}, {'block__hero--simple': isSimple}, {'in-view': inView})}>
