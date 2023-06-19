@@ -1,6 +1,36 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 export default function Footer() {
+	const [newsletterForm, setNewsletterForm] = useState(null);
+
+  	useEffect(() => {
+		if (window.hbspt) {
+			setNewsletterForm(hbspt.forms.create({
+				region: "eu1",
+				portalId: "26948233",
+				formId: "7c6757eb-1427-4457-acad-cc1e111800b8"
+			}));
+		};
+	}, []);
+
+	useEffect(() => {
+        const script = document.createElement('script');
+        script.src='https://js.hsforms.net/forms/v2.js';
+        document.body.appendChild(script);
+
+        script.addEventListener('load', () => {
+            // @TS-ignore
+            if (window.hbspt) {
+                // @TS-ignore
+                window.hbspt.forms.create({
+                    region: "eu1",
+					portalId: "26948233",
+					formId: "7c6757eb-1427-4457-acad-cc1e111800b8"
+                })
+            }
+        });
+    }, []);
+
 	return (
 		<footer className='footer' role="contentinfo">
 			<div className='container'>
@@ -31,14 +61,7 @@ export default function Footer() {
 					</div>
 					<div className="footer__column footer__column--form">
 						<h3>Stay up to date</h3>
-						<script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
-						<script>
-						hbspt.forms.create({
-							region: "eu1",
-							portalId: "26948233",
-							formId: "7c6757eb-1427-4457-acad-cc1e111800b8"
-						});
-						</script>
+						<div id="hubspotForm"></div>
 					</div>
 				</div>
 
