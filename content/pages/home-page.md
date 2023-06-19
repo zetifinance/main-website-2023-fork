@@ -132,6 +132,7 @@ blocks:
           statistic:
             stat: 40
             text: m
+            pretext: $
       - slide:
           main:
             heading: of CO2 avoided
