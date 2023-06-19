@@ -60,7 +60,7 @@ blocks:
 
 
               Zeti acts as a platform for institutional lenders to invest into clean, connected vehicle fleets through a pay-per-mile (or km or kWh) model; managing automated invoicing and payment collection; and real-time financial and sustainability reporting for lenders via our patent-pending digital platform.
-            heading: Financiers
+            heading: Lenders
             buttons:
               - button:
                   variant: default
