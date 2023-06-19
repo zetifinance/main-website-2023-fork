@@ -40,7 +40,7 @@ export default function ImageBlock({ data }) {
           )}
         </div>
 
-        {image && (    
+        {image && (
           <Image src={image} alt={""} className="" />
         )}
       </div>

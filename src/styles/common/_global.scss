@@ -32,6 +32,9 @@ body {
 		position: absolute;
 		top: 0;
 		left: 0;
+		clip-path: inset(0 0 100% 0);
+		transition: 1.5s $cubic 500ms;
+		clip-path: inset(0 0 0 0);
 
 		@media(min-width: 768px) {
 			display: block;
