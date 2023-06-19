@@ -21,6 +21,43 @@ blocks:
 
         Zeti’s pay-per-mile financing optimises your cash flow and can help secure your profit margin.
       buttons: []
+  - type: grid
+    variant: card
+    columns: Three
+    intro:
+      heading: Advantages for fleets
+    list:
+      - list_item:
+          heading: Pay-per-mile
+          rich_editor: We offer true pay-per-mile vehicle fleet financing; pooled across
+            the fleet, rather than per vehicle. There is no penalty for driving
+            over your estimated monthly mileage. Our contracts are based on a
+            contracted mileage commitment and allow for greater flexibility in
+            payments than traditional finance.
+      - list_item:
+          heading: "Fully automated billing "
+          rich_editor: Billing and Payment collection are entirely automated and always
+            available on our dedicated Fleet Operator portal. for your ease of
+            use, check any historic information whenever you like in your
+            dedicated portal.
+      - list_item:
+          heading: Monitor your fleet in real-time
+          rich_editor: Our digital platform integrates with best-in-class telematics to
+            capture data from each vehicle in real-time, giving you insight into
+            live fleet behavior through the Fleet Operator portal.
+      - list_item:
+          heading: No hidden costs
+          rich_editor: Unlike traditional fixed-duration finance with estimated mileage,
+            having a fixed contracted mileage means the total cost of ownership
+            is always accurate and transparent. You pay for what you’ve used.
+      - list_item:
+          heading: Sustainability focused
+          rich_editor: Our focus is to accelerate the adoption of zero emission vehicles.
+            We appreciate that zero-emission technologies may not be applicable
+            to all vehicle types and industries just yet. Therefore we also
+            support ultra-low emission vehicles. We seek to boost adoption of
+            clean vehicles but won’t dictate the underlying clean technology to
+            be used.
   - type: feature_slider
     intro:
       heading: Advantages for fleets
