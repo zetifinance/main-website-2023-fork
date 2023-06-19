@@ -148,8 +148,10 @@ blocks:
   - type: vacancies
     intro:
       heading: Current Vacancies
-      rich_editor: We’re always on the lookout for talent so if you don’t see anything
-        feel free to send us your CV to careers@zeti.group
+      rich_editor: >-
+        \
+
+        Unfortunately, we have no vacancies at present, but we’re always on the lookout for talent; so if you're interested in joining our team then please send your resume to careers@zeti.group.
 seo:
   ogimage: /img/henlo-cover.png
 ---
