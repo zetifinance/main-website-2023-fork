@@ -106,3 +106,20 @@ exports.createSchemaCustomization = ({ actions }) => {
   }`;
   createTypes(defs);
 };
+
+exports.createSchemaCustomization = ({ actions, schema }) => {
+  const { createTypes } = actions;
+
+  const typeDefs = [
+    schema.buildObjectType({
+      name: 'MarkdownRemarkFrontmatter',
+      fields: {
+        hours: 'String',
+        location: 'String',
+      },
+      interfaces: ['Node'],
+    }),
+  ];
+
+  createTypes(typeDefs);
+};

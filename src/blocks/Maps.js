@@ -30,6 +30,12 @@ export default function Maps({ data }) {
       .then(data => {
         setGeoAssets(data);
         setLoadMap(true);
+      })
+      .catch(error => {
+        // Handle the error here, e.g., log the error or show an error message
+        console.error('Error fetching geoAssets:', error);
+        // Optionally, you can also set a state to indicate the error occurred
+        // setError(true);
       });
   }, []);
   

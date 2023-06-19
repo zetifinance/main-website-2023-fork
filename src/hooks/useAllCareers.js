@@ -21,13 +21,13 @@ export const useAllCareers = () => {
                 title
                 excerpt
                 location
-                hours
+                hours @include(if: true)
               }
             }
           }
         }
       }
-    `,
+    `
   );
   return posts;
 };
