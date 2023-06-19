@@ -21,36 +21,41 @@ blocks:
 
         It can be hard for traditional automotive lenders to stand out in a crowded market. Zeti can help such lenders differentiate their offering and have a strategic advantage in securing customers whilst generating attractive risk-adjusted returns and gaining operational insight.
       buttons: []
-  - type: feature_slider
+  - type: grid
+    variant: card
+    columns: Three
     intro:
       heading: Advantages for lenders
-      rich_editor: ""
-    features:
-      - heading: New asset class for ESG investors
-        rich_editor: Generate attractive, risk-adjusted returns in a new clean asset
-          class comparable to an investment in renewable energy, whilst tracking
-          the environmental benefits in real-time.
-        image: /img/lexus.jpeg
-        buttons:
-          - button:
-              variant: default
-      - heading: Differentiated offering for traditional lenders
-        rich_editor: Gain a strategic advantage from your competitors, with
-          risk-adjusted upside returns and downside protection.
-      - heading: Investment visibility
-        rich_editor: Our digital platform pulls live telematics directly from each
-          vehicle giving you insight into asset security. Also, vehicle
-          utilization patterns give insight into the economic performance of the
-          borrower, meaning pre-emptive action can be taken to protect your
-          investment.
-        image: /img/team.jpg
-      - heading: Fully automated payment collection
-        rich_editor: Monthly repayments are entirely managed by Zeti meaning you'll see
-          the monthly repayments in your account hassle free.
-        image: /img/shutterstock_742689853.jpg
-      - heading: Optimised returns
-        rich_editor: Risk-adjusted upside returns with downside protection.
-        image: /img/careers.jpg
+    list:
+      - list_item:
+          heading: New asset class for ESG investors
+          rich_editor: Generate attractive, risk-adjusted returns in a new clean asset
+            class comparable to an investment in renewable energy, whilst
+            tracking the environmental benefits in real-time.
+          image: /img/sustainability.png
+      - list_item:
+          heading: Differentiated offering for traditional lenders
+          rich_editor: Gain a strategic advantage from your competitors, with
+            risk-adjusted upside returns and downside protection.
+          image: /img/strategy.png
+      - list_item:
+          heading: Investment visibility
+          rich_editor: Our digital platform pulls live telematics directly from each
+            vehicle giving you insight into asset security. Also, vehicle
+            utilization patterns give insight into the economic performance of
+            the borrower, meaning pre-emptive action can be taken to protect
+            your investment.
+          image: /img/protection.png
+      - list_item:
+          heading: Fully automated payment collection
+          rich_editor: Monthly repayments are entirely managed by Zeti meaning you'll see
+            the monthly repayments in your account hassle free.
+      - list_item:
+          heading: Optimised returns
+          rich_editor: Risk-adjusted upside returns with downside protection.
+          image: /img/line-chart.png
+  - type: image
+    image: /img/shutterstock_742689853.jpg
   - type: grid
     variant: card
     intro:
