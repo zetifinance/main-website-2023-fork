@@ -95,7 +95,7 @@ blocks:
           heading: Monitor real-time tailpipe carbon and NOx savings to share with
             stakeholders
           image: /img/co2.png
-    columns: Four
+    columns: Three
   - type: accordions
     intro:
       heading: FAQs
