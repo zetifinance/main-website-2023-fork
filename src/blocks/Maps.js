@@ -26,7 +26,7 @@ export default function Maps({ data }) {
   
   
   useEffect(() => {
-    fetch('https://zeti.co.uk/api/geoAssets')
+    fetch('https://zetigroup.com/api/geoAssets')
       .then(response => response.json())
       .then(data => {
         setGeoAssets(data);

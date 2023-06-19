@@ -26,7 +26,7 @@ export default function Hero({ data }) {
 		if(isLarge) {
 			const fetchData = async () => {
 				try {
-					const response = await fetch('https://zeti.co.uk/api/aggregatestats');
+					const response = await fetch('https://zetigroup.com//api/aggregatestats');
 					const jsonData = await response.json();
 					setData(jsonData);
 				} catch (error) {
