@@ -123,7 +123,7 @@ blocks:
   - type: grid
     variant: no-card
     intro:
-      heading: "Our Values heading goes in here and takes up to two lines "
+      heading: Our Values
     list:
       - list_item:
           heading: We are transparent
