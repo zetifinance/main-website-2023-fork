@@ -7,7 +7,7 @@ permalink: /fleets/
 blocks:
   - type: hero
     variant: default
-    image: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+    image: /img/shutterstock_2221825713.jpg
     main:
       heading: Fleets
       rich_editor: >-
