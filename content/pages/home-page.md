@@ -36,7 +36,7 @@ blocks:
     tabs:
       - tab:
           heading: For Fleets
-          image: /img/shutterstock_742689853.jpg
+          image: /img/shutterstock_2221825713.jpg
           main:
             heading: Fleets
             rich_editor: >-
@@ -52,7 +52,7 @@ blocks:
                   url: /fleets/
       - tab:
           heading: For Lenders
-          image: /img/shutterstock_2221825713.jpg
+          image: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
           main:
             rich_editor: >-
               **Generate attractive, risk-adjusted returns in a new clean asset
