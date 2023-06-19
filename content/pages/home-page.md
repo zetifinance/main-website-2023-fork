@@ -136,16 +136,14 @@ blocks:
           main:
             heading: of CO2 avoided
             rich_editor: >-
-              
-
-              ﻿That's equivalent to 973 homes’ electricity use for one year.
+              ﻿That's equivalent to 973 homes’ electricity use for one year.*
 
 
               *\*﻿savings at tailpipe ([US EPA](https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator))*
           image: /img/tezos-wpn1xnccgpw-unsplash.jpg
           statistic:
             stat: 5
-            text: m kg*
+            text: m kg
           variant: statistic
       - slide:
           main:
