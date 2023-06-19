@@ -63,7 +63,7 @@ export default function Maps({ data }) {
             );
 
             setMapModuleUSA(
-              <MapContainer center={[37.6, -122.4]} zoom={12} style={{ height: '500px', width: '100%' }}>
+              <MapContainer center={[37.6, -122.4]} zoom={10} style={{ height: '500px', width: '100%' }}>
                 <TileLayer
                   attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
                   url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
