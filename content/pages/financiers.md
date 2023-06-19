@@ -65,7 +65,7 @@ blocks:
         behaviour and profitability of their fleet.
     list:
       - list_item:
-          heading: Real-time IRR projections based on each vehicles average mileage
+          heading: Real-time IRR projections
           rich_editor: ""
           image: /img/line-chart.png
       - list_item:
