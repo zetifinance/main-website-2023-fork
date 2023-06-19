@@ -11,7 +11,7 @@ blocks:
     main:
       heading: Manufacturers
       rich_editor: Introducing an innovative new financing tool to accelerate sales.
-        Zeti’s acts as a sales enablement tool for vehicle manufacturers and
+        Zeti acts as a sales enablement tool for vehicle manufacturers and
         dealerships, providing an attractive customer-centric option to add to
         your existing financing options.
       buttons: []
