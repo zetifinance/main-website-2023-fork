@@ -7,7 +7,7 @@ permalink: /financiers/
 blocks:
   - type: hero
     variant: default
-    image: /img/shutterstock_2221825713.jpg
+    image: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
     main:
       heading: Lenders
       rich_editor: >-
