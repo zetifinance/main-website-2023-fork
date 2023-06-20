@@ -191,6 +191,8 @@ blocks:
         image_dark: /img/bvrla-logo.png
       - image_light: /img/octopus-logo-oi-white.svg
         image_dark: /img/octopus-investments-logo-vector.png
+      - image_light: /img/geotab-white-logo.png
+        image_dark: /img/geotab.png
     variant: Slider
 seo:
   ogimage: /img/3.png
