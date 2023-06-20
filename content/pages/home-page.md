@@ -193,4 +193,8 @@ blocks:
     variant: Slider
 seo:
   ogimage: /img/3.png
+  title: Revolutionizing transport finance for good | Zeti
+  description: Zeti is revolutionizing transport finance for good, using
+    technology and data to accelerate the adoption of Zero Emission Vehicles at
+    scale.
 ---
