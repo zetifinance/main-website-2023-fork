@@ -20,8 +20,13 @@ blocks:
             url: /contact-us/
     image: /img/hyundai-motor-group-jitbid8yjue-unsplash.jpg
   - type: video
-    video: /img/What_is_Zeti_Website.mp4
-    variant: Vimeo
+    video: <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+      src="https://player.vimeo.com/video/837651962?h=319f2b1d72&title=0&byline=0&portrait=0"
+      style="position:absolute;top:0;left:0;width:100%;height:100%;"
+      frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+      allowfullscreen></iframe></div><script
+      src="https://player.vimeo.com/api/player.js"></script>
+    variant: Embed
   - type: tabs
     variant: default
     intro:
@@ -186,13 +191,7 @@ blocks:
         image_dark: /img/bvrla-logo.png
       - image_light: /img/geotab-white-logo.png
         image_dark: /img/geotab.png
-      - image_light: /img/sherbet-white.png
-        image_dark: /img/cropped-sherbet-wordmark-rgb-black.png
     variant: Slider
 seo:
   ogimage: /img/3.png
-  title: Revolutionizing transport finance for good | Zeti
-  description: Zeti is revolutionizing transport finance for good, using
-    technology and data to accelerate the adoption of Zero Emission Vehicles at
-    scale.
 ---
