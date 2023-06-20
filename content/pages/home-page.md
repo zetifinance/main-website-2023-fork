@@ -191,6 +191,8 @@ blocks:
         image_dark: /img/bvrla-logo.png
       - image_light: /img/geotab-white-logo.png
         image_dark: /img/geotab.png
+      - image_light: /img/innovate-finance-white.png
+        image_dark: /img/1200px-innovate_finance.png
     variant: Slider
 seo:
   ogimage: /img/3.png
