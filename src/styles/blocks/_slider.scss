@@ -147,6 +147,14 @@
                             }
                         }
 
+                        a {
+                            color: $primary;
+
+                            .light & {
+                                color: $lightest;
+                            }
+                        }
+
                         .button-box {
                             max-width: 460px;
                             margin-top: 2rem;
