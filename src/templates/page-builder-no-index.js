@@ -26,13 +26,11 @@ export default Page
 
 export const Head = ({ data }) => (
   <>
-    {data?.post?.frontmatter?.seo && (
-      <DefaultHead data={data?.page?.frontmatter?.seo}>
-        {/* Additonal values here */}
-        <meta name="robots" content="noindex"></meta>
-        <meta id="type" property="og:type" content="website" />
-      </DefaultHead>
-    )}
+    <DefaultHead data={data?.page?.frontmatter?.seo}>
+      {/* Additonal values here */}
+      <meta name="robots" content="noindex"></meta>
+      <meta id="type" property="og:type" content="website" />
+    </DefaultHead>
   </>
 )
 

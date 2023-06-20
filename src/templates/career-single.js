@@ -37,12 +37,10 @@ CareerSingle.propTypes = {
 
 export const Head = ({ data }) => (
   <>
-    {data?.post?.frontmatter?.seo && (
-      <DefaultHead data={data?.post?.frontmatter?.seo}>
-        {/* Additonal values here */}
-        <meta id="oty" property="og:type" content="article" />
-      </DefaultHead>
-    )}
+    <DefaultHead data={data?.post?.frontmatter?.seo}>
+      {/* Additonal values here */}
+      <meta id="oty" property="og:type" content="article" />
+    </DefaultHead>
   </>
 )
 
