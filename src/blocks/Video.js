@@ -20,7 +20,7 @@ export default function Video({ data }) {
               <div className="container" dangerouslySetInnerHTML={{ __html: video }}/>
             ) : (
               <div className="container">
-                <video src={video} playsInline controls>
+                <video src={"/img/What_is_Zeti_Website.mp4"} playsInline controls>
                   <track default kind="captions" srclang="en" src=""></track>
                 </video>
               </div>
