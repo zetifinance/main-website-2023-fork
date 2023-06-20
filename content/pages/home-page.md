@@ -20,7 +20,7 @@ blocks:
             url: /contact-us/
     image: /img/hyundai-motor-group-jitbid8yjue-unsplash.jpg
   - type: video
-    video: /video/What_is_Zeti_Website.mp4
+    video: /img/What_is_Zeti_Website.mp4
     variant: Vimeo
   - type: tabs
     variant: default
