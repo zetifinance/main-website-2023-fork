@@ -198,4 +198,6 @@ blocks:
     variant: Slider
 seo:
   ogimage: /img/3.png
+  title: This is the home page
+  description: "This is a description of the home page "
 ---
