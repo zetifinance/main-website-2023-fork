@@ -193,6 +193,8 @@ blocks:
         image_dark: /img/geotab.png
       - image_light: /img/innovate-finance-white.png
         image_dark: /img/1200px-innovate_finance.png
+      - image_light: /img/fintech-innovation-lab-white.png
+        image_dark: /img/fintechlabnewyork.png
     variant: Slider
 seo:
   ogimage: /img/3.png
