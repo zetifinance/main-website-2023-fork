@@ -1,11 +1,11 @@
 {
   "separator": "|",
   "baseTitle": "Zeti",
-  "keyword": "gatsby-starter, blazing fast static site",
+  "keyword": "vehicle finance, pay-per-mile, electric, hydrogen, fintech, investment, green, esg, clean, climate crisis, climate",
   "lang": "en",
   "title": " Revolutionizing transport finance for good",
-  "themeColor": "#000",
-  "image": "/img/henlo-cover.png",
-  "twitterHandle": "@cleancommit",
+  "themeColor": "#e1ff00",
+  "image": "/img/nathan-queloz-rnzvujqbvsg-unsplash.jpg",
+  "twitterHandle": "@ZetiGroup",
   "description": "Zeti is revolutionizing transport finance for good, using technology and data to accelerate the adoption of Zero Emission Vehicles at scale."
 }
