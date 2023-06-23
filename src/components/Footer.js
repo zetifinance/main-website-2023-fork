@@ -59,8 +59,8 @@ export default function Footer() {
 						<a href="/privacy-and-cookies/" rel="noreferrer noopener" target="_blank">Privacy & Cookies Policy</a>
 					</div>
 					<div className="footer__socials">
-						<a href="/" target="_blank" rel="noopener noreferrer">Twitter</a>
-						<a href="/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+						<a href="https://twitter.com/ZetiGroup" target="_blank" rel="noopener noreferrer">Twitter</a>
+						<a href="https://www.linkedin.com/company/zeti" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 					</div>
 				</div>
 			</div>
