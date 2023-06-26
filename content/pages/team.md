@@ -87,7 +87,7 @@ blocks:
       - team_member:
           image: /img/jon-stafford.png
           name: Jon Stafford
-          job_role: Senior Vice President of North American Sales
+          job_role: Senior VP of North American Sales
           linkedin: https://www.linkedin.com/in/jonstafford-cma-cafm/
           bio: Twenty years' experience in fleet management, automotive, finance,
             operations and sales leadership.  Certified Auto Fleet Manager
