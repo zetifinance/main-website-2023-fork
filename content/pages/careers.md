@@ -26,7 +26,7 @@ blocks:
             url: "#vacancies"
   - type: text_image
     variant: default
-    image: /img/zeti-team-photos-2-.png
+    image: /img/zeti-team-photos-3-.png
     main:
       heading: Who are Zeti?
       rich_editor: Zeti is a green fintech scaleup that originated in London but now
