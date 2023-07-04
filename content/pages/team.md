@@ -47,25 +47,26 @@ blocks:
             (‘NESTA’) and the British Venture Capital Association (‘BVCA’). Also
             an active angel investor with a strong interest in the alternative
             energy and infrastructure sectors.
+      - team_member:
+          image: /img/untitled-design-14-.png
+          name: Pete Malcolm
+          job_role: President, Zeti, Inc.
+          linkedin: https://www.linkedin.com/in/petemalcolm
+          bio: Experienced serial entrepreneur, who has founded, turned around, grown and
+            sold multiple technology companies in the US and Europe, raised over
+            $100M in venture capital and attracted world-class customer bases. A
+            highly successful designer of globally deployed software solutions,
+            with a proven track record in Clean Technology, Cloud Computing,
+            Storage, Data Protection and Healthcare fields. Has held senior
+            executive positions with Fortune 500 and UK public companies.
   - type: team
     intro:
       heading: Meet the team
     team:
       - team_member:
-          name: Ernie Richardson
-          job_role: Co-Founder & Chairman
-          linkedin: https://www.linkedin.com/in/ernierichardson/
-          bio: Thirty years’ in early stage tech VC. Board Chairman of multiple
-            institutional funds. Formerly Managing Partner of MTI Ventures,
-            board member National Endowment for Science, Technology and the Arts
-            (‘NESTA’) and the British Venture Capital Association (‘BVCA’). Also
-            an active angel investor with a strong interest in the alternative
-            energy and infrastructure sectors.
-          image: /img/ernie-richardson.jpg
-      - team_member:
           image: /img/untitled-design-14-.png
           name: Pete Malcolm
-          job_role: Board Member & President, Zeti, Inc.
+          job_role: President, Zeti, Inc.
           linkedin: https://www.linkedin.com/in/petemalcolm
           bio: Experienced serial entrepreneur, who has founded, turned around, grown and
             sold multiple technology companies in the US and Europe, raised over
