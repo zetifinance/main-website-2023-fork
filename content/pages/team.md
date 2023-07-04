@@ -16,6 +16,19 @@ blocks:
       buttons: []
   - type: team
     intro:
+      heading: Board Directors
+    team:
+      - team_member:
+          name: Dan Saunders
+          job_role: Founder & CEO
+          linkedin: https://www.linkedin.com/in/danielsaunders1/
+          bio: Twenty years’ experience in finance, energy and technology (Octopus,
+            Decarbon, Morgan Stanley, IBM). Developed and led Transport as a
+            Service for Octopus Investments. Founder of Decarbon Capital, pay
+            per kWh clean energy finance (pre-cursor to Zeti).
+          image: /img/dan-saunders.jpg
+  - type: team
+    intro:
       heading: Meet the team
     team:
       - team_member:
