@@ -186,6 +186,23 @@ blocks:
       heading: Our advisors
     team:
       - team_member:
+          name: Enrique Colin
+          image: ""
+          job_role: Advisor
+          linkedin: https://www.linkedin.com/in/ecolinbet/
+          bio: VP of Data at Ebury with 7 years of experience utilising data to drive
+            financial solutions. Deep academic and practical understanding of
+            risk management. Trader and researcher in the energy and commodity
+            markets.
+      - team_member:
+          name: Ivelina Delcheva
+          job_role: Advisor
+          bio: Senior finance professional with extensive experience of automotive credit,
+            loan management, leasing and structuring. Fintech experience from
+            credit and automotive finance industries including BNP Paribas and
+            Auto1 Group.
+          linkedin: https://www.linkedin.com/in/ivelinadelcheva
+      - team_member:
           name: Emily Kirsch
           image: ""
           job_role: Advisor
@@ -202,6 +219,14 @@ blocks:
             industries most iconic companies like Nest, Sunrun, and Tesla.
       - team_member:
           image: ""
+          name: Lukasz Michalak
+          job_role: Advisor
+          linkedin: https://www.linkedin.com/in/lukasz-michalak-a303462/
+          bio: Experienced investment professional, investing and fundraising across real
+            assets and infrastructure. Led investment into electric vehicles,
+            digital infrastructure and renewable energy for Octopus Investments.
+      - team_member:
+          image: ""
           name: Alan Morgan
           job_role: Advisor
           linkedin: https://www.linkedin.com/in/alan-morgan-8b76b119/
@@ -210,6 +235,16 @@ blocks:
             28 years in McKinsey (Senior Partner 1991-2006), heading the
             financial services practises in UK, Europe (including CEE) and then
             MENA.
+      - team_member:
+          image: ""
+          name: Ed Stapleton
+          job_role: Advisor
+          linkedin: https://www.linkedin.com/in/edwardstapleton/
+          bio: 8 years in digital strategy within tech sector & energy. Experience across
+            customer experience, product management, digital operations &
+            ecommerce. Certified PSM1 Scrum Master. Formerly Accenture
+            Interactive & The Hut Group (UK ecommerce unicorn). Co-Founder of
+            Shandy Shack.
       - team_member:
           image: ""
           name: Nina Teng
@@ -222,41 +257,6 @@ blocks:
             Unit and London Business School. Co-investor of family office CSVE
             Ventures, a private investment company with early stage investments
             in Grab, Bolt, Voi and Spotify.
-      - team_member:
-          name: Enrique Colin
-          image: ""
-          job_role: Advisor
-          linkedin: https://www.linkedin.com/in/ecolinbet/
-          bio: VP of Data at Ebury with 7 years of experience utilising data to drive
-            financial solutions. Deep academic and practical understanding of
-            risk management. Trader and researcher in the energy and commodity
-            markets.
-      - team_member:
-          image: ""
-          name: Lukasz Michalak
-          job_role: Advisor
-          linkedin: https://www.linkedin.com/in/lukasz-michalak-a303462/
-          bio: Experienced investment professional, investing and fundraising across real
-            assets and infrastructure. Led investment into electric vehicles,
-            digital infrastructure and renewable energy for Octopus Investments.
-      - team_member:
-          image: ""
-          name: Ed Stapleton
-          job_role: Advisor
-          linkedin: https://www.linkedin.com/in/edwardstapleton/
-          bio: 8 years in digital strategy within tech sector & energy. Experience across
-            customer experience, product management, digital operations &
-            ecommerce. Certified PSM1 Scrum Master. Formerly Accenture
-            Interactive & The Hut Group (UK ecommerce unicorn). Co-Founder of
-            Shandy Shack.
-      - team_member:
-          name: Ivelina Delcheva
-          job_role: Advisor
-          bio: Senior finance professional with extensive experience of automotive credit,
-            loan management, leasing and structuring. Fintech experience from
-            credit and automotive finance industries including BNP Paribas and
-            Auto1 Group.
-          linkedin: https://www.linkedin.com/in/ivelinadelcheva
   - type: text_image
     variant: default
     main:
