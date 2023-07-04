@@ -17,6 +17,7 @@ blocks:
   - type: team
     intro:
       heading: Board Directors
+      rich_editor: (﻿A-Z)
     team:
       - team_member:
           image: /img/dan-bass.jpg
@@ -185,6 +186,7 @@ blocks:
   - type: team
     intro:
       heading: Our advisors
+      rich_editor: (﻿A-Z)
     team:
       - team_member:
           name: Enrique Colin
