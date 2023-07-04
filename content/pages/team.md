@@ -36,20 +36,21 @@ blocks:
             development planning in major alternate credit financial services
             projects for M&G Investments. Multiple author and international
             expert speaker on serverless technology.
+      - team_member:
+          image: /img/ernie-richardson.jpg
+          name: Ernie Richardson
+          job_role: Co-Founder & Chairman
+          linkedin: https://www.linkedin.com/in/ernierichardson/
+          bio: Thirty years’ in early stage tech VC. Board Chairman of multiple
+            institutional funds. Formerly Managing Partner of MTI Ventures,
+            board member National Endowment for Science, Technology and the Arts
+            (‘NESTA’) and the British Venture Capital Association (‘BVCA’). Also
+            an active angel investor with a strong interest in the alternative
+            energy and infrastructure sectors.
   - type: team
     intro:
       heading: Meet the team
     team:
-      - team_member:
-          name: Daniel Bass
-          job_role: Co-Founder & CTO
-          linkedin: https://www.linkedin.com/in/daniel-bass-6843ab50
-          bio: Senior technology development and deployment manager from the fund
-            management industry. Lead engineer responsible for technology
-            development planning in major alternate credit financial services
-            projects for M&G Investments. Multiple author and international
-            expert speaker on serverless technology.
-          image: /img/dan-bass.jpg
       - team_member:
           name: Ernie Richardson
           job_role: Co-Founder & Chairman
