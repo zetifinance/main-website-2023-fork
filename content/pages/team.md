@@ -61,7 +61,7 @@ blocks:
           image: /img/dan-saunders.jpg
   - type: team
     intro:
-      heading: Meet the team
+      heading: Our team
     team:
       - team_member:
           name: Emma Bell
