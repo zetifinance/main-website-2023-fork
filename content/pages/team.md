@@ -62,6 +62,7 @@ blocks:
   - type: team
     intro:
       heading: Our team
+      rich_editor: (﻿A-Z)
     team:
       - team_member:
           name: Emma Bell
