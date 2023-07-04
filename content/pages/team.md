@@ -64,13 +64,30 @@ blocks:
       heading: Meet the team
     team:
       - team_member:
-          name: Sabeen Forster
-          job_role: Finance Director
-          bio: ACA qualified with both external and internal audit roles at Deloitte and
-            Clifford Chance respectively. Transitioned into industry to work
-            with various startups experiencing vast growth within the technology
-            sector.
-          image: /img/sabeen-forster.jpg
+          name: Emma Bell
+          job_role: Investment Director
+          linkedin: https://www.linkedin.com/in/emma-bell-cfa-6698a8135/
+          bio: CFA certified, with a background in private debt investments gained at M&G
+            Investments. Specialised experience in alternative investments,
+            quantitative analysis and asset structuring.
+          image: /img/emma-bell.jpg
+      - team_member:
+          image: /img/jenny-carus.jpg
+          name: Jenny Carus
+          job_role: Senior Software Developer
+          linkedin: https://www.linkedin.com/in/jennifer-carus-452b4754/
+          bio: Senior software developer with experience in full stack and DevOps
+            processes within financial services. Passionate about bringing value
+            to clients through an end-to-end delivery focus.
+      - team_member:
+          name: Phoebe Dickson
+          job_role: Marketing Manager
+          bio: 7 years experience in Video Production, Marketing and Professional Services
+            gained with both startups and established companies, including three
+            years with VFX industry leader, The Mill. Specialist in brand
+            messaging and communications.
+          linkedin: https://www.linkedin.com/in/phoebe-dickson-malcolm-aa5a1a9a/
+          image: /img/phoebe-dickson.jpg
       - team_member:
           image: /img/chelsea-dowling.jpg
           name: Chelsea Dowling
@@ -80,13 +97,76 @@ blocks:
             Entech with leading UK energy suppliers. Customer champion with a
             focus on building data driven teams.
       - team_member:
-          name: Emma Bell
-          job_role: Investment Director
-          linkedin: https://www.linkedin.com/in/emma-bell-cfa-6698a8135/
-          bio: CFA certified, with a background in private debt investments gained at M&G
-            Investments. Specialised experience in alternative investments,
-            quantitative analysis and asset structuring.
-          image: /img/emma-bell.jpg
+          name: John Fentiman
+          image: /img/john-fentiman.jpg
+          job_role: Senior Software Developer
+          linkedin: https://www.linkedin.com/in/john-fentiman-46766b127/
+          bio: Senior Software Developer with over 15 years experience in finance,
+            technology and operations. A believer in Software Craftsmanship and
+            pragmatic test driven development.
+      - team_member:
+          name: Sabeen Forster
+          job_role: Finance Director
+          bio: ACA qualified with both external and internal audit roles at Deloitte and
+            Clifford Chance respectively. Transitioned into industry to work
+            with various startups experiencing vast growth within the technology
+            sector.
+          image: /img/sabeen-forster.jpg
+      - team_member:
+          name: Manjot Heer
+          job_role: Investment Analyst
+          linkedin: https://www.linkedin.com/in/manjot-heer-82a81a145/
+          bio: Background in Investment Banking with experience in successfully raising
+            money for SMID public and private companies, with a focus in TMT and
+            Renewables. Specialising in equity research, business development
+            and fundraising.
+          image: /img/manjot-heer.jpg
+      - team_member:
+          name: Pavundeep Johal
+          bio: Experience within the energy industry as a maintenance analyst at
+            ExxonMobil. Formerly a psycholinguistic research assistant with a
+            focus on improving accessibility to education for deaf students.
+            Recently obtained First Class Honours in MEng Mechanical
+            Engineering.
+          linkedin: https://www.linkedin.com/in/pavundeep-johal/
+          job_role: Junior Product Manager
+          image: /img/pavundeep-johal.jpg
+      - team_member:
+          name: Dave Kennon
+          job_role: Director of Automotive Partnerships
+          linkedin: https://www.linkedin.com/in/davidkennon/
+          bio: Extensive automotive industry experience encompassing vehicle finance,
+            de-fleet and remarketing as well as dealer operations and the
+            implementation of software solutions to improve business capability.
+          image: /img/dave-kennon.jpg
+      - team_member:
+          name: David Martin
+          job_role: Operations Manager
+          linkedin: https://www.linkedin.com/in/david-james-simeon-martin-5b445719b/
+          bio: An Operations Manager that has worked in various consumer/product
+            management and development roles from food retail to Entech, with
+            the main focus on streamlining and automising consumer experiences
+            and operational processes, using data-led teams to drive successful
+            outcomes.
+          image: /img/david-martin.jpg
+      - team_member:
+          name: Melissa Rose
+          image: /img/melissa-rose-2.jpg
+          job_role: Junior Developer
+          linkedin: https://www.linkedin.com/in/melissa-rose123/
+          bio: Recently graduated with First Class Honours in MBiochem Biochemistry from
+            the University of Oxford. Previous experience as a biomedical
+            researcher at the Francis Crick Institute. Formerly worked for an
+            EdTech startup.
+      - team_member:
+          image: /img/rebecca-saletta.jpeg
+          job_role: Director of Strategic Partnerships, US
+          name: Rebecca Saletta
+          linkedin: https://www.linkedin.com/in/rebecca-saletta-b74b62104
+          bio: Five years of experience developing international start-ups in clean
+            transportation and automotive technology. Extensive career in the
+            public sector building out the UK Government's Future of Mobility
+            strategy for the Western US. Based in Los Angeles.
       - team_member:
           image: /img/jon-stafford.png
           name: Jon Stafford
@@ -101,86 +181,6 @@ blocks:
             tenure with Enterprise Fleet Management and LeasePlan USA
             building long-term mutually beneficial ​relationships with
             companies ranging from start-ups to Fortune 500.
-      - team_member:
-          name: Dave Kennon
-          job_role: Director of Automotive Partnerships
-          linkedin: https://www.linkedin.com/in/davidkennon/
-          bio: Extensive automotive industry experience encompassing vehicle finance,
-            de-fleet and remarketing as well as dealer operations and the
-            implementation of software solutions to improve business capability.
-          image: /img/dave-kennon.jpg
-      - team_member:
-          image: /img/rebecca-saletta.jpeg
-          job_role: Director of Strategic Partnerships, US
-          name: Rebecca Saletta
-          linkedin: https://www.linkedin.com/in/rebecca-saletta-b74b62104
-          bio: Five years of experience developing international start-ups in clean
-            transportation and automotive technology. Extensive career in the
-            public sector building out the UK Government's Future of Mobility
-            strategy for the Western US. Based in Los Angeles.
-      - team_member:
-          name: Phoebe Dickson
-          job_role: Marketing Manager
-          bio: 7 years experience in Video Production, Marketing and Professional Services
-            gained with both startups and established companies, including three
-            years with VFX industry leader, The Mill. Specialist in brand
-            messaging and communications.
-          linkedin: https://www.linkedin.com/in/phoebe-dickson-malcolm-aa5a1a9a/
-          image: /img/phoebe-dickson.jpg
-      - team_member:
-          name: Manjot Heer
-          job_role: Investment Analyst
-          linkedin: https://www.linkedin.com/in/manjot-heer-82a81a145/
-          bio: Background in Investment Banking with experience in successfully raising
-            money for SMID public and private companies, with a focus in TMT and
-            Renewables. Specialising in equity research, business development
-            and fundraising.
-          image: /img/manjot-heer.jpg
-      - team_member:
-          name: David Martin
-          job_role: Operations Manager
-          linkedin: https://www.linkedin.com/in/david-james-simeon-martin-5b445719b/
-          bio: An Operations Manager that has worked in various consumer/product
-            management and development roles from food retail to Entech, with
-            the main focus on streamlining and automising consumer experiences
-            and operational processes, using data-led teams to drive successful
-            outcomes.
-          image: /img/david-martin.jpg
-      - team_member:
-          image: /img/jenny-carus.jpg
-          name: Jenny Carus
-          job_role: Senior Software Developer
-          linkedin: https://www.linkedin.com/in/jennifer-carus-452b4754/
-          bio: Senior software developer with experience in full stack and DevOps
-            processes within financial services. Passionate about bringing value
-            to clients through an end-to-end delivery focus.
-      - team_member:
-          name: John Fentiman
-          image: /img/john-fentiman.jpg
-          job_role: Senior Software Developer
-          linkedin: https://www.linkedin.com/in/john-fentiman-46766b127/
-          bio: Senior Software Developer with over 15 years experience in finance,
-            technology and operations. A believer in Software Craftsmanship and
-            pragmatic test driven development.
-      - team_member:
-          name: Pavundeep Johal
-          bio: Experience within the energy industry as a maintenance analyst at
-            ExxonMobil. Formerly a psycholinguistic research assistant with a
-            focus on improving accessibility to education for deaf students.
-            Recently obtained First Class Honours in MEng Mechanical
-            Engineering.
-          linkedin: https://www.linkedin.com/in/pavundeep-johal/
-          job_role: Junior Product Manager
-          image: /img/pavundeep-johal.jpg
-      - team_member:
-          name: Melissa Rose
-          image: /img/melissa-rose-2.jpg
-          job_role: Junior Developer
-          linkedin: https://www.linkedin.com/in/melissa-rose123/
-          bio: Recently graduated with First Class Honours in MBiochem Biochemistry from
-            the University of Oxford. Previous experience as a biomedical
-            researcher at the Francis Crick Institute. Formerly worked for an
-            EdTech startup.
   - type: team
     intro:
       heading: Our advisors
