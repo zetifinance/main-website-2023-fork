@@ -19,15 +19,6 @@ blocks:
       heading: Board Directors
     team:
       - team_member:
-          name: Dan Saunders
-          job_role: Founder & CEO
-          linkedin: https://www.linkedin.com/in/danielsaunders1/
-          bio: Twenty years’ experience in finance, energy and technology (Octopus,
-            Decarbon, Morgan Stanley, IBM). Developed and led Transport as a
-            Service for Octopus Investments. Founder of Decarbon Capital, pay
-            per kWh clean energy finance (pre-cursor to Zeti).
-          image: /img/dan-saunders.jpg
-      - team_member:
           image: /img/dan-bass.jpg
           name: Daniel Bass
           job_role: Co-Founder & CTO
@@ -36,6 +27,18 @@ blocks:
             development planning in major alternate credit financial services
             projects for M&G Investments. Multiple author and international
             expert speaker on serverless technology.
+      - team_member:
+          image: /img/untitled-design-14-.png
+          name: Pete Malcolm
+          job_role: President, Zeti, Inc.
+          linkedin: https://www.linkedin.com/in/petemalcolm
+          bio: Experienced serial entrepreneur, who has founded, turned around, grown and
+            sold multiple technology companies in the US and Europe, raised over
+            $100M in venture capital and attracted world-class customer bases. A
+            highly successful designer of globally deployed software solutions,
+            with a proven track record in Clean Technology, Cloud Computing,
+            Storage, Data Protection and Healthcare fields. Has held senior
+            executive positions with Fortune 500 and UK public companies.
       - team_member:
           image: /img/ernie-richardson.jpg
           name: Ernie Richardson
@@ -48,33 +51,18 @@ blocks:
             an active angel investor with a strong interest in the alternative
             energy and infrastructure sectors.
       - team_member:
-          image: /img/untitled-design-14-.png
-          name: Pete Malcolm
-          job_role: President, Zeti, Inc.
-          linkedin: https://www.linkedin.com/in/petemalcolm
-          bio: Experienced serial entrepreneur, who has founded, turned around, grown and
-            sold multiple technology companies in the US and Europe, raised over
-            $100M in venture capital and attracted world-class customer bases. A
-            highly successful designer of globally deployed software solutions,
-            with a proven track record in Clean Technology, Cloud Computing,
-            Storage, Data Protection and Healthcare fields. Has held senior
-            executive positions with Fortune 500 and UK public companies.
+          name: Dan Saunders
+          job_role: Founder & CEO
+          linkedin: https://www.linkedin.com/in/danielsaunders1/
+          bio: Twenty years’ experience in finance, energy and technology (Octopus,
+            Decarbon, Morgan Stanley, IBM). Developed and led Transport as a
+            Service for Octopus Investments. Founder of Decarbon Capital, pay
+            per kWh clean energy finance (pre-cursor to Zeti).
+          image: /img/dan-saunders.jpg
   - type: team
     intro:
       heading: Meet the team
     team:
-      - team_member:
-          image: /img/untitled-design-14-.png
-          name: Pete Malcolm
-          job_role: President, Zeti, Inc.
-          linkedin: https://www.linkedin.com/in/petemalcolm
-          bio: Experienced serial entrepreneur, who has founded, turned around, grown and
-            sold multiple technology companies in the US and Europe, raised over
-            $100M in venture capital and attracted world-class customer bases. A
-            highly successful designer of globally deployed software solutions,
-            with a proven track record in Clean Technology, Cloud Computing,
-            Storage, Data Protection and Healthcare fields. Has held senior
-            executive positions with Fortune 500 and UK public companies.
       - team_member:
           name: Sabeen Forster
           job_role: Finance Director
