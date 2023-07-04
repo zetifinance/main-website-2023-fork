@@ -159,7 +159,7 @@ blocks:
             researcher at the Francis Crick Institute. Formerly worked for an
             EdTech startup.
       - team_member:
-          image: /img/rebecca-saletta.jpeg
+          image: /img/rebecca-saletta.jpg
           job_role: Director of Strategic Partnerships, US
           name: Rebecca Saletta
           linkedin: https://www.linkedin.com/in/rebecca-saletta-b74b62104
