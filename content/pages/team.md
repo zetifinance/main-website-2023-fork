@@ -27,19 +27,19 @@ blocks:
             Service for Octopus Investments. Founder of Decarbon Capital, pay
             per kWh clean energy finance (pre-cursor to Zeti).
           image: /img/dan-saunders.jpg
+      - team_member:
+          image: /img/dan-bass.jpg
+          name: Daniel Bass
+          job_role: Co-Founder & CTO
+          bio: Senior technology development and deployment manager from the fund
+            management industry. Lead engineer responsible for technology
+            development planning in major alternate credit financial services
+            projects for M&G Investments. Multiple author and international
+            expert speaker on serverless technology.
   - type: team
     intro:
       heading: Meet the team
     team:
-      - team_member:
-          image: /img/dan-saunders.jpg
-          name: Dan Saunders
-          job_role: Founder & CEO
-          linkedin: https://www.linkedin.com/in/danielsaunders1/
-          bio: Twenty years’ experience in finance, energy and technology (Octopus,
-            Decarbon, Morgan Stanley, IBM). Developed and led Transport as a
-            Service for Octopus Investments. Founder of Decarbon Capital, pay
-            per kWh clean energy finance (pre-cursor to Zeti).
       - team_member:
           name: Daniel Bass
           job_role: Co-Founder & CTO
