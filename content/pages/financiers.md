@@ -3,7 +3,7 @@ id: Z0BWKZfFv
 type: page
 layout: page-builder
 title: Lenders
-permalink: /financiers/
+permalink: /lenders/
 blocks:
   - type: hero
     variant: default
