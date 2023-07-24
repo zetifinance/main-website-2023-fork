@@ -3,7 +3,7 @@ id: MvpXIafuv
 type: post
 layout: post
 title: "Weekly News Roundup: KORE-Blimey!"
-permalink: /
+permalink: /insights/weekly-news-roundup-kore-blimey/
 thumbnail: ""
 date: 2023-06-21T23:00:00.000Z
 author: ""
