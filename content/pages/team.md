@@ -115,6 +115,7 @@ blocks:
             with various startups experiencing vast growth within the technology
             sector.
           image: /img/sabeen-forster.jpg
+          linkedin: https://www.linkedin.com/in/sabeen-forster-bsc-aca-b6205612b/
       - team_member:
           name: Manjot Heer
           job_role: Investment Analyst
