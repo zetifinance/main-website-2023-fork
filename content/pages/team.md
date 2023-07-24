@@ -28,6 +28,7 @@ blocks:
             development planning in major alternate credit financial services
             projects for M&G Investments. Multiple author and international
             expert speaker on serverless technology.
+          linkedin: https://www.linkedin.com/in/daniel-bass-6843ab50/?originalSubdomain=uk
       - team_member:
           image: /img/untitled-design-14-.png
           name: Pete Malcolm
