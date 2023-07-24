@@ -3,7 +3,7 @@ id: HNRNhwGy_
 type: post
 layout: post
 title: "Weekly News Roundup: Bus Upon A Time "
-permalink: /insights/weekly-news-roundup-02-03-23-bus-upon-a-time/
+permalink: /insights/weekly-news-roundup-13-07-23-bus-upon-a-time/
 thumbnail: ""
 date: 2023-07-12T23:00:00.000Z
 author: ""
