@@ -3,7 +3,7 @@ id: T2r8Qi9io
 type: post
 layout: post
 title: "Weekly News Roundup: Shake(V)n, not stirred"
-permalink: /
+permalink: /insights/weekly-news-roundup-06-29-23-shakevn-not-stirred/
 thumbnail: ""
 date: 2023-06-28T23:00:00.000Z
 author: ""
