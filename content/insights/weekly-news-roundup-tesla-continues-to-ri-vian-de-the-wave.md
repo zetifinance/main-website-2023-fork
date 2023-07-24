@@ -3,7 +3,7 @@ id: RvCa8lwLH
 type: post
 layout: post
 title: "Weekly News Roundup: Tesla Continues to Ri(vian)de the Wave "
-permalink: /
+permalink: /insights/weekly-news-roundup-tesla-continues-to-riviande-the-wave/
 thumbnail: ""
 date: 2023-07-05T23:00:00.000Z
 author: ""
