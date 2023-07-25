@@ -138,8 +138,8 @@ blocks:
               *\*﻿savings at tailpipe ([US EPA](https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator))*
           image: /img/tezos-wpn1xnccgpw-unsplash.jpg
           statistic:
-            stat: 6000000
-            text: kg
+            stat: 6
+            text: m kg
           variant: statistic
       - slide:
           main:
