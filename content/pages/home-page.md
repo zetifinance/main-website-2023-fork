@@ -125,8 +125,8 @@ blocks:
           image: ""
           variant: statistic
           statistic:
-            stat: 40000000
-            text: ""
+            stat: 40
+            text: m
             pretext: $
       - slide:
           main:
