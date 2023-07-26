@@ -138,7 +138,7 @@ blocks:
       - team_member:
           name: Dave Kennon
           job_role: Director of Automotive Partnerships
-          linkedin: https://www.linkedin.com/in/davidkennon/
+          linkedin: https://www.linkedin.com/in/davekennon/
           bio: Extensive automotive industry experience encompassing vehicle finance,
             de-fleet and remarketing as well as dealer operations and the
             implementation of software solutions to improve business capability.
