@@ -69,7 +69,7 @@ blocks:
       - team_member:
           name: Emma Bell
           job_role: Investment Director
-          linkedin: https://www.linkedin.com/in/emma-bell-cfa-6698a8135/
+          linkedin: https://www.linkedin.com/in/emma-bell-6698a8135/
           bio: CFA certified, with a background in private debt investments gained at M&G
             Investments. Specialised experience in alternative investments,
             quantitative analysis and asset structuring.
