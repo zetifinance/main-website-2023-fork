@@ -118,7 +118,7 @@ blocks:
           linkedin: https://www.linkedin.com/in/sabeen-forster-bsc-aca-b6205612b/
       - team_member:
           name: Manjot Heer
-          job_role: Investment Analyst
+          job_role: Investment Associate
           linkedin: https://www.linkedin.com/in/manjot-heer-82a81a145/
           bio: Background in Investment Banking with experience in successfully raising
             money for SMID public and private companies, with a focus in TMT and
