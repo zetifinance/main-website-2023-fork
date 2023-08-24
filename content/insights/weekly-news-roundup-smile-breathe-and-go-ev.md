@@ -1,0 +1,36 @@
+---
+id: v4M8TvIiL
+type: post
+layout: post
+title: " Weekly News Roundup: Smile, breathe and go EV! "
+permalink: /insights/weekly-news-roundup-24-08-23-smile-breathe-and-go-ev/
+thumbnail: ""
+date: 2023-08-23T23:00:00.000Z
+author: ""
+excerpt: ""
+seo:
+  ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+---
+[Santander Consumer Finance](https://www.am-online.com/news/dealer-news/2023/08/22/santander-mg-motor-to-launch-ev-benefits-scheme) has announced it is extending its partnership with MG Motor. Santander Consumer Finance will continue to provide the 153-strong MG dealer network, with a benefits scheme for customers buying new EVs and PHEVs, so it is in time for the September 73-plate change. The scheme's benefits range from home charging installation and public charging tariffs to discounts on nationwide parking.
+
+[BYD](https://www.kedglobal.com/batteries/newsView/ked202308210009) has entered into talks with KG Mobility (a South Korean automobile manufacturer) about potentially building a battery factory in South Korea, in a joint venture. Bear in mind, that there has been concern expressed by (smaller) domestic EV OEMs over trying to secure components. The initial production date for the battery factory to become live and operational is around January 2025. If these talks crystalise, this will be the first time a foreign EV OEM (BYD) and a domestic carmaker (KG Mobility) would have built a battery factory, in South Korea. This would be a significant boost for the South Korean (EV) automotive sector. The next stage of the talks to progress will be centred around the location and the capacity of the factory.   
+
+[JLR](https://www.edie.net/jlr-to-use-second-life-ev-batteries-for-major-energy-storage-project/) has announced it is collaborating with Wykes Engineering to develop one of the UK’s largest energy storage systems, which would utilise second-life car batteries. This innovative project aims to utilise used Jaguar I-Pace batteries by converting them into large-scale container systems. These systems will be installed in 3 locations across the Chelveston renewable energy park, which is on the Northamptonshire/Bedfordshire border. One of the key goals of this project is to potentially save on network costs, as the demand for electricity will continue to increase, as EV adoption ramps up.
+
+[Northvolt](https://www.reuters.com/article/northvolt-expansion-finance-idCAKBN2ZX0FH), a Swedish lithium-ion battery producer, has announced it has raised $1.2bn, through a convertible note, led by BlackRock. A substantial part of the capital will be deployed to expand its factory footprint across Europe. It is important to highlight, that a number of other prominent investors came in, such as the Canada Pension Plan Investment Board, Goldman Sachs and Baillie Gifford. This fundraise further solidifies the company’s position in the energy storage sector. Furthermore, Northvolt’s investor list signals there is a collective stride towards a more sustainable future by focusing on energy storage.
+
+[Gloucestershire County Council](https://www.bbc.co.uk/news/uk-england-gloucestershire-66591701) has announced it will be installing 1000 EV charging points, from August onwards. This will be funded by the council and the Department for Transport’s *On Street Residential Chargepoint Scheme.* This is not a surprising step as the council had publicly stated it wants to improve air quality by tackling climate change. The criticism, so far this year, has been levied towards the government for being slow in rolling out (new) schemes, which industry experts have stated has not helped the EV adoption cause. Although this is a progressive step in the right direction, we agree with industry experts, that the proof will be in the pace of execution.
+
+[China](https://autovista24.autovistagroup.com/news/bevs-account-for-quarter-chinese-new-car-market-june-2023/?utm_medium=email&utm_source=eloqua&utm_campaign=FY23%20-%20Autovista24%20Daily%20Email&utm_term=BEVs%20account%20for%20quarter%20of%20Chinese%20new-car%20market%20in%20June%2C%20and%20What%20is%20e-fuel%3F%0A&utm_content=FY21-DB%20Tuesday) continues to be the global EV leader, as it recorded sales of 700,000 EVs in June (a 28% increase YoY), with year-to-date sales hitting over 3.2m. In June, EVs accounted for 38% of new car registrations, with 25% being BEVs and 13% being PHEVs. The Price Wars led to Tesla Model Y being the most popular vehicle, in June, with the BYD Song and BYD Qin Plus coming in 2nd and 3rd. However, year to date, the BYD Song tops EV sales, with BYD Qin Plus and Tesla Model Y coming in 2nd and 3rd.
+
+[SNC-Lavalin](https://www.globalconstructionreview.com/snc-lavalin-wins-first-big-ev-related-project-in-canada/), a Canadian engineering, procurement, and construction service provider, has won a c£82m initial works contract (preliminary contract prior to the finalisation of a head contract) by EcoProBM (specializes in cathode materials). If SNC-Lavalin is successful (which seems very likely), they will design and build the cathode-active-material (CAM) plant, in Quebec, that will produce components for Ford EV batteries. This follows from the [JV](https://www.snclavalin.com/en/media/press-releases/2023/17-08-2023) announcement between Ford and SK On to set up the CAM plant in Quebec. Bear in mind, that CAM represents c40% of the cost of a battery cell and production is pencilled in for April 2026 and will have a production capacity of 45,000 tonnes per year.
+
+### ***Deals***
+
+[NaaS](https://electrek.co/2023/08/22/chinas-naas-technology-acquires-swedens-charge-amps-for-66m/), a Chinese EV charging service company, has acquired Charge Amps, a Swedish EV charging provider, for $66.4m. NaaS views this acquisition as a way to enter the European market as it plans to provide localised services in that region. Bear in mind, Charge Amps has a 22% market share in Solna (Sweden) and has a presence in 32 other markets.
+
+[Helm.ai](https://www.maginative.com/article/helm-ai-secures-55-million-in-series-c-funding-to-advance-its-ai-software-for-autonomous-vehicles/), a Californian-based AI software developer for autonomous driving, has raised $55m in a Series C round, led by Freeman Group. The startup offers proprietary AI software stacks that focus on allowing OEMs to build advanced driver assistance systems. Interestingly, the company leverages unsupervised deep learning techniques to train AI models without extensive human labelling of data. Consequently, it allows automated driving capabilities using only dash cameras. The capital raised will help expand the startup’s AI offerings, alongside expanding its commercialization footprint.
+
+[Zeelo](https://techcrunch.com/2023/08/15/smart-bus-startup-zeelo-aimed-at-employers-and-schools-secures-14m-to-scale-in-the-us/), a UK smart bus startup, has secured $14m in a Series A extension round led by FlatzHoffmann. This Series A extension means that this round was an equity-based extension rather than a Series B or growth equity round. The start-up designs (highly) efficient transportation programs, focussing on corporate and warehouse shuttles. The capital will be deployed to expand and accelerate its US operations and sales, by targeting both the West and East coasts.
+
+S﻿ee you next week!
