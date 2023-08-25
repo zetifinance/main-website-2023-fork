@@ -2,7 +2,7 @@
 id: _hdjPJjy9
 type: post
 layout: post
-title: "Weekly News Roundup: 18/05/23: afFORDable EVs? "
+title: "AfFORDable EVs? "
 permalink: /insights/weekly-news-roundup-18-05-23-affordable-evs/
 thumbnail: ""
 date: 2023-05-17T23:00:00.000Z
