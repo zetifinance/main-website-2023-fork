@@ -2,7 +2,7 @@
 id: _GZ0ybyYU
 type: post
 layout: post
-title: " Weekly News Roundup: All Things Stellantis"
+title: All Things Stellantis
 permalink: /insights/weekly-news-roundup-02-03-23-all-things-stellantis/
 thumbnail: /img/52523575759_bca15fdde9_o.webp
 date: 2023-03-02T00:00:00.000Z
