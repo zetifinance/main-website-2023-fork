@@ -2,7 +2,7 @@
 id: UEpyg42Zf
 type: post
 layout: post
-title: "Weekly News Roundup: The Price War Escalates"
+title: The Price War Escalates
 permalink: /insights/weekly-news-roundup-20-04-23-the-price-war-escalates/
 thumbnail: ""
 date: 2023-04-19T23:00:00.000Z
