@@ -2,7 +2,7 @@
 id: lCwU6Gr6a
 type: post
 layout: post
-title: " Weekly News Roundup: All Aboard The EV Express"
+title: All Aboard The EV Express
 permalink: /insights/weekly-news-roundup-27-07-23-all-aboard-the-ev-express/
 thumbnail: ""
 date: 2023-07-26T23:00:00.000Z
