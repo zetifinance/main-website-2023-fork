@@ -2,7 +2,7 @@
 id: nTiHkRsA_
 type: post
 layout: post
-title: "Weekly News Roundup: Great EXpengTATIONS "
+title: "Great EXpengTATIONS "
 permalink: /insights/weekly-news-roundup-01-06-23-great-expengtations/
 thumbnail: ""
 date: 2023-05-31T23:00:00.000Z
