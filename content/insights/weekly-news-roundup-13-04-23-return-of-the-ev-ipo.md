@@ -2,7 +2,7 @@
 id: RNxdJkI_i
 type: post
 layout: post
-title: "Weekly News Roundup: Return of the (EV) IPO"
+title: Return of the (EV) IPO
 permalink: /insights/weekly-news-roundup-13-04-23-return-of-the-ev-ipo/
 thumbnail: ""
 date: 2023-04-12T23:00:00.000Z
