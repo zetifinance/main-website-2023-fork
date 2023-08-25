@@ -2,7 +2,7 @@
 id: v4M8TvIiL
 type: post
 layout: post
-title: " Weekly News Roundup: Smile, breathe and go EV! "
+title: "Smile, breathe and go EV! "
 permalink: /insights/weekly-news-roundup-24-08-23-smile-breathe-and-go-ev/
 thumbnail: ""
 date: 2023-08-23T23:00:00.000Z
