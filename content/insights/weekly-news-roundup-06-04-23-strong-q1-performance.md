@@ -2,7 +2,7 @@
 id: uXxNM6Z0e
 type: post
 layout: post
-title: " Weekly News Roundup: Strong Q1 Performance"
+title: Strong Q1 Performance
 permalink: /insights/weekly-news-roundup-06-04-23-strong-q1-performance/
 thumbnail: ""
 date: 2023-04-05T23:00:00.000Z
