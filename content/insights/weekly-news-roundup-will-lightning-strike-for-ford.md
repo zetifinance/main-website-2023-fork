@@ -2,7 +2,7 @@
 id: oaHiRPGhr
 type: post
 layout: post
-title: "Weekly News Roundup: Will Lightning Strike for Ford? "
+title: "Will Lightning Strike for Ford? "
 permalink: /insights/weekly-news-roundup-03-08-23-will-lightning-strike-for-ford/
 thumbnail: ""
 date: 2023-08-02T23:00:00.000Z
