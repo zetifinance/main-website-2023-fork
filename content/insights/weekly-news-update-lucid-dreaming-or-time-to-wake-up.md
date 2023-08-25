@@ -2,7 +2,7 @@
 id: PgLxwyi2E
 type: post
 layout: post
-title: "Weekly News Roundup: Lucid Dreaming or Time to Wake Up?"
+title: Lucid Dreaming or Time to Wake Up?
 permalink: /insights/weekly-news-update-lucid-dreaming-or-time-to-wake-up/
 thumbnail: ""
 date: 2023-06-07T23:00:00.000Z
