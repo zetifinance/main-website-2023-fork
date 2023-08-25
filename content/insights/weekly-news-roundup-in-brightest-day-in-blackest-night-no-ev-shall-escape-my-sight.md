@@ -2,8 +2,7 @@
 id: zkeuvqj2K
 type: post
 layout: post
-title: " Weekly News Roundup: In brightest day, in blackest night, no EV shall
-  escape my sight!"
+title: " In brightest day, in blackest night, no EV shall escape my sight!"
 permalink: /insights/weekly-news-roundup-10-08-23-in-brightest-day-in-blackest-night-no-ev-shall-escape-my-sight/
 thumbnail: ""
 date: 2023-08-09T23:00:00.000Z
