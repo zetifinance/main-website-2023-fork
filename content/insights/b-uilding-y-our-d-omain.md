@@ -1,0 +1,34 @@
+---
+id: V9QcufGP8
+type: post
+layout: post
+title: "B(uilding) Y(our) D(omain) "
+permalink: /insights/weekly-news-roundup-02-03-23-building-your-domain/
+thumbnail: ""
+date: 2023-08-30T23:00:00.000Z
+author: ""
+excerpt: ""
+seo:
+  ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+---
+[XPeng](https://www.reuters.com/markets/deals/chinas-xpeng-take-over-didis-autonomus-vehicle-unit-eyeing-2024-launch-2023-08-28/) has announced it intends to acquire Didi’s EV (development) business arm for a deal worth up to $744m. This is a surprising turn of events, as it signals Didi exiting the EV OEM space, in China, which illustrates a strong Chinese market and high barriers to entry. One of the major sticking points has been that Didi had found it hard to obtain an EV production licence. The Chinese regulators have become stringent in handing out licences in order to combat the growing overcapacity in the industry. We agree with industry consensus, that this will help diversify and extend XPeng’s reach in the (ride-hailing) EV market.
+
+[BYD](https://cnevpost.com/2023/08/28/byd-q2-2023-earnings-results/) has reported very strong Q2 (and H1) 23 results underlying its continued global growth and reach. In Q2 BYD sold 703,561 NEVs (a record) which represents a 98.17% increase YoY, with passenger cars making up 700,244 and the remaining 3,317 being commercial vehicles. Interestingly, in terms of the aforementioned passenger car figure, BEVs accounted for 352,163 sales (up 95.32% YoY) and PHEVs accounted for the remaining sales of 348,081 (up 101.06% YoY). BYD trails only Tesla in EV sales and market share and we do not foresee any other (EV) OEM being able to join them for the foreseeable future. BYD has created a niche for itself as the go-to brand for affordable and well-designed EVs, especially in Asia.
+
+[Enso](https://www.taxi-point.co.uk/post/enso-pop-up-tyre-operations-in-partnership-with-ev-service-hub), a UK-based developer of sustainable tyres for EVs, has announced the launch of its double-A-rated EV tyres for electric LEVC TX taxis. Enso has partnered up with EV Service Hub, which is an end-to-end service centre for EV commercial vehicles. This is after successfully demonstrating the improvement in energy efficiency and safety, in its recent real-world trials. In recent weeks, the company has started to fit its tyres on Colt Cabs, which is one of the biggest London (EV) black taxi fleets. This will help accelerate the adoption of Enso tyres which also benefit from policy tailwinds, such as the newly announced EURO 7 emission standard, which mandates a minimum standard for tyre PM emissions for the first time.
+
+[Nio](https://ir.nio.com/news-events/news-releases/news-release-details/nio-inc-reports-unaudited-second-quarter-2023) posted lower-than-expected Q2 23 results, as revenue came in at $1.21bn [however analyst consensus](https://www.cnbc.com/2023/08/29/nio-earnings-q2-2023.html) had it pencilled in for $1.27bn and vehicle margin fell to 6.2% (vs 16.7% in Q2 22). Furthermore, Q2 23 revenues were down 14.8% (c$1.41bn) compared to Q2 22. The company attributes this to the economic slowdown in China and the timing of the release of some of its revamped models in May/June. Although the company reported $4.3bn in cash (as of June), bear in mind, that in July, the company (further) strengthened its balance sheet as an Abu Dhabi govt fund injected $738.5m in an equity investment.
+
+[Mazda’s](https://www.japantimes.co.jp/business/2023/08/28/companies/mazda-ev-shift-china/) (relatively) new President Mr Moro has announced the company’s ambition to grow its EV sales in China by 50% for FY23. Bear in mind, that in FY22, it only sold c200 units of the CX-30 and it has a small EV portfolio, another pertinent reason as to why the company is lagging in China. Although the company is not releasing a new model in FY23, it has recently launched its CX-50 hybrid vehicle, which it hopes will help boost sales in China. Mazda is keen to take advantage of China’s hot EV market and policy tailwinds to increase its current (small) market share. It intends to introduce new electric (& hybrid) models from FY24 onwards in China and then on a full scale globally from 2028 onwards.
+
+[Fulham FC](https://www.fulhamfc.com/news/2023/july/26/fulham-partners-with-gridserve/?mkt_tok=NTIwLVJYUC0wMDMAAAGN4HWbktS8cTGK2atkcob3UJ5-NkTTCr8wX1Vm38SA1LJQzHU6ovLKuSDPDgcGRBSSI8jqBNLH5FxqPyOZoxIG0NKZdqpjVoYzOrSBpH2r6OL-d-avjg) has announced it will be partnering with Gridserve for 2 seasons, starting this year, as its EV partner. Gridserve will provide the club with a fleet of (10) Tesla Y’s and will install 10 charging points (22kW AC charging) at its stadium and its training ground. The company will also run its Gridserve Electric Car Salary Sacrifice Scheme for Fulham FC employees.
+
+***Deals***
+
+[BYD](https://www.reuters.com/markets/deals/ev-maker-byd-buys-us-firm-jabils-china-manufacturing-business-22-bln-2023-08-27/#:~:text=Aug%2028%20(Reuters)%20%2D%20Chinese,billion%20yuan%20(%242.2%20billion).) has announced its electronic unit has reached an agreement with Jabil (USA-based) to buy its mobile electronics manufacturing business unit, in China, for $2.2bn. BYD views this acquisition as a way to increase and diversify its customer base and product portfolio. Bear in mind, that BYD started off by selling electronic components and to this day it is one of the 3 key business segments for BYD Electronic.
+
+[Goodhood Auto Club](https://www.crainsgrandrapids.com/news/technology/at-home-car-repair-startup-raises-2-6m-to-boost-tech-membership-club/), a Michigan-based subscription car repair startup, has announced it has raised $2.6m in a Seed round led by Bullish. The start-up intends to deploy the capital to increase its technological offerings and to increase its geographical footprint. 
+
+[Electric Era](https://techcrunch.com/2023/08/23/spacex-alums-electric-era-raise-millions-for-reliable-ev-charging/), a Seattle-based start-up that develops AI-controlled battery storage for charging stations, has raised $11.5m Series A round, led by HSBC’s asset management arm. The start-up intends to use the capital to help launch its PowerNode stations in 9 states before year-end. Bear in mind this start-up was founded by former SpaceX engineers.
+
+[Tenstorrent](https://techcrunch.com/2023/08/04/ai-chip-startup-tenstorrent-lands-100m-investment-from-hyundai-and-samsung/), a Canadian startup that develops AI chips, has announced it has raised $100m from Hyundai and Samsung. The start-up is looking to compete with Nvidia, which is a bold ambition. Thus, the start-up will use the capital raised to further develop its semiconductor technology and internal AI technology capabilities.
