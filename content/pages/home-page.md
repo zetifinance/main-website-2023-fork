@@ -60,7 +60,7 @@ blocks:
               - button:
                   variant: default
                   label: Find out more
-                  url: /financiers/
+                  url: /lenders/
       - tab:
           heading: For Manufacturers
           image: /img/shutterstock_749339836.jpg
