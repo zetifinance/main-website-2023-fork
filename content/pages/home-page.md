@@ -60,7 +60,7 @@ blocks:
               - button:
                   variant: default
                   label: Find out more
-                  url: /lenders/
+                  url: https://www.zeti.co.uk/lenders/
       - tab:
           heading: For Manufacturers
           image: /img/shutterstock_749339836.jpg
