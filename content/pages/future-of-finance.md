@@ -7,7 +7,7 @@ permalink: /futureoffinance/
 blocks:
   - type: hero
     variant: default
-    image: /img/shutterstock_1743987602.jpg
+    image: /img/shutterstock_1836731581.jpg
     main:
       heading: The Future of Finance
       buttons:
