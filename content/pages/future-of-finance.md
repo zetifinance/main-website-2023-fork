@@ -3,7 +3,7 @@ id: tiR07_MqJ
 type: page
 layout: page-builder
 title: Future of Finance
-permalink: /times/
+permalink: /future-of-finance/
 blocks:
   - type: hero
     variant: default
