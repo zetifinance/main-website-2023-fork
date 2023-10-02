@@ -32,7 +32,9 @@ blocks:
 
         Written by Chris Stokel-Walker
 
-        Published Thursday 5th October
+
+
+        ###### Published Thursday 5th October
 
 
         **Businesses are caught between a rock and a hard place, needing to update vehicle fleets while facing eyewatering costs for new EVs. That’s where an investment opportunity lies.**
