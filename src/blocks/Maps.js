@@ -33,7 +33,6 @@ export default function Maps({ data }) {
         setLoadMap(true);
       })
       .catch(error => {
-        console.error('Error fetching geoAssets:', error);
       });
   }, []);
   

@@ -47,6 +47,12 @@ export const Heading = {
   widget: 'string',
   required: false,
 };
+export const HubspotFormId = {
+  label: 'Hubspot Form Id',
+  name: 'hubspot_contact_form_id',
+  widget: 'string',
+  required: false,
+};
 
 export const RichEditor = {
   label: 'Rich Editor',
@@ -103,6 +109,7 @@ export const Main = {
     Heading,
     RichEditor,
     Buttons,
+    HubspotFormId
   ],
 }
 

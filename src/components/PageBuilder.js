@@ -106,6 +106,7 @@ export const query = graphql`
       main {
         heading
         rich_editor
+        hubspot_contact_form_id
         buttons {
           button {
             variant

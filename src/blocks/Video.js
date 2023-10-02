@@ -17,7 +17,7 @@ export default function Video({ data }) {
     <section inview={inView} ref={ref} className={clsx('block block__video', { 'in-view': inView })}>
       <div className="container">
         <video src={"/img/What_is_Zeti_Website.mp4"} playsInline controls>
-          <track default kind="captions" srclang="en" src=""></track>
+          <track default kind="captions" srcLang="en" src=""></track>
         </video>
       </div>
     </section>

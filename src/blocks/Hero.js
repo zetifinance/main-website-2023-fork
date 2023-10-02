@@ -48,7 +48,7 @@ export default function Hero({ data }) {
 					// @TS-ignore
 					window.hbspt.forms.create({
 						portalId: "26948233",
-						formId: "e1d3afe0-34fb-4c5b-8988-f4662666ed38",
+						formId: data?.main?.hubspot_contact_form_id ?? "e1d3afe0-34fb-4c5b-8988-f4662666ed38",
 						target: '#hubspot-form-contact',
 					})
 				}

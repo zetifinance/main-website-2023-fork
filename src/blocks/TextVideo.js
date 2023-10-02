@@ -44,7 +44,7 @@ export default function TextImage({ data }) {
 						<div className="media-text__media-embed" dangerouslySetInnerHTML={{ __html: video }}/>
 						) : (
 						<video src={video} playsInline controls>
-							<track default kind="captions" srclang="en" src=""></track>
+							<track default kind="captions" srcLang="en" src=""></track>
 						</video>
 						)
 					}
