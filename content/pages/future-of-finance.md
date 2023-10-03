@@ -27,13 +27,14 @@ blocks:
         image_dark: /img/transparent.png
       - image_light: /img/the-times-logo-white.png
         image_dark: /img/the-times-logo.png
+  - type: text
   - type: testimonials
     intro:
       rich_editor: >-
         # The Future of Finance
 
 
-        ### Written by Chris Stokel-Walker, Thursday 5th October
+        #### Thursday 5th October
 
 
         **Businesses are caught between a rock and a hard place, needing to update vehicle fleets while facing eyewatering costs for new EVs. That’s where an investment opportunity lies.**
@@ -70,6 +71,9 @@ blocks:
 
 
         With obvious parallels to the growth of renewable energy investment, the clean transport investment revolution appears to be upon us. And it looks like it could be big. “Zeti’s aim is to be an enabler, the ‘middleware’, if you will,” says Saunders. “The demand for clean transport finance is clearly there. It’s just about whether financial institutions want to be leaders in this field or followers.”
+
+
+        ##### Written by Chris Stokel-Walker
       heading: ""
 seo:
   ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
