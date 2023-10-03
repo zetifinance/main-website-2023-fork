@@ -532,24 +532,10 @@
             }
 
             label {
-                height: 0;
-                max-height: 0;
-                position: absolute;
-                font-size: 1.8rem;
-                font-weight: 400;
-                line-height: 2.4rem;
-                opacity: 0;
-                overflow: hidden;
+
 
                 .light & {
                     color: $primary;
-                }
-
-                &.show {
-                    height: auto;
-                    max-height: unset;
-                    position: relative;
-                    opacity: 1;
                 }
             }
 
