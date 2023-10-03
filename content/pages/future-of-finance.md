@@ -27,9 +27,7 @@ blocks:
         image_dark: /img/transparent.png
       - image_light: /img/the-times-logo-white.png
         image_dark: /img/the-times-logo.png
-  - type: hero
-    variant: default
-    main:
+    intro:
       heading: The Future of Finance
   - type: testimonials
     intro:
