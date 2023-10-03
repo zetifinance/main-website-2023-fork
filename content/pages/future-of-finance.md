@@ -32,9 +32,10 @@ blocks:
   - type: text
     main:
       rich_editor: >-
-        #### **Businesses are caught between a rock and a hard place, needing to
-        update vehicle fleets while facing eyewatering costs for new EVs. That’s
-        where an investment opportunity lies.**
+        **W﻿ritten by Chris Stokel-Walker**
+
+
+        #### **Businesses are caught between a rock and a hard place, needing to update vehicle fleets while facing eyewatering costs for new EVs. That’s where an investment opportunity lies.**
 
 
         The green revolution is gathering pace – and quickly. Climate and clean and green tech is a booming market, with more than [$495 billion invested in the sector in 2022](https://www.statista.com/statistics/186807/worldwide-investment-in-sustainable-energy-since-2004/) – a number reaching new records every year.
@@ -68,9 +69,6 @@ blocks:
 
 
         With obvious parallels to the growth of renewable energy investment, the clean transport investment revolution appears to be upon us. And it looks like it could be big. “Zeti’s aim is to be an enabler, the ‘middleware’, if you will,” says Saunders. “The demand for clean transport finance is clearly there. It’s just about whether financial institutions want to be leaders in this field or followers.”
-
-
-        **W﻿ritten by Chris Stokel-Walker**
       heading: Thursday 5th October
 seo:
   ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
