@@ -27,7 +27,6 @@ blocks:
         image_dark: /img/transparent.png
       - image_light: /img/the-times-logo-white.png
         image_dark: /img/the-times-logo.png
-  - type: text
   - type: testimonials
     intro:
       rich_editor: >-
@@ -75,6 +74,10 @@ blocks:
 
         ##### Written by Chris Stokel-Walker
       heading: ""
+  - type: hero
+    variant: default
+    main:
+      heading: The Future of Finance
 seo:
   ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
 ---
