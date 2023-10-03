@@ -9,7 +9,7 @@ blocks:
     variant: contact
     image: /img/shutterstock_1836731581.jpg
     main:
-      heading: The future of clean investment is transport
+      heading: The future of clean investment is transport.
       hubspot_contact_form_id: 2961fa6a-e072-4cac-8d7a-2f47691879da
       buttons:
         - button:
@@ -23,19 +23,16 @@ blocks:
   - type: testimonials
     intro:
       rich_editor: >-
-        # The Future of Finance 
+        # The Future of Finance
 
 
         #### Report by The Times
 
 
-        ###### 
-
-        Written by Chris Stokel-Walker
+        #### Written by Chris Stokel-Walker
 
 
-
-        ###### Published Thursday 5th October
+        #### **Published Thursday 5th October**
 
 
         **Businesses are caught between a rock and a hard place, needing to update vehicle fleets while facing eyewatering costs for new EVs. That’s where an investment opportunity lies.**
