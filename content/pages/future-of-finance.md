@@ -23,6 +23,8 @@ blocks:
   - type: logo_grid
     variant: Grid
     logos:
+      - image_light: /img/transparent.png
+        image_dark: /img/transparent.png
       - image_light: /img/the-times-logo-white.png
         image_dark: /img/the-times-logo.png
   - type: testimonials
