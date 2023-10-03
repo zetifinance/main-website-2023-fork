@@ -185,6 +185,16 @@ blocks:
             tenure with Enterprise Fleet Management and LeasePlan USA
             building long-term mutually beneficial ​relationships with
             companies ranging from start-ups to Fortune 500.
+      - team_member:
+          name: Ed Stapleton
+          job_role: Head of Product
+          linkedin: https://www.linkedin.com/in/edwardstapleton/
+          bio: 8 years in digital strategy within tech sector & energy. Experience across
+            customer experience, product management, digital operations &
+            ecommerce. Certified PSM1 Scrum Master. Formerly Accenture
+            Interactive & The Hut Group (UK ecommerce unicorn). Co-Founder of
+            Shandy Shack.
+          image: /img/ed-stapleton.jpg
   - type: team
     intro:
       heading: Our advisors
