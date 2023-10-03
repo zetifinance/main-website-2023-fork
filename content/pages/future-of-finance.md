@@ -29,16 +29,15 @@ blocks:
         image_dark: /img/the-times-logo.png
     intro:
       heading: The Future of Finance
-  - type: testimonials
-    intro:
+  - type: text
+    main:
       rich_editor: >-
-        #### Thursday 5th October
+        #### **Businesses are caught between a rock and a hard place, needing to
+        update vehicle fleets while facing eyewatering costs for new EVs. That’s
+        where an investment opportunity lies.**
 
 
-        **Businesses are caught between a rock and a hard place, needing to update vehicle fleets while facing eyewatering costs for new EVs. That’s where an investment opportunity lies.**
-
-
-        The green revolution is gathering pace – and quickly. Climate and clean and green tech is a booming market, with more than [$495 billion invested in the sector in 2022](https://www.statista.com/statistics/186807/worldwide-investment-in-sustainable-energy-since-2004/) – a number reaching new records every year.
+        The green revolution is gathering pace – and quickly. Climate and clean and green tech is a booming market, with more than [$495 billion invested in the sector in 2022](https://www.statista.com/statistics/186807/worldwide-investment-in-sustainable-energy-since-2004/) – a number reaching new records every year.
 
 
         There’s a recognition that green investment is beneficial to investors across the world. It provides environmental, social and governance (ESG) benefits, while signalling to investors and customers alike that your business acknowledges the climate crisis – and more importantly, is doing something to help. Most investors have pursued renewable power projects or green energy investments to fund, often seen as the low hanging fruit for investors.
@@ -47,7 +46,7 @@ blocks:
         “Institutions have invested heavily in renewable energy such as solar and wind,” says Dan Saunders, founder and CEO of Zeti, a financial technology company which is revolutionising the way that transport is financed. “A lot of money has gone into those assets, and for good reason. But at some point it creates a concentration of risk in the underlying asset class. There’s no diversification.”
 
 
-        But there’s an emerging, innovative opportunity for those investors who are truly forward-thinking, and it’s all around us. Transport is one of the major contributors to the world’s carbon emissions – accounting for [around a quarter](https://www.iea.org/reports/tracking-transport-2019) of all emissions worldwide. Greener alternatives are available: electric vehicles (EVs) are becoming increasingly common on the world’s roads, and incentivised by governments across the globe.
+        But there’s an emerging, innovative opportunity for those investors who are truly forward-thinking, and it’s all around us. Transport is one of the major contributors to the world’s carbon emissions – accounting for [around a quarter](https://www.iea.org/reports/tracking-transport-2019) of all emissions worldwide. Greener alternatives are available: electric vehicles (EVs) are becoming increasingly common on the world’s roads, and incentivised by governments across the globe.
 
 
         But EVs are also costly – at times, twice the amount of their gas-guzzling alternatives – making them beyond the reach of most people. “Barely a day goes by without a news story about the pollution caused by transport. Governments and society want and expect a shift to zero and ultra-low emission vehicles,” says Saunders. “At the same time, these vehicles can be very expensive to purchase.”
@@ -71,8 +70,8 @@ blocks:
         With obvious parallels to the growth of renewable energy investment, the clean transport investment revolution appears to be upon us. And it looks like it could be big. “Zeti’s aim is to be an enabler, the ‘middleware’, if you will,” says Saunders. “The demand for clean transport finance is clearly there. It’s just about whether financial institutions want to be leaders in this field or followers.”
 
 
-        ##### Written by Chris Stokel-Walker
-      heading: ""
+        **W﻿ritten by Chris Stokel-Walker**
+      heading: Thursday 5th October
 seo:
   ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
 ---
