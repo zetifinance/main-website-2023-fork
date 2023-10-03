@@ -115,6 +115,28 @@ export const query = graphql`
           }
         }
       }
+      heading_image {
+        image_light {
+          childImageSharp {
+            gatsbyImageData(
+              layout: FULL_WIDTH
+              quality: 72
+              placeholder: DOMINANT_COLOR
+              formats: [AUTO, WEBP, AVIF]
+            )
+          }
+        }
+        image_dark {
+          childImageSharp {
+            gatsbyImageData(
+              layout: FULL_WIDTH
+              quality: 72
+              placeholder: DOMINANT_COLOR
+              formats: [AUTO, WEBP, AVIF]
+            )
+          }
+        }
+      }
       image {
         childImageSharp {
           gatsbyImageData(

@@ -20,16 +20,12 @@ blocks:
         A﻿t Zeti, we're doing something different. 
 
         I﻿ntroducing a new clean asset class for your investment.
-  - type: logo_grid
-    variant: Grid
-    logos:
-      - image_light: /img/1942576a-b5e5-422b-a945-d28a11de276b.png
-        image_dark: /img/transparent.png
-      - image_light: /img/the-times-logo-white.png
-        image_dark: /img/the-times-logo.png
     intro:
       heading: The Future of Finance
   - type: text
+    heading_image:
+      image_light: /img/the-times-logo-white.png
+      image_dark: /img/the-times-logo.png
     main:
       rich_editor: >-
         **W﻿ritten by Chris Stokel-Walker**
@@ -69,7 +65,7 @@ blocks:
 
 
         With obvious parallels to the growth of renewable energy investment, the clean transport investment revolution appears to be upon us. And it looks like it could be big. “Zeti’s aim is to be an enabler, the ‘middleware’, if you will,” says Saunders. “The demand for clean transport finance is clearly there. It’s just about whether financial institutions want to be leaders in this field or followers.”
-      heading: Thursday 5th October
+      heading: Future of Finance
 seo:
   ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
 ---

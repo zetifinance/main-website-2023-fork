@@ -99,6 +99,33 @@ export const Intro = {
   ],
 }
 
+export const HeadingImage = {
+  label: 'Heading Image',
+  name: 'heading_image',
+  required: false,
+  widget: 'object',
+  fields: [
+    {
+      label: 'Link',
+      name: 'link',
+      widget: 'string',
+      required: false,
+    },
+    {
+      label: 'Image (Dark Theme)',
+      name: 'image_light',
+      widget: 'image',
+      required: false,
+    },
+    {
+      label: 'Image (Light Theme)',
+      name: 'image_dark',
+      widget: 'image',
+      required: false,
+    }
+  ]
+}
+
 export const Main = {
   label: 'Main',
   name: 'main',

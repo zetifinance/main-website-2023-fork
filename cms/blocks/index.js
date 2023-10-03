@@ -1,4 +1,4 @@
-import { VariantField, Image, Video, Intro, Main, List, Locations, Tabs, Slider, Testimonials, Team, Accordions, Features } from '../fields';
+import { VariantField, Image, Video, Intro, Main, List, Locations, Tabs, Slider, Testimonials, Team, Accordions, Features, HeadingImage } from '../fields';
 
 const Config = {
   label: 'Blocks',
@@ -30,6 +30,7 @@ const Config = {
       name: 'text',
       widget: 'object',
       fields: [
+        HeadingImage,
         Main,
       ],
     },

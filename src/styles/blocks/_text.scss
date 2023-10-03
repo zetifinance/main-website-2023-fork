@@ -4,4 +4,23 @@
         max-width: 920px;
         margin: 0 auto;
     }
+
+    .logos__logo-light {
+        display: block;
+        transition: 400ms $cubic;
+        .light & {
+            opacity: 0;
+            display: none;
+        }
+    }
+
+    .logos__logo-dark {
+        display: none;
+
+        .light & {
+            display: block;
+            transition: 400ms $cubic;
+            opacity: 1;
+        }
+    }
 }
