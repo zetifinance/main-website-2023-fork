@@ -23,7 +23,7 @@ blocks:
   - type: logo_grid
     variant: Grid
     logos:
-      - image_light: /img/transparent.png
+      - image_light: /img/1942576a-b5e5-422b-a945-d28a11de276b.png
         image_dark: /img/transparent.png
       - image_light: /img/the-times-logo-white.png
         image_dark: /img/the-times-logo.png
