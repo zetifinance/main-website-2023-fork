@@ -32,9 +32,6 @@ blocks:
   - type: testimonials
     intro:
       rich_editor: >-
-        # The Future of Finance
-
-
         #### Thursday 5th October
 
 
