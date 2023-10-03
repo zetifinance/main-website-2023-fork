@@ -26,13 +26,7 @@ blocks:
         # The Future of Finance
 
 
-        #### Report by The Times
-
-
-        #### Written by Chris Stokel-Walker
-
-
-        #### **Published Thursday 5th October**
+        ### Written by Chris Stokel-Walker, Thursday 5th October
 
 
         **Businesses are caught between a rock and a hard place, needing to update vehicle fleets while facing eyewatering costs for new EVs. That’s where an investment opportunity lies.**
