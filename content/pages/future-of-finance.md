@@ -25,7 +25,7 @@ blocks:
   - type: text
     heading_image:
       image_light: /img/the-times-logo-white.png
-      image_dark: /img/untitled-design-1-.png
+      image_dark: /img/untitled-design-3-.png
     main:
       rich_editor: >-
         **W﻿ritten by Chris Stokel-Walker**
