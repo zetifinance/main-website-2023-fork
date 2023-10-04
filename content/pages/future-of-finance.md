@@ -24,11 +24,11 @@ blocks:
       heading: The Future of Finance
   - type: text
     heading_image:
-      image_light: /img/the-times-logo-white.png
+      image_light: /img/untitled-design-4-.png
       image_dark: /img/untitled-design-3-.png
     main:
       rich_editor: >-
-        **W﻿ritten by Chris Stokel-Walker**
+        **W﻿ritten by Chris Stokel-Walker, Thursday 5th October 2023**
 
 
         #### **Businesses are caught between a rock and a hard place, needing to update vehicle fleets while facing eyewatering costs for new EVs. That’s where an investment opportunity lies.**
