@@ -2,7 +2,7 @@
 id: JfglD1vkx
 type: post
 layout: post
-title: Zeti is Chosen to be Part of Tech Nation Net Zero 3.0 Cohort!
+title: Zeti is chosen to be part of Tech Nation Net Zero 3.0 Cohort!
 permalink: /news/zeti-is-chosen-to-be-part-of-tech-nation-net-zero-30-cohort/
 thumbnail: /img/nz_3_emailheader_3.webp
 date: 2022-09-21T23:00:00.000Z
