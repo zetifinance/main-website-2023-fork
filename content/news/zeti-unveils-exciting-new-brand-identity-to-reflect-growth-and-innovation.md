@@ -2,7 +2,7 @@
 id: C35opaeqO
 type: post
 layout: post
-title: Zeti Unveils Exciting New Brand Identity to Reflect Growth and Innovation
+title: Zeti unveils exciting new brand identity to reflect growth and innovation
 permalink: /news/zeti-unveils-exciting-new-brand-identity/
 thumbnail: /img/untitled-design-21-.png
 date: 2023-06-19T23:00:00.000Z
