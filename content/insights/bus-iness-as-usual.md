@@ -1,0 +1,34 @@
+---
+id: c7ZJAXqIq
+type: post
+layout: post
+title: "BUS-iness As Usual? "
+permalink: /insights/weekly-news-roundup-04-10-23-bus-iness-as-usual/
+thumbnail: ""
+date: 2023-10-03T23:00:00.000Z
+author: ""
+excerpt: ""
+seo:
+  ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+---
+[Rivian](https://www.cnbc.com/2023/10/02/rivian-rivn-q3-2023-deliveries-outperform.html) continued its robust performance by posting preliminary Q3 results which beat analyst consensus. The company delivered 15,564 EVs, which is a 23% increase QoQ (& up 136% YoY), as analyst consensus had pencilled in c14,000 deliveries. Rivian maintained its stance that it will be able to build 52,000 EVs in 2023. Bear in mind the 52,000 annual production target was revised in Q2 and increased from 50,000 to the new target. To date, the company has produced over 39,000 EVs and delivered more than 36,000 EVs. We believe that Rivian will hit its production target.
+
+Following PM Sunak’s decision to prolong the ban on new diesel and petrol cars from 2030 to 2035, the [DfT](https://www.gov.uk/government/news/government-sets-out-path-to-zero-emission-vehicles-by-2035) has released a report setting out the path to ZEVs by 2035. The [key points](https://www.climateaction.org/news/government-sets-out-path-to-zero-emission-vehicles-by-2035#:~:text=The%20mandate%20sets%20minimum%20annual,plan%20to%20reach%20100%25%20sooner.) remain relatively similar, as by 2030, 80% of new cars and 70% of new vans sold in Great Britain, have to be zero-emission, and this will increase to 100% by 2035. Pertinently, 22% of new cars sold in 2024 must be zero-emission (or severe penalties will be handed out) and this will increase, each year, up to 100% by 2035. It appears that Great Britain is on track to meet the 2024 minimum mandate, as in August, 20% of new cars sold were zero-emission.
+
+[Tesla](https://www.ft.com/content/333b4586-4def-4c13-9f18-05a1f5a8631c) failed to meet Q3 23 analyst consensus, as it delivered 435,059 EVs and consensus had it pencilled in for between 440,000-455,000. However, this is not a complete surprise as Tesla had communicated during Q3 that certain factories were going to be closed (for a short period of time) for upgrades. Tesla maintains its stance it will be able to meet its target of 1.8m deliveries for 2023 and the company only needs to deliver 475,00 in Q4 to hit this target. Whereas [BYD](https://www.bloomberg.com/news/articles/2023-10-03/tesla-sales-drop-sees-byd-close-gap-in-race-for-ev-supremacy?sref=uFYGeRuc) posted very strong figures and delivered 431,603, with only 3,456 EVs between them, it appears BYD is well placed to overtake Tesla, as the world’s biggest seller of EVs, in the near future. A key growth driver for BYD was exports, as it accounted for 9% of Q3 sales however after the EU opened up an investigation on Chinese EV OEM subsidies, it will be interesting to see how this impacts BYD in the coming quarters.
+
+[Oxfordshire County Council](https://www.bbc.co.uk/news/uk-england-oxfordshire-66949170) has been able to unlock £250,000 in funding from the government's Smart Infrastructure Pilots Programme, to start trialling smart streetlamps. These smart streetlamps will be capable of charging EVs whilst boosting Wi-Fi.
+
+[Equipmake](https://www.route-one.net/news/equipmake-to-repower-10-big-bus-tours-ankai-open-tops-to-electric/) has announced it is repowering 10 Ankai double-decker buses, with its battery-electric driveline, for London’s Big Bus Tours fleet. This £1.75m investment is pencilled in to be delivered by Q2 2024. The 10 repowered buses will have a battery capacity of 327kW/h and a range of over 120 miles. Big Bus Tours has stated its intention to electrify the rest of its fleet of c150 buses and Equipmake are hopefully this will lead to more orders.
+
+[BYD and Cox Automotive](https://theevreport.com/byd-cox-automotive-forge-us-service-partnership) have announced they have entered into a service agreement. This covers BYD class 6 and 8 USA truck customers with 24/7 roadside support and access to a nationwide network of EV-trained service technicians. Cox Automotive has more than 1,400 technicians, in nearly 40 locations and has arguably the most extensive 24/7 emergency repair and towing service in America.
+
+Scotland’s First Minister Mr Yousaf will hold a crisis meeting with West Lothian Council after [McGill’s Eastern Scottish](https://www.bbc.co.uk/news/uk-scotland-edinburgh-east-fife-66959175) announced it is quitting all its (6) routes in that region, by December. This will impact many towns and villages which are already underserved in terms of public transport. Bear in mind McGill’s took over these routes from FirstBus in 2022 and injected £4.5m into McGill’s Eastern Scottish, in an attempt to turn round the ailing business. McGill’s identified factors such as competition from a nearby publicly subsidised operator, driver shortages, declining patronage, and a new electrified railway, which made it financially unviable to carry on operating. It will be interesting to see how/if ScotZEB 2 could help remedy this situation in the coming months.
+
+***Deals***
+
+[Fisker](https://www.reuters.com/business/autos-transportation/ev-startup-fisker-raises-150-mln-existing-investor-2023-09-29/), an American EV OEM company, has raised $150m from an existing institutional investor through the issue of convertible bonds with an additional $550m in funding available. The company intends to use this capital to increase deliveries, to 300 units a day.
+
+[Oorja](https://www.financialexpress.com/business/sme-ev-battery-startup-oorja-raises-1-5-million-from-micelio-fund-capital-a-others-3257560/?utm_source=fot.beehiiv.com&utm_medium=newsletter&utm_campaign=trucks-fot-mapbox-universal-hydrogen-oorja), an Indian-based EV battery start-up, has raised $1.5m in a pre-series A round which was led by Micelio Fund. The start-up intends to use the capital to further develop its product and expand into Europe and North America. Interestingly, the startup combines principles of physics with machine learning to perform predictive modelling. Thus, it can help OEMs to make better-informed decisions about the design and performance of EV batteries.
+
+[Fixit45](https://www.techloy.com/nigerian-auto-tech-startup-fixit45-raises-1-9-million/?utm_source=fot.beehiiv.com&utm_medium=newsletter&utm_campaign=trucks-fot-mapbox-universal-hydrogen-oorja), a Nigerian-based startup which focuses on the automotive aftermarket sector, has raised $1.9m in a pre-seed round. This funding round was led by Launch Africa Ventures, with investors such as Soumobroto Ganguly and Dave Delucia also participating. It appears that the capital will be used to expand its footprint in the African market.
