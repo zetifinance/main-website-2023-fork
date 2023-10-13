@@ -211,6 +211,7 @@ export const query = graphql`
             pretext
             stat
             text
+            automated_source
           }
           list {
             list_item {
