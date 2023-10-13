@@ -107,13 +107,13 @@ export default function Slider({ data }) {
                                     switch (automated_source) {
                                         case "carbon": {
                                             slide_stat_pretext = ""
-                                            slide_stat = (aggregateStatsData?.totalCo2Saving ?? 7000000)/1000
+                                            slide_stat = Math.round((aggregateStatsData?.totalCo2Saving ?? 7000000)/1000)
                                             slide_stat_text = "tonnes"
                                             break;
                                         }
                                         case "nox": {
                                             slide_stat_pretext = ""
-                                            slide_stat = aggregateStatsData?.totalNoxSaving ?? 14000
+                                            slide_stat = Math.round(aggregateStatsData?.totalNoxSaving ?? 14000)
                                             slide_stat_text = "kg"
                                             break;
                                         }
