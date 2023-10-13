@@ -4,12 +4,12 @@ type: post
 layout: post
 title: "Price Wars "
 permalink: /insights/weekly-news-roundup-09-03-23-price-wars/
-thumbnail: ""
+thumbnail: /img/mask.jpg
 date: 2023-03-09T00:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/mask.jpg
 ---
 **Overview**
 

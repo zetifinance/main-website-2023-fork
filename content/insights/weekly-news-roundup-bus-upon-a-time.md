@@ -4,12 +4,12 @@ type: post
 layout: post
 title: "Bus Upon A Time "
 permalink: /insights/weekly-news-roundup-13-07-23-bus-upon-a-time/
-thumbnail: ""
+thumbnail: /img/castle.jpg
 date: 2023-07-12T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+  ogimage: /img/castle.jpg
 ---
 Data from [Atlas Public Policy](https://www.ft.com/content/864f3680-1fe8-40fc-b91c-855e4611b03b) has shown the USA EV market is accelerating, as of June, 4m EVs are on the road. To put this into perspective, it took the USA 8 years to hit the 1m milestone, in 2018, then another 32 months to hit 2m, 15 months to hit 3m and now 10 months to hit 4m. This acceleration in adoption has been helped by policy tailwinds from the IRA and BIL. These tax credits along with price cuts, so far this year, have helped build momentum. Furthermore, the EV market as a whole has performed strongly in H1 23, as OEMs such as Tesla, Mercedes-Benz, GM, Rivian and BYD have reported (very) strong sales and delivery figures. We believe this will continue for the rest of the year and in America, we forecast even stronger EV growth and sales in the next 3 years. As certain USA policies kick in next year, which are targeting smaller fleet operators to help them electrify.
 

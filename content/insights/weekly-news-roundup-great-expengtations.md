@@ -4,12 +4,12 @@ type: post
 layout: post
 title: "Great EXpengTATIONS "
 permalink: /insights/weekly-news-roundup-01-06-23-great-expengtations/
-thumbnail: ""
+thumbnail: /img/books.jpg
 date: 2023-05-31T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+  ogimage: /img/books.jpg
 ---
 [Great Wall Motor](https://www.reuters.com/business/autos-transportation/chinas-great-wall-motor-plans-ev-battery-assembly-research-thailand-2023-05-30/) is in the process of investing (up to) $30m for a new battery pack assembly plant in Thailand. The company is also considering establishing an R&D centre in Thailand which would focus on battery-powered pickup trucks. This could help Great Wall Motor eat up some of Toyota’s and Isuzu’s dominant market share in that region. Thailand, the world's 10th largest auto manufacturing economy, is planning to use tax cuts and subsidies to help convert about 30% of the country's annual production of 2.5m vehicles into EVs by 2030.
 

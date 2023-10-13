@@ -4,12 +4,12 @@ type: post
 layout: post
 title: " In brightest day, in blackest night, no EV shall escape my sight!"
 permalink: /insights/weekly-news-roundup-10-08-23-in-brightest-day-in-blackest-night-no-ev-shall-escape-my-sight/
-thumbnail: ""
+thumbnail: /img/plane.jpg
 date: 2023-08-09T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+  ogimage: /img/plane.jpg
 ---
 [LVNG](https://qz.com/the-dream-of-the-first-hydrogen-rail-network-has-died-a-1850712386), a German state-owned railway company, which had commercially rolled out 14 hydrogen trains (Alstom Coradia iLint trains) since 2022, has decided, it will replace all future diesel trains with battery electric trains, instead of hydrogen. 102 new battery electric trains are pencilled in to be introduced by 2029. This stems from LVNG encountering numerous problems/failures from the hydrogen trains, ranging from defects which required retrofitting new hardware and software alongside driver shortages, which resulted in no time to educate the drivers on running hydrogen trains. This led to severe disruption and resulted in the German transport authority providing free travel for 2 months to compensate fed-up passengers. Although this is a step back from adopting hydrogen trains, we believe that hydrogen-powered transport will play a critical role in achieving net zero by 2050.
 

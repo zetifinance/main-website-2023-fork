@@ -4,12 +4,12 @@ type: post
 layout: post
 title: " If You B(YD)uild It, They Will Come  "
 permalink: /insights/weekly-news-roundup-27-07-23-if-you-byduild-it-they-will-come/
-thumbnail: ""
+thumbnail: /img/jenga.jpg
 date: 2023-07-19T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+  ogimage: /img/jenga.jpg
 ---
 [BYD’s](https://cnevpost.com/2023/07/14/byd-previews-h1-earnings/?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--g673sDfEnyETToiLiF7Kk83TGXvUsJsHNZamAs_6poI-uw9TjwYb206rPjsH3-EtiAREs) earning preview indicates the company’s H1 23 net profit will be between c$1.46-$1.64bn, which is a 192-225% increase YoY, driven by very strong sales for its NEVs. Q1 net profit was c$0.58bn, which implies a Q2 range of 0.89-1.06bn, which would represent an increase of 128.6-171.6% YoY. This would be an all-time high for BYD. The company delivered 703,561 NEVs in Q2 23, up 98.2% from Q2 22. BYD expects H1 23 net profit, after accounting for non-recurring gains and losses, to be between $1.30-$1.44bn which would present an increase of between c207%-240%. Bear in mind, these incredibly strong results were against a backdrop of intense competition, due in part to the Price War. These results illustrate the company’s increasing market share, brand power and strong industry chain cost control capability.
 

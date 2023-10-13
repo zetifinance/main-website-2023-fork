@@ -4,12 +4,12 @@ type: post
 layout: post
 title: Return of the (EV) IPO
 permalink: /insights/weekly-news-roundup-13-04-23-return-of-the-ev-ipo/
-thumbnail: ""
+thumbnail: /img/mask.jpg
 date: 2023-04-12T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/mask.jpg
 ---
 **Overview**
 

@@ -4,12 +4,12 @@ type: post
 layout: post
 title: The Price War Escalates
 permalink: /insights/weekly-news-roundup-20-04-23-the-price-war-escalates/
-thumbnail: ""
+thumbnail: /img/chess.jpg
 date: 2023-04-19T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/chess.jpg
 ---
 **Overview**
 

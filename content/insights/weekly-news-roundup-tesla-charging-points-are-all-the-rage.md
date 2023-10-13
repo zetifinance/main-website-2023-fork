@@ -4,12 +4,12 @@ type: post
 layout: post
 title: Tesla & Charging Points Are All the Rage
 permalink: /insights/weekly-news-roundup-tesla-charging-points-are-all-the-rage/
-thumbnail: ""
+thumbnail: /img/teslabadge.jpg
 date: 2023-02-23T00:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/teslabadge.jpg
 ---
 **Overview**
 

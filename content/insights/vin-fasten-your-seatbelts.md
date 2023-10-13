@@ -4,12 +4,12 @@ type: post
 layout: post
 title: (Vin)FASTen Your Seatbelts
 permalink: /insights/weekly-news-roundup-02-03-23-vinfasten-your-seatbelts/
-thumbnail: ""
+thumbnail: /img/vinfasten.png
 date: 2023-08-16T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+  ogimage: /img/vinfasten.png
 ---
 [VinFast](https://www.bloomberg.com/news/articles/2023-08-15/vietnam-s-ev-maker-set-to-debut-in-nasdaq-after-23-billion-deal?sref=uFYGeRuc) debuted on the Nasdaq Global Select Market, with a market value of more than $85bn, after completing its SPAC merger with Black Spade Acquisition. This market value placed, the loss-making, VinFast above GM and Ford and although the company IPO-ed well above industry consensus, it is important to highlight a few key points. Historically, SPACs have always been overvalued investment vehicles and c99% of shares are owned by VinFast’s founder Pham Nhat Vuong leaving only a small amount available for trading. It is worth bearing in mind that VinFast, currently, is the only OEM offering guaranteed residuals, which should help bump its revenues in the coming quarters, although we agree with industry consensus, that it will be very hard for VinFast to maintain its market value in the coming quarters.
 

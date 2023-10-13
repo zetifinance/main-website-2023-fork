@@ -9,7 +9,7 @@ date: 2023-09-27T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+  ogimage: /img/wrightbus.jpg
 ---
 [VW](https://www.reuters.com/business/autos-transportation/volkswagen-temporarily-pause-production-two-ev-car-models-due-drop-demand-2023-09-26/) has announced it is suspending production of its ID.3 and Cupra Born EVs, at its Zwickau and Dresden plants (Germany), from the 2nd of Oct to the 13th of Oct. This decision has been made due to weak demand for these EVs. This is not surprising news, as VW has struggled to compete with Tesla and Chinese EVs. However, what is slightly concerning is the steady news flow, since the start of this year, around demand for their EVs. VW appear to be still defining its strategy and, at this time, it has been reacting as opposed to being proactive. We believe VW will come out with a strong EV strategy however as more time passes, the further they fall behind Tesla and Chinese EV competitors.
 

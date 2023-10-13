@@ -4,12 +4,12 @@ type: post
 layout: post
 title: "Will Lightning Strike for Ford? "
 permalink: /insights/weekly-news-roundup-03-08-23-will-lightning-strike-for-ford/
-thumbnail: ""
+thumbnail: /img/lightning.jpg
 date: 2023-08-02T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+  ogimage: /img/lightning.jpg
 ---
 [Ford](https://www.reuters.com/business/autos-transportation/ford-revs-up-electric-truck-output-testing-mainstream-ev-demand-2023-08-01/) has announced it has not only restarted assembling its F-150 Lightning pickup truck but is aiming to triple the production pace of the Lightning to 150,000 vehicles annually by the end of this year. The company has added 1,200 employees to its Michigan plant, which builds the F-150s, to hit its aforementioned production goal. The timing of this announcement is fascinating, as it follows other OEMs' announcements regarding ramping up pickup truck production, in recent weeks, such as Tesla (Cybertruck) and GM (Silverado).
 
