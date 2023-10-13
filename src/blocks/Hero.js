@@ -5,6 +5,7 @@ import Text from '../components/UI/Text';
 import Image from '../resolvers/Image';
 import CountUp from 'react-countup';
 import { useInView } from "react-intersection-observer";
+import { getAggregateStats } from '../services/AggregateStatsService'
 
 export default function Hero({ data }) {	
 	// In View
@@ -26,8 +27,7 @@ export default function Hero({ data }) {
 		if(isLarge) {
 			const fetchData = async () => {
 				try {
-					const response = await fetch('https://calm-desert-086adb703.azurestaticapps.net/api/aggregatestats');
-					const jsonData = await response.json();
+					let jsonData = await getAggregateStats()
 					setData(jsonData);
 				} catch (error) {
 					console.error('Error fetching data:', error);
@@ -78,7 +78,7 @@ export default function Hero({ data }) {
 						{isLarge && (
 							<div className={clsx('hero__image-emissions', {'hero__image-emissions--loaded': call})}>
 								<h4>Kilograms of CO<sub>2</sub> saved</h4>
-								<p><strong><CountUp duration={2} delay={4} start={0} end={call?.totalCo2Saving} /></strong></p>
+								<p><strong><CountUp duration={2} delay={4} start={0} end={call?.totalCo2Saving ?? 7000000} /></strong></p>
 							</div>
 						)}
 

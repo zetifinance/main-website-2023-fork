@@ -239,6 +239,13 @@ export const Slider = {
           collapsed: true,
           fields: [
             {
+              label: 'Automated Source',
+              name: 'automated_source',
+              widget: 'select',
+              required: false,
+              options: ['carbon','nox']
+            },
+            {
               label: 'Text',
               name: 'pretext',
               widget: 'string',
