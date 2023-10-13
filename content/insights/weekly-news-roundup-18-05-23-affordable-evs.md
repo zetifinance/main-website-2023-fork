@@ -4,12 +4,12 @@ type: post
 layout: post
 title: "AfFORDable EVs? "
 permalink: /insights/weekly-news-roundup-18-05-23-affordable-evs/
-thumbnail: ""
+thumbnail: /img/piggybank.jpg
 date: 2023-05-24T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+  ogimage: /img/piggybank.jpg
 ---
 [Ford](https://www.ft.com/content/beda47bf-30df-490e-a797-c1ecac920e32) has announced a series of deals to increase its supply of lithium in order to meet its ambitious targets. The company has entered into numerous and various forms of agreements & partnerships with the likes of Albemarle, and Compass Minerals International. This is a response to the fact that Ford’s overall costs were $7bn higher than its peers. These higher costs stemmed from a lack of suppliers and continued operational difficulties around manufacturing their EVs. These new agreements should help resolve, part of the ongoing problems. These agreements also fulfil the IRA’s mandate of sourcing raw materials from the USA (and from its free trade partner countries) to receive the $3,750 consumer tax credits. In the long term, this will help Ford ramp up EV production.
 

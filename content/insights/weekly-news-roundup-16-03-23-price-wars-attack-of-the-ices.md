@@ -4,12 +4,12 @@ type: post
 layout: post
 title: Price Wars 'Attack of the ICEs'
 permalink: /insights/weekly-news-roundup-16-03-23-price-wars-attack-of-the-ices/
-thumbnail: ""
+thumbnail: /img/stormtroopers.jpg
 date: 2023-03-16T00:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/stormtroopers.jpg
 ---
 **Overview**
 

@@ -4,12 +4,12 @@ type: post
 layout: post
 title: "KORE-Blimey! "
 permalink: /insights/weekly-news-roundup-22-06-23-kore-blimey/
-thumbnail: ""
+thumbnail: /img/surprise.jpg
 date: 2023-06-21T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+  ogimage: /img/surprise.jpg
 ---
 [Stellantis](https://insideevs.com/news/672645/stellantis-affordable-ev-186-miles-range/) intends to unveil a BEV, later this year, with a starting price below $27,000, with a driving range of around 186 miles (c300 km). This EV will be built under the Citroen brand and the model will bear the e-C3 mark and will be marketed somewhere between the Dacia Spring and the Opel Astra. The company is able to offer a low price point by offering the EV in 3 trim levels, each with a maximum of five options. This tactic has been deployed by other OEMs, such as Ford, in order to streamline the production process and increase profit margins.
 

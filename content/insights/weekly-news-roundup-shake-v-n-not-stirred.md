@@ -4,12 +4,12 @@ type: post
 layout: post
 title: Shake(V)n, not stirred
 permalink: /insights/weekly-news-roundup-06-29-23-shakevn-not-stirred/
-thumbnail: ""
+thumbnail: /img/drink.jpg
 date: 2023-06-28T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+  ogimage: /img/drink.jpg
 ---
 [VW’s](https://www.autocar.co.uk/car-news/new-cars/volkswagen-scales-back-ev-production) Emden plant (one of 4 EV plants in Germany) has temporarily scaled back its EV production by 2 weeks. This 2-week scale-back is in the lead-up to the extended four-week summer holiday period, for all VW EV workers. This will impact the production of the ID4 SUV and (the early production) ID7 saloon. Furthermore, 300 out of the current 1500 temporary workers will not have their contracts renewed in August 2023. This decision stems from demand for EVs up to 30% below the originally planned production prediction(s). Subsequently, the ID7 saloon, which was pencilled in to start production in July, has been delayed to later this year. VW predicts that demand will pick up towards the end of the year.
 

@@ -4,12 +4,12 @@ type: post
 layout: post
 title: Strong Q1 Performance
 permalink: /insights/weekly-news-roundup-06-04-23-strong-q1-performance/
-thumbnail: ""
+thumbnail: /img/darts.jpg
 date: 2023-04-05T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/darts.jpg
 ---
 **Overview**
 

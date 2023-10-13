@@ -4,12 +4,12 @@ type: post
 layout: post
 title: "Smile, breathe and go EV! "
 permalink: /insights/weekly-news-roundup-24-08-23-smile-breathe-and-go-ev/
-thumbnail: ""
+thumbnail: /img/stones.jpg
 date: 2023-08-23T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+  ogimage: /img/stones.jpg
 ---
 [Santander Consumer Finance](https://www.am-online.com/news/dealer-news/2023/08/22/santander-mg-motor-to-launch-ev-benefits-scheme) has announced it is extending its partnership with MG Motor. Santander Consumer Finance will continue to provide the 153-strong MG dealer network, with a benefits scheme for customers buying new EVs and PHEVs, so it is in time for the September 73-plate change. The scheme's benefits range from home charging installation and public charging tariffs to discounts on nationwide parking.
 

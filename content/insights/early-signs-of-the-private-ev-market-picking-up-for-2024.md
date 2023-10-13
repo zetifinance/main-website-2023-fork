@@ -9,7 +9,7 @@ date: 2023-10-11T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+  ogimage: /img/belinda-fewings-r-n8825rhuy-unsplash.jpg
 ---
 [Hyundai and Kia](https://www.cnbc.com/2023/10/05/hyundai-and-kia-adopt-teslas-electric-vehicle-charging.html) have announced they will adopt Tesla’s North American Charging Standard (NACS) (EV) charging system, from Q4 2024 onwards. All EVs produced in 2024 by the aforementioned OEMs will incorporate Tesla’s NACS technology, thus allowing drivers access to 12,000+ Tesla Superchargers across North America. Hyundai and Kia have joined other OEMs, such as Ford and GM, in adopting and integrating NACS technology which further strengthens Tesla’s market leadership in EV charging in this region. 
 

@@ -22,6 +22,17 @@ export const useAllInsights = () => {
                 permalink
                 date(formatString: "MMMM DD, YYYY")
                 author
+                thumbnail {
+                  childImageSharp {
+                    gatsbyImageData(
+                      width: 690
+                      quality: 72
+                      layout: FULL_WIDTH
+                      placeholder: DOMINANT_COLOR
+                      formats: [AUTO, WEBP, AVIF]
+                    )
+                  }
+                }
               }
             }
           }

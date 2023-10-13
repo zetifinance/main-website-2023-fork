@@ -4,12 +4,12 @@ type: post
 layout: post
 title: "BUS-iness As Usual? "
 permalink: /insights/weekly-news-roundup-04-10-23-bus-iness-as-usual/
-thumbnail: ""
+thumbnail: /img/businessasusual.jpg
 date: 2023-10-03T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+  ogimage: /img/businessasusual.jpg
 ---
 [Rivian](https://www.cnbc.com/2023/10/02/rivian-rivn-q3-2023-deliveries-outperform.html) continued its robust performance by posting preliminary Q3 results which beat analyst consensus. The company delivered 15,564 EVs, which is a 23% increase QoQ (& up 136% YoY), as analyst consensus had pencilled in c14,000 deliveries. Rivian maintained its stance that it will be able to build 52,000 EVs in 2023. Bear in mind the 52,000 annual production target was revised in Q2 and increased from 50,000 to the new target. To date, the company has produced over 39,000 EVs and delivered more than 36,000 EVs. We believe that Rivian will hit its production target.
 

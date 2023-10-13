@@ -4,12 +4,12 @@ type: post
 layout: post
 title: "The (Vin)Fast and Furious Saga Accelerates  "
 permalink: /insights/weekly-news-roundup-18-05-23-the-vinfast-and-furious-saga-accelerates/
-thumbnail: ""
+thumbnail: /img/drifting.jpg
 date: 2023-05-17T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/drifting.jpg
 ---
 
 

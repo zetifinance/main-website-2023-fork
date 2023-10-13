@@ -4,12 +4,12 @@ type: post
 layout: post
 title: Tesla Continues to Ri(vian)de the Wave
 permalink: /insights/weekly-news-roundup-06-07-23-tesla-continues-to-riviande-the-wave/
-thumbnail: ""
+thumbnail: /img/surf.jpg
 date: 2023-07-05T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+  ogimage: /img/surf.jpg
 ---
 [BMW](https://theevreport.com/bmw-group-to-transform-south-african-plant-rosslyn-into-electrification-hub) has announced it is planning to spend over €200m to transform its Rosslyn plant, in South Africa, into an EV production hub. This hub will help manufacture the next generation of BMW X3 as a plug-in hybrid, from 2024 onwards. Historically, this plant has played an important part in exporting BMW vehicles, as it exports to 14 African countries and many others worldwide. This transformation aligns with the company’s global iFACTORY initiative, which is geared towards being sustainable and transitioning towards the production of EVs.
 

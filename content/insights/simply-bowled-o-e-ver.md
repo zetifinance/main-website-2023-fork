@@ -4,12 +4,12 @@ type: post
 layout: post
 title: Simply Bowled O(E)Ver!
 permalink: /insights/weekly-news-roundup-07-09-23-simply-bowled-oever/
-thumbnail: ""
+thumbnail: /img/bowled.jpg
 date: 2023-09-06T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+  ogimage: /img/bowled.jpg
 ---
 The 3rd T20 match between [England and New Zealand](https://www.bbc.co.uk/sport/cricket/66701802) was held at Edgbaston and this venue was completely run off wind, hydro and solar power and will continue until the end of September. Interestingly, the 4 and 6 cards that the crowd members held up, were made of seed paper and when planted will grow into wildflowers. The lawnmowers and rollers, that were used to prepare the playing surface, had been switched to electric. Bear in mind, this is not a gimmick, as [BASIS](https://basis.org.uk/resource/hit-for-six/) (a non-profit UK body) published a report that highlighted that cricket will be the hardest hit sport if climate change is not tackled. The Edgbaston team, championed by the ECB (and other county clubs), are proactively looking at methods to create sustainable venues.
 

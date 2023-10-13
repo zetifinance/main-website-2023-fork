@@ -4,12 +4,12 @@ type: post
 layout: post
 title: All Aboard The EV Express
 permalink: /insights/weekly-news-roundup-27-07-23-all-aboard-the-ev-express/
-thumbnail: ""
+thumbnail: /img/train.jpg
 date: 2023-07-26T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+  ogimage: /img/train.jpg
 ---
 [Stellantis](https://www.reuters.com/business/autos-transportation/stellantis-operating-profit-rises-11-h1-topping-forecasts-2023-07-26/), the 5th biggest automaker by sales, has reported good H1 results, as revenues hit €98.4bn which represents a 12% YoY increase, adjusted operating income hit €14.1bn and the company maintained solid margins of 14.4%. Its EV division performed strongly, as it was able to sell c169,000 BEVs (up 24% YoY) and c315,000 LEVs (up 28% YoY). These figures mean that the company ranks 3rd in BEV sales in the EU-30 and 2nd for LEV sales in the USA. Interestingly, the company has a current portfolio of 25 BEVs, with 23 planned to launch next year. These solid results follow on from strong results by Tesla and Rivian, highlighting the resilience and strength of EV OEMs and the EV sector.  
 
