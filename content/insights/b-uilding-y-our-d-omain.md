@@ -9,7 +9,7 @@ date: 2023-08-30T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+  ogimage: /img/lego.jpg
 ---
 [XPeng](https://www.reuters.com/markets/deals/chinas-xpeng-take-over-didis-autonomus-vehicle-unit-eyeing-2024-launch-2023-08-28/) has announced it intends to acquire Didi’s EV (development) business arm for a deal worth up to $744m. This is a surprising turn of events, as it signals Didi exiting the EV OEM space, in China, which illustrates a strong Chinese market and high barriers to entry. One of the major sticking points has been that Didi had found it hard to obtain an EV production licence. The Chinese regulators have become stringent in handing out licences in order to combat the growing overcapacity in the industry. We agree with industry consensus, that this will help diversify and extend XPeng’s reach in the (ride-hailing) EV market.
 

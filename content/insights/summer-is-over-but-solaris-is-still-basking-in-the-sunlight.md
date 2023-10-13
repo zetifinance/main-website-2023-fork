@@ -9,7 +9,7 @@ date: 2023-09-20T22:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+  ogimage: /img/beach.jpg
 ---
 [Saudi Arabia](https://www.reuters.com/business/autos-transportation/tesla-saudi-arabia-early-talks-ev-factory-wsj-2023-09-18/) has reportedly entered early talks with Tesla about building an EV factory in the country. Tesla is also being courted by Turkey however Saudi Arabia is offering the right to purchase certain quantities of metals and minerals (such as Cobalt) from the DRC. This is quite the carrot by Saudia Arabia and illustrates its continued pursuit to jumpstart its EV market. Saudia Arabia has been an admirer of Tesla for a number of years however so far this has not yielded any success.
 
