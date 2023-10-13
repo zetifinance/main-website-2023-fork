@@ -41,7 +41,7 @@ export default function Slider({ data }) {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                let jsonData = getAggregateStats()
+                let jsonData = await getAggregateStats()
                 setData(jsonData);
             } catch (error) {
                 console.error('Error fetching data:', error);
