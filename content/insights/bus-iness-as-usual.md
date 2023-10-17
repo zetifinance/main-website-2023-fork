@@ -4,7 +4,7 @@ type: post
 layout: post
 title: "BUS-iness As Usual? "
 permalink: /insights/weekly-news-roundup-04-10-23-bus-iness-as-usual/
-thumbnail: /img/businessasusual.jpg
+thumbnail: /img/richard-balog-h9gzgi6ju7y-unsplash.jpg
 date: 2023-10-03T23:00:00.000Z
 author: ""
 excerpt: ""
