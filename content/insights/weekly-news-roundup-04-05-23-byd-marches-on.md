@@ -4,7 +4,7 @@ type: post
 layout: post
 title: "BYD Marches On "
 permalink: /insights/weekly-news-roundup-04-05-23-byd-marches-on/
-thumbnail: /img/march.jpg
+thumbnail: /img/shutterstock_422055130.jpg
 date: 2023-05-03T23:00:00.000Z
 author: ""
 excerpt: ""
