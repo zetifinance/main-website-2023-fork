@@ -4,7 +4,7 @@ type: post
 layout: post
 title: "Price Wars "
 permalink: /insights/weekly-news-roundup-09-03-23-price-wars/
-thumbnail: /img/mask.jpg
+thumbnail: /img/michal-parzuchowski-u8n_o7req7o-unsplash.jpg
 date: 2023-03-09T00:00:00.000Z
 author: ""
 excerpt: ""
