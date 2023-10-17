@@ -4,7 +4,7 @@ type: post
 layout: post
 title: Happy EV(alentines) Day
 permalink: /insights/weekly-news-roundup-happy-evalentines-day/
-thumbnail: /img/valentines.jpg
+thumbnail: /img/febcf556de846b134376ced9c4c0170d.jpg
 date: 2023-02-14T00:00:00.000Z
 author: ""
 excerpt: ""
