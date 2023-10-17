@@ -4,7 +4,7 @@ type: post
 layout: post
 title: "B(uilding) Y(our) D(omain) "
 permalink: /insights/weekly-news-roundup-02-03-23-building-your-domain/
-thumbnail: /img/lego.jpg
+thumbnail: /img/xavi-cabrera-kn-umdzqdjm-unsplash.jpg
 date: 2023-08-30T23:00:00.000Z
 author: ""
 excerpt: ""
