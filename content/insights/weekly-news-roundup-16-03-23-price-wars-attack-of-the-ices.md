@@ -4,7 +4,7 @@ type: post
 layout: post
 title: Price Wars 'Attack of the ICEs'
 permalink: /insights/weekly-news-roundup-16-03-23-price-wars-attack-of-the-ices/
-thumbnail: /img/stormtroopers.jpg
+thumbnail: /img/99674556-russia-april-12-2018-constructor-lego-star-wars-episode-iv-squad-of-stormtroopers.jpg
 date: 2023-03-16T00:00:00.000Z
 author: ""
 excerpt: ""
