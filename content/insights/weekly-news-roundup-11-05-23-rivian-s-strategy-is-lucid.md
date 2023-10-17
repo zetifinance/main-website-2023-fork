@@ -4,7 +4,7 @@ type: post
 layout: post
 title: "Rivian’s Strategy is Lucid "
 permalink: /insights/weekly-news-roundup-11-05-23-rivians-strategy-is-lucid/
-thumbnail: /img/chess.jpg
+thumbnail: /img/david-travis-avvzjc0ynbq-unsplash.jpg
 date: 2023-05-10T23:00:00.000Z
 author: ""
 excerpt: ""
