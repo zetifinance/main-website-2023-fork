@@ -4,7 +4,7 @@ type: post
 layout: post
 title: "AfFORDable EVs? "
 permalink: /insights/weekly-news-roundup-18-05-23-affordable-evs/
-thumbnail: /img/piggybank.jpg
+thumbnail: /img/andre-taissin-5oumf1mr5pu-unsplash.jpg
 date: 2023-05-24T23:00:00.000Z
 author: ""
 excerpt: ""
