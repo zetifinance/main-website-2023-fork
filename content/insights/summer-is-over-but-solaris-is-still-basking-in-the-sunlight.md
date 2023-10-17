@@ -4,7 +4,7 @@ type: post
 layout: post
 title: Summer is over, but Solaris is still basking in the sunlight!
 permalink: /insights/weekly-news-roundup-21-09-23-summer-is-over-but-solaris-is-still-basking-in-the-sunglight/
-thumbnail: /img/beach.jpg
+thumbnail: /img/shutterstock_1131985073.jpg
 date: 2023-09-20T22:00:00.000Z
 author: ""
 excerpt: ""
