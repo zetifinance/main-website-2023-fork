@@ -4,7 +4,7 @@ type: post
 layout: post
 title: Simply Bowled O(E)Ver!
 permalink: /insights/weekly-news-roundup-07-09-23-simply-bowled-oever/
-thumbnail: /img/bowled.jpg
+thumbnail: /img/partial-view-of-the-cricket-stumps-and-visage.jpg
 date: 2023-09-06T23:00:00.000Z
 author: ""
 excerpt: ""
