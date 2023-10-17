@@ -4,7 +4,7 @@ type: post
 layout: post
 title: (Vin)FASTen Your Seatbelts
 permalink: /insights/weekly-news-roundup-02-03-23-vinfasten-your-seatbelts/
-thumbnail: /img/vinfasten.png
+thumbnail: /img/seat-belt-sign-airplane-flashingbelt0218-abe199337ad04b10b76be54446c78591.webp
 date: 2023-08-16T23:00:00.000Z
 author: ""
 excerpt: ""
