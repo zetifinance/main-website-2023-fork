@@ -4,7 +4,7 @@ type: post
 layout: post
 title: All Things Stellantis
 permalink: /insights/weekly-news-roundup-02-03-23-all-things-stellantis/
-thumbnail: /img/road.jpg
+thumbnail: /img/bini-sm96w4jmhse-unsplash.jpg
 date: 2023-03-02T00:00:00.000Z
 author: ""
 excerpt: ""
