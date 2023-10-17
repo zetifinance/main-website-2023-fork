@@ -4,7 +4,7 @@ type: post
 layout: post
 title: Strong Q1 Performance
 permalink: /insights/weekly-news-roundup-06-04-23-strong-q1-performance/
-thumbnail: /img/darts.jpg
+thumbnail: /img/silvan-arnet-pfqfv5bn91a-unsplash.jpg
 date: 2023-04-05T23:00:00.000Z
 author: ""
 excerpt: ""
