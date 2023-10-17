@@ -4,7 +4,7 @@ type: post
 layout: post
 title: E(V)urope Ramping Up
 permalink: /insights/weekly-news-roundup-30/03/23-evurope-ramping-up/
-thumbnail: /img/shuttle.jpg
+thumbnail: /img/shutterstock_1574090395.jpg
 date: 2023-03-29T23:00:00.000Z
 author: ""
 excerpt: ""
