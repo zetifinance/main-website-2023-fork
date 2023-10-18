@@ -4,7 +4,7 @@ type: post
 layout: post
 title: " If You B(YD)uild It, They Will Come  "
 permalink: /insights/weekly-news-roundup-27-07-23-if-you-byduild-it-they-will-come/
-thumbnail: /img/jenga.jpg
+thumbnail: /img/valery-fedotov-cqx6ihvj2ti-unsplash.jpg
 date: 2023-07-19T23:00:00.000Z
 author: ""
 excerpt: ""
