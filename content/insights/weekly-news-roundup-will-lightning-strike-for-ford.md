@@ -4,7 +4,7 @@ type: post
 layout: post
 title: "Will Lightning Strike for Ford? "
 permalink: /insights/weekly-news-roundup-03-08-23-will-lightning-strike-for-ford/
-thumbnail: /img/lightning.jpg
+thumbnail: /img/shlomo-shalev-xm-xt8qyd3e-unsplash.jpg
 date: 2023-08-02T23:00:00.000Z
 author: ""
 excerpt: ""
