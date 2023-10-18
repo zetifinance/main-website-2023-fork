@@ -4,7 +4,7 @@ type: post
 layout: post
 title: "KORE-Blimey! "
 permalink: /insights/weekly-news-roundup-22-06-23-kore-blimey/
-thumbnail: /img/surprise.jpg
+thumbnail: /img/krakenimages-8rxmc8plx_i-unsplash.jpg
 date: 2023-06-21T23:00:00.000Z
 author: ""
 excerpt: ""
