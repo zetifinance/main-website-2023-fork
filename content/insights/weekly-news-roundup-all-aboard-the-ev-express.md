@@ -4,7 +4,7 @@ type: post
 layout: post
 title: All Aboard The EV Express
 permalink: /insights/weekly-news-roundup-27-07-23-all-aboard-the-ev-express/
-thumbnail: /img/train.jpg
+thumbnail: /img/gary-doughty-bxoboojlesm-unsplash.jpg
 date: 2023-07-26T23:00:00.000Z
 author: ""
 excerpt: ""
