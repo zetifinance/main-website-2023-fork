@@ -4,7 +4,7 @@ type: post
 layout: post
 title: "Great EXpengTATIONS "
 permalink: /insights/weekly-news-roundup-01-06-23-great-expengtations/
-thumbnail: /img/books.jpg
+thumbnail: /img/fiona-murray-a-qdfmzd1ue-unsplash.jpg
 date: 2023-05-31T23:00:00.000Z
 author: ""
 excerpt: ""
