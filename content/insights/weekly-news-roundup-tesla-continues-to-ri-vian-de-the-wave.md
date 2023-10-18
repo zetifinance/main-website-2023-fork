@@ -4,7 +4,7 @@ type: post
 layout: post
 title: Tesla Continues to Ri(vian)de the Wave
 permalink: /insights/weekly-news-roundup-06-07-23-tesla-continues-to-riviande-the-wave/
-thumbnail: /img/surf.jpg
+thumbnail: /img/shutterstock_88610386.jpg
 date: 2023-07-05T23:00:00.000Z
 author: ""
 excerpt: ""
