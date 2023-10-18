@@ -4,7 +4,7 @@ type: post
 layout: post
 title: While Ford pauses in America, the UK gets on the (W)rightBus
 permalink: /insights/weekly-news-roundup-28-09-23-while-ford-pauses-on-america-the-uk-gets-on-the-wrightbus/
-thumbnail: /img/wrightbus.jpg
+thumbnail: /img/shutterstock_731073715.jpg
 date: 2023-09-27T23:00:00.000Z
 author: ""
 excerpt: ""
