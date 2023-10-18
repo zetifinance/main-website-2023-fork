@@ -4,7 +4,7 @@ type: post
 layout: post
 title: "Smile, breathe and go EV! "
 permalink: /insights/weekly-news-roundup-24-08-23-smile-breathe-and-go-ev/
-thumbnail: /img/stones.jpg
+thumbnail: /img/colton-sturgeon-6kkyyqtedwq-unsplash.jpg
 date: 2023-08-23T23:00:00.000Z
 author: ""
 excerpt: ""
