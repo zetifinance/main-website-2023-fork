@@ -4,7 +4,7 @@ type: post
 layout: post
 title: " In brightest day, in blackest night, no EV shall escape my sight!"
 permalink: /insights/weekly-news-roundup-10-08-23-in-brightest-day-in-blackest-night-no-ev-shall-escape-my-sight/
-thumbnail: /img/plane.jpg
+thumbnail: /img/shutterstock_306713030.jpg
 date: 2023-08-09T23:00:00.000Z
 author: ""
 excerpt: ""
