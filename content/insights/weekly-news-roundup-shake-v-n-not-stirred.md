@@ -4,7 +4,7 @@ type: post
 layout: post
 title: Shake(V)n, not stirred
 permalink: /insights/weekly-news-roundup-06-29-23-shakevn-not-stirred/
-thumbnail: /img/drink.jpg
+thumbnail: /img/thomas-hetzler-b66-czjfe7g-unsplash.jpg
 date: 2023-06-28T23:00:00.000Z
 author: ""
 excerpt: ""
