@@ -1,0 +1,36 @@
+---
+id: Ya08WoF46
+type: post
+layout: post
+title: Is the UK charging in the right direction?
+permalink: /insights/weekly-news-roundup-19-10-23-is-the-uk-charging-in-the-right-direction/
+thumbnail: /img/steven-lelham-atsaeoee8nk-unsplash.jpg
+date: 2023-10-18T23:00:00.000Z
+author: ""
+excerpt: ""
+seo:
+  ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+---
+[North Northamptonshire Council ](https://www.bbc.co.uk/news/uk-england-northamptonshire-67078864)has announced it has been allocated c£2.9m in funding, for new EV charging points, by the Local Electric Vehicle Infrastructure Fund. The council has a target of installing 250 charging points by March 2025, which is a good starting point, as this region is underserved as it only has 56 charging facilities currently. However, according to CENEX, an extra 2,800 charging points are needed to fully serve the region. We agree with the industry consensus that the Local Electric Vehicle Infrastructure Fund is a good starting point, however, the UK government must create greater policies to facilitate councils/regions to ramp up EV infrastructure.
+
+[Lothian Buses](https://theevreport.com/kleanbus-lothian-buses-launch-electrification-project) and Kleanbus have announced they are starting a pilot project, whereby Kleanbus will retrofit 18 of Lothian’s diesel Volvo B5TL buses into electric ones. Kleanbus will be utilising its advanced electric platform for the 18 conversions, optimizing battery usage to the vehicle’s duty cycle. This pilot project is to ascertain how economical and sustainable this retrofitting solution is. Bear in mind Lothian Buses has recently released its *[Driving Towards Net Zero](https://www.lothianbuses.com/news/2023/09/lothian-driving-towards-net-zero/)* [strategy](https://www.lothianbuses.com/news/2023/09/lothian-driving-towards-net-zero/) and aims to have a net zero bus fleet by 2035. Thus, it is proactively looking at various electrification solutions to meet this goal and we (e-)champion this!
+
+Prices for [commodities](https://www.ft.com/content/861d4097-1d8c-4692-a8bb-37d66a80a47b), such as cobalt, lithium and nickel, have fallen between 40-70% so far this year. This is being driven by EV sales cooling off in China; bear in mind these metals are key materials for EV batteries. Chinese sales doubled in the first 9 months of 2022 over the same period the previous year, but that rate of growth has slowed to 25% this year. The slowdown in demand for EVs in the biggest EV market has resulted in these price fluctuations. However, we need to put this into context, as many (Chinese) incentive policies expired at the start of this year alongside a weakening macroeconomic climate, with fears of a recession on the horizon, which has impacted consumer behaviour, decision-making and spending power. China is still the most developed and biggest EV market and is forecasted (by the [IEA](https://www.iea.org/reports/global-ev-outlook-2023/executive-summary)) to grow this year, however, it is the pace of growth that is in question. We believe there is also an element of normalisation, as the Chinese EV market has grown exponentially for the better part of a decade and such hypergrowth was never sustainable. 
+
+[West Lothian Council](https://www.dailyrecord.co.uk/news/local-news/west-lothian-council-unveils-ambitious-31180101) has announced it is in the process of evaluating plans which focus on increasing EV charging points across the region. Currently, there are only 76 charging points across 51 locations in West Lothian. The new (preapproved) plans aim to access funding from the Electric Vehicle Infrastructure Fund, which is jointly managed by Transport Scotland and Scottish Futures Trust.
+
+[The Department for Promotion of Industry and Internal Trade of India](https://www.digitimes.com/news/a20231017VL201/ev-production-ev-india-south-asia-vehicle.html) has reportedly started discussing new subsidy incentives which will focus on the electric 4-wheeler. India has been mulling over new EV subsidies, since launching its FAME II & PLI subsidies in 2019 and 2020 respectively. PM Modi has been very proactive in trying to attract EV OEMs, such as Tesla & VinFast, to open assembly plants in India however he has had moderate success so far. VinFast announced last year it was opening an assembly plant in India to take advantage of these subsidies. It appears PM Modi and (other) EV OEMs are stuck in a *chicken & egg* situation, as EV OEMs want the promise and implementation of fiscal support and (new) subsidy policies before committing to local plants however PM Modi wants them to commit first. Hopefully, these aforementioned discussions around electric 4-wheelers will result in India launching new EV fiscal subsidies.
+
+[Transport for Wales](https://www.partnershipsbulletin.com/article/1840457/wales-plans-hydrogen-bus-pilot) has announced it is kickstarting its process to ascertain the interest of potential providers in supplying 20 hydrogen buses. This pilot scheme will run in the county of Swansea, with a possibility of a further 30 hydrogen buses running routes in the county of Bridgend. This pilot scheme is pencilled in to initially run for 3 years, starting in Q4 2025 or Q1 2026.
+
+- - -
+
+## Deals
+
+[Auriga Space](https://spaceimpulse.com/2023/10/11/auriga-space-secures-us-5-million-in-initial-funding-for-electromagnetic-space-launch/), an American-based clean space transport startup, has raised $5m in a funding round. Investors such as Trucks Venture Capital, Seraphim Space, Possible Ventures, Unlock Ventures and DNX Ventures participated. The startup will use this capital to progress its prototypes, alongside expanding its LA facility operations. Interestingly, this startup is attempting to utilise electromagnetic technology to help shift the space sector towards clean energy.
+
+[Fastned](https://techfundingnews.com/fastned-raises-e30m-for-expanding-rapid-ev-charging-network-300km-range-in-15-minutes/?utm_content=cmp-true), an Amsterdam-based EV charging company, has raised (an additional) €30.4m via an issue of new bonds. The bonds have a 6% coupon rate, with a maturity period of 5 years. The company will use this capital to accelerate the rollout of its fast EV chargers in Europe. Fastned currently operates more than 150 stations however it has ambitious goals of adding another 60 by year-end and adding a further 400 by 2025. 
+
+[ChargePoint](https://finance.yahoo.com/news/chargepoint-raises-232m-support-path-132900485.html), an American-based EV (charging) infrastructure, has raised $232m. With $300m in convertible notes (issued in April 2022) used to purchase $175m of common stock and separately raised net proceeds of $57m in additional funds. The CFO believes this will help the company achieve EBITDA profitability by Q4 24.
+
+[Volteras](https://techcrunch.com/2023/10/13/ev-data-startup-volteras-wants-to-bring-tesla-level-control-to-every-vehicle-and-charger/), a London-based EV software startup, has raised $2.9m in a funding round. The startup has also established partnerships with OEMs, such as Mercedes, BMW, and Volvo. Volteras aims to simplify accessing and integrating data from EVs and their surrounding ecosystem(s).
