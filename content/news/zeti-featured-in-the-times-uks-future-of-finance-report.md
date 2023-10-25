@@ -13,7 +13,7 @@ seo:
 ---
 This morning [Zeti](https://www.linkedin.com/company/zeti/) appeared in [The Times](https://www.linkedin.com/company/the-times/)' Future of Finance Report in collaboration with [Raconteur](https://www.linkedin.com/company/raconteur-media/) highlighting our commitment to a cleaner future for transport.
 
-### **W﻿ritten by Chris Stokel-Walker, Thursday 5th October 2023**
+###### W﻿ritten by Chris Stokel-Walker, Thursday 5th October 2023
 
 ## **Businesses are caught between a rock and a hard place, needing to update vehicle fleets while facing eyewatering costs for new EVs. That’s where an investment opportunity lies.**
 
