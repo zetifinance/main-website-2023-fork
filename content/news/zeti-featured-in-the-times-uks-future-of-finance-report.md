@@ -13,11 +13,9 @@ seo:
 ---
 This morning [Zeti](https://www.linkedin.com/company/zeti/) appeared in [The Times](https://www.linkedin.com/company/the-times/)' Future of Finance Report in collaboration with [Raconteur](https://www.linkedin.com/company/raconteur-media/) highlighting our commitment to a cleaner future for transport.
 
+### **W﻿ritten by Chris Stokel-Walker, Thursday 5th October 2023**
 
-
-**The future of clean investment is transport**
-
-Businesses are caught between a rock and a hard place, needing to update vehicle fleets while facing eyewatering costs for new EVs. That’s where an investment opportunity lies.
+## **Businesses are caught between a rock and a hard place, needing to update vehicle fleets while facing eyewatering costs for new EVs. That’s where an investment opportunity lies.**
 
 The green revolution is gathering pace – and quickly. Climate and clean and green tech is a booming market, with more than [$495 billion invested in the sector in 2022](https://www.statista.com/statistics/186807/worldwide-investment-in-sustainable-energy-since-2004/) – a number reaching new records every year.
 
