@@ -11,11 +11,11 @@ blocks:
     main:
       heading: "We’re building something different. "
       rich_editor: >-
-        We’re disrupting traditional auto-finance and giving fleets the
-        resources to transition to zero and ultra-low emission vehicles without
-        hidden fees and huge monthly charges, and in a way that aligns with
-        their cash flow. In order to grow our product, we need a team focused on
-        striving towards a greener future through innovation. 
+        We’re evolving traditional auto-finance and giving fleets the resources
+        to transition to zero and ultra-low-emission vehicles without hidden
+        fees and huge monthly charges, and in a way that aligns with their cash
+        flow. In order to grow our product, we need a team focused on striving
+        towards a greener future through innovation. 
 
 
         We’re hiring talented and creative problem-solvers to do just that.
