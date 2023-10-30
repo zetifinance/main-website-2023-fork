@@ -39,7 +39,7 @@ blocks:
               fleet**
 
 
-              We're disrupting traditional auto finance and helping forward-thinking fleet operators convert to electric vehicles by making it as simple, easy and transparent as paying for a utility.
+              We're evolving traditional auto finance and helping forward-thinking fleet operators convert to electric vehicles by making it as simple, easy and transparent as paying for a utility.
             buttons:
               - button:
                   variant: arrow
