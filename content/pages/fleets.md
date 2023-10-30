@@ -32,8 +32,7 @@ blocks:
           rich_editor: We offer true pay-per-mile vehicle fleet financing; pooled across
             the fleet, rather than per vehicle. There is no penalty for driving
             over your estimated monthly mileage. Our contracts are based on a
-            contracted mileage commitment and allow for greater flexibility in
-            payments than traditional finance.
+            contracted mileage commitment and allow for flexible payments.
           image: /img/electric-car-1-.png
       - list_item:
           heading: "Fully automated billing "
