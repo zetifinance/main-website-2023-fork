@@ -17,16 +17,16 @@ const Post = ({ data }) => {
               <h1 className="">{data?.post?.frontmatter?.title}</h1>
             )}
             {data?.post?.frontmatter?.date && (
-              <p>{format(new Date(data?.post?.frontmatter?.date),'MMMM dd, yyyy')}</p>
+              <p>{format(new Date(data?.post?.frontmatter?.date), 'MMMM dd, yyyy')}</p>
             )}
           </div>
-          <div className='hero__image'>
-            {data?.post?.frontmatter?.thumbnail && (
-						  <Image src={data?.post?.frontmatter?.thumbnail} alt={""} className=""/>
-            )}
-					</div>
+          <div className='hero__image blog__post-hero-image'>
+              {data?.post?.frontmatter?.thumbnail && (
+                <Image src={data?.post?.frontmatter?.thumbnail} alt={""} className="" />
+              )}
+            </div>
         </div>
-		  </section>
+      </section>
 
       {data?.post?.html && (
         <section className="block block__post-single">
