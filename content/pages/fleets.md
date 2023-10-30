@@ -16,7 +16,7 @@ blocks:
         legislative requirements, or simply because it’s the right thing to do. 
 
 
-        However, financing is expensive and often disconnected from revenue generation, not to mention the hidden costs and penalties found with traditional leasing. 
+        However, financing is expensive and often disconnected from revenue generation, not to mention the hidden costs and penalties sometimes found with traditional leasing. 
 
 
         Zeti’s pay-per-mile financing optimizes your cash flow and can help secure your profit margin.
