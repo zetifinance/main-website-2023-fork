@@ -33,14 +33,17 @@ blocks:
           rich_editor: F﻿or your pay-per-mile customers which can be customised with your
             branding
           buttons: []
+          image: /img/2.png
       - list_item:
           heading: Zeti Invest
           rich_editor: A﻿nalyse key performance indicators of your own contracts or even
             raising your own funds from external financiers
+          image: /img/1.png
       - list_item:
           heading: Zeti Manage
           rich_editor: S﻿et up customers, keep track of billing and payments and verify
             telematics connections
+          image: /img/untitled-design-8-.png
 seo:
   ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
 ---
