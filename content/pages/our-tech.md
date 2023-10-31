@@ -17,6 +17,30 @@ blocks:
         into vehicles, charging infrastructure, and supporting services to
         overcome capital investment challenges whilst improving cash flow for
         the operators of the vehicles.
+  - type: grid
+    variant: card
+    columns: Three
+    intro:
+      rich_editor: Zeti offers three key services. We can help you finance your new
+        electric fleet, we can help you find electric fleets to invest in and we
+        can offer you software so you can deliver your own pay-per-mile offering
+        to your customers with Zeti Hub. These three services are each delivered
+        digitally through portals that leverage IoT technology to provide
+        real-time data, insight and functions to their respective users.
+    list:
+      - list_item:
+          heading: Zeti Operate
+          rich_editor: F﻿or your pay-per-mile customers which can be customised with your
+            branding
+          buttons: []
+      - list_item:
+          heading: Zeti Invest
+          rich_editor: A﻿nalyse key performance indicators of your own contracts or even
+            raising your own funds from external financiers
+      - list_item:
+          heading: Zeti Manage
+          rich_editor: S﻿et up customers, keep track of billing and payments and verify
+            telematics connections
 seo:
   ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
 ---
