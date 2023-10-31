@@ -5,8 +5,10 @@ layout: page-builder
 title: Our Tech
 permalink: /tech/
 blocks:
-  - type: hero
-    variant: default
+  - type: text
+    heading_image:
+      image_light: /img/untitled-design-6-.png
+      image_dark: /img/untitled-design-6-.png
     main:
       heading: Our Tech
       rich_editor: At Zeti, we build and operate financial technology that enables the
