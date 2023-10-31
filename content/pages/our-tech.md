@@ -7,8 +7,8 @@ permalink: /tech/
 blocks:
   - type: text
     heading_image:
-      image_light: /img/untitled-design-6-.png
-      image_dark: /img/untitled-design-6-.png
+      image_light: /img/untitled-design-7-.png
+      image_dark: /img/untitled-design-7-.png
     main:
       heading: Our Tech
       rich_editor: At Zeti, we build and operate financial technology that enables the
