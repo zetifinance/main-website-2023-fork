@@ -30,8 +30,8 @@ blocks:
     list:
       - list_item:
           heading: Zeti Operate
-          rich_editor: F﻿or your pay-per-mile customers which can be customised with your
-            branding
+          rich_editor: F﻿or your pay-per-mile customers. Customise the platform with your
+            own branding
           buttons: []
           image: /img/2.png
       - list_item:
