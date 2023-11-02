@@ -44,6 +44,16 @@ blocks:
           rich_editor: S﻿et up customers, keep track of billing and payments and verify
             telematics connections
           image: /img/untitled-design-8-.png
+  - type: hero
+    variant: simple
+    main:
+      heading: ""
+      buttons:
+        - button:
+            variant: default
+            label: Request a demo
+            url: https://www.zeti.co.uk/contact-us/
+    image: /img/shutterstock_1915018600.jpg
 seo:
   ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
 ---
