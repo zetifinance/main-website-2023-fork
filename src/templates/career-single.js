@@ -17,11 +17,15 @@ const CareerSingle = ({ data }) => {
       </section>
       <section className="block block__post-single">
         <div className="container">
-          <Button href="mailto:careers@zeti.group" style={{float: 'right'}}>Apply</Button>
+          <a href='mailto:careers@zeti.group'>
+            <Button style={{ float: 'right' }}>Apply</Button>
+          </a>
 
           <article dangerouslySetInnerHTML={{ __html: data?.post?.html }}>
           </article>
-          <Button href="mailto:careers@zeti.group">Apply</Button>
+          <a href='mailto:careers@zeti.group'>
+            <Button>Apply</Button>
+          </a>
         </div>
       </section>
     </Layout>
