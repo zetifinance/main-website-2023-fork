@@ -149,6 +149,11 @@ blocks:
     intro:
       heading: Current Vacancies
       rich_editor: ""
+      buttons:
+        - button:
+            variant: default
+            label: Apply
+            url: mailto:careers@zeti.group
 seo:
   ogimage: /img/henlo-cover.png
 ---
