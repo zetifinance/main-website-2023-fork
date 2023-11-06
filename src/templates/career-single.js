@@ -1,9 +1,9 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
-
 import Layout from '@/components/Layout'
 import DefaultHead from '../components/Head/DefaultHead'
+import Button from '../components/UI/Button'
 
 const CareerSingle = ({ data }) => {
   return (
@@ -11,16 +11,17 @@ const CareerSingle = ({ data }) => {
       <section className="block block__hero block__hero--simple">
         <div className="container">
           <div className="hero__content">
-              <h1 className="">{data?.post?.frontmatter?.title}</h1>
+            <h1 className="">{data?.post?.frontmatter?.title}</h1>
           </div>
         </div>
-		  </section>
-
+      </section>
       <section className="block block__post-single">
         <div className="container">
-          <article dangerouslySetInnerHTML={{ __html: data?.post?.html }}>
+          <Button href="mailto:careers@zeti.group" style={{float: 'right'}}>Apply</Button>
 
+          <article dangerouslySetInnerHTML={{ __html: data?.post?.html }}>
           </article>
+          <Button href="mailto:careers@zeti.group">Apply</Button>
         </div>
       </section>
     </Layout>
