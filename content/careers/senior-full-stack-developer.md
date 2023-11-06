@@ -7,7 +7,7 @@ permalink: /careers/senior-full-stack-developer/
 thumbnail: ""
 excerpt: ""
 location: London
-hours: ""
+hours: Full-time
 seo:
   ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
 ---
