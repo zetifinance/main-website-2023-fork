@@ -17,6 +17,27 @@ blocks:
         into vehicles, charging infrastructure, and supporting services to
         overcome capital investment challenges whilst improving cash flow for
         the operators of the vehicles.
+  - type: tabs
+    variant: default
+    tabs:
+      - tab:
+          heading: Zeti Operate
+          main:
+            rich_editor: F﻿or your pay-per-mile customers. Customise the platform with your
+              own branding
+          image: /img/2.png
+      - tab:
+          heading: Zeti Invest
+          image: /img/3.png
+          main:
+            rich_editor: A﻿nalyse key performance indicators of your own contracts or even
+              raising your own funds from external financiers
+      - tab:
+          heading: Zeti Manage
+          main:
+            rich_editor: S﻿et up customers, keep track of billing and payments and verify
+              telematics connections
+          image: /img/4.png
   - type: grid
     variant: card
     columns: Three
