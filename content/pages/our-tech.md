@@ -6,7 +6,8 @@ title: Our Tech
 permalink: /tech/
 blocks:
   - type: hero
-    variant: simple
+    variant: default
+    image: /img/1.png
     main:
       heading: Our Tech
       buttons:
@@ -14,7 +15,6 @@ blocks:
             variant: default
             label: Request a demo
             url: https://www.zeti.co.uk/contact-us/
-    image: /img/1.png
   - type: tabs
     variant: default
     tabs:
