@@ -67,14 +67,6 @@ blocks:
       rich_editor: (﻿A-Z)
     team:
       - team_member:
-          name: Emma Bell
-          job_role: Investment Director
-          linkedin: https://www.linkedin.com/in/emma-bell-6698a8135/
-          bio: CFA certified, with a background in private debt investments gained at M&G
-            Investments. Specialised experience in alternative investments,
-            quantitative analysis and asset structuring.
-          image: /img/emma-bell.jpg
-      - team_member:
           image: /img/jenny-carus.jpg
           name: Jenny Carus
           job_role: Senior Software Developer
@@ -107,15 +99,6 @@ blocks:
           bio: Senior Software Developer with over 15 years experience in finance,
             technology and operations. A believer in Software Craftsmanship and
             pragmatic test driven development.
-      - team_member:
-          name: Sabeen Forster
-          job_role: Finance Director
-          bio: ACA qualified with both external and internal audit roles at Deloitte and
-            Clifford Chance respectively. Transitioned into industry to work
-            with various startups experiencing vast growth within the technology
-            sector.
-          image: /img/sabeen-forster.jpg
-          linkedin: https://www.linkedin.com/in/sabeen-forster-bsc-aca-b6205612b/
       - team_member:
           name: Manjot Heer
           job_role: Investment Associate
