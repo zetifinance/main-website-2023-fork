@@ -139,7 +139,7 @@ blocks:
       - team_member:
           name: Melissa Rose
           image: /img/melissa-rose-2.jpg
-          job_role: Junior Developer
+          job_role: Developer
           linkedin: https://www.linkedin.com/in/melissa-rose123/
           bio: Recently graduated with First Class Honours in MBiochem Biochemistry from
             the University of Oxford. Previous experience as a biomedical
