@@ -120,7 +120,7 @@ blocks:
           image: /img/pavundeep-johal.jpg
       - team_member:
           name: Dave Kennon
-          job_role: Director of Automotive Partnerships
+          job_role: Commercial Director
           linkedin: https://www.linkedin.com/in/davekennon/
           bio: Extensive automotive industry experience encompassing vehicle finance,
             de-fleet and remarketing as well as dealer operations and the
