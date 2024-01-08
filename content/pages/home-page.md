@@ -118,14 +118,14 @@ blocks:
     slider:
       - slide:
           main:
-            rich_editor: We’ve been working with customers to enable clean vehicle
-              deployment across the UK.
+            rich_editor: We’ve been working with customers to enable the deployment of zero
+              and ultra-low emission vehicles.
             heading: vehicles financed to date
             buttons: []
           image: ""
           variant: statistic
           statistic:
-            stat: 40
+            stat: 44
             text: m
             pretext: $
       - slide:
