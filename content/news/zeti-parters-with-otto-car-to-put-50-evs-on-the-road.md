@@ -19,17 +19,16 @@ Otto Car collaborates with ride-hailing platforms like UBER, leading the charge 
 
 **Gurinder Dhillon, Director, Otto Car**[](https://uk.linkedin.com/in/gurinder-dhillon)
 
-These vehicles are funded by The Mayor of London’s Energy Efficiency Fund (‘MEEF’), managed by Amber Fund Management Limited (‘Amber’) through Zeti’s digital platform. Since launching in July 2018, MEEF has made investments in EV charging, district heating, streetlighting and energy efficiency sectors creating energy savings of over 39 million GWh. 
+These vehicles are funded by The Mayor of London’s Energy Efficiency Fund (‘MEEF’), managed by Amber Fund Management Limited (‘Amber’) through Zeti’s digital platform. Since launching in July 2018, MEEF has made investments in electric vehicles, EV charging, district heating, streetlighting and energy efficiency sectors creating energy savings of over 40 GWh.
+
+**"We are delighted to work together with Zeti and Otto Car to support this innovative approach to financing, and in doing so, helping to accelerate the shift from conventional to electric vehicles in the Capital."
+Peter Radford, Director of MEEF, Amber**
 
 Zeti stands at the forefront of the shift towards clean transport by leveraging real-time financial data to accelerate the availability of funding for zero and ultra-low emission vehicles, helping operators looking to decarbonise their fleets and achieve net zero targets.
 
 **"Adding Otto Car as a client is an exciting moment in Zeti's growth story. Otto are the largest and most technologically advanced PCO fleet in the UK by far; the partnership signals the value of the Zeti fintech platform to major fleets, bringing real value and insights that keep fleet financing costs to a minimum. We are pleased to deliver for Otto both financing through the Mayor's fund and our fintech platform that will play a part in the growth of such a successful business".**
 
 **Dave Kennon, Commercial Director, Zeti**
-
-
-
-
 
 ###### **About Zeti**
 
@@ -45,11 +44,13 @@ MEEF was established by the GLA in 2018 and is managed by Amber Infrastructure. 
 
 ###### **About Amber Infrastructure Group**
 
-Amber Infrastructure (‘Amber’) is a specialist international investment manager, focused on investment origination, asset management and fund management.  Amber’s core business focuses on sourcing, developing, advising, investing in and managing infrastructure assets across the public, transport, energy, digital and demographic infrastructure sectors that support the lives of people, homes and businesses internationally.
-
-Amber is headquartered in London with offices in Europe, North America and Australia and employs over 150 infrastructure professionals.
+Amber is a specialist international investment manager, focused on investment origination, asset management and fund management.  With over €5 billion in funds under management, Amber invests across eight funds and a number of managed accounts.
 
 
+Amber’s core business focuses on sourcing, developing, advising, investing in and managing infrastructure assets across the public, transport, energy, digital and demographic infrastructure sectors that support the lives of people, homes and businesses internationally.
+
+
+Amber is headquartered in London with offices in Europe, North America, Australia and New Zealand. Amber employs approximately 180 infrastructure professionals globally and manages over 175 investments.
 
 ###### Media Contact:
 
