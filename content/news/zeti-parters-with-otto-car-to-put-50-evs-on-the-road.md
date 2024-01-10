@@ -2,7 +2,7 @@
 id: bANirj3gA
 type: post
 layout: post
-title: Zeti parters with Otto Car to put 50 EVs on the road
+title: Zeti parters with Otto Car to deploy EVs in London
 permalink: /news/zeti-partners-with-otto-car/
 thumbnail: /img/x-3-.png
 date: 2024-01-10T00:00:00.000Z
