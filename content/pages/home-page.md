@@ -103,13 +103,16 @@ blocks:
           image: /img/quotation.png
       - list_item:
           rich_editor: >-
-            "A particular benefit of Zeti's platform is the pooling of vehicle
-            mileage; with a contracted aggregate mileage across all vehicles, we
-            don’t need to juggle individual cabs to a fixed mileage or end
-            date."
+            "As the UK's largest private hire fleet, we are tech-enabled and
+            growing rapidly. Zeti's fintech platform gives us deep real-time
+            insights into our assets' financing which is valuable data we will
+            use to fuel our expansion beyond our 5000-strong zero-emission fleet
+            in London. We are delighted to partner with Zeti for their financial
+            technology and the MEEF fund to accelerate the roll out of clean
+            vehicles in London.”
 
 
-            \- Asher Moses, Sherbet CEO
+            \- Gurinder Dhillon, Director, Otto Car
           image: /img/quotation.png
   - type: slider
     variant: default
