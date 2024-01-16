@@ -25,7 +25,7 @@ Page.propTypes = {
 export default Page
 
 export const Head = ({ data }) => {
-  let seo = { ...data?.page?.frontmatter?.seo, title: data?.page?.frontmatter?.title }
+  let seo = { ...data?.page?.frontmatter?.seo, title: data?.page?.frontmatter?.title, description: data?.page?.fields?.auto_excerpt }
   return (
     <>
       <DefaultHead data={seo}>
@@ -43,6 +43,7 @@ export const basicPageQuery = graphql`
       id
       fields {
         slug
+        auto_excerpt
       }
       html
       frontmatter {

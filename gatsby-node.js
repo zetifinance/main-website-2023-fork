@@ -80,6 +80,14 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       node,
       value,
     });
+    const rawExcerpt = node.internal.content.substring(0, 200).trim()
+    const noLinksExcerpt = rawExcerpt.replaceAll(/(?:https?|ftp):\/\/[\n\S]+/g, '').replaceAll("[", '').replaceAll("](", '').replaceAll('*', '').replaceAll("#", '').replaceAll("\\", '');
+    const excerpt = noLinksExcerpt ? noLinksExcerpt + "..." : ""
+    createNodeField({
+      node,
+      name: `auto_excerpt`,
+      value: excerpt,
+    });
   }
 };
 

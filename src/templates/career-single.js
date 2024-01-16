@@ -41,7 +41,7 @@ CareerSingle.propTypes = {
 }
 
 export const Head = ({ data }) => {
-  let seo = { ...data?.post?.frontmatter?.seo, title: data?.post?.frontmatter?.title }
+  let seo = { ...data?.post?.frontmatter?.seo, title: data?.post?.frontmatter?.title, description: data?.post?.fields?.auto_excerpt }
   return (
     <>
       <DefaultHead data={seo}>
@@ -59,6 +59,9 @@ export const basicPageQuery = graphql`
     post: markdownRemark(id: { eq: $id }) {
       id
       html
+      fields {
+        auto_excerpt
+      }
       frontmatter {
         id
         title
