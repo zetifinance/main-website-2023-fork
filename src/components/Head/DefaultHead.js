@@ -5,7 +5,7 @@ import * as seoData from '../../settings/seo.json'
 
 export default function DefaultHead({ data, children }) {
   const { pathname } = useLocation()
-  const metadata = { ...seoData, siteUrl: process.env.GATSBY_APP_URL }
+  const metadata = { ...seoData, siteUrl: process.env.GATSBY_APP_URL ?? "https://www.zeti.group" }
   const metaDescription = data.description || metadata.description
   const title = data.title || metadata.title
   console.log(data.ogimage?.childImageSharp)
