@@ -7,7 +7,7 @@ permalink: /team/
 blocks:
   - type: hero
     variant: default
-    image: /img/img_2273.jpg
+    image: /img/shutterstock_387274792.jpg
     main:
       heading: Team
       rich_editor: We’re using our patent-pending financial technology to
