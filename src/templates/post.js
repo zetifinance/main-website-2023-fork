@@ -9,7 +9,7 @@ import Image from '../resolvers/Image'
 import PageBuilder from '@/components/PageBuilder';
 
 const Post = ({ data }) => {
-  console.log(data)
+
   return (
     <Layout nav={true}>
       <section className="block block__hero block__hero--simple">
