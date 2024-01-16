@@ -75,6 +75,7 @@ const collection = {
       default: '',
       required: false,
     },
+    Blocks,
     seo,
   ],
 };
