@@ -1,7 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { useLocation } from '@reach/router'
-import { getSrc } from 'gatsby-plugin-image'
 import * as seoData from '../../settings/seo.json'
 
 export default function DefaultHead({ data, children }) {
@@ -9,8 +8,9 @@ export default function DefaultHead({ data, children }) {
   const metadata = { ...seoData, siteUrl: process.env.GATSBY_APP_URL }
   const metaDescription = data.description || metadata.description
   const title = data.title || metadata.title
+  console.log(data.ogimage?.childImageSharp)
   const image = data?.ogimage?.childImageSharp
-    ? `${metadata.siteUrl}${getSrc(data.ogimage)}`
+    ? `${metadata.siteUrl}${data?.ogimage?.childImageSharp?.gatsbyImageData?.images.fallback.src}`
     : `${metadata.siteUrl}${metadata.image}`
 
   const fullTitle = `${title} ${metadata.separator} ${metadata.baseTitle}`
