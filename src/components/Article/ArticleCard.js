@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from '../../resolvers/Link';
 import Image from '../../resolvers/Image'
 
 export default function ArticleCard({ data }) {

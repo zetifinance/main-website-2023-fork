@@ -22,7 +22,7 @@ const Post = ({ data }) => {
               <p>{format(new Date(data?.post?.frontmatter?.date), 'MMMM dd, yyyy')}</p>
             )}
           </div>
-          <div className={ 'hero__image blog__post-hero-image' + (data?.post?.frontmatter?.blocks ? ' hidden' : '') }>
+          <div className={'hero__image blog__post-hero-image' + (data?.post?.frontmatter?.blocks ? ' hidden' : '')}>
             {data?.post?.frontmatter?.thumbnail && (
               <Image src={data?.post?.frontmatter?.thumbnail} alt={""} />
             )}
@@ -52,14 +52,17 @@ Post.propTypes = {
 }
 
 
-export const Head = ({ data }) => (
-  <>
-    <DefaultHead data={data?.post?.frontmatter?.seo}>
-      {/* Additonal values here */}
-      <meta id="oty" property="og:type" content="article" />
-    </DefaultHead>
-  </>
-)
+export const Head = ({ data }) => {
+  let seo = { ...data?.post?.frontmatter?.seo, title: data?.post?.frontmatter?.title}
+  return (
+    <>
+      <DefaultHead data={seo}>
+        {/* Additonal values here */}
+        <meta id="oty" property="og:type" content="article" />
+      </DefaultHead>
+    </>
+  )
+}
 
 export default Post
 

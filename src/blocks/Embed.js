@@ -1,9 +1,6 @@
 import clsx from 'clsx';
 import React from 'react';
-import Text from '../components/UI/Text';
-import Buttons from '../components/UI/Buttons';
 import { useInView } from "react-intersection-observer";
-import Image from '../resolvers/Image';
 
 export default function Embed({ data }) {
   // In View

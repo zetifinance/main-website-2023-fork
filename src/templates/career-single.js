@@ -40,14 +40,17 @@ CareerSingle.propTypes = {
   }),
 }
 
-export const Head = ({ data }) => (
-  <>
-    <DefaultHead data={data?.post?.frontmatter?.seo}>
-      {/* Additonal values here */}
-      <meta id="oty" property="og:type" content="article" />
-    </DefaultHead>
-  </>
-)
+export const Head = ({ data }) => {
+  let seo = { ...data?.post?.frontmatter?.seo, title: data?.post?.frontmatter?.title }
+  return (
+    <>
+      <DefaultHead data={seo}>
+        {/* Additonal values here */}
+        <meta id="oty" property="og:type" content="article" />
+      </DefaultHead>
+    </>
+  )
+}
 
 export default CareerSingle
 

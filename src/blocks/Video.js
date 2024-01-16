@@ -9,9 +9,6 @@ export default function Video({ data }) {
     triggerOnce: true,
   });
 
-  // Options
-  const isEmbed = data?.variant === 'Embed';
-  const video = data?.video;
 
   return (
     <section inview={inView} ref={ref} className={clsx('block block__video', { 'in-view': inView })}>
