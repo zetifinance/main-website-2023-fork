@@ -13,9 +13,10 @@ export default function Embed({ data }) {
   });
 
   return (
-    <section inview={inView} ref={ref} className={clsx({'in-view': inView})}>
+    <section inview={inView} ref={ref} className={clsx({ 'in-view': inView })}>
       <div className="container">
-       {data?.embed && (<div dangerouslySetInnerHTML={data?.embed}></div>)}
+        <div dangerouslySetInnerHTML={data?.embed ?? ""}>
+        </div>
       </div>
     </section>
   );
