@@ -22,9 +22,9 @@ const Post = ({ data }) => {
               <p>{format(new Date(data?.post?.frontmatter?.date), 'MMMM dd, yyyy')}</p>
             )}
           </div>
-          <div className='hero__image blog__post-hero-image'>
-            {!data?.post?.frontmatter?.blocks && data?.post?.frontmatter?.thumbnail && (
-              <Image src={data?.post?.frontmatter?.thumbnail} alt={""} className="" />
+          <div className={ 'hero__image blog__post-hero-image' + (data?.post?.frontmatter?.blocks ? ' hidden' : '') }>
+            {data?.post?.frontmatter?.thumbnail && (
+              <Image src={data?.post?.frontmatter?.thumbnail} alt={""} />
             )}
           </div>
         </div>
