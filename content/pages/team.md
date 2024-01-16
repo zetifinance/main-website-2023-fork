@@ -67,14 +67,6 @@ blocks:
       rich_editor: (﻿A-Z)
     team:
       - team_member:
-          image: /img/jenny-carus.jpg
-          name: Jenny Carus
-          job_role: Senior Software Developer
-          linkedin: https://www.linkedin.com/in/jennifer-carus-452b4754/
-          bio: Senior software developer with experience in full stack and DevOps
-            processes within financial services. Passionate about bringing value
-            to clients through an end-to-end delivery focus.
-      - team_member:
           name: Phoebe Dickson
           job_role: Marketing Manager
           bio: 7 years experience in Video Production, Marketing and Professional Services
