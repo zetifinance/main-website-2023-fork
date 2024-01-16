@@ -287,6 +287,8 @@ blocks:
             variant: default
             label: test
             url: "#"
+  - type: embed
+    embed: <h1>test</h1>
 seo:
   ogimage: /img/henlo-cover.png
 ---

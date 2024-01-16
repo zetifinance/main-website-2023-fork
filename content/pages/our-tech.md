@@ -63,16 +63,8 @@ blocks:
           rich_editor: S﻿et up customers, keep track of billing and payments and verify
             telematics connections
           image: /img/untitled-design-8-.png
-  - type: text
-    main:
-      rich_editor: >
-        
-
-        <﻿div>
-
-        <a href="https://online.flippingbook.com/view/703698862/" class="fbo-embed" data-fbo-id="73c1c9d84f" data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto" data-fbo-version="1" style="max-width: 100%">Pulse - Winter 24</a><script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=703698862"></script>
-
-        <﻿/div>
+  - type: embed
+    embed: '<a href="https://online.flippingbook.com/view/703698862/" class="fbo-embed" data-fbo-id="73c1c9d84f" data-fbo-ratio="3:2" data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto" data-fbo-version="1" style="max-width: 100%">Pulse - Winter 24</a><script async defer src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=703698862"></script>'
 seo:
   ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
 ---
