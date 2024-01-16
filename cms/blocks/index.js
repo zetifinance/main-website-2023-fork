@@ -300,6 +300,23 @@ const Config = {
     {
       /*
       *
+      * Embed HTML
+      * 
+      */
+      label: 'Embed HTML',
+      name: 'embed',
+      widget: 'object',
+      fields: [
+        {
+          label: 'Embed HTML',
+          name: 'embed',
+          widget: 'string'
+        }
+      ],
+    },
+    {
+      /*
+      *
       * Recent Articles
       * 
       */

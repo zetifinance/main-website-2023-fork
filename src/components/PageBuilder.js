@@ -21,6 +21,7 @@ import FeatureSlider from '../blocks/FeatureSlider';
 import RecentArticles from '../blocks/RecentArticles';
 import PostsGrid from '../blocks/PostsGrid';
 import Form from '../blocks/Form';
+import Embed from '../blocks/Embed';
 
 
 export default function PageBuilder({ blocks, preview = false }) {
@@ -69,6 +70,8 @@ export default function PageBuilder({ blocks, preview = false }) {
               return <PostsGrid key={i} data={block} preview={preview} />;
             case 'form':
               return <Form key={i} data={block} preview={preview} />;
+            case 'embed':
+              return <Embed key={i} data={block} preview={preview} />;
             
             default:
               return (
