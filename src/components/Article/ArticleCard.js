@@ -5,7 +5,7 @@ import Image from '../../resolvers/Image'
 export default function ArticleCard({ data }) {
   const { node: post } = data;
   return (
-      <Link to={post?.frontmatter?.permalink} className="blog-post">
+      <a href={post?.frontmatter?.permalink} className="blog-post">
         <Image src={post?.frontmatter?.thumbnail} alt={""} className="blog-post__thumbnail"/>
         <div className="blog-post__content">
           <div>
@@ -30,6 +30,6 @@ export default function ArticleCard({ data }) {
             </svg>
           </span>
         </div>
-      </Link>
+      </a>
   );
 }

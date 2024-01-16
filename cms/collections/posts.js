@@ -5,7 +5,7 @@ import Blocks from '../blocks';
 
 const collection = {
   name: 'blog',
-  label: 'Blog',
+  label: 'News',
   editor: {
     preview: false,
   },
