@@ -1,6 +1,7 @@
 import { PermalinkField } from '../fields/permalink-field';
 import seo from '../fields/seo';
 import { ID } from '../fields';
+import Blocks from '../blocks';
 
 const collection = {
   name: 'insights',
@@ -74,6 +75,7 @@ const collection = {
       default: '',
       required: false,
     },
+    Blocks,
     seo,
   ],
 };
