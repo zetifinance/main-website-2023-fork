@@ -17,5 +17,5 @@ blocks:
       async defer
       src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=703698862"></script>'
 seo:
-  ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+  ogimage: /img/screenshot-2024-01-16-at-13.21.40.png
 ---
