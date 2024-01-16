@@ -15,7 +15,7 @@ export default function Embed({ data }) {
   return (
     <section inview={inView} ref={ref} className={clsx({ 'in-view': inView })}>
       <div className="container">
-        <div dangerouslySetInnerHTML={data?.embed ?? ""}>
+        <div dangerouslySetInnerHTML={{ __html: data?.embed ?? ""}}>
         </div>
       </div>
     </section>

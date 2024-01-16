@@ -95,6 +95,7 @@ export const query = graphql`
       type
       variant
       columns
+      embed
       intro {
         heading
         rich_editor
