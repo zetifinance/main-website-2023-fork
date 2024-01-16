@@ -23,24 +23,13 @@ const Post = ({ data }) => {
             )}
           </div>
           <div className='hero__image blog__post-hero-image'>
-<<<<<<< Updated upstream
-              {data?.post?.frontmatter?.thumbnail && (
-                <Image src={data?.post?.frontmatter?.thumbnail} alt={""} className="" />
-              )}
-            </div>
-        </div>
-      </section>
-
-=======
             {!data?.post?.frontmatter?.blocks && data?.post?.frontmatter?.thumbnail && (
               <Image src={data?.post?.frontmatter?.thumbnail} alt={""} className="" />
             )}
           </div>
         </div>
       </section>
-      <div></div>
       <PageBuilder blocks={data?.post?.frontmatter?.blocks} />
->>>>>>> Stashed changes
       {data?.post?.html && (
         <section className="block block__post-single">
           <div className="container">
@@ -94,8 +83,6 @@ export const PostQuery = graphql`
             )
           }
         }
-<<<<<<< Updated upstream
-=======
         blocks {
           type
           variant
@@ -353,7 +340,6 @@ export const PostQuery = graphql`
           }
     
         }
->>>>>>> Stashed changes
         ...Seo
       }
     }
