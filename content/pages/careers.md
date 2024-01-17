@@ -148,7 +148,10 @@ blocks:
   - type: vacancies
     intro:
       heading: Current Vacancies
-      rich_editor: ""
+      rich_editor: At this time, we are not actively hiring, but please stay tuned for
+        exciting opportunities as we continually expand our team. Check back
+        soon for updates on new roles that may align with your skills and
+        interests.
       buttons:
         - button:
             variant: default
