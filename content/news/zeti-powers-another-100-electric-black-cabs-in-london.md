@@ -9,7 +9,7 @@ date: 2022-12-08T00:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/ZetiSocialCard.png
 ---
 LONDON, UK and SANTA MONICA, Calif., September 30th, 2022 –  Zeti, a leading provider of financial services technology to manage consumption based EV and infrastructure financing, today announced its pay-per-mile ZERO platform is powering deployment of a further 100 LEVC taxis in London
 

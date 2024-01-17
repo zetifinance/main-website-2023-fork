@@ -290,5 +290,5 @@ blocks:
   - type: embed
     embed: <h1>test</h1>
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/ZetiSocialCard.png
 ---

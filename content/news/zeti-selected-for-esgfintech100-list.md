@@ -9,7 +9,7 @@ date: 2022-09-27T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/ZetiSocialCard.png
 ---
 **The world’s most innovative businesses offering tech solutions to address challenges or opportunities faced by financial institutions in the areas of climate risk, sustainability, social responsibility and governance were named today on the ESGFinTech100 list.**
 

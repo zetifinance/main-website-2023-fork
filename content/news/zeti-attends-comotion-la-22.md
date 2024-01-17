@@ -9,7 +9,7 @@ date: 2022-11-29T00:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/ZetiSocialCard.png
 ---
 F﻿rom Tuesday 15th - Thursday 17th November, our CEO, Dan Saunders and our CTO, Dan Bass headed out to LA to attend CoMotion 2022. They were met by our Director of Strategic Partnerships, Rebecca Saletta, herself based in LA, who joined them at the 3 day event.\
 \

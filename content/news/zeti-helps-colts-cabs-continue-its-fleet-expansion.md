@@ -9,7 +9,7 @@ date: 2023-03-08T00:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/ZetiSocialCard.png
 ---
 LONDON, UK and SANTA MONICA, Calif., March 8, 2023 –  Zeti, a leading provider of financial services technology to manage consumption-based EV and infrastructure financing, today announced its pay-per-mile ZERO platform is powering the deployment of a further 150 electric taxis in London.
 

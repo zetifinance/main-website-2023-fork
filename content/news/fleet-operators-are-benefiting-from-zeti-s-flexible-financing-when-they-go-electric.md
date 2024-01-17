@@ -10,7 +10,7 @@ date: 2022-07-04T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/ZetiSocialCard.png
 ---
 It’s safe to say that we are living through quite extraordinary times. International markets have been subject to swathes of external pressures, from the Covid pandemic to the supply chain crisis, leaving money short and uncertainty high.
 

@@ -212,5 +212,5 @@ blocks:
         * By visiting this page on our website: [zeti.co.uk/contact-us/](https://zeti.co.uk/contact-us/)
       heading: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/ZetiSocialCard.png
 ---

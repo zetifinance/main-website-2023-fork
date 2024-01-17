@@ -12,5 +12,5 @@ blocks:
   - type: posts_grid
     variant: insights
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/ZetiSocialCard.png
 ---

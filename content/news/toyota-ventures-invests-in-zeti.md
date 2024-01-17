@@ -9,7 +9,7 @@ date: 2022-11-15T00:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/ZetiSocialCard.png
 ---
 LONDON, UK and SANTA MONICA, Calif., November 15, 2022 – Zeti, a leading provider of financial services technology to manage consumption based EV and infrastructure financing, today announced a significant investment by Toyota Ventures through its Climate Fund.
 

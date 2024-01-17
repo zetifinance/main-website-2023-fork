@@ -9,7 +9,7 @@ date: 2023-06-19T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/ZetiSocialCard.png
 ---
 London, 20th June — Zeti, a leading provider of financial services technology to manage consumption-based zero-emission transport and infrastructure financing, is proud to announce the launch of its refreshed brand identity, marking a significant milestone in its journey of growth, innovation, and customer-centricity.
 

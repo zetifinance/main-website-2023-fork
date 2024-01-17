@@ -197,8 +197,8 @@ blocks:
         image_dark: /img/fintechlabnewyork.png
     variant: Slider
 seo:
-  ogimage: /img/3.png
-  title: Revolutionizing transport finance for good
+  ogimage: /img/ZetiSocialCard.png
+  title: Zeti | Revolutionizing transport finance for good
   description: At Zeti we are revolutionizing transport finance for good. We help
     fleets convert to EVs by making it as simple, easy and transparent as paying
     for a utility with our patent-pending pay-per-mile financial technology.

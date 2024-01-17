@@ -9,7 +9,7 @@ date: 2022-12-09T00:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/ZetiSocialCard.png
 ---
 F﻿eatured in [WIRED](https://wired.me/business/the-visa-everywhere-initiative-winners-for-2022/)\
 \

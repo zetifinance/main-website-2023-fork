@@ -9,7 +9,7 @@ date: 2022-09-21T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/ZetiSocialCard.png
 ---
 We’re excited to have been chosen to be part of @TechNation Net Zero 3.0, an exclusive network of high-growth UK tech companies tackling the climate crisis.
 

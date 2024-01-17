@@ -155,5 +155,5 @@ blocks:
             label: Apply
             url: mailto:careers@zeti.group
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/ZetiSocialCard.png
 ---

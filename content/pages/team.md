@@ -251,5 +251,5 @@ blocks:
             url: /careers/
     image: /img/img_2286.jpg
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/ZetiSocialCard.png
 ---

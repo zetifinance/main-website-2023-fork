@@ -9,7 +9,7 @@ date: 2022-08-09T23:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/ZetiSocialCard.png
 ---
 Zeti was featured in Autocar magazine as the financial technology to facilitate pay-per-mile tyres for EV's.
 

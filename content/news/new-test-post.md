@@ -9,7 +9,7 @@ date: 2022-06-09T09:45:46.186Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/ZetiSocialCard.png
 ---
 With the dangerous effects of the climate crisis becoming ever more apparent, companies, governments and NGOs across the world are looking to convert their vehicle fleets from polluting, fossil fuel-based vehicles to cleaner alternatives. 
 

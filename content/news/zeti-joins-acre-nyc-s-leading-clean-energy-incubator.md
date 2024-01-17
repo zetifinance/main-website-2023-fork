@@ -9,7 +9,7 @@ date: 2023-02-09T01:00:00.000Z
 author: ""
 excerpt: ""
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/ZetiSocialCard.png
 ---
 This February Zeti joined the ACRE program which forms part of Urban Future Labs, New York City’s climatetech innovation hub for clean energy, sustainable urban infrastructure, and deep decarbonisation.
 

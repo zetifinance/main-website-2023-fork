@@ -12,5 +12,5 @@ blocks:
       rich_editor: Want to find out more about how Zeti could help you? Get in touch
         by submitting our form and we’ll get back to you as soon as possible.
 seo:
-  ogimage: /img/henlo-cover.png
+  ogimage: /img/ZetiSocialCard.png
 ---
