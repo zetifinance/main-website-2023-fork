@@ -11,7 +11,7 @@ excerpt: ""
 blocks:
   - type: text_video
     variant: Vimeo
-    video: https://youtu.be/QaAshmY_X_k
+    video: https://vimeo.com/904137182?share=copy
     main:
       rich_editor: I﻿n December, our Dr. of Strategic Partnerships, Rebecca Saletta,
         headed to Dubai for COP28. Rebecca was chosen to speak on two panels
