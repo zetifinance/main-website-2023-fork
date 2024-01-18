@@ -10,7 +10,7 @@ author: ""
 excerpt: ""
 blocks:
   - type: text_video
-    variant: Embed
+    variant: Vimeo
     video: https://youtu.be/QaAshmY_X_k
     main:
       rich_editor: I﻿n December, our Dr. of Strategic Partnerships, Rebecca Saletta,
