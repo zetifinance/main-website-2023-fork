@@ -10,12 +10,9 @@ author: ""
 excerpt: ""
 blocks:
   - type: embed
-    embed: '<a href="https://online.flippingbook.com/view/703698862/"
-      class="fbo-embed" data-fbo-id="40860950a3" data-fbo-ratio="3:2"
-      data-fbo-lightbox="yes" data-fbo-width="100%" data-fbo-height="auto"
-      data-fbo-version="1" style="max-width: 100%">Pulse - Winter 24</a><script
-      async defer
-      src="https://online.flippingbook.com/EmbedScriptUrl.aspx?m=redir&hid=703698862"></script>'
+    embed: '<a href="https://online.flippingbook.com/view/703698862/" style="display: block; width: 360px; margin: auto; z-index: 1; position: relative; margin-bottom: 2rem;" target="_blank">
+    <img src="/img/pulseimage.jpg"  />
+      </a>'
 seo:
-  ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
+  ogimage: /img/screenshot-2024-01-16-at-13.59.56.png
 ---
