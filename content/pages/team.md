@@ -85,7 +85,7 @@ blocks:
             focus on building data driven teams.
       - team_member:
           name: John Fentiman
-          image: /img/img_0736.jpg
+          image: /img/img_5806.jpg
           job_role: Senior Software Developer
           linkedin: https://www.linkedin.com/in/john-fentiman-46766b127/
           bio: Senior Software Developer with over 15 years experience in finance,
