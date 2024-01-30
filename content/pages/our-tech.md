@@ -66,6 +66,16 @@ blocks:
             such as MOT and residual value data from other trusted third-party
             sources to provide our investors with unparalleled insight into the
             live condition and value of the underlying asset.
+  - type: accordions
+    intro:
+      heading: FAQs
+    accordions:
+      - heading: How is data protection managed and is Zeti Hub GDPR-compliant?
+      - heading: How much does Zeti Hub cost?
+      - heading: What software does and can Zeti Hub integrate with?
+      - heading: Who does Zeti use for payment processing?
+      - heading: How does Zeti track all of it's vehicles?
+      - heading: Does the platform use AI?
 seo:
   ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
 ---
