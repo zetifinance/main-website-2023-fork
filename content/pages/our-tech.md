@@ -7,62 +7,34 @@ permalink: /tech/
 blocks:
   - type: hero
     variant: default
-    image: /img/1.png
+    image: /img/img_2273-2.jpg
     main:
-      heading: Our Tech
-      buttons:
-        - button:
-            variant: default
-            label: Request a demo
-            url: https://www.zeti.co.uk/contact-us/
+      heading: Our tech
+      rich_editor: Zeti is underpinned by Zeti Hub, a robust, proprietary technology
+        platform, which is helping us to digitally transform automotive finance.
   - type: tabs
     variant: default
+    intro:
+      heading: Interfaces
     tabs:
       - tab:
           heading: Zeti Operate
           main:
-            rich_editor: F﻿or your pay-per-mile customers. Customise the platform with your
-              own branding
-          image: /img/2.png
-      - tab:
-          heading: Zeti Invest
-          image: /img/3.png
-          main:
-            rich_editor: A﻿nalyse key performance indicators of your own contracts or even
-              raising your own funds from external financiers
-      - tab:
-          heading: Zeti Manage
-          main:
-            rich_editor: S﻿et up customers, keep track of billing and payments and verify
-              telematics connections
-          image: /img/4.png
-  - type: grid
-    variant: card
-    columns: Three
-    intro:
-      rich_editor: Zeti offers three key services. We can help you finance your new
-        electric fleet, we can help you find electric fleets to invest in and we
-        can offer you software so you can deliver your own pay-per-mile offering
-        to your customers with Zeti Hub. These three services are each delivered
-        digitally through portals that leverage IoT technology to provide
-        real-time data, insight and functions to their respective users.
-    list:
-      - list_item:
-          heading: Zeti Operate
-          rich_editor: F﻿or your pay-per-mile customers. Customise the platform with your
-            own branding
-          buttons: []
-          image: /img/2.png
-      - list_item:
-          heading: Zeti Invest
-          rich_editor: A﻿nalyse key performance indicators of your own contracts or even
-            raising your own funds from external financiers
+            rich_editor: For clean transport operators to obtain and track finance to expand
+              fleets.
           image: /img/1.png
-      - list_item:
+      - tab:
+          heading: Zeti Invest
+          main:
+            rich_editor: For investors to deploy and manage investment into clean transport
+              fleets.
+          image: /img/3.png
+      - tab:
           heading: Zeti Manage
-          rich_editor: S﻿et up customers, keep track of billing and payments and verify
-            telematics connections
-          image: /img/untitled-design-8-.png
+          main:
+            rich_editor: For finance providers like us at Zeti to manage capital deployment
+              and repayment from investors to fleet operators.
+          image: /img/5.png
 seo:
   ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
 ---
