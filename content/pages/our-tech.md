@@ -22,7 +22,7 @@ blocks:
           main:
             rich_editor: For clean transport operators to obtain and track finance to expand
               fleets.
-          image: /img/1.png
+          image: /img/map.png
       - tab:
           heading: Zeti Invest
           main:
