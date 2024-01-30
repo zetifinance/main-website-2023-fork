@@ -47,6 +47,7 @@ blocks:
             Hub, our investors and fleet operators enjoy unprecedented
             transparency around the contracts that they have agreed, allowing
             them to easily monitor their progress with repayments.
+          image: /img/1.png
       - list_item:
           heading: Product Innovation
           rich_editor: The presence of state-of-the-art telematics equipment in each
@@ -54,18 +55,21 @@ blocks:
             innovation, such as our unique pay-per-mile asset finance model.
             What's more, it helps us to provide investors with live emission
             saving figures for ESG reporting purposes.
+          image: /img/2.png
       - list_item:
           heading: Efficient Middle & Back Office Automation
           rich_editor: Our bespoke billing algorithms and payment processing integrations
             automate time-consuming processes like invoicing and reconciliation
             for investment and finance personnel, generating a time saving of as
             much as 70% for roles such as the portfolio manager.
+          image: /img/3.png
       - list_item:
           heading: Advanced Risk Management
           rich_editor: Alongside our telematics integrations, we also gather information
             such as MOT and residual value data from other trusted third-party
             sources to provide our investors with unparalleled insight into the
             live condition and value of the underlying asset.
+          image: /img/4.png
   - type: accordions
     intro:
       heading: FAQs
