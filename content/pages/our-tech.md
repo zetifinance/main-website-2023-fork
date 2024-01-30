@@ -35,6 +35,37 @@ blocks:
             rich_editor: For finance providers like us at Zeti to manage capital deployment
               and repayment from investors to fleet operators.
           image: /img/5.png
+  - type: grid
+    variant: card
+    columns: Four
+    intro:
+      heading: Benefits
+    list:
+      - list_item:
+          heading: Financial Transparency
+          rich_editor: Thanks to the user-friendly, customer-facing interfaces of Zeti
+            Hub, our investors and fleet operators enjoy unprecedented
+            transparency around the contracts that they have agreed, allowing
+            them to easily monitor their progress with repayments.
+      - list_item:
+          heading: Product Innovation
+          rich_editor: The presence of state-of-the-art telematics equipment in each
+            vehicle that we finance allows us to create award-winning
+            innovation, such as our unique pay-per-mile asset finance model.
+            What's more, it helps us to provide investors with live emission
+            saving figures for ESG reporting purposes.
+      - list_item:
+          heading: Efficient Middle & Back Office Automation
+          rich_editor: Our bespoke billing algorithms and payment processing integrations
+            automate time-consuming processes like invoicing and reconciliation
+            for investment and finance personnel, generating a time saving of as
+            much as 70% for roles such as the portfolio manager.
+      - list_item:
+          heading: Advanced Risk Management
+          rich_editor: Alongside our telematics integrations, we also gather information
+            such as MOT and residual value data from other trusted third-party
+            sources to provide our investors with unparalleled insight into the
+            live condition and value of the underlying asset.
 seo:
   ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
 ---
