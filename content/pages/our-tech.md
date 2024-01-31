@@ -43,6 +43,42 @@ blocks:
       - heading: Who does Zeti use for payment processing?
       - heading: How does Zeti track all of it's vehicles?
       - heading: Does the platform use AI?
+  - type: tabs
+    variant: default
+    intro:
+      heading: Benefits
+    tabs:
+      - tab:
+          heading: Financial Transparency
+          main:
+            rich_editor: Thanks to the user-friendly, customer-facing interfaces of Zeti
+              Hub, our investors and fleet operators enjoy unprecedented
+              transparency around the contracts that they have agreed, allowing
+              them to easily monitor their progress with repayments.
+          image: /img/contract-tracker.png
+      - tab:
+          heading: Product Innovation
+          main:
+            rich_editor: The presence of state-of-the-art telematics equipment in each
+              vehicle that we finance allows us to create award-winning
+              innovation, such as our unique pay-per-mile asset finance model.
+              What's more, it helps us to provide investors with live emission
+              saving figures for ESG reporting purposes.
+      - tab:
+          heading: Efficient Middle & Back Office Automation
+          main:
+            rich_editor: Our bespoke billing algorithms and payment processing integrations
+              automate time-consuming processes like invoicing and
+              reconciliation for investment and finance personnel, generating a
+              time saving of as much as 70% for roles such as the portfolio
+              manager.
+      - tab:
+          heading: Advanced Risk Management
+          main:
+            rich_editor: Alongside our telematics integrations, we also gather information
+              such as MOT and residual value data from other trusted third-party
+              sources to provide our investors with unparalleled insight into
+              the live condition and value of the underlying asset.
 seo:
   ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
 ---
