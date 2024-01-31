@@ -64,6 +64,7 @@ blocks:
               innovation, such as our unique pay-per-mile asset finance model.
               What's more, it helps us to provide investors with live emission
               saving figures for ESG reporting purposes.
+          image: /img/map-456.png
       - tab:
           heading: Efficient Middle & Back Office Automation
           main:
@@ -72,6 +73,7 @@ blocks:
               reconciliation for investment and finance personnel, generating a
               time saving of as much as 70% for roles such as the portfolio
               manager.
+          image: /img/tech-page-mockups-1-.png
       - tab:
           heading: Advanced Risk Management
           main:
@@ -79,6 +81,7 @@ blocks:
               such as MOT and residual value data from other trusted third-party
               sources to provide our investors with unparalleled insight into
               the live condition and value of the underlying asset.
+          image: /img/residual-val.png
 seo:
   ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
 ---
