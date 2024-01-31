@@ -22,12 +22,12 @@ blocks:
           heading: Zeti Operate
           rich_editor: For clean transport operators to obtain and track finance to expand
             fleets.
-          image: /img/2.png
+          image: /img/electric-car-1-.png
       - list_item:
           heading: Zeti Invest
           rich_editor: For investors to deploy and manage investment into clean transport
             fleets.
-          image: /img/money-flow.png
+          image: /img/sustainability.png
       - list_item:
           heading: Zeti Manage
           rich_editor: For finance providers like us at Zeti to manage capital deployment
