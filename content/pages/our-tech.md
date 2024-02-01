@@ -9,7 +9,7 @@ blocks:
     variant: default
     image: /img/img_2273-2.jpg
     main:
-      heading: Our tech
+      heading: Our platform
       rich_editor: Zeti is underpinned by Zeti Hub, a robust, proprietary technology
         platform, which is helping us to digitally transform automotive finance.
   - type: grid
