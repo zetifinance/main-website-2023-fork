@@ -63,7 +63,7 @@ blocks:
               reconciliation for investment and finance personnel, generating a
               time saving of as much as 70% for roles such as the portfolio
               manager.
-          image: /img/tech-page-mockups-1-.png
+          image: /img/billing-page.png
       - tab:
           heading: Advanced Risk Management
           main:
