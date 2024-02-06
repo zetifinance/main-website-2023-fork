@@ -1,0 +1,34 @@
+---
+id: JzaSLeXaj
+type: post
+layout: post
+title: The Zum total of hard work
+permalink: /insights/weekly-news-roundup-06-02-24-the-zum-total-of-hard-work/
+thumbnail: /img/shutterstock_111060314.jpg
+date: 2024-02-06T00:00:00.000Z
+author: ""
+excerpt: ""
+seo:
+  ogimage: /img/ZetiSocialCard.png
+---
+[Volvo](https://theevreport.com/volvo-acquires-proterra-battery-unit) has successfully acquired Proterra’s battery business and its subsidiary, Proterra Operating Company. This includes a development centre located in California, specializing in battery modules and packs, along with an assembly factory in Greer (South Carolina). These facilities alongside the deep (IP) expertise of the Proterra team will materially enhance Volvo’s EV offering and existing infrastructure. We believe this year will feature many more strategic acquisitions like this one, as major (OEM) companies look to catch up and enhance their EV offerings to challenge (cheaper) Chinese OEMs, such as BYD. We believe that we are entering into a period of consolidation.
+
+[Nottingham City Transport](https://www.route-one.net/news/nottingham-city-transport-yutong-electric-order-grows-to-48/) has announced it take delivery of at least 48 Yutong E10 and E12 battery-electric buses. This stems from the successful bid that Nottingham City Council made from ZEBRA funding. The first tranche of 12 buses was delivered last year, with the next tranche of 12 being delivered by April (this year) and the remaining 24 will be delivered by March 2025. Bear in mind successful bids for ZEBRA 2 will be announced end of Q1/the start of Q2 24. 
+
+[BMW](https://www.bloomberg.com/news/articles/2024-02-02/bmw-eyes-growth-in-emerging-india-ev-market-with-affluent-buyers?sref=uFYGeRuc) has announced it will be expanding its EV presence in India, as it looks to consolidate (and increase its) market share in that region. Bear in mind, that last year BMW sold 1,474 EVs in India which equated to c10% of its total sales in the country. BMW expects EV sales to account for 25% of its sales in the country by 2025. This is a bold target however the company expects the Indian market to explode in the coming years, as the middle class flexes its economic purchasing power.
+
+[Lyten](https://theevreport.com/lytens-4m-doe-grant-boosts-ev-batteries) has announced that it has received $4m in grant funding via the US Department of Energy’s *Efficiency and Renewable Energy/Vehicle Technologies Office*. This grant was awarded to help accelerate the production of lithium-sulphur batteries. America has been championing lithium-sulphur batteries as it views it as a way to reduce offshore supply chain risks and materially extend the driving ranges of EVs. Remember, Lithium-sulphur batteries have more than double the energy density of traditional lithium-ion counterparts.
+
+[Raizen](https://www.reuters.com/business/autos-transportation/raizen-chinas-byd-build-ev-charging-station-network-brazil-2024-02-02/) (a Brazilian energy company) and BYD have announced they have entered into a strategic partnership to create a network of 600 EV charging stations in 8 Brazilian cities. The charge points be installed over 3 years and under the Shell Recharge brand. BYD has a significant presence in Latin America and last year its EVs accounted for c19.1% of all EV sales in that region. Raizen has declared it wants to obtain a 25% market share of Brazil’s charging station sector.
+
+[Zouk Capital](https://theevreport.com/zouk-capital-boosts-zest-investment-to-105m), a PE and infrastructure fund manager, has announced it is increasing its financial commitment to Zest (an EV charging infrastructure company) to £105m. Zest helps both public and commercial landowners to scale up their EV charging infrastructure. Its pipeline includes exciting projects such as deploying rapid charging stations across 75 London locations, as part of London’s Electric Vehicle Infrastructure Delivery program. It is already evident that scaling up EV charging infrastructure will be a key theme this year, as the UK must increase its current c53,000 public charging points to (its target of) 300,000 by 2030. Zest appears well-positioned to help facilitate this scale-up.
+
+The UK government has published its *[Plan for Drivers](https://www.gov.uk/government/news/rollout-of-electric-vehicle-chargepoints-to-be-accelerated)* report in which it outlines grant support for schools, cash for councils and new policy tailwinds to help accelerate EV charging points. One of the key initiatives outlined is grants, for educational institutions of up to 75% of the cost to buy and install charge points (up to £2,500 per socket up from the previous £350). Although this is a positive step, the government needs a greater number of these support packages and more ambitious policies. We agree with industry experts, that when the (UK) election is called later this year, EV policies will not only be high on each respective party’s manifesto but also, they will be bold(er).
+
+## **Deals**
+
+[Zum](https://www.ridezum.com/press-release/zum-fast-tracks-revolution-to-modernize-school-transportation-with-140m-funding-round-led-by-gic/?utm_source=fot.beehiiv.com&utm_medium=newsletter&utm_campaign=trucks-fot-zum-cake-hesai), a Californian-based school bus startup, has raised $140m in a Series E round at a $1.3bn valuation. This round was led by GIC, however, investors such as Climate Investment, Sequoia Capital and SoftBank Vision Fund 2 also participated. This startup utilises AI to help bus operators and school districts to cut down on costs and increase efficiencies, through its proprietary platform. The platform helps optimise routes and can deliver real-time updates to parents.
+
+[CitySwift](https://www.irishtimes.com/business/2024/02/01/cityswift-raises-7m-as-firm-plans-to-double-workforce/#:~:text=Transport%20data%20company%20CitySwift%20has,Galway%2Dbased%20company%20to%20date.), a Galway-based big data startup that focuses on bus networks, has announced it has raised €7m in a funding round. Gresham House Ventures led the round, however, investors such as Irelandia Investments, the Western Development Commission, and ACT Venture Capital also participated. Interestingly, this startup utilises big data and ML to help boost public transport network performance and increase service reliability. The capital raised will be used to expand its workforce and scale up its platform development. 
+
+[Snap-E Cabs](https://www.carandbike.com/news/ev-ridehailing-service-snape-cabs-raises-25-million-funding-3211582), a Kolkata-based ride-hailing platform, has raised $2.5m in a pre-series A round led by Inflection Point Ventures. The startup currently has c600 EVs and wants to add another 300-400 EVs by the end of 2024. The startup intends to use this capital to increase its workforce, upgrade its technology and expand its operations into new regions.
