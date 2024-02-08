@@ -26,6 +26,9 @@ export default function Tabs({ data }) {
 
     // tabs
     const tabs = data?.tabs;
+    const formatSelector = (selectorString) => {
+        return selectorString.replace(/\s+/g, '-').toLowerCase().replace("&","and");
+    }
 
     return (
         <section inview={inView} ref={ref} className={clsx('block block__tabs', {'in-view': inView})}>
@@ -53,7 +56,7 @@ export default function Tabs({ data }) {
                         tabs?.map((item, i) => {
                             const tab = item?.tab;
                             const tab_selector = tab?.heading;
-                            const tab_selector_formatted = tab_selector.replace(/\s+/g, '-').toLowerCase();
+                            const tab_selector_formatted = formatSelector(tab_selector);
                             const isFirst = i === 0 ? 'active' : '';
 
                             return (
@@ -70,7 +73,7 @@ export default function Tabs({ data }) {
                         // Tab core
                         const tab = item?.tab;
                         const tab_selector = tab?.heading;
-                        const tab_selector_formatted = tab_selector.replace(/\s+/g, '-').toLowerCase();
+                        const tab_selector_formatted = formatSelector(tab_selector)
 
                         // Tab content
                         const tab_image = tab?.image;
