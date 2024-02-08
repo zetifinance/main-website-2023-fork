@@ -59,9 +59,9 @@ The Los Angeles Unified School District (LAUSD) has placed an order for 180 elec
 
 ![](/img/e268b442593d27996246ec8cf7776a51.gm-fcsm-34.webp)
 
-# E﻿vent spotlight:
-
 #### F﻿inancing heavy duty zero-emission vehicles plicy solutions to increase access
+
+##### E﻿vent spotlight
 
 ![](/img/unnamed.jpg)
 
