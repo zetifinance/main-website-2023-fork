@@ -114,6 +114,18 @@ blocks:
 
             \- Gurinder Dhillon, Director, Otto Car
           image: /img/quotation.png
+      - list_item:
+          rich_editor: >-
+            "I am delighted to see further steps being taken to build a better,
+            greener London for everyone. The investment from the Mayor’s Energy
+            Efficiency Fund will support the partnership between Zeti and Otto
+            as we accelerate the switch to electric vehicles. It is a fantastic
+            way to tackle air pollution and reduce the city’s carbon emissions
+            to help us reach the Mayor’s net zero target by 2030.”
+
+
+            \- Shirley Rodrigues, Deputy Mayor for Environment and Energy
+          image: /img/quotation.png
   - type: slider
     variant: default
     intro:
