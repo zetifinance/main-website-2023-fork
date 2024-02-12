@@ -24,6 +24,10 @@ These vehicles are funded by The Mayor of London’s Energy Efficiency Fund (‘
 **"We are delighted to work together with Zeti and Otto Car to support this innovative approach to financing, and in doing so, helping to accelerate the shift from conventional to electric vehicles in the Capital."
 Peter Radford, Director of MEEF, Amber**
 
+**"I am delighted to see further steps being taken to build a better, greener London for everyone. The investment from the Mayor’s Energy Efficiency Fund will support the partnership between Zeti and Otto as we accelerate the switch to electric vehicles. It is a fantastic way to tackle air pollution and reduce the city’s carbon emissions to help us reach the Mayor’s net zero target by 2030.”**
+
+**\- Shirley Rodrigues, Deputy Mayor for Environment and Energy**
+
 Zeti stands at the forefront of the shift towards clean transport by leveraging real-time financial data to accelerate the availability of funding for zero and ultra-low emission vehicles, helping operators looking to decarbonise their fleets and achieve net zero targets.
 
 **"Adding Otto Car as a client is an exciting moment in Zeti's growth story. Otto are the largest and most technologically advanced PCO fleet in the UK by far; the partnership signals the value of the Zeti fintech platform to major fleets, bringing real value and insights that keep fleet financing costs to a minimum. We are pleased to deliver for Otto both financing through the Mayor's fund and our fintech platform that will play a part in the growth of such a successful business".**
@@ -46,9 +50,7 @@ MEEF was established by the GLA in 2018 and is managed by Amber Infrastructure. 
 
 Amber is a specialist international investment manager, focused on investment origination, asset management and fund management.  With over €5 billion in funds under management, Amber invests across eight funds and a number of managed accounts.
 
-
 Amber’s core business focuses on sourcing, developing, advising, investing in and managing infrastructure assets across the public, transport, energy, digital and demographic infrastructure sectors that support the lives of people, homes and businesses internationally.
-
 
 Amber is headquartered in London with offices in Europe, North America, Australia and New Zealand. Amber employs approximately 180 infrastructure professionals globally and manages over 175 investments.
 
