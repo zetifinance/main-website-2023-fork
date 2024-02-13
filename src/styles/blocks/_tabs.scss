@@ -34,17 +34,8 @@
         }
     }
 
-    .two-column {
-        max-width: 800px;
-    }
-
-    .three-column {
-        max-width: 1250px;
-        
-    }
-
     .tabs__selectors {
-        
+        max-width: 1250px;
         margin: 0 auto 5rem auto;
         display: flex;
         flex-direction: column;
@@ -101,6 +92,13 @@
             &:hover {
                 border: 2px solid $yellow;
             }
+        }
+    }
+    
+    .two-column {
+        max-width: 800px;
+        @media(min-width: 1573px) {
+            max-width: 1900px;
         }
     }
 
