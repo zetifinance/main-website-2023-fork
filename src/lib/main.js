@@ -28,7 +28,6 @@ function initTabs() {
             // Remove "active" class from all buttons and tabs
             buttons.forEach(b => b.classList.remove('active'));
             tabs.forEach(tab => tab.classList.remove('active'));
-            
             // Add "active" class to clicked button and corresponding tab
             button.classList.add('active');
             const tabSelectorFormatted = button.getAttribute('data-tab');

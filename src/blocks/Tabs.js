@@ -56,7 +56,6 @@ export default function Tabs({ data }) {
 
                 <div className={`tabs__selectors${numberOfColumnsClass}`}>
                     {tabs?.length > 0 &&
-                    
                         tabs?.map((item, i) => {
                             const tab = item?.tab;
                             const tab_selector = tab?.heading;
