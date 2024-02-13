@@ -21,6 +21,8 @@ function initTabs() {
     // Get all buttons and tabs
     const buttons = document.querySelectorAll('.tabs__selectors-button');
     const tabs = document.querySelectorAll('.tabs__tabs-tab');
+    const verticalButtons = document.querySelectorAll('.vertical-tabs__selectors-button');
+    const verticalTabs = document.querySelectorAll('.vertical-tabs__tabs-tab');
 
     // Add click event listener to each button
     buttons.forEach(button => {
@@ -28,12 +30,27 @@ function initTabs() {
             // Remove "active" class from all buttons and tabs
             buttons.forEach(b => b.classList.remove('active'));
             tabs.forEach(tab => tab.classList.remove('active'));
-
+            
             // Add "active" class to clicked button and corresponding tab
             button.classList.add('active');
             const tabSelectorFormatted = button.getAttribute('data-tab');
             const correspondingTab = document.querySelector(`.tabs__tabs-tab--${tabSelectorFormatted}`);
             correspondingTab.classList.add('active');
+        });
+    });
+
+    // Add click event listener to each vertical button
+    verticalButtons.forEach(verticalButton => {
+        verticalButton.addEventListener('click', () => {
+            // Remove "active" class from all buttons and tabs
+            verticalButtons.forEach(b => b.classList.remove('active'));
+            verticalTabs.forEach(tab => tab.classList.remove('active'));
+            
+            // Add "active" class to clicked button and corresponding vertical tab
+            verticalButton.classList.add('active');
+            const verticalTabSelectorFormatted = verticalButton.getAttribute('data-tab');
+            const correspondingVerticalTab = document.querySelector(`.vertical-tabs__tabs-tab--${verticalTabSelectorFormatted}`);
+            correspondingVerticalTab.classList.add('active');
         });
     });
 };

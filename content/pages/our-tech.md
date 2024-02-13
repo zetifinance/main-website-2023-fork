@@ -33,7 +33,7 @@ blocks:
           rich_editor: For finance providers like us at Zeti to manage capital deployment
             and repayment from investors to fleet operators.
           image: /img/automation.png
-  - type: tabs
+  - type: vertical_tabs
     variant: default
     intro:
       heading: Benefits
