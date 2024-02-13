@@ -173,23 +173,7 @@ const Config = {
       widget: 'object',
       summary: '{{fields.title}}',
       fields: [
-        VariantField('default', ['default', 'vertical']),
-        Intro,
-        Tabs,
-      ],
-    },
-    {
-      /*
-      *
-      * VerticalTabs
-      * 
-      */
-      label: 'VerticalTabs',
-      name: 'vertical-tabs',
-      widget: 'object',
-      summary: '{{fields.title}}',
-      fields: [
-        VariantField('default', ['default', 'vertical']),
+        VariantField('default', ['default', 'two-column']),
         Intro,
         Tabs,
       ],

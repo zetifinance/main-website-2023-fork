@@ -34,8 +34,17 @@
         }
     }
 
-    .tabs__selectors {
+    .two-column {
+        max-width: 800px;
+    }
+
+    .three-column {
         max-width: 1250px;
+        
+    }
+
+    .tabs__selectors {
+        
         margin: 0 auto 5rem auto;
         display: flex;
         flex-direction: column;

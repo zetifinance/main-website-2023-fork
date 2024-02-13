@@ -22,7 +22,6 @@ import RecentArticles from '../blocks/RecentArticles';
 import PostsGrid from '../blocks/PostsGrid';
 import Form from '../blocks/Form';
 import Embed from '../blocks/Embed';
-import VerticalTabs from '../blocks/VerticalTabs';
 
 
 export default function PageBuilder({ blocks, preview = false }) {
@@ -49,8 +48,6 @@ export default function PageBuilder({ blocks, preview = false }) {
               return <LogoGrid key={i} data={block} preview={preview} />;
             case 'tabs':
               return <Tabs key={i} data={block} preview={preview} />;
-            case 'vertical_tabs':
-              return <VerticalTabs key={i} data={block} preview={preview} />;
             case 'slider':
               return <Slider key={i} data={block} preview={preview} />;
             case 'testimonials':

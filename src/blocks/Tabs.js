@@ -24,6 +24,9 @@ export default function Tabs({ data }) {
     const intro_content = intro?.rich_editor;
     const intro_buttons = intro?.buttons;
 
+    const variant = data?.variant
+    const numberOfColumnsClass = variant == "default" ? "" : " " + variant
+
     // tabs
     const tabs = data?.tabs;
     const formatSelector = (selectorString) => {
@@ -51,8 +54,9 @@ export default function Tabs({ data }) {
                     )}
                 </div>
 
-                <div className="tabs__selectors">
+                <div className={`tabs__selectors${numberOfColumnsClass}`}>
                     {tabs?.length > 0 &&
+                    
                         tabs?.map((item, i) => {
                             const tab = item?.tab;
                             const tab_selector = tab?.heading;
