@@ -94,6 +94,13 @@
             }
         }
     }
+    
+    .two-column {
+        max-width: 800px;
+        @media(min-width: 1573px) {
+            max-width: 1900px;
+        }
+    }
 
     .tabs__tabs {
         width: 90%;

@@ -34,7 +34,7 @@ blocks:
             and repayment from investors to fleet operators.
           image: /img/automation.png
   - type: tabs
-    variant: default
+    variant: two-column
     intro:
       heading: Benefits
     tabs:
