@@ -71,7 +71,7 @@ blocks:
               such as MOT and residual value data from other trusted third-party
               sources to provide our investors with unparalleled insight into
               the live condition and value of the underlying asset.
-          image: /img/residual-val.png
+          image: /img/tech-page-mockups-final.png
   - type: accordions
     intro:
       heading: FAQs
