@@ -77,11 +77,45 @@ blocks:
       heading: FAQs
     accordions:
       - heading: How is data protection managed and is Zeti Hub GDPR-compliant?
+        rich_editor: >-
+          Zeti processes and stores personal data about Zeti Hub users from
+          customer organisations, and in this respect, it is subject to GDPR.
+          Our Technology and Operations teams follow a robust policy to handle
+          this data.
+
+
+          It is worth noting that Zeti does not currently store or process personal data about the drivers or rental customers of fleet operators, who themselves are customer organisations. Therefore, GDPR does not apply in this respect.
       - heading: How much does Zeti Hub cost?
+        rich_editor: At the moment, the cost of Zeti Hub is included in the origination
+          and service fees payable by lenders on contracts facilitated by Zeti
+          as an organisation.
       - heading: What software does and can Zeti Hub integrate with?
+        rich_editor: Zeti Hub integrates with a number of different types of services in
+          order to digitise and automate key automotive processes. These range
+          from telematics suppliers (e.g. GeoTab) payment processing engines
+          (e.g. Stripe), public vehicle maintenance databases (e.g. the UK
+          government's Department for Transport's MOT API) and residual value
+          databases (e.g. Black Book). We continue to add further integrations
+          to improve the customer experience for our lenders and fleet
+          operators.
       - heading: Who does Zeti use for payment processing?
+        rich_editor: Zeti Hub primarly uses Stripe for payment processing, with
+          additional integrations built to providers like GoCardless.
       - heading: How does Zeti track all of it's vehicles?
+        rich_editor: When vehicles are deployed as part of a contract that Zeti is
+          managing, either a hardware-based or software-only telematics solution
+          is implemented. This is principally for billing purposes in per-mile
+          contracts as it allows Zeti Hub to access vehicle odometer data to
+          measure utilisation. However, we do process additional information
+          from those telematics solutions in order to offer further services to
+          our customers, such as live residual value modelling, dynamic emission
+          saving reporting and battery health monitoring.
       - heading: Does the platform use AI?
+        rich_editor: Yes. Zeti Hub currently uses so-called 'weak AI' by incorporating
+          machine-led decision-making to automate the execution of contracts. As
+          time progresses, Zeti Hub will leverage more and more 'strong' AI,
+          enabling a more personalised customer experience using techniques like
+          machine and deep learning.
 seo:
   ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
 ---
