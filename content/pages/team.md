@@ -76,14 +76,6 @@ blocks:
           linkedin: https://www.linkedin.com/in/phoebe-dickson-malcolm-aa5a1a9a/
           image: /img/phoebe-dickson.jpg
       - team_member:
-          image: /img/chelsea-dowling.jpg
-          name: Chelsea Dowling
-          job_role: Head of Operations
-          linkedin: https://www.linkedin.com/in/chelsea-dowling-764278149/
-          bio: Senior operations manager with 9 years operational experience managing
-            Entech with leading UK energy suppliers. Customer champion with a
-            focus on building data driven teams.
-      - team_member:
           name: John Fentiman
           image: /img/img_5806.jpg
           job_role: Senior Software Developer
@@ -137,15 +129,6 @@ blocks:
             the University of Oxford. Previous experience as a biomedical
             researcher at the Francis Crick Institute. Formerly worked for an
             EdTech startup.
-      - team_member:
-          image: /img/rebecca-saletta.jpg
-          job_role: Director of Strategic Partnerships, US
-          name: Rebecca Saletta
-          linkedin: https://www.linkedin.com/in/rebecca-saletta-b74b62104
-          bio: Five years of experience developing international start-ups in clean
-            transportation and automotive technology. Extensive career in the
-            public sector building out the UK Government's Future of Mobility
-            strategy for the Western US. Based in Los Angeles.
       - team_member:
           image: /img/jon-stafford.png
           name: Jon Stafford
