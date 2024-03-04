@@ -45,7 +45,7 @@ blocks:
               Hub, lenders and fleet operators enjoy unprecedented transparency
               around the contracts that they have agreed, allowing them to
               easily monitor their progress with repayments.
-          image: /img/contract-tracker.png
+          image: /img/4.png
       - tab:
           heading: Product Innovation
           main:
