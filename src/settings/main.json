@@ -27,6 +27,10 @@
     {
       "name": "Insights",
       "permalink": "/insights/"
+    },
+    {
+      "name": "Our Platform",
+      "permalink": "/tech/"
     }
   ]
 }
