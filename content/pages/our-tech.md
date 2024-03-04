@@ -71,7 +71,7 @@ blocks:
               sources to provide our lenders and fleet operators with
               unparalleled insight into the live condition and value of the
               underlying asset.
-          image: /img/tech-page-mockups-final.png
+          image: /img/3.png
   - type: accordions
     intro:
       heading: FAQs
