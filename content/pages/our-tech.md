@@ -59,10 +59,9 @@ blocks:
           heading: Efficient Middle & Back Office Automation
           main:
             rich_editor: Our bespoke billing algorithms and payment processing integrations
-              automate time-consuming processes like invoicing and
-              reconciliation for investment and finance personnel, generating a
-              time saving of as much as 70% for roles such as the portfolio
-              manager.
+              automate time-consuming processes including invoicing and payment
+              reconciliation. This has been shown generate time savings of up to
+              70% for personnel managing the portfolio.
           image: /img/billing-page.png
       - tab:
           heading: Advanced Risk Management
