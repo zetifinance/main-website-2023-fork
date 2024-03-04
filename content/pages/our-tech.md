@@ -29,8 +29,9 @@ blocks:
           image: /img/sustainability.png
       - list_item:
           heading: Zeti Manage
-          rich_editor: For finance providers like us at Zeti to manage capital deployment
-            and repayment from investors to fleet operators.
+          rich_editor: O﻿ur self-service portal for finance providers with access to
+            Zeti's suite of innovations, enabling the efficient management of
+            vehicle financing to fleets and individuals.
           image: /img/automation.png
   - type: tabs
     variant: two-column
