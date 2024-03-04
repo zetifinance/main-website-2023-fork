@@ -25,8 +25,7 @@ blocks:
           image: /img/electric-car-1-.png
       - list_item:
           heading: Zeti Invest
-          rich_editor: For investors to deploy and manage investment into clean transport
-            fleets.
+          rich_editor: For lenders to deploy and manage investment into transport fleets.
           image: /img/sustainability.png
       - list_item:
           heading: Zeti Manage
