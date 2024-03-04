@@ -13,6 +13,10 @@
       "permalink": "/manufacturers/"
     },
     {
+      "name": "Our Technology",
+      "permalink": "/tech/"
+    },
+    {
       "name": "Team",
       "permalink": "/team/"
     },
@@ -27,10 +31,6 @@
     {
       "name": "Insights",
       "permalink": "/insights/"
-    },
-    {
-      "name": "Our Platform",
-      "permalink": "/tech/"
     }
   ]
 }
