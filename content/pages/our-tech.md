@@ -68,8 +68,9 @@ blocks:
           main:
             rich_editor: Alongside our telematics integrations, we also gather information
               such as MOT and residual value data from other trusted third-party
-              sources to provide our investors with unparalleled insight into
-              the live condition and value of the underlying asset.
+              sources to provide our lenders and fleet operators with
+              unparalleled insight into the live condition and value of the
+              underlying asset.
           image: /img/tech-page-mockups-final.png
   - type: accordions
     intro:
