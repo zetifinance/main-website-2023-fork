@@ -2,7 +2,7 @@
 id: _54S4WczN
 type: page
 layout: page-builder
-title: Our Platform
+title: Our Technology
 permalink: /tech/
 blocks:
   - type: hero
