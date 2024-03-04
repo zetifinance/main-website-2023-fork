@@ -11,7 +11,7 @@ blocks:
     main:
       heading: Our platform
       rich_editor: Zeti is underpinned by Zeti Hub, a robust, proprietary technology
-        platform, which is helping us to digitally transform automotive finance.
+        platform, which is helping to digitally transform automotive finance.
   - type: grid
     variant: card
     columns: Three
@@ -20,7 +20,7 @@ blocks:
     list:
       - list_item:
           heading: Zeti Operate
-          rich_editor: For clean transport operators to obtain and track finance to expand
+          rich_editor: For fleet transport operators to obtain and track finance to expand
             fleets.
           image: /img/electric-car-1-.png
       - list_item:
