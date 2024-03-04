@@ -54,7 +54,7 @@ blocks:
               such as our proprietary pay-per-mile finance model. What's more,
               it helps us to provide all stakeholders with live emission saving
               figures for sustainability reporting purposes.
-          image: /img/map-456.png
+          image: /img/1.png
       - tab:
           heading: Efficient Middle & Back Office Automation
           main:
