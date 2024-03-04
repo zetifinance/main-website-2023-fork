@@ -42,18 +42,18 @@ blocks:
           heading: Financial Transparency
           main:
             rich_editor: Thanks to the user-friendly, customer-facing interfaces of Zeti
-              Hub, our investors and fleet operators enjoy unprecedented
-              transparency around the contracts that they have agreed, allowing
-              them to easily monitor their progress with repayments.
+              Hub, lenders and fleet operators enjoy unprecedented transparency
+              around the contracts that they have agreed, allowing them to
+              easily monitor their progress with repayments.
           image: /img/contract-tracker.png
       - tab:
           heading: Product Innovation
           main:
             rich_editor: The presence of state-of-the-art telematics equipment in each
-              vehicle that we finance allows us to create award-winning
-              innovation, such as our unique pay-per-mile asset finance model.
-              What's more, it helps us to provide investors with live emission
-              saving figures for ESG reporting purposes.
+              vehicle financed allows us to create award-winning innovation,
+              such as our proprietary pay-per-mile finance model. What's more,
+              it helps us to provide all stakeholders with live emission saving
+              figures for sustainability reporting purposes.
           image: /img/map-456.png
       - tab:
           heading: Efficient Middle & Back Office Automation
