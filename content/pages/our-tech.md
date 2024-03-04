@@ -62,7 +62,7 @@ blocks:
               automate time-consuming processes including invoicing and payment
               reconciliation. This has been shown generate time savings of up to
               70% for personnel managing the portfolio.
-          image: /img/billing-page.png
+          image: /img/6.png
       - tab:
           heading: Advanced Risk Management
           main:
