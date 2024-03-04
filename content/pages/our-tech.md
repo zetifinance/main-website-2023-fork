@@ -50,10 +50,10 @@ blocks:
           heading: Product Innovation
           main:
             rich_editor: The presence of state-of-the-art telematics equipment in each
-              vehicle financed allows us to create award-winning innovation,
-              such as our proprietary pay-per-mile finance model. What's more,
-              it helps us to provide all stakeholders with live emission saving
-              figures for sustainability reporting purposes.
+              vehicle allows us to create award-winning innovation, such as our
+              proprietary pay-per-mile finance model. What's more, it helps us
+              to provide all stakeholders with live emission saving figures for
+              sustainability reporting purposes.
           image: /img/1.png
       - tab:
           heading: Efficient Middle & Back Office Automation
