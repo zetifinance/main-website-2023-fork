@@ -109,12 +109,6 @@ blocks:
           of advantages including utilisation-based financing, financial and
           sustainability reporting, residual value and battery health
           monitoring, but to name a few.
-      - heading: Does the platform use AI?
-        rich_editor: Yes. Zeti Hub currently uses so-called 'narrow AI' by incorporating
-          machine-led decision-making to automate the execution of contracts. As
-          time progresses, Zeti Hub will leverage more and more 'strong' AI,
-          enabling a more personalised customer experience using techniques like
-          machine and deep learning.
 seo:
   ogimage: /img/nathan-queloz-rnzvujqbvsg-unsplash.jpg
 ---
