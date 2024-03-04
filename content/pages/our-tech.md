@@ -3,7 +3,7 @@ id: _54S4WczN
 type: page
 layout: page-builder
 title: Our Technology
-permalink: /tech/
+permalink: /our-technology/
 blocks:
   - type: hero
     variant: default
