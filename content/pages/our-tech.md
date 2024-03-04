@@ -99,7 +99,7 @@ blocks:
           to improve the customer experience for our lenders and fleet
           operators.
       - heading: Who does Zeti use for payment processing?
-        rich_editor: Zeti Hub primarly uses Stripe for payment processing, with
+        rich_editor: Zeti Hub primarily uses Stripe for payment processing, with
           additional integrations built to providers like GoCardless.
       - heading: How does Zeti track vehicles?
         rich_editor: When vehicles are deployed as part of a contract that Zeti is
