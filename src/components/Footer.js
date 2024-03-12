@@ -63,7 +63,7 @@ export default function Footer() {
 						{
 							footerData.nav.map((navItem) => {
 								return (
-									<a href={navItem.permaLink} target="_blank" rel="noopener noreferrer">{navItem.name}</a>
+									<a href={navItem.permalink} target="_blank" rel="noopener noreferrer">{navItem.name}</a>
 								)
 							})
 						}
