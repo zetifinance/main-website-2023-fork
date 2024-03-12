@@ -25,7 +25,7 @@ export default function Tabs({ data }) {
     const intro_buttons = intro?.buttons;
 
     const variant = data?.variant
-    const numberOfColumnsClass = variant == "default" ? "" : " " + variant
+    const numberOfColumnsClass = variant === "default" ? "" : " " + variant
 
     // tabs
     const tabs = data?.tabs;
