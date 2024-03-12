@@ -1,23 +1,24 @@
 import React, { useEffect } from 'react';
+import footerData from "../settings/footer.json"
 
 export default function Footer() {
 	useEffect(() => {
-        const script = document.createElement('script');
-        script.src='https://js.hsforms.net/forms/v2.js';
-        document.body.appendChild(script);
+		const script = document.createElement('script');
+		script.src = 'https://js.hsforms.net/forms/v2.js';
+		document.body.appendChild(script);
 
-        script.addEventListener('load', () => {
-            // @TS-ignore
-            if (window.hbspt) {
-                // @TS-ignore
-                window.hbspt.forms.create({
+		script.addEventListener('load', () => {
+			// @TS-ignore
+			if (window.hbspt) {
+				// @TS-ignore
+				window.hbspt.forms.create({
 					portalId: "26948233",
 					formId: "7c6757eb-1427-4457-acad-cc1e111800b8",
 					target: '#hubspot-form-newsletter',
-                })
-            }
-        });
-    }, []);
+				})
+			}
+		});
+	}, []);
 
 	return (
 		<footer className='footer' role="contentinfo">
@@ -59,8 +60,13 @@ export default function Footer() {
 						<a href="/privacy-and-cookies/" rel="noreferrer noopener" target="_blank">Privacy & Cookies Policy</a>
 					</div>
 					<div className="footer__socials">
-						<a href="https://twitter.com/ZetiGroup" target="_blank" rel="noopener noreferrer">Twitter</a>
-						<a href="https://www.linkedin.com/company/zeti" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+						{
+							footerData.nav.map((navItem) => {
+								return (
+									<a href={navItem.permalink} target="_blank" rel="noopener noreferrer">{navItem.name}</a>
+								)
+							})
+						}
 					</div>
 				</div>
 			</div>

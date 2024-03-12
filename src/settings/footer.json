@@ -7,6 +7,14 @@
     {
       "name": "Team",
       "permalink": "/team/"
+    },
+    {
+      "name": "Twitter",
+      "permalink": "https://twitter.com/ZetiGroup"
+    },
+    {
+      "name": "LinkedIn",
+      "permalink": "https://www.linkedin.com/company/zeti"
     }
   ]
 }
