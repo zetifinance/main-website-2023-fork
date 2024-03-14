@@ -11,14 +11,14 @@ excerpt: ""
 seo:
   ogimage: /img/ZetiSocialCard.png
 ---
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:RelyOnVML/>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -57,9 +57,9 @@ seo:
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -638,9 +638,9 @@ seo:
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -669,7 +669,7 @@ seo:
 	mso-ligatures:standardcontextual;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
@@ -678,6 +678,8 @@ The [SEC](https://www.sec.gov/news/press-release/2024-31) announced it voted 3-t
 [California](https://www.gov.ca.gov/2024/03/01/california-hits-another-ev-milestone-100000-public-chargers/#:~:text=SACRAMENTO%20%E2%80%93%20Today%2C%20Governor%20Gavin%20Newsom,for%20zero%2Demission%20cars%2C%20trucks) has announced it has more than 100,000 public or shared private EV chargers installed in the state, alongside having over 500,000 at-home chargers. Surpassing the 100,000 milestone is an impressive achievement and illustrates its position as the most progressive EV state. Last year 1 in 4 new cars sold were zero-emission and has 1,846,874 total ZEV sales to date, achieving both much earlier than anticipated. Bear in mind, that only a couple of weeks ago, the [CEC](https://advocacy.calchamber.com/2024/02/29/california-approves-1-9-billion-ev-infrastructure-investment-plan/#:~:text=California%20Approves%20%241.9%20Billion%20EV%20Infrastructure%20Investment%20Plan,-By&text=This%20month%2C%20the%20California%20Energy,charging%20and%20hydrogen%20refueling%20goals.) approved a $1.9 billion investment plan that will further accelerate progress on the state’s EV charging and hydrogen refuelling targets.
 
 [Ford](https://insideevs.com/news/710517/tesla-supercharger-adapters-online-february/) has been busy this month as it announced its F-150 Lightning and Mustang Mach-E models will be able to use the 15,000+ Tesla Supercharger network, across America and Canada. This is a momentous moment as it means that Ford EV drivers can access the Tesla charging network, which is arguably the most reliable and extensive public charging network in North America. Secondly, the company announced, the [2024 Ford E-Transit model](https://www.automotive-fleet.com/10217032/2024-ford-e-transit-gets-more-range-faster-charging?utm_source=newsletter&utm_medium=email&utm_campaign=20240305_1694:65e772c7f247e0dde10db292:ot_NL-AF-Enews-Tuesday-20240305&omid=1102505844&cid=64672d1183f2f92bdd00e2c5) will have better specifications such as greater range, faster charging time and dual onboard chargers compared to the 1st generation. For example, the 2024 E-Transit’s battery has 89 kWh of usable energy, up from the 1st generation’s 68-kWh battery. Furthermore, E-Transit owners will get a complimentary NACS adapter to access Tesla’s 15,000+ Superchargers across America and Canada.
+
+![](/img/fast-charging-adapter-nacs-_10.webp "Ford EV drivers with access to the Tesla network")
 
 Eric Adam, the New York City Mayor, along with the NYCEDC and NYC Talent released the first-of-its-kind, [Green Economy Action Plan](https://www.nyc.gov/office-of-the-mayor/news/147-24/mayor-adams-ambitious-plan-make-new-york-city-leader-green-collar-jobs#/0). This plan aims to create 400,000 *green-collar* jobs by 2040 alongside investing $100m to create a *Climate Innovation Hub* at the Brooklyn Army Terminal. This Hub will be developed with NYCEDC which will collaborate with the Trust for Governors Island and the Brooklyn Navy Yard Development Corporation. Thus, together, this will create 5,000 permanent jobs, educate and train 2,100 New Yorkers, and generate $55bn of economic impact. We fully support the Big Apple’s transition to the Big *Green* Apple and hope this inspires other states to take green action.
 
@@ -691,8 +693,8 @@ The [Biden-Harris Administration](https://bus-news.com/us-1-5-billion-in-federa
 
 [Orange EV](https://theevreport.com/orange-ev-electrifies-growth-with-new-hq-and-production-boom), an American OEM of electric heavy-duty trucks, has announced it has opened its new facility in Kansas City. This new facility boosts its production capacity to more than 2,000 trucks annually. Interestingly, Orange EV’s e-TRIEVER model dominates the yard truck segment and CALSTART has stated this segment is transitioning fastest to electric. Furthermore, this company has the largest fleet of deployed heavy-duty electric trucks in the USA. With its new facility, it will further cement itself as the market leader in the heavy-duty electric truck market.
 
-[Black Book and Recurrent](https://www.autonews.com/video/autonews-now/automotive-news-video-black-book-and-recurrent-partnership?AutomotiveVentures) have teamed, allowing Black Book to introduce the industry’s first EV valuations which incorporate battery condition adjustments based on data from Recurrent. This valuation solution, named *Battery Adjusted Values*, factors in battery condition from a specific VIN against battery data from Recurrent’s database to spit out a VIN-specific valuation. This is a great solution and shows the rapid progress Black Book and Recurrent are making. The EV battery is the most valuable component of the EV, thus looking at the rate of degradation based on factors such as rate of utilisation, driver behaviour, battery chemistry, etc, will heavily influence the EV valuation in the secondary market.
+![](/img/image.jpg "Eric Lyman and Alex Yurchenko, Black Book")
 
- 
+[Black Book and Recurrent](https://www.autonews.com/video/autonews-now/automotive-news-video-black-book-and-recurrent-partnership?AutomotiveVentures) have teamed, allowing Black Book to introduce the industry’s first EV valuations which incorporate battery condition adjustments based on data from Recurrent. This valuation solution, named *Battery Adjusted Values*, factors in battery condition from a specific VIN against battery data from Recurrent’s database to spit out a VIN-specific valuation. This is a great solution and shows the rapid progress Black Book and Recurrent are making. The EV battery is the most valuable component of the EV, thus looking at the rate of degradation based on factors such as rate of utilisation, driver behaviour, battery chemistry, etc, will heavily influence the EV valuation in the secondary market.
 
 <!--EndFragment-->
