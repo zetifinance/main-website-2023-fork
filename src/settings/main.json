@@ -1,6 +1,10 @@
 {
   "nav": [
     {
+      "name": "Our Technology",
+      "permalink": "/our-technology/"
+    },
+    {
       "name": "Fleets",
       "permalink": "/fleets/"
     },
@@ -11,10 +15,6 @@
     {
       "name": "Manufacturers",
       "permalink": "/manufacturers/"
-    },
-    {
-      "name": "Our Technology",
-      "permalink": "/our-technology/"
     },
     {
       "name": "News",
