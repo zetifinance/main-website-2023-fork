@@ -93,16 +93,6 @@ blocks:
             and fundraising.
           image: /img/manjot-heer.jpg
       - team_member:
-          name: Pavundeep Johal
-          bio: Experience within the energy industry as a maintenance analyst at
-            ExxonMobil. Formerly a psycholinguistic research assistant with a
-            focus on improving accessibility to education for deaf students.
-            Recently obtained First Class Honours in MEng Mechanical
-            Engineering.
-          linkedin: https://www.linkedin.com/in/pavundeep-johal/
-          job_role: Junior Product Manager
-          image: /img/pavundeep-johal.jpg
-      - team_member:
           name: Dave Kennon
           job_role: Commercial Director
           linkedin: https://www.linkedin.com/in/davekennon/
