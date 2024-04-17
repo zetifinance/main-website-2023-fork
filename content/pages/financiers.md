@@ -98,6 +98,32 @@ blocks:
             stakeholders
           image: /img/co2.png
     columns: Three
+  - type: grid
+    variant: card
+    columns: Two
+    intro:
+      heading: Testimonials
+    list:
+      - list_item:
+          rich_editor: >-
+            "By working with Zeti and utilising their innovative financing
+            platform, MEEF will have access to real time finance and
+            environmental data, demonstrating the impact MEEF is making in
+            improving London’s air quality."
+
+
+            \- Pete Radford, Director of MEEF
+          image: /img/quotation.png
+      - list_item:
+          rich_editor: >-
+            "We are delighted to work together with Zeti and Otto Car to support
+            this innovative approach to financing, and in doing so, helping to
+            accelerate the shift from conventional to electric vehicles in the
+            Capital."
+
+
+            \-﻿ Pete Radford, Director of MEEF, Amber
+          image: /img/quotation.png
   - type: accordions
     intro:
       heading: FAQs
