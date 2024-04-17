@@ -93,13 +93,13 @@ blocks:
     list:
       - list_item:
           rich_editor: >-
-            "A particular benefit of the Zeti Invest platform is the pooling of
-            vehicle mileage; with a contracted aggregate mileage across all
-            vehicles, we don’t need to juggle individual cabs to a fixed mileage
-            or end date."
+            "By working with Zeti and utilising their innovative financing
+            platform, MEEF will have access to real time finance and
+            environmental data, demonstrating the impact MEEF is making in
+            improving London’s air quality."
 
 
-            \- Asher Moses, Sherbet CEO
+            \- Pete Radford, Director of MEEF
           image: /img/quotation.png
       - list_item:
           rich_editor: >-
