@@ -45,6 +45,24 @@ blocks:
             without harming your sales.
           image: /img/co2.png
     columns: Three
+  - type: grid
+    variant: card
+    columns: Two
+    intro:
+      heading: Testimonials
+    list:
+      - list_item:
+          rich_editor: >-
+            “The Transport as a Service offering from Zeti provides customers
+            with complete certainty of costs for the duration of a vehicle
+            contract. The pay-per-mile financing helps operators to optimise
+            their cash flow and protect margins. We see this as a real value-add
+            for those fleet operators looking to decarbonise their fleets to
+            achieve challenging net zero targets.”
+
+
+            — Jawad Khursheed, CEO of HVS
+          image: /img/quotation.png
   - type: accordions
     intro:
       heading: FAQs
