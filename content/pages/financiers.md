@@ -116,13 +116,13 @@ blocks:
           image: /img/quotation.png
       - list_item:
           rich_editor: >-
-            "We are delighted to work together with Zeti and Otto Car to support
-            this innovative approach to financing, and in doing so, helping to
-            accelerate the shift from conventional to electric vehicles in the
-            Capital."
+            "I am delighted to see further steps being taken to build a better,
+            greener London for everyone. It is a fantastic way to tackle air
+            pollution and reduce the city’s carbon emissions to help us reach
+            the Mayor’s net zero target by 2030."
 
 
-            \-﻿ Pete Radford, Director of MEEF, Amber
+            \-﻿ Shirley Rodrigues, Deputy Mayor for Environment and Energy
           image: /img/quotation.png
   - type: accordions
     intro:
