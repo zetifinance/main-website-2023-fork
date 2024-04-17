@@ -112,10 +112,10 @@ blocks:
           image: /img/quotation.png
       - list_item:
           rich_editor: >-
-            "A particular benefit of the ZERO platform is the pooling of vehicle
-            mileage; with a contracted aggregate mileage across all vehicles, we
-            don’t need to juggle individual cabs to a fixed mileage or end
-            date."
+            "A particular benefit of the Zeti Invest platform is the pooling of
+            vehicle mileage; with a contracted aggregate mileage across all
+            vehicles, we don’t need to juggle individual cabs to a fixed mileage
+            or end date." 
 
 
             \- Asher Moses, Sherbet CEO
