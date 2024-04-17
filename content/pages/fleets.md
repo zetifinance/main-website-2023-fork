@@ -102,13 +102,16 @@ blocks:
     list:
       - list_item:
           rich_editor: >-
-            "Zeti are a bridge between Breathe and the investment funds. We have
-            an ambitious target to scale 10,000 vehicles across the UK so we
-            really need players like Zeti who can provide us with security and
-            base of information."
+            "As the UK's largest private hire fleet, we are tech-enabled and
+            growing rapidly. Zeti's fintech platform gives us deep real-time
+            insights into our assets' financing which is valuable data we will
+            use to fuel our expansion beyond our 5000-strong zero-emission fleet
+            in London. We are delighted to partner with Zeti for their financial
+            technology and the MEEF fund to accelerate the roll out of clean
+            vehicles in London."
 
 
-            \- Jeff Davis, Breathe COO
+            \- Gurinder Dhillon, Director, Otto Car
           image: /img/quotation.png
       - list_item:
           rich_editor: >-
