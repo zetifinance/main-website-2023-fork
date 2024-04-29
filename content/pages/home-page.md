@@ -179,22 +179,36 @@ blocks:
     intro:
       heading: Working alongside
     logos:
+      - image_dark: /img/ufl.png
+        image_light: /img/7c5450cc-a5a1-4534-8111-bf2172abd36a.png
+        link: https://www.ufl.nyc/
       - image_light: /img/calstart-white.png
         image_dark: /img/calstart.png
+        link: https://calstart.org/
       - image_light: /img/1069295-1-.png
         image_dark: /img/microsoft-colour.png
+        link: https://www.microsoft.com/en-gb
       - image_light: /img/amber-white.png
         image_dark: /img/amber.jpeg
+        link: https://www.amberinfrastructure.com/
       - image_light: /img/gravis-white.png
         image_dark: /img/gravis-black.png
+        link: https://www.graviscapital.com/
       - image_light: /img/bvrla.png
         image_dark: /img/bvrla-logo.png
+        link: https://www.bvrla.co.uk/
       - image_light: /img/geotab-white-logo.png
         image_dark: /img/geotab.png
+        link: https://www.geotab.com/uk/
       - image_light: /img/innovate-finance-white.png
         image_dark: /img/1200px-innovate_finance.png
+        link: https://www.innovatefinance.com/
       - image_light: /img/fintech-innovation-lab-white.png
         image_dark: /img/fintechlabnewyork.png
+        link: https://www.fintechinnovationlab.com/
+      - image_light: /img/ey-white-logo.png
+        image_dark: /img/ey_logo_2019.svg.png
+        link: https://www.ey.com/en_gl
     variant: Slider
 seo:
   ogimage: /img/ZetiSocialCard.png
