@@ -197,6 +197,9 @@ blocks:
       - image_light: /img/bvrla.png
         image_dark: /img/bvrla-logo.png
         link: https://www.bvrla.co.uk/
+      - link: https://technation.io/
+        image_light: /img/tech-nation-logo-trns.png
+        image_dark: /img/5a0ac1_0390150fd85447b990b884d4f0dec105-mv2.png
       - image_light: /img/geotab-white-logo.png
         image_dark: /img/geotab.png
         link: https://www.geotab.com/uk/
@@ -218,9 +221,9 @@ blocks:
       - image_light: /img/221542f0-2e96-49e5-afeb-6339a7859ce1.png
         image_dark: /img/dit-logo.png
         link: https://www.gov.uk/government/organisations/department-for-business-and-trade
-      - link: https://technation.io/
-        image_light: /img/tech-nation-logo-trns.png
-        image_dark: /img/5a0ac1_0390150fd85447b990b884d4f0dec105-mv2.png
+      - image_light: /img/octopus-investments-white.png
+        image_dark: /img/octopus-investments.png
+        link: https://octopusinvestments.com/
     variant: Slider
 seo:
   ogimage: /img/ZetiSocialCard.png
