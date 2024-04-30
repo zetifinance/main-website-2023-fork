@@ -174,9 +174,6 @@ blocks:
       - image_light: /img/levc.png
         image_dark: /img/levc-light-theme.webp
         link: https://www.levc.com/
-      - link: https://www.gov.uk/government/organisations/department-for-business-and-trade
-        image_light: /img/221542f0-2e96-49e5-afeb-6339a7859ce1.png
-        image_dark: /img/dit-logo.png
     variant: Grid
   - type: logo_grid
     intro:
@@ -218,6 +215,9 @@ blocks:
       - link: https://www.grow.london/
         image_light: /img/6c32be8b-498f-4e1e-946f-578137d253e2.png
         image_dark: /img/iwpdjmg9_400x400.jpg
+      - image_light: /img/221542f0-2e96-49e5-afeb-6339a7859ce1.png
+        image_dark: /img/dit-logo.png
+        link: https://www.gov.uk/government/organisations/department-for-business-and-trade
     variant: Slider
 seo:
   ogimage: /img/ZetiSocialCard.png
