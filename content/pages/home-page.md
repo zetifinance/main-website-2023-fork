@@ -218,6 +218,9 @@ blocks:
       - image_light: /img/221542f0-2e96-49e5-afeb-6339a7859ce1.png
         image_dark: /img/dit-logo.png
         link: https://www.gov.uk/government/organisations/department-for-business-and-trade
+      - link: https://technation.io/
+        image_light: /img/tech-nation-logo-trns.png
+        image_dark: /img/5a0ac1_0390150fd85447b990b884d4f0dec105-mv2.png
     variant: Slider
 seo:
   ogimage: /img/ZetiSocialCard.png
