@@ -174,6 +174,9 @@ blocks:
       - image_light: /img/levc.png
         image_dark: /img/levc-light-theme.webp
         link: https://www.levc.com/
+      - link: https://www.gov.uk/government/organisations/department-for-business-and-trade
+        image_light: /img/221542f0-2e96-49e5-afeb-6339a7859ce1.png
+        image_dark: /img/dit-logo.png
     variant: Grid
   - type: logo_grid
     intro:
