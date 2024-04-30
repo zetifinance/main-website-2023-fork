@@ -212,6 +212,9 @@ blocks:
       - image_light: /img/ey-white-logo.png
         image_dark: /img/ey_logo_2019.svg.png
         link: https://www.ey.com/en_gl
+      - link: https://www.grow.london/
+        image_light: /img/6c32be8b-498f-4e1e-946f-578137d253e2.png
+        image_dark: /img/iwpdjmg9_400x400.jpg
     variant: Slider
 seo:
   ogimage: /img/ZetiSocialCard.png
