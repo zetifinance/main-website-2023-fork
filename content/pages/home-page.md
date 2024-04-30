@@ -179,51 +179,54 @@ blocks:
     intro:
       heading: Working alongside
     logos:
-      - image_dark: /img/ufl.png
-        image_light: /img/7c5450cc-a5a1-4534-8111-bf2172abd36a.png
-        link: https://www.ufl.nyc/
-      - image_light: /img/calstart-white.png
-        image_dark: /img/calstart.png
-        link: https://calstart.org/
-      - link: https://smartcar.com/
-        image_light: /img/e3fdf530-8c46-4335-bd84-e7811f346497.png
-        image_dark: /img/61e6ee6b553cc20c5fcb59d7_smartcar_black_logo.png
       - image_light: /img/amber-white.png
         image_dark: /img/amber.jpeg
         link: https://www.amberinfrastructure.com/
       - image_light: /img/gravis-white.png
         image_dark: /img/gravis-black.png
         link: https://www.graviscapital.com/
-      - image_light: /img/bvrla.png
-        image_dark: /img/bvrla-logo.png
-        link: https://www.bvrla.co.uk/
+      - image_light: /img/octopus-investments-white.png
+        image_dark: /img/octopus-investments.png
+        link: https://octopusinvestments.com/
+      - image_light: /img/calstart-white.png
+        image_dark: /img/calstart.png
+        link: https://calstart.org/
+      - image_dark: /img/ufl.png
+        image_light: /img/7c5450cc-a5a1-4534-8111-bf2172abd36a.png
+        link: https://www.ufl.nyc/
       - link: https://technation.io/
         image_light: /img/tech-nation-logo-trns.png
         image_dark: /img/5a0ac1_0390150fd85447b990b884d4f0dec105-mv2.png
+      - image_light: /img/bvrla.png
+        image_dark: /img/bvrla-logo.png
+        link: https://www.bvrla.co.uk/
+      - image_light: /img/1069295-1-.png
+        image_dark: /img/microsoft-colour.png
+        link: https://www.microsoft.com/en-gb
       - image_light: /img/geotab-white-logo.png
         image_dark: /img/geotab.png
         link: https://www.geotab.com/uk/
+      - link: https://www.samsara.com/
+        image_light: /img/samsara-white.png
+        image_dark: /img/samsara.jpg
+      - link: https://smartcar.com/
+        image_light: /img/e3fdf530-8c46-4335-bd84-e7811f346497.png
+        image_dark: /img/61e6ee6b553cc20c5fcb59d7_smartcar_black_logo.png
+      - image_light: /img/ey-white-logo.png
+        image_dark: /img/ey_logo_2019.svg.png
+        link: https://www.ey.com/en_gl
       - image_light: /img/innovate-finance-white.png
         image_dark: /img/1200px-innovate_finance.png
         link: https://www.innovatefinance.com/
       - image_light: /img/fintech-innovation-lab-white.png
         image_dark: /img/fintechlabnewyork.png
         link: https://www.fintechinnovationlab.com/
-      - image_light: /img/1069295-1-.png
-        image_dark: /img/microsoft-colour.png
-        link: https://www.microsoft.com/en-gb
-      - image_light: /img/ey-white-logo.png
-        image_dark: /img/ey_logo_2019.svg.png
-        link: https://www.ey.com/en_gl
       - link: https://www.grow.london/
         image_light: /img/6c32be8b-498f-4e1e-946f-578137d253e2.png
         image_dark: /img/iwpdjmg9_400x400.jpg
       - image_light: /img/221542f0-2e96-49e5-afeb-6339a7859ce1.png
         image_dark: /img/dit-logo.png
         link: https://www.gov.uk/government/organisations/department-for-business-and-trade
-      - image_light: /img/octopus-investments-white.png
-        image_dark: /img/octopus-investments.png
-        link: https://octopusinvestments.com/
     variant: Slider
 seo:
   ogimage: /img/ZetiSocialCard.png
