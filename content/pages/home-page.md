@@ -185,7 +185,7 @@ blocks:
       - image_light: /img/gravis-white.png
         image_dark: /img/gravis-black.png
         link: https://www.graviscapital.com/
-      - image_light: /img/octopus-investments-white.png
+      - image_light: /img/b67af4e6-5ec5-45aa-99b6-63a9b744d725.png
         image_dark: /img/octopus-investments.png
         link: https://octopusinvestments.com/
       - image_light: /img/calstart-white.png
