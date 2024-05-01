@@ -11,14 +11,14 @@ excerpt: ""
 seo:
   ogimage: /img/ZetiSocialCard.png
 ---
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:RelyOnVML/>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -58,9 +58,9 @@ seo:
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -639,9 +639,9 @@ seo:
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -670,7 +670,7 @@ seo:
 	mso-ligatures:standardcontextual;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
@@ -678,7 +678,7 @@ seo:
 
 [CATL and Beijing Hyundai](https://etn.news/e-mobility-blogs/battery-giant-catl-to-power-beijing-hyundai-s-future-ev-models) have announced they have signed a strategic partnership agreement with each other that will focus on powering Beijing Hyundai EVs with CATL batteries. This agreement further strengthens the relationship between the two, as they have worked together in some capacity since 2017 around shared product development. Bear in mind Beijing Hyundai is a JV between BAIC Motor and Hyundai Motor Company. In the coming days/weeks, Beijing Hyundai is set to unveil over 10+ global (EV) models equipped with CATL's latest battery technology.
 
-[Go-Ahead](https://www.route-one.net/news/go-ahead-to-use-tranzaura-to-digitise-maintenance-checks/) has announced it is partnering with Tranzaura, an end-to-end digital platform for the transport industry. Tranzaura focuses on digitising and streamlining compliance tasks, such as maintenance checks. This partnership is, initially, for 5 years as Stagecoach looks to move away from paper-based records. This solution is already being used in its London depots and will be rolled out across all its UK operations in the coming weeks and months. Tranzaura’s app will give management teams real-time compliance insights and visibility using photo capture and real-time communication tools.
+[Go-Ahead](https://www.route-one.net/news/go-ahead-to-use-tranzaura-to-digitise-maintenance-checks/) has announced it is partnering with Tranzaura, an end-to-end digital platform for the transport industry. Tranzaura focuses on digitising and streamlining compliance tasks, such as maintenance checks. This partnership is initially for 5 years as Go-Ahead looks to move away from paper-based records. This solution is already being used in its London depots and will be rolled out across all its UK operations in the coming weeks and months. Tranzaura’s app will give management teams real-time compliance insights and visibility using photo capture and real-time communication tools.
 
 Honda and Asahi Kasei have signed a [preliminary agreement](https://theevreport.com/honda-asahi-kasei-battery-venture-in-canada) to collaborate on manufacturing battery separators for EV batteries in Canada. Both companies are aiming to formalise a JV by Q4 24 to produce battery separators. It is interesting to see how different OEMs are tackling to firm up their battery supply chain(s). Separators play a critical role in preventing short circuits in lithium-ion batteries; thus, Asahi will leverage its advanced material technologies whilst Honda will leverage its electrification insights to manufacture separators for EVs. It is important to highlight that OEMs forecast the demand for EVs in North America will significantly increase in the coming years. Recent media conjecture has been highlighting the topical volatility in EV adoption in North America, however (RVs aside, which will normalise in due course) the majority of the different agents in the supply chain(s) are heavily investing capital in the infrastructure needed to help ramp up zero-emission vehicle adoption in the coming years.
 
