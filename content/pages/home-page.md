@@ -195,8 +195,8 @@ blocks:
         image_light: /img/6.png
         link: https://www.ufl.nyc/
       - link: https://technation.io/
-        image_light: /img/tech-nation-logo-trns.png
-        image_dark: /img/5a0ac1_0390150fd85447b990b884d4f0dec105-mv2.png
+        image_light: /img/8.png
+        image_dark: /img/9.png
       - image_light: /img/bvrla.png
         image_dark: /img/bvrla-logo.png
         link: https://www.bvrla.co.uk/
