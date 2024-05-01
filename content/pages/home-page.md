@@ -212,8 +212,8 @@ blocks:
       - link: https://smartcar.com/
         image_light: /img/e3fdf530-8c46-4335-bd84-e7811f346497.png
         image_dark: /img/61e6ee6b553cc20c5fcb59d7_smartcar_black_logo.png
-      - image_light: /img/ey-white-logo.png
-        image_dark: /img/ey_logo_2019.svg.png
+      - image_light: /img/5.png
+        image_dark: /img/4.png
         link: https://www.ey.com/en_gl
       - image_light: /img/innovate-finance-white.png
         image_dark: /img/1200px-innovate_finance.png
