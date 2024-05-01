@@ -188,8 +188,8 @@ blocks:
       - image_light: /img/untitled-design-9-.png
         image_dark: /img/untitled-design-8-.png
         link: https://octopusinvestments.com/
-      - image_light: /img/calstart-white.png
-        image_dark: /img/calstart.png
+      - image_light: /img/2.png
+        image_dark: /img/3.png
         link: https://calstart.org/
       - image_dark: /img/ufl.png
         image_light: /img/7c5450cc-a5a1-4534-8111-bf2172abd36a.png
