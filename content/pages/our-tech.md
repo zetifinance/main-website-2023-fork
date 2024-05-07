@@ -45,7 +45,7 @@ blocks:
               Hub, lenders and fleet operators enjoy unprecedented transparency
               around the contracts that they have agreed, allowing them to
               easily monitor their progress with repayments.
-          image: /img/4.png
+          image: /img/website-contract-tracker.png
       - tab:
           heading: Product Innovation
           main:
@@ -62,7 +62,7 @@ blocks:
               automate time-consuming processes including invoicing and payment
               reconciliation. This has been shown generate time savings of up to
               70% for personnel managing the portfolio.
-          image: /img/6.png
+          image: /img/website-billing-summary.png
       - tab:
           heading: Advanced Risk Management
           main:
