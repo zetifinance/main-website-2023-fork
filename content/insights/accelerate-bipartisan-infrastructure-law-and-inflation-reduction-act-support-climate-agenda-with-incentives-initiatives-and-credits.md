@@ -11,14 +11,14 @@ excerpt: ""
 seo:
   ogimage: /img/ZetiSocialCard.png
 ---
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:RelyOnVML/>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -57,9 +57,9 @@ seo:
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -638,13 +638,13 @@ seo:
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if !supportAnnotations]-->
+<!--\\[if !supportAnnotations]-->
 
-<!--\[endif]-->
+<!--\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -673,13 +673,13 @@ seo:
 	mso-ligatures:standardcontextual;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
 The [Biden-Harris Administration](https://www.bloomberg.com/news/articles/2024-05-03/biden-gives-carmakers-a-break-on-tough-to-trace-ev-materials?srnd=politics-vp&sref=uFYGeRuc&embedded-checkout=true) has given automakers additional flexibility on battery mineral requirements for EV tax credits on some *crucial trace minerals* from China, including graphite. Automakers have been given an extra 2 years to shore up sourcing of graphite and other materials considered difficult to trace due to their origin. However, from 2025 onwards, plug-in cars containing critical minerals from businesses controlled by countries deemed a Foreign Entity of Concern (FEOC), such as China, will be disqualified for up to $7,500 tax credits. That said, the current rules allow automakers to obtain materials from foreign subsidiaries of privately owned Chinese companies in non-FEOC countries, such as Australia, that can count towards tax credit eligibility. This pragmatic approach has been welcomed by the *Alliance for Automotive Innovation* as it highlights China’s dominant position within clean-tech supply chains and the ongoing difficulty of onshoring and diversifying supply chains by the USA.
 
-The [US Department of the Treasury](https://www.reuters.com/business/autos-transportation/us-issues-over-580-million-advance-ev-tax-rebates-auto-dealers-since-jan-1-2024-04-12/) has announced it has reimbursed auto dealers more than $580m in advance point-of-sale consumer EV tax credit since January 1st 2024. Prior to this, consumers could only unlock EV tax credits when they filed tax returns the following year; being able to transfer these credits at the point of sale essentially lowers the purchase price. This will continue to combat high upfront purchase prices and help ramp up EV adoption. [](<>)[](<>)[The Treasury has stated more than 85,000 of the time-of-sale tax reports were for new EVs, with over 90% of those including advance payment requests for $7,500. More than 15,000 time-of-sale reports were for used EVs, with about 75% including advanced payment requests for $4,000.](<>)<!--\[if !supportAnnotations]-->[\[PD1]](#_msocom_1)<!--\[endif]--> <!--\[if !supportAnnotations]-->[\[MH2]](#_msocom_2)<!--\[endif]--> <!--\[if !supportAnnotations]-->[\[JS3]](#_msocom_3)<!--\[endif]--> 
+The [US Department of the Treasury](https://www.reuters.com/business/autos-transportation/us-issues-over-580-million-advance-ev-tax-rebates-auto-dealers-since-jan-1-2024-04-12/) has announced it has reimbursed auto dealers more than $580m in advance point-of-sale consumer EV tax credit since January 1st 2024. Prior to this, consumers could only unlock EV tax credits when they filed tax returns the following year; being able to transfer these credits at the point of sale essentially lowers the purchase price. This will continue to combat high upfront purchase prices and help ramp up EV adoption. The Treasury has stated more than 85,000 of the time-of-sale tax reports were for new EVs, with over 90% of those including advance payment requests for $7,500. More than 15,000 time-of-sale reports were for used EVs, with about 75% including advanced payment requests for $4,000.
 
 [Bloomberg Green](https://www.bloomberg.com/news/articles/2024-05-08/world-extends-run-of-heat-records-for-an-11th-month-in-a-row?sref=uFYGeRuc) released a new analysis stating  the USA is successfully executing its mission to ramp up its EV infrastructure so far this year. Federal data shows that around 600 public fast-charging stations were installed in Q1 24, a 7.6% increase from Q4 23, with a total of approximately 8,200 quick-turn EV stations across America. Although the media rhetoric has been around a slowdown in EV adoption, the real news is the uptake in EV infrastructure deployment. This has been helped tremendously by the $5bn *National Electric Vehicle Infrastructure* program. This policy tailwind focuses on filling in the remaining gaps in the charging map. Another subsector helping ramp up EV infrastructure is the retail sector with Buc-ee’s and Wawa collectively opening 19 new charging stations in Q1 24.
 
@@ -697,58 +697,20 @@ Ford Pro has begun taking orders for the enhanced-range version of the [Ford E-T
 
 The [Biden-Harris Administration](https://www.whitehouse.gov/briefing-room/statements-releases/2024/04/24/fact-sheet-biden-harris-administration-sets-first-ever-national-goal-of-zero-emissions-freight-sector-announces-nearly-1-5-billion-to-support-transition-to-zero-emission-heavy-duty-vehicles/) has announced its first ever commitment to setting a national goal of transitioning to a zero-emissions freight sector for truck, rail, aviation and marine, alongside a commitment to develop a national zero-emissions freight strategy. This is a significant commitment as the EPA will make around $1bn of funding available for cities, states and Tribes to replace Class 6 and Class 7 heavy-duty vehicles (school buses, ZEVs, etc) via the Inflation Reduction Act. This funding will also help facilitate the adoption of infrastructure to charge, fuel and maintain heavy-duty zero-emission vehicles. The DOT has announced the first tranche of its $400m *Reduction of Truck Emissions at Port Facilities Grant Program* is aimed at improving air quality. There is also an intention to reduce pollution for truck drivers, port workers and families that live in communities surrounding ports, where air quality is critically poor. Although California is a leader in reducing carbon emissions, Californian [Senator Padilla](https://www.padilla.senate.gov/newsroom/press-releases/padilla-applauds-announcement-of-first-ever-national-goal-of-zero-emissions-freight-sector-and-nearly-1-5-billion-to-support-zero-emission-hdv-transition/%5d) came out strongly supporting this commitment, as the state hosts many cities with very poor air quality.
 
-<!--\[if !supportAnnotations]-->
+[](<>)
 
-- - -
 
-<!--\[endif]-->
 
-<!--\[if !supportAnnotations]-->
 
-<!--\[endif]-->
-
-<!--\[if !supportAnnotations]-->
 
 [](<>)
 
-<!--\[endif]-->
+<!--\\[endif]-->
 
- <!--\[if !supportAnnotations]-->[\[PD1]](#_msoanchor_1)<!--\[endif]-->Not sure I understand this bit. Were 85k or 15k of the time-of-sale tax reports for EVs?
+ <!--\\[if !supportAnnotations]-->\[[JS3]](#_msoanchor_3)<!--\\[endif]-->I think the text is fine.  For context here, there is a $7,500 tax credit for new EVs that transaction was completed 85,000 times.  Used EVs receive a $4,000 credit and that transaction was completed 15,000 times.
 
-<!--\[if !supportAnnotations]-->
+<!--\\[if !supportAnnotations]-->
 
-<!--\[endif]-->
-
-<!--\[if !supportAnnotations]-->
-
-<!--\[endif]-->
-
-<!--\[if !supportAnnotations]-->
-
-[](<>)
-
-<!--\[endif]-->
-
- <!--\[if !supportAnnotations]-->[\[MH2]](#_msoanchor_2)<!--\[endif]-->Ones for used EV and ones for new EVs. The sentence is correct tho.
-
-<!--\[if !supportAnnotations]-->
-
-<!--\[endif]-->
-
-<!--\[if !supportAnnotations]-->
-
-<!--\[endif]-->
-
-<!--\[if !supportAnnotations]-->
-
-[](<>)
-
-<!--\[endif]-->
-
- <!--\[if !supportAnnotations]-->[\[JS3]](#_msoanchor_3)<!--\[endif]-->I think the text is fine.  For context here, there is a $7,500 tax credit for new EVs that transaction was completed 85,000 times.  Used EVs receive a $4,000 credit and that transaction was completed 15,000 times.
-
-<!--\[if !supportAnnotations]-->
-
-<!--\[endif]-->
+<!--\\[endif]-->
 
 <!--EndFragment-->
