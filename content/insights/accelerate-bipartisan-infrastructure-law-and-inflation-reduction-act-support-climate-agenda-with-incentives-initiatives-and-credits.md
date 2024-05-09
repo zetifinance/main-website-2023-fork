@@ -2,8 +2,7 @@
 id: NZBLoiCsf
 type: post
 layout: post
-title: "Accelerate: Bipartisan Infrastructure Law and Inflation Reduction Act
-  support climate agenda with incentives, initiatives and credits"
+title: "Accelerate: Incentives, initiatives and credits to support climate agenda"
 permalink: /insights/us-newsletter-09-05-24-bipartisan-infrastructure-law-and-inflation-reduction-act/
 thumbnail: /img/2024-silverado-specialeditions-03.jpg
 date: 2024-05-08T23:00:00.000Z
