@@ -2,7 +2,7 @@
 id: ofC7SdPF5
 type: post
 layout: post
-title: "Sometimes, you just have to go with the Wayves! "
+title: "Sometimes, you just have to ride the Wayves! "
 permalink: /insights/weekly-news-roundup-08-05-24-sometimes-you-just-have-to-go-with-the-waves/
 thumbnail: /img/shutterstock_148762313.jpg
 date: 2024-05-07T23:00:00.000Z
