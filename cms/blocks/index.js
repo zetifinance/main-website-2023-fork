@@ -113,7 +113,7 @@ const Config = {
           name: 'columns',
           widget: 'select',
           default: 'Three',
-          options: ['Three', 'Two', 'Four'],
+          options: ['One', 'Two', 'Three', 'Four'],
           required: true,
         },
         Intro,
