@@ -48,7 +48,7 @@ export default function LogoGrid({ data }) {
                         <div className="logo-grid__logos logo-grid__logos--slider">
                             <Splide hasTrack={false} options={{
                                 type: 'loop',
-                                interval: 7500,
+                                interval: 5500,
                                 speed: 800,
                                 autoplay: true,
                                 pauseOnHover: true,
