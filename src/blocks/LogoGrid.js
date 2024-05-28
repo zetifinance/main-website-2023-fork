@@ -20,16 +20,16 @@ export default function LogoGrid({ data }) {
     const intro_heading = data?.intro?.heading;
     const intro_content = data?.intro?.rich_editor;
     const intro_buttons = data?.intro?.buttons;
-    
+
     // Logos
-    const logos = data?.logos;    
+    const logos = data?.logos;
 
     return (
-        <section inview={inView} ref={ref} className={clsx('block block__logo-grid', {'in-view': inView})}>
+        <section inview={inView} ref={ref} className={clsx('block block__logo-grid', { 'in-view': inView })}>
             <div className="container">
                 <div className="logo-grid__intro">
                     {intro_heading && (
-                        <h2 className="section-heading">{ intro_heading }</h2>
+                        <h2 className="section-heading">{intro_heading}</h2>
                     )}
 
                     {intro_content && (
@@ -38,37 +38,40 @@ export default function LogoGrid({ data }) {
                         </Text>
                     )}
 
-					{intro_buttons && (
-						<Buttons buttons={intro_buttons} className={clsx('')} />
+                    {intro_buttons && (
+                        <Buttons buttons={intro_buttons} className={clsx('')} />
                     )}
                 </div>
-                
+
                 {
                     isSlider ? (
                         <div className="logo-grid__logos logo-grid__logos--slider">
-                            <Splide hasTrack={ false } options={ {
+                            <Splide hasTrack={false} options={{
                                 type: 'loop',
-                                interval: 2500,
+                                interval: 7500,
+                                speed: 800,
                                 autoplay: true,
-                                pauseOnHover: false,
-                                pauseOnFocus: false,
+                                pauseOnHover: true,
+                                pauseOnFocus: true,
                                 resetProgress: false,
-                                perPage: 4, 
-                                perMove: 1, 
-                                rewind: false, 
-                                gap: '100px', 
+                                perPage: 4,
+                                perMove: 4,
+                                rewind: false,
+                                gap: '100px',
                                 arrows: false,
                                 breakpoints: {
                                     1199: {
-                                        perPage: 3, 
-                                        gap: '50px', 
+                                        perPage: 3,
+                                        perMove: 3,
+                                        gap: '50px',
                                     },
                                     767: {
-                                        perPage: 2, 
-                                        gap: '75px', 
+                                        perPage: 2,
+                                        perMove: 2,
+                                        gap: '75px',
                                     },
                                 },
-                            } }>
+                            }}>
                                 <SplideTrack>
                                     {
                                         logos?.map((item, i) => {
@@ -82,13 +85,13 @@ export default function LogoGrid({ data }) {
                                                         <a className="logos__logo" href={image_link} rel="noreferrer noopener" target="_blank">
                                                             {image_light && (
                                                                 <div className={clsx('logos__logo-light')}>
-                                                                    <Image src={image_light} alt="" className=""/>
+                                                                    <Image src={image_light} alt="" className="" />
                                                                 </div>
                                                             )}
-                                                                                        
+
                                                             {image_dark && (
                                                                 <div className={clsx('logos__logo-dark', { 'primary': !image_light })}>
-                                                                    <Image src={image_dark} alt="" className=""/>
+                                                                    <Image src={image_dark} alt="" className="" />
                                                                 </div>
                                                             )}
                                                         </a>
@@ -96,13 +99,13 @@ export default function LogoGrid({ data }) {
                                                         <div className="logos__logo">
                                                             {image_light && (
                                                                 <div className={clsx('logos__logo-light')}>
-                                                                    <Image src={image_light} alt="" className=""/>
+                                                                    <Image src={image_light} alt="" className="" />
                                                                 </div>
                                                             )}
-                                                                                        
+
                                                             {image_dark && (
                                                                 <div className={clsx('logos__logo-dark', { 'primary': !image_light })}>
-                                                                    <Image src={image_dark} alt="" className=""/>
+                                                                    <Image src={image_dark} alt="" className="" />
                                                                 </div>
                                                             )}
                                                         </div>
@@ -112,7 +115,7 @@ export default function LogoGrid({ data }) {
                                         })
                                     }
                                 </SplideTrack>
- 
+
                                 <div className="splide__progress">
                                     <div className="splide__progress__bar" />
                                 </div>
@@ -123,7 +126,7 @@ export default function LogoGrid({ data }) {
                                 </button>
                             </Splide>
                         </div>
-                    ): (
+                    ) : (
                         <div className="logo-grid__logos">
                             {logos?.map((item, i) => {
                                 const image_link = item?.link;
@@ -136,13 +139,13 @@ export default function LogoGrid({ data }) {
                                             <a className="logos__logo" href={image_link} rel="noreferrer noopener" target="_blank">
                                                 {image_light && (
                                                     <div className={clsx('logos__logo-light')}>
-                                                        <Image src={image_light} alt=""/>
+                                                        <Image src={image_light} alt="" />
                                                     </div>
                                                 )}
-                                                                            
+
                                                 {image_dark && (
                                                     <div className={clsx('logos__logo-dark', { 'primary': !image_light })}>
-                                                        <Image src={image_dark} alt=""/>
+                                                        <Image src={image_dark} alt="" />
                                                     </div>
                                                 )}
                                             </a>
@@ -150,13 +153,13 @@ export default function LogoGrid({ data }) {
                                             <div className="logos__logo">
                                                 {image_light && (
                                                     <div className={clsx('logos__logo-light')}>
-                                                        <Image src={image_light} alt=""/>
+                                                        <Image src={image_light} alt="" />
                                                     </div>
                                                 )}
-                                                                            
+
                                                 {image_dark && (
                                                     <div className={clsx('logos__logo-dark', { 'primary': !image_light })}>
-                                                        <Image src={image_dark} alt=""/>
+                                                        <Image src={image_dark} alt="" />
                                                     </div>
                                                 )}
                                             </div>
