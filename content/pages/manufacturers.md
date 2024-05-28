@@ -47,7 +47,7 @@ blocks:
     columns: Three
   - type: grid
     variant: card
-    columns: Two
+    columns: One
     intro:
       heading: Testimonials
     list:

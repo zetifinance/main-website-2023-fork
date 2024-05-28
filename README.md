@@ -1,57 +1,3 @@
-![Henlo Starter](https://repository-images.githubusercontent.com/270961687/4085d990-9083-451d-b39b-5316579adf09)
-
-# Gatsby Starter Henlo (v1.1.0)
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/43532afb-3488-432b-8185-a745645a90d8/deploy-status)](https://app.netlify.com/sites/henlo/deploys)
-
-[Official Website / Demo](http://henlo.cleancommit.io)
-
-Gatsby Starter Henlo is the most advanced Netlify CMS starter for Gatsby.js. We built it with Page Builder setup in mind. All pages are created out of programmable blocks, aiming to provide the best DX & admin UX possible.
-
-This repo contains an example website that is built with [Gatsby](https://www.gatsbyjs.com/docs/), and [Netlify CMS](https://www.netlifycms.org).
-
-It follows the [JAMstack architecture](https://jamstack.org) by using Git as a single source of truth, and [Netlify](https://www.netlify.com) for continuous deployment, and CDN distribution.
-
-## Features
-
-- Support for Gatsby v5
-- 💪 Battle-tested starting point for small & large web projects
-- 📄 Form Builder that enables Admins to create multiple forms with ease & Netlify Forms integration.
-- 🌗 Darkmode support
-- 🗺 Sitemaps using `gatsby-plugin-sitemap`
-- 🔥 Perfect score on Lighthouse for SEO, Accessibility and Performance
-- 💇‍♀️ TailwindCSS support with PostCSS
-- 🔌 Support for Gatsby API functions
-- 🎇 Crazy fast images with `gatsby-plugin-image`
-- 🕵️‍♂️ Complete SEO configuration with graphql fragment and reusable components based on Head API
-- Netlify deploy configuration
-- Example pages, collections, CMS configuration with Netlify CMS & hooks
-- Readme template for custom projects
-- Easy Netlify CMS configuration using [Manual Initialization](https://www.netlifycms.org/docs/beta-features/#manual-initialization)
-- ..and more
-
-## Prerequisites
-
-- Node 18
-- [Gatsby CLI](https://www.gatsbyjs.org/docs/)
-- [Netlify CLI](https://github.com/netlify/cli)
-
-## Getting Started (Recommended)
-
-Netlify CMS can run in any frontend web environment, but the quickest way to try it out is by running it on a pre-configured starter site with Netlify. Use the button below to build and deploy your own copy of the repository:
-
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/clean-commit/gatsby-starter-henlo"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
-
-After clicking that button, you’ll authenticate with GitHub and choose a repository name. Netlify will then automatically create a repository in your GitHub account with a copy of the files from the template. Next, it will build and deploy the new site on Netlify, bringing you to the site dashboard when the build is complete. Next, you’ll need to set up Netlify’s Identity service to authorize users to log in to the CMS.
-
-## Getting Started (Without Netlify)
-
-```
-$ gatsby new [SITE_DIRECTORY_NAME] https://github.com/clean-commit/gatsby-starter-henlo
-$ cd [SITE_DIRECTORY_NAME]
-$ yarn dev
-```
-
 ### Access Locally
 
 Pulldown a local copy of the Github repository Netlify created for you, with the name you specified in the previous step
@@ -70,16 +16,6 @@ $ npx netlify-cms-proxy-server
 ```
 
 Your admin configuration will be available at http://localhost:8000/admin
-
-### Deployment
-
-We've added additional commands for quick deployments with Netlify CLI. To deploy the website to netlify cms simply run.
-
-```
-$ yarn deploy:prod
-```
-
-The website will build locally and then deploy to production.
 
 ### Folder structure
 
