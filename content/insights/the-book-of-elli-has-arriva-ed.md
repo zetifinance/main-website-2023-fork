@@ -5,7 +5,7 @@ layout: post
 title: The Book of 'Elli' has Arriva-ed
 permalink: /insights/weekly-news-roundup-11-06-24-the-book-of-elli-has-arriva-ed/
 thumbnail: /img/kniga-ilaya-the-book-of-eli-445.jpg
-date: 2024-06-10T22:00:00.000Z
+date: 2024-06-11T22:00:00.000Z
 author: ""
 excerpt: ""
 seo:
