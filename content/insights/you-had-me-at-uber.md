@@ -5,7 +5,7 @@ layout: post
 title: You had me at Uber!
 permalink: /insights/weekly-news-roundup-21-05-24-you-had-me-at-uber/
 thumbnail: /img/shutterstock_2299540775.jpg
-date: 2024-05-20T22:00:00.000Z
+date: 2024-05-21T22:00:00.000Z
 author: ""
 excerpt: ""
 seo:
