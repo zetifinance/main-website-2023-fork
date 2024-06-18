@@ -5,7 +5,7 @@ layout: post
 title: Toy(ota) Story V(2G)
 permalink: /insights/weekly-news-roundup-18-06-24-toyota-story-v2g/
 thumbnail: /img/shutterstock_1366417091.jpg
-date: 2024-06-18T23:00:00.000Z
+date: 2024-06-18T00:00:00.000Z
 author: ""
 excerpt: ""
 seo:
