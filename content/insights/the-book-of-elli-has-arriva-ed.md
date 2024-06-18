@@ -11,14 +11,14 @@ excerpt: ""
 seo:
   ogimage: /img/ZetiSocialCard.png
 ---
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:RelyOnVML/>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -58,9 +58,9 @@ seo:
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -639,9 +639,9 @@ seo:
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -670,7 +670,7 @@ seo:
 	mso-ligatures:standardcontextual;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
@@ -688,7 +688,7 @@ Sunwoda Electric Vehicle Battery Co ([Sunwoda EVB](https://www.bloomberg.com/new
 
 Altilium and Enva have announced a strategic partnership, by signing a [MoU](https://theevreport.com/altilium-and-enva-forge-strategic-ev-battery-recycling-partnership), that will enhance the collection and recycling of EV batteries across the UK. This partnership is a boost for the UK circular economy for battery minerals and we champion this union. Enva will provide nationwide collection services, while Altilium will handle the recycling process using its EcoCathode technology, which allows for the recovery of over 95% of battery metals. 
 
-***Deals***
+## **Deals**
 
 [Qargo](https://techcrunch.com/2024/06/06/qargo-raises-14m-to-digitize-and-decarbonize-the-trucking-industry/), a Belgium-based transport (and logistics) management system startup, has raised c£11m in a Series A round which was led by Balderton Capital. This startup’s solution aims to automate back-office tasks, such as auto-import PDFs, automate address lookups and optimise routes to reduce distances. It does this by integrating with (legacy) customer systems and it can process orders up to 10x faster than traditional tools. Qargo has been adopted by companies, such as Altrea Group and Uniserve Group. In March (2024) its software solution enabled 175,000 journeys, averaging more than 3,000 trucks a day, and its customers processed more than £35m in invoiced revenue. The capital raised will be used to expand into new international territories, product development and increase its workforce.
 
