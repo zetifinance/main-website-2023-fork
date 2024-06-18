@@ -113,8 +113,8 @@ export default function Slider({ data }) {
                                         }
                                         case "nox": {
                                             slide_stat_pretext = ""
-                                            slide_stat = Math.round(aggregateStatsData?.totalNoxSaving ?? 14000)
-                                            slide_stat_text = "kg"
+                                            slide_stat = Math.round((aggregateStatsData?.totalNoxSaving ?? 29000)/1000)
+                                            slide_stat_text = " tonnes"
                                             break;
                                         }
                                         case null: {
