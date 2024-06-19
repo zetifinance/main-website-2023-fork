@@ -96,10 +96,20 @@
                         span,
                         p {
                             display: inline-block;
-                            font-size: clamp(6rem, 5vw, 12rem);
+                            font-size: clamp(5rem, 5vw, 10rem);                            
                             color: $olive-green;
                             text-align: center;
                         }
+
+                        p,br {
+                            line-height: 16vw;
+
+                            @media(min-width: 768px) {
+                                line-height: 6vw
+                            }
+                        }
+
+                        
                     }
 
                     .splide__slide-content {

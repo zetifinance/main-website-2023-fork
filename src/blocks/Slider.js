@@ -114,7 +114,7 @@ export default function Slider({ data }) {
                                         case "nox": {
                                             slide_stat_pretext = ""
                                             slide_stat = Math.round((aggregateStatsData?.totalNoxSaving ?? 29000)/1000)
-                                            slide_stat_text = " tonnes"
+                                            slide_stat_text = "tonnes"
                                             break;
                                         }
                                         case null: {
@@ -140,6 +140,7 @@ export default function Slider({ data }) {
                                                             <p>
                                                                 {slide_stat_pretext}
                                                                 <CountUp duration={2} delay={1} end={slide_stat} />
+                                                                {slide_stat_text.length > 1 ? <> <br/> </> : <></> }
                                                                 {slide_stat_text}
                                                             </p>
                                                         )}
