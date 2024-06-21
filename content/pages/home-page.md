@@ -154,11 +154,25 @@ blocks:
 
 
               *\*﻿savings at tailpipe ([US EPA](https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator))*
+            hubspot_contact_form_id: ""
           statistic:
             stat: 14000
             text: " kg"
             automated_source: nox
           variant: statistic
+      - slide:
+          variant: statistic
+          main:
+            heading: clean miles driven on Zeti's platform
+            rich_editor: >-
+              ﻿That's the equivalent saving to powering over 600 homes with
+              electricity for a year.*
+
+
+              \*﻿(*[EPA.gov](https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator)*)
+          statistic:
+            stat: 33
+            text: m
   - type: logo_grid
     intro:
       heading: Manufacturers financed through us
