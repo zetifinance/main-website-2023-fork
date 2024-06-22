@@ -172,7 +172,7 @@ blocks:
               \*﻿(*[EPA.gov](https://www.epa.gov/energy/greenhouse-gas-equivalencies-calculator)*)
           statistic:
             stat: 33
-            text: m
+            text: million
   - type: logo_grid
     intro:
       heading: Manufacturers financed through us
