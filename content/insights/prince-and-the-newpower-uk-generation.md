@@ -5,7 +5,7 @@ layout: post
 title: Prince and the NewPower UK generation
 permalink: /insights/weekly-news-roundup-25-06-24-prince-and-the-newpower-uk-generation/
 thumbnail: /img/gettyimages-73203077.webp
-date: 2024-06-24T23:00:00.000Z
+date: 2024-06-24T23:03:00.000Z
 author: ""
 excerpt: ""
 seo:
