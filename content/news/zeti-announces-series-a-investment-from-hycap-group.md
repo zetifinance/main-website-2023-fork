@@ -11,14 +11,14 @@ excerpt: ""
 seo:
   ogimage: /img/ZetiSocialCard.png
 ---
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:RelyOnVML/>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -57,9 +57,9 @@ seo:
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -638,9 +638,9 @@ seo:
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -663,11 +663,11 @@ seo:
 	mso-ligatures:standardcontextual;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
-London, UK, June 27, 2024 – Zeti, the award-winning innovator in fintech for clean transport adoption, today announced a £5m investment from HYCAP Group, the UK-based net zero energy transition investor, as part of Zeti’s series A financing.
+**London, UK, June 27, 2024** – Zeti, the award-winning innovator in fintech for clean transport adoption, today announced a £5m investment from HYCAP Group, the UK-based net zero energy transition investor, as part of Zeti’s series A financing.
 
 Zeti will join HYCAP’s rapidly growing portfolio of net zero assets and infrastructure companies, which already include Wrightbus, Ryze, Hygen and Yamna, as well as benefiting from HYCAP’s global reach and access to capital.
 
@@ -683,15 +683,9 @@ HYCAP's significant investment in Zeti underscores their commitment to advancing
 
 Scott Lanphere, HYCAP’s Chief Investment Officer, said Zeti was a welcome addition to the portfolio, which was making significant strides in the energy transition space.
 
- 
-
 ***“Zeti represents the future of energy transition asset management, combining Software as a Service (SaaS), financial payments, and hard asset reporting,”*** he said.
 
- 
-
 ***“If it can be measured, Zeti can show it in real-time. Its platform has applications well beyond mobility and brings the energy transition space into sharper focus. We are very pleased to be backing the company’s vision and execution.”***
-
-
 
 Jo Bamford, Chairman and founding partner of HYCAP Group, added: ***“We continue to explore all avenues in our bid to accelerate decarbonisation and we have been struck not just by the energy and enthusiasm of the Zeti team but by the scale of their ambition.***
 
