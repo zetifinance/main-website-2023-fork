@@ -84,6 +84,20 @@ blocks:
             technology and operations. A believer in Software Craftsmanship and
             pragmatic test driven development.
       - team_member:
+          image: /img/img_7692.jpg
+          name: Andy Gaeta
+          job_role: VP of Operations & Customer Excellence
+          linkedin: https://www.linkedin.com/in/andrew-gaeta-81967939/
+          bio: >-
+            Twenty years of fleet and customer service experience with industry
+            leaders
+
+            including Amazon, General Motors, Stellantis and Enterprise. Ground up experience
+
+            from requisition, installing/monitoring telematics, deployment, managing fleet
+
+            optimization, vendor relations and remarketing.
+      - team_member:
           name: Manjot Heer
           job_role: Investment Manager
           linkedin: https://www.linkedin.com/in/manjot-heer-82a81a145/
