@@ -60,7 +60,7 @@ blocks:
             Decarbon, Morgan Stanley, IBM). Developed and led Transport as a
             Service for Octopus Investments. Founder of Decarbon Capital, pay
             per kWh clean energy finance (pre-cursor to Zeti).
-          image: /img/dan-saunders.jpg
+          image: /img/img_7719-2.jpg
   - type: team
     intro:
       heading: Our team
