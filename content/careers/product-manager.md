@@ -7,11 +7,11 @@ permalink: /careers/product-manager/
 thumbnail: ""
 excerpt: ""
 location: London
-hours: ""
+hours: Flexible
 seo:
   ogimage: /img/ZetiSocialCard.png
 ---
-# Company Overview
+### Company Overview
 
 Zeti (www.zeti.group) is an award-winning FinTech company which connects electric vehicle (‘EV’) fleet operators with institutional asset  and infrastructure lenders, providing flexible risk-adjusted finance and value-added data services to both. Our mission is to accelerate the adoption of ultra-low and zero emission connected transportation at scale through the digital transformation of the fleet financing process.
 
@@ -23,15 +23,13 @@ But the future ahead looks even more exciting at Zeti. We have a pipeline of >£
 
 As a result, we’re looking to expand our passionate, committed team of  highly-skilled people to achieve these goals.
 
-
-
-# R﻿ole Overview
+### R﻿ole Overview
 
 Reporting into the Product & Operations Director, the Product Manager will be responsible for driving our product development process. You’ll lead a cross-functional development team to continue iteratively building out our Zeti Hub platform, strategically responding to customer pain points and commercial  opportunities. You’ll be a key interface between Zeti and its customers, using your excellent stakeholder management skills to generate strong feedback loops, to gather requirements and to train users on how to use Zeti portals. You’ll collaborate closely with internal business teams such as business development and operations, ensuring that maximum value is derived from new features that are released. 
 
 
 
-### D﻿ay-To-Day Activities
+###### D﻿ay-To-Day Activities
 
 * Leading customer interviews and studying product analytics to identify key customer pain points 
 * Engaging business stakeholders to capture further feedback and input for prioritisation
@@ -41,16 +39,20 @@ Reporting into the Product & Operations Director, the Product Manager will be re
 * Creating customer-facing training materials 
 * Researching competitive landscape and emerging trends to keep Zeti at the forefront of the industry 
 
-# Required & Preferred Experience
 
-### Required:
+
+### Required & Preferred Experience
+
+###### Required:
 
 * At least two years of experience in a relevant role (either within product management or relevant roles in adjacent industries  such as consultancy or financial services)
 * An understanding of agile methodology, including scrum artifacts (i.e. product/sprint backlogs) and ceremonies (e.g. sprint reviews, sprint retrospectives)
 * A strong toolkit of fundamental skills, such as numeracy and presentation, with a fierce appetite and initiative to develop industry knowledge and new skills
 * A hunger to make a big impact in an early-stage startup environment and to pursue accelerated career progression into leadership positions
 
-### Preferred:
+
+
+###### Preferred:
 
 * Any form of agile certification (e.g. PSMI or equivalent)
 * Experience using prototyping tools such as Figma
@@ -59,7 +61,7 @@ Reporting into the Product & Operations Director, the Product Manager will be re
 
 
 
-# Details:
+### Details:
 
 **Salary**: £50-60,000 per annum
 
