@@ -11,7 +11,7 @@ hours: Flexible
 seo:
   ogimage: /img/ZetiSocialCard.png
 ---
-**Company Overview**
+#### **Company Overview**
 
 Zeti (www.zeti.group) is an award-winning FinTech company which connects electric vehicle (‘EV’) fleet operators with institutional asset  and infrastructure lenders, providing flexible risk-adjusted finance and value-added data services to both. Our mission is to accelerate the adoption of ultra-low and zero emission connected transportation at scale through the digital transformation of the fleet financing process.
 
@@ -25,13 +25,13 @@ As a result, we’re looking to expand our passionate, committed team of  highl
 
 
 
-**Role Overview**
+#### **Role Overview**
 
 Reporting into the Product & Operations Director, the Product Manager will be responsible for driving our product development process. You’ll lead a cross-functional development team to continue iteratively building out our Zeti Hub platform, strategically responding to customer pain points and commercial  opportunities. You’ll be a key interface between Zeti and its customers, using your excellent stakeholder management skills to generate strong feedback loops, to gather requirements and to train users on how to use Zeti portals. You’ll collaborate closely with internal business teams such as business development and operations, ensuring that maximum value is derived from new features that are released. 
 
 
 
-**Day-to-day activities**
+#### **Day-to-day activities**
 
 
 
@@ -45,7 +45,7 @@ Reporting into the Product & Operations Director, the Product Manager will be re
 
 
 
-**R﻿equired & Preferred Experience**
+#### **R﻿equired & Preferred Experience**
 
 Required:
 
@@ -65,7 +65,7 @@ Preferred:
 
 
 
-**Details:**
+#### **Details:**
 
 Salary: £50-60,000 per annum
 
