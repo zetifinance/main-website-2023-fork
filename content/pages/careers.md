@@ -148,7 +148,7 @@ blocks:
   - type: vacancies
     intro:
       heading: Current Vacancies
-      rich_editor: " We are currently hiring and our open vacancies can be seen below."
+      rich_editor: We are currently hiring and our open vacancies can be seen below.
       buttons:
         - button:
             variant: default
