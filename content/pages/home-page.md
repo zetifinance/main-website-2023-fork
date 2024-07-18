@@ -10,9 +10,9 @@ blocks:
     variant: large
     main:
       heading: Revolutionizing transport finance for good.
-      rich_editor: We help fleets convert to EVs by making it as simple, easy and
-        transparent as paying for a utility with our patent-pending pay-per-mile
-        financial technology.
+      rich_editor: We help fleets convert to clean transportation by making it as
+        simple, easy and transparent as paying for a utility with our
+        patent-pending financial technology.
       buttons:
         - button:
             variant: arrow
