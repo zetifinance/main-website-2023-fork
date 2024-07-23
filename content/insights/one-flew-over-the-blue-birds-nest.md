@@ -709,12 +709,6 @@ excerpt: >-
 
 
   [44.01](https://www.esgtoday.com/climate-tech-startup-44-01-raises-37-million-to-scale-solution-to-turn-co2-into-rock/), a carbon sequestration technology startup, has announced it has raised $37m in a Series A funding round. This round was led by Equinor Ventures and Shorooq Partners, with Air Liquide Venture Capital, Alumni Ventures, Amazon’s Climate Pledge Fund, Climate Investment, Innovation Development Oman, Planet A Ventures, Salica Oryx Fund, Siemens Financial Services, Sumitomo Corporation, also participating. This interesting startup aims to eliminate carbon dioxide captured from the air or hard-to-abate industrial processes by turning it into rock. It then intends to take the captured carbon dioxide and dissolve it in water, thus creating an acidic solution that mobilizes cations within rock that react with the carbon dioxide and mineralizes it.
-
-
-   
-
-
-  <!--EndFragment-->
 seo:
   ogimage: /img/ZetiSocialCard.png
 ---
