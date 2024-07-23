@@ -23,7 +23,7 @@ seo:
 
 [Fulham FC](https://www.fulhamfc.com/news/2023/july/26/fulham-partners-with-gridserve/?mkt_tok=NTIwLVJYUC0wMDMAAAGN4HWbktS8cTGK2atkcob3UJ5-NkTTCr8wX1Vm38SA1LJQzHU6ovLKuSDPDgcGRBSSI8jqBNLH5FxqPyOZoxIG0NKZdqpjVoYzOrSBpH2r6OL-d-avjg) has announced it will be partnering with Gridserve for 2 seasons, starting this year, as its EV partner. Gridserve will provide the club with a fleet of (10) Tesla Y’s and will install 10 charging points (22kW AC charging) at its stadium and its training ground. The company will also run its Gridserve Electric Car Salary Sacrifice Scheme for Fulham FC employees.
 
-***Deals***
+## **Deals**
 
 [BYD](https://www.reuters.com/markets/deals/ev-maker-byd-buys-us-firm-jabils-china-manufacturing-business-22-bln-2023-08-27/#:~:text=Aug%2028%20(Reuters)%20%2D%20Chinese,billion%20yuan%20(%242.2%20billion).) has announced its electronic unit has reached an agreement with Jabil (USA-based) to buy its mobile electronics manufacturing business unit, in China, for $2.2bn. BYD views this acquisition as a way to increase and diversify its customer base and product portfolio. Bear in mind, that BYD started off by selling electronic components and to this day it is one of the 3 key business segments for BYD Electronic.
 
