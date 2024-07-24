@@ -54,7 +54,7 @@ blocks:
               class comparable to an investment in renewable energy**
 
 
-              Zeti acts as a platform for institutional lenders to invest into clean, connected vehicle fleets through a pay-per-mile (or km or kWh) model; managing automated invoicing and payment collection; and real-time financial and sustainability reporting for lenders via our patent-pending digital platform.
+              Zeti acts as a platform for institutional lenders to invest into clean, connected vehicle fleets through a flexible model; managing automated invoicing and payment collection; and real-time financial and sustainability reporting for lenders via our patent-pending digital platform.
             heading: Lenders
             buttons:
               - button:
