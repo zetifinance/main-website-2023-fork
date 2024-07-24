@@ -70,7 +70,7 @@ blocks:
               sales**
 
 
-              Zeti acts as a sales enablement tool to boost zero-emission vehicle sales by allowing your fleet customers the option of paying per mile for vehicle finance, rather than having a fixed monthly cost. Zeti’s software can also be used to deploy your in-house finance, enabling you to offer your own pay-per-mile solution.
+              Zeti acts as a sales enablement tool to boost zero and ultra-low-emission vehicle sales by offering your fleet customers flexible repayments for vehicle finance, rather than having a fixed monthly cost. Zeti’s software can also be used to deploy your in-house finance, enabling you to offer your own payment solutions.
             heading: Manufacturers
             buttons:
               - button:
