@@ -244,6 +244,9 @@ blocks:
       - image_light: /img/221542f0-2e96-49e5-afeb-6339a7859ce1.png
         image_dark: /img/dit-logo.png
         link: https://www.gov.uk/government/organisations/department-for-business-and-trade
+      - link: https://ottocar.co.uk/
+        image_light: /img/otto-white.png
+        image_dark: /img/otto-car-logo-colour.png
     variant: Slider
 seo:
   ogimage: /img/ZetiSocialCard.png
