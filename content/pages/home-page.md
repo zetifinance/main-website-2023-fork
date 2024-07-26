@@ -236,7 +236,7 @@ blocks:
         image_dark: /img/1200px-innovate_finance.png
         link: https://www.innovatefinance.com/
       - image_light: /img/untitled-design-12-.png
-        image_dark: /img/fintechlabnewyork.png
+        image_dark: /img/fil-logo-colour.png
         link: https://www.fintechinnovationlab.com/
       - link: https://www.grow.london/
         image_light: /img/6c32be8b-498f-4e1e-946f-578137d253e2.png
