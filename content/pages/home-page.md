@@ -188,7 +188,7 @@ blocks:
       - image_light: /img/levc.png
         image_dark: /img/levc-light-theme.webp
         link: https://www.levc.com/
-      - link: https://www.kia.com/uk/?cmpid=ppc%7CKia_GBR_BRD_DFD_EXT_STD_Pure_KML_Google%7Cgoogle%7Ce%7Ckia&gad_source=1&gclid=CjwKCAjwko21BhAPEiwAwfaQCBDJ84qg1XltOQ7NWmoHH2wKT0Ug0eIGqFRVmtSCYjAOuMKnkWpOPxoCPJkQAvD_BwE&gclsrc=aw.ds
+      - link: https://www.kia.com
         image_light: /img/kia-logo-white.png
         image_dark: /img/kia-logo-dark.png
     variant: Grid
