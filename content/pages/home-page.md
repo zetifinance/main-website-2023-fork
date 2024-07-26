@@ -205,6 +205,9 @@ blocks:
       - image_light: /img/untitled-design-9-.png
         image_dark: /img/untitled-design-8-.png
         link: https://octopusinvestments.com/
+      - link: https://ottocar.co.uk/
+        image_light: /img/otto-white.png
+        image_dark: /img/otto-car-logo-colour.png
       - image_light: /img/calstart-logo-white.png
         image_dark: /img/calstart-logo-colour.png
         link: https://calstart.org/
@@ -244,9 +247,6 @@ blocks:
       - image_light: /img/221542f0-2e96-49e5-afeb-6339a7859ce1.png
         image_dark: /img/dit-logo.png
         link: https://www.gov.uk/government/organisations/department-for-business-and-trade
-      - link: https://ottocar.co.uk/
-        image_light: /img/otto-white.png
-        image_dark: /img/otto-car-logo-colour.png
     variant: Slider
 seo:
   ogimage: /img/ZetiSocialCard.png
