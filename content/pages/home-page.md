@@ -225,7 +225,7 @@ blocks:
         link: https://www.geotab.com/uk/
       - link: https://www.samsara.com/
         image_light: /img/samsara-white.png
-        image_dark: /img/untitled-design-10-.png
+        image_dark: /img/samsara-colour.png
       - link: https://smartcar.com/
         image_light: /img/e3fdf530-8c46-4335-bd84-e7811f346497.png
         image_dark: /img/61e6ee6b553cc20c5fcb59d7_smartcar_black_logo.png
