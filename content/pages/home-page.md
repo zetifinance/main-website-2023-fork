@@ -200,7 +200,7 @@ blocks:
         image_dark: /img/amber.jpeg
         link: https://www.amberinfrastructure.com/
       - image_light: /img/gravis-white.png
-        image_dark: /img/gravis-black.png
+        image_dark: /img/gravis-colour.png
         link: https://www.graviscapital.com/
       - image_light: /img/untitled-design-9-.png
         image_dark: /img/untitled-design-8-.png
