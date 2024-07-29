@@ -191,7 +191,10 @@ blocks:
       - link: https://www.kia.com
         image_light: /img/kia-logo-white.png
         image_dark: /img/kia-logo-dark.png
-    variant: Grid
+      - link: https://www.skoda.co.uk/
+        image_light: /img/2.png
+        image_dark: /img/skoda-colour.png
+    variant: Slider
   - type: logo_grid
     intro:
       heading: Working alongside
