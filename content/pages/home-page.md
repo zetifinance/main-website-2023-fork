@@ -208,6 +208,9 @@ blocks:
       - image_light: /img/untitled-design-9-.png
         image_dark: /img/untitled-design-8-.png
         link: https://octopusinvestments.com/
+      - link: https://www.paragonbank.co.uk/
+        image_light: /img/paragon-white.png
+        image_dark: /img/paragon-colour.png
       - link: https://ottocar.co.uk/
         image_light: /img/otto-white.png
         image_dark: /img/otto-car-logo-colour.png
