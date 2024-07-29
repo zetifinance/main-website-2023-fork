@@ -175,7 +175,7 @@ blocks:
             text: million
   - type: logo_grid
     intro:
-      heading: Manufacturers financed through us
+      heading: Manufacturers managed through our platform
       rich_editor: ""
       buttons: []
     logos:
