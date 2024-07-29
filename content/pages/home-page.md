@@ -200,7 +200,7 @@ blocks:
       heading: Working alongside
     logos:
       - image_light: /img/amber-white.png
-        image_dark: /img/amber.jpeg
+        image_dark: /img/untitled-design-39-.png
         link: https://www.amberinfrastructure.com/
       - image_light: /img/gravis-white.png
         image_dark: /img/30.png
