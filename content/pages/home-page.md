@@ -200,6 +200,12 @@ blocks:
       - link: https://www.hyundai.com/
         image_light: /img/hyundai-logo-white.png
         image_dark: /img/hyundai-logo-colour.png
+      - link: https://www.mg.co.uk/
+        image_light: /img/mg-logo-white.png
+        image_dark: /img/mg-logo-colour.png
+      - link: https://www.toyota.co.uk/
+        image_light: /img/toyota-logo-white.png
+        image_dark: /img/toyota-logo-colour.png
     variant: Slider
   - type: logo_grid
     intro:
