@@ -194,6 +194,12 @@ blocks:
       - link: https://www.skoda.co.uk/
         image_light: /img/2.png
         image_dark: /img/skoda-colour.png
+      - link: https://www.volkswagen.co.uk/
+        image_light: /img/vw-logo-white.png
+        image_dark: /img/vw-logo-colour.png
+      - link: https://www.hyundai.com/
+        image_light: /img/hyundai-logo-white.png
+        image_dark: /img/hyundai-logo-colour.png
     variant: Slider
   - type: logo_grid
     intro:
