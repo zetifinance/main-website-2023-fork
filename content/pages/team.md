@@ -149,7 +149,7 @@ blocks:
             companies ranging from start-ups to Fortune 500.
       - team_member:
           name: Ed Stapleton
-          job_role: Head of Product
+          job_role: Director of Product & Operations
           linkedin: https://www.linkedin.com/in/edwardstapleton/
           bio: 8 years in digital strategy within tech sector & energy. Experience across
             customer experience, product management, digital operations &
