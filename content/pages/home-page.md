@@ -179,8 +179,8 @@ blocks:
       rich_editor: ""
       buttons: []
     logos:
-      - image_light: /img/tesla.png
-        image_dark: /img/tesla-light-theme.webp
+      - image_light: /img/tesla-logo-white.png
+        image_dark: /img/tesla-logo-colour.png
         link: https://www.tesla.com/
       - image_light: /img/jaguar.png
         image_dark: /img/jaguar-light-theme.webp
