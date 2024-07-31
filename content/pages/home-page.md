@@ -182,9 +182,9 @@ blocks:
       - image_light: /img/tesla-logo-white.png
         image_dark: /img/tesla-logo-colour.png
         link: https://www.tesla.com/
-      - image_light: /img/jaguar.png
-        image_dark: /img/jaguar-light-theme.webp
-        link: https://www.jaguar.co.uk/index.html/
+      - image_light: /img/jaguar-logo-white.png
+        image_dark: /img/jaguar-logo-colour.png
+        link: https://www.jaguar.co.uk/
       - image_light: /img/levc.png
         image_dark: /img/levc-light-theme.webp
         link: https://www.levc.com/
