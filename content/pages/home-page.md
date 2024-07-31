@@ -185,8 +185,8 @@ blocks:
       - image_light: /img/jaguar-logo-white.png
         image_dark: /img/jaguar-logo-colour.png
         link: https://www.jaguar.co.uk/
-      - image_light: /img/levc.png
-        image_dark: /img/levc-light-theme.webp
+      - image_light: /img/lecv-logo-white.png
+        image_dark: /img/levc-logo-colour.png
         link: https://www.levc.com/
       - link: https://www.kia.com
         image_light: /img/kia-logo-white.png
