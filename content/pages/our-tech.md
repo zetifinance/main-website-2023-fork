@@ -33,6 +33,8 @@ blocks:
             Zeti's suite of innovations, enabling the efficient management of
             vehicle financing to fleets and individuals.
           image: /img/automation.png
+  - type: image
+    image: /img/zeti-hub.png
   - type: tabs
     variant: two-column
     intro:
