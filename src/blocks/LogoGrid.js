@@ -119,7 +119,6 @@ export default function LogoGrid({ data }) {
                                 <div className="splide__progress">
                                     <div className="splide__progress__bar" />
                                 </div>
-
                                 <button className="splide__toggle">
                                     <span className="splide__toggle__play">Play</span>
                                     <span className="splide__toggle__pause">Pause</span>
