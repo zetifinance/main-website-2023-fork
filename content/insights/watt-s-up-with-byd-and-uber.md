@@ -11,14 +11,14 @@ excerpt: ""
 seo:
   ogimage: /img/ZetiSocialCard.png
 ---
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:RelyOnVML/>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -58,9 +58,9 @@ seo:
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="376">
@@ -639,9 +639,9 @@ seo:
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Smart Link"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -670,7 +670,7 @@ seo:
 	mso-ligatures:standardcontextual;
 	mso-fareast-language:EN-US;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
@@ -692,12 +692,8 @@ Data released by the government highlights an [uneven](https://www.energylivenew
 
 Deutsche Bahn's ([DB](https://bus-news.com/deutsche-bahn-speyer-orders-25-ebusco-2-2-electric-buses/)) Speyer branch has ordered 25 Ebusco 2.2 electric buses marking the largest single order under the DB framework to date. These new buses, produced by Dutch manufacturer Ebusco feature advanced technology for greater efficiency and comfort, including a lighter weight and a longer range (550km) compared to previous models.
 
-***Deals***
+## **Deals**
 
 [WeRide](https://finance.yahoo.com/news/chinese-autonomous-driving-startup-weride-083507730.html?utm_source=fot.beehiiv.com&utm_medium=newsletter&utm_campaign=trucks-fot-weride-aurora-byd&_bhlid=5d699473a6013e3ffda9646ffb73caa14bef6b19), a Chinese autonomous driving startup, has announced it is planning a $500m Nasdaq IPO. This move follows significant investments, backed by investors such as Bosch and Nissan, and marks a broader trend of Chinese tech firms aiming to IPO in America. WeRide would be looking to fund its R&D, commercialization, and deployment of its autonomous driving technology​.
-
- 
-
- 
 
 <!--EndFragment-->
