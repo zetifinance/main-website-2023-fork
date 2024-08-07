@@ -7,7 +7,7 @@ permalink: /careers/
 blocks:
   - type: hero
     variant: default
-    image: /img/untitled-design-19-.png
+    image: /img/runway-east-tabernacle_interaction_hi-res-32-.jpg
     main:
       heading: "We’re building something different. "
       rich_editor: >-
